@@ -11,4 +11,5 @@
 | Channel | Candidate action | Gate |
 | --- | --- | --- |
 | Reddit r/nocode or r/SaaS | Reply to an existing launch-readiness or AI-builder handoff thread with a useful checklist and link when public URL exists | Must verify community rules and final composer content before posting |
-| Indie Hackers / X / LinkedIn | Post a visual-first build-in-public note with the generated SpecRelay asset and a concrete ask for AI-builder founders | Public post is action-time gated |
+| Indie Hackers / X / LinkedIn | Post a visual-first build-in-public note with the generated SpecRelay asset and a concrete ask for AI-builder founders | Public post is action-time gated; draft staged in `docs/growth-sprint.md` |
+| Reddit r/nocode, r/SaaS, or adjacent community | Reply with a useful handoff checklist and only link if channel rules allow | Rule and composer verification required before posting; draft staged in `docs/growth-sprint.md` |

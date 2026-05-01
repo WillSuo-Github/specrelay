@@ -18,7 +18,7 @@
 - Product/CEO: keep SpecRelay focused on founder-to-engineer handoff, not broad app security scanning
 - Support/Research: collect qualitative feedback from AI-app-builder users and contractors
 - Engineering: ship the static generator with copy/download output and a buildable production bundle
-- Growth: stage two zero-spend candidate posts after local QA
+- Growth: complete channel/rule check, then stage or publish one zero-spend action after public URL is available
 - Release/Ops: prepare static deployment; stop at hosting/account gate if no safe public path exists
 
 ## Pending Approvals
