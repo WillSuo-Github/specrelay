@@ -9,7 +9,7 @@
 ## Now
 
 - In progress: building and testing the static SpecRelay MVP
-- Biggest blocker: public deployment depends on an available hosting account or a user-approved public release path
+- Biggest blocker: public deployment is staged but requires creating/pushing a GitHub repository under the user's GitHub account
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
 - Next decision deadline: after first working MVP and one distribution-ready artifact
 
@@ -23,4 +23,5 @@
 
 ## Pending Approvals
 
+- Exact live action currently gated: create/push a public GitHub repository for SpecRelay and allow GitHub Pages deployment from the staged workflow.
 - Hard-gated actions remain approval-gated until explicitly delegated.

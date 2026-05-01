@@ -2,6 +2,14 @@
 
 This file is the recoverable automation spec for this one-product company instance.
 
+## Current App Automation
+
+- Automation id: `specrelay-company-heartbeat`
+- Kind: heartbeat attached to the current thread
+- Status: active
+- Current cadence: 10-minute wake while internal work or short waits remain
+- Reason: public deployment is staged but gated on creating/pushing a GitHub repository under the user's account; internal follow-up work remains around channel rule checks, launch readout, and post-deploy growth actions
+
 ## Policy
 
 - Company automation may be instantiated in app-local storage, but the recoverable source of truth must live in this repository.

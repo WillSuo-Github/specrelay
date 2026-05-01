@@ -32,3 +32,10 @@ Last updated: 2026-05-01
 
 - Public deployment requires creating/pushing a GitHub repository and enabling Pages under the user's GitHub account.
 - Public posts remain action-time gated until final composer content and channel rules are verified.
+
+## Local Launch State
+
+- Dev server: running at `http://localhost:4173/`
+- Git branch: `main`
+- Latest local commit: `82f9be4` (`Stage SpecRelay growth sprint`)
+- Public deploy command prepared in `docs/deploy.md`
