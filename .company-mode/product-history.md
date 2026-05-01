@@ -15,6 +15,10 @@
 - Ran initial market research across AI-assisted development, GenAI code security, AI app-builder positioning, and adjacent tooling.
 - Selected SpecRelay as the active product.
 - Parked broader AI/GEO visibility and automated security scanning ideas to keep the first product focused.
+- Built the static SpecRelay MVP, staged GitHub Pages deployment, and generated a release-facing visual asset.
+- Added three sample packet presets: SaaS onboarding, booking pilot, and ops dashboard.
+- Added in-packet review questions so first evaluator outreach can collect qualitative feedback without backend credentials.
+- Verified production build, sample switching, copy, download, and responsive overflow checks locally.
 
 ## Candidate Bets
 

@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 10-minute wake while internal work or short waits remain
-- Reason: public deployment is staged but gated on creating/pushing a GitHub repository under the user's account; internal follow-up work remains around channel rule checks, launch readout, and post-deploy growth actions
+- Current cadence: 12-hour wake while the company is waiting on public deployment approval
+- Reason: public deployment is staged but gated on creating/pushing a GitHub repository under the user's account; current internal pre-release work has been advanced through sample packets, review prompts, local QA, and initial channel rule checks
 
 ## Policy
 

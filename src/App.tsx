@@ -32,6 +32,7 @@ type FormState = {
 };
 
 type Tab = "report" | "qa" | "brief";
+type SampleKey = "onboarding" | "booking" | "ops";
 
 type Score = {
   label: string;
@@ -59,6 +60,70 @@ const defaultForm: FormState = {
   hasAdmin: true,
   hasAnalytics: false,
 };
+
+const samplePackets: Array<{
+  key: SampleKey;
+  name: string;
+  meta: string;
+  form: FormState;
+}> = [
+  {
+    key: "onboarding",
+    name: "SaaS onboarding",
+    meta: "Auth, data, invites",
+    form: defaultForm,
+  },
+  {
+    key: "booking",
+    name: "Booking pilot",
+    meta: "Payments, email, calendar",
+    form: {
+      productName: "AI appointment desk",
+      prototypeUrl: "https://appointments.example.com",
+      builder: "Bolt",
+      stage: "Customer pilot",
+      primaryUser: "Clinic operations lead",
+      launchWindow: "Next 30 days",
+      workflows:
+        "Visitor chooses an appointment type\nVisitor pays a deposit and books a slot\nStaff member confirms or reschedules the visit\nCustomer receives reminder and intake email",
+      knownIssues:
+        "Calendar timezone edge cases are unclear\nFailed payment state is not designed\nReminder email copy has not been reviewed",
+      integrations: "Stripe Checkout, Google Calendar, Supabase, Resend email",
+      dataSensitivity: "Patient contact details, appointment notes, payment status",
+      handoffAudience: "Agency",
+      hasAuth: true,
+      hasPayments: true,
+      hasUserData: true,
+      hasAdmin: true,
+      hasAnalytics: false,
+    },
+  },
+  {
+    key: "ops",
+    name: "Ops dashboard",
+    meta: "Admin, imports, analytics",
+    form: {
+      productName: "Vendor operations console",
+      prototypeUrl: "https://ops-console.example.com",
+      builder: "Cursor",
+      stage: "Private beta",
+      primaryUser: "Marketplace operations manager",
+      launchWindow: "This quarter",
+      workflows:
+        "Ops imports a CSV of vendor records\nReviewer flags missing compliance fields\nManager approves a vendor profile\nTeam exports a weekly status report",
+      knownIssues:
+        "CSV validation accepts malformed rows\nLarge tables feel slow after 500 records\nRole permissions have not been tested",
+      integrations: "Postgres, CSV import, Segment planned, internal admin auth",
+      dataSensitivity: "Vendor contacts, compliance notes, approval history",
+      handoffAudience: "Co-founder",
+      hasAuth: true,
+      hasPayments: false,
+      hasUserData: true,
+      hasAdmin: true,
+      hasAnalytics: true,
+    },
+  },
+];
 
 const builders = ["Lovable", "Bolt", "Replit", "Cursor", "v0", "Other"];
 const stages = ["Prototype", "Private beta", "Customer pilot", "Public launch"];
@@ -158,7 +223,22 @@ function generateBrief(form: FormState): string[] {
   ];
 }
 
-function buildMarkdown(form: FormState, scores: Score[], risks: string[], checklist: string[], brief: string[]): string {
+function generateReviewQuestions(form: FormState): string[] {
+  return [
+    `Would you use this ${form.handoffAudience.toLowerCase()} packet before the next ${form.launchWindow.toLowerCase()} review? Why or why not?`,
+    "Which risk or QA item would most likely block a real launch or handoff call?",
+    "What information would an engineer, agency, or customer still need before trusting this prototype?",
+  ];
+}
+
+function buildMarkdown(
+  form: FormState,
+  scores: Score[],
+  risks: string[],
+  checklist: string[],
+  brief: string[],
+  reviewQuestions: string[],
+): string {
   return [
     `# ${form.productName || "AI-built app"} handoff packet`,
     "",
@@ -173,6 +253,9 @@ function buildMarkdown(form: FormState, scores: Score[], risks: string[], checkl
     "",
     "## Engineering Brief",
     ...brief.map((item) => `- ${item}`),
+    "",
+    "## Review Questions",
+    ...reviewQuestions.map((item) => `- ${item}`),
     "",
     "## Decision",
     "Ship only after auth, data, and activation proof are reviewed for the current launch window.",
@@ -198,16 +281,27 @@ export default function App() {
   const [form, setForm] = useState<FormState>(defaultForm);
   const [tab, setTab] = useState<Tab>("report");
   const [copied, setCopied] = useState(false);
+  const activeSample = samplePackets.find((sample) => sample.form.productName === form.productName)?.key;
 
   const scores = useMemo(() => scoreReadiness(form), [form]);
   const risks = useMemo(() => generateRisks(form), [form]);
   const checklist = useMemo(() => generateQaChecklist(form), [form]);
   const brief = useMemo(() => generateBrief(form), [form]);
-  const markdown = useMemo(() => buildMarkdown(form, scores, risks, checklist, brief), [form, scores, risks, checklist, brief]);
+  const reviewQuestions = useMemo(() => generateReviewQuestions(form), [form]);
+  const markdown = useMemo(
+    () => buildMarkdown(form, scores, risks, checklist, brief, reviewQuestions),
+    [form, scores, risks, checklist, brief, reviewQuestions],
+  );
   const overall = Math.round(scores.reduce((sum, score) => sum + score.value, 0) / scores.length);
 
   function update<K extends keyof FormState>(key: K, value: FormState[K]) {
     setForm((current) => ({ ...current, [key]: value }));
+  }
+
+  function loadSample(nextForm: FormState) {
+    setForm(nextForm);
+    setTab("report");
+    setCopied(false);
   }
 
   async function copyReport() {
@@ -236,7 +330,7 @@ export default function App() {
           <p className="eyebrow">SpecRelay</p>
           <h1>Turn an AI-built prototype into a handoff packet.</h1>
         </div>
-        <button className="icon-button" type="button" onClick={() => setForm(defaultForm)} aria-label="Reset sample">
+        <button className="icon-button" type="button" onClick={() => loadSample(defaultForm)} aria-label="Reset sample">
           <RefreshCw size={18} />
         </button>
       </header>
@@ -247,6 +341,20 @@ export default function App() {
             <div className="section-heading">
               <ClipboardList size={19} />
               <h2>Prototype Intake</h2>
+            </div>
+
+            <div className="sample-picker" aria-label="Sample packets">
+              {samplePackets.map((sample) => (
+                <button
+                  className={activeSample === sample.key ? "active" : ""}
+                  key={sample.key}
+                  type="button"
+                  onClick={() => loadSample(sample.form)}
+                >
+                  <strong>{sample.name}</strong>
+                  <span>{sample.meta}</span>
+                </button>
+              ))}
             </div>
 
             <div className="two-col">
@@ -376,6 +484,14 @@ export default function App() {
                     <li key={risk}>{risk}</li>
                   ))}
                 </ul>
+                <div className="review-block">
+                  <h3>Review Questions</h3>
+                  <ul>
+                    {reviewQuestions.map((question) => (
+                      <li key={question}>{question}</li>
+                    ))}
+                  </ul>
+                </div>
               </section>
             )}
 

@@ -11,6 +11,23 @@ Find the first AI-app-builder users or contractors willing to judge whether a Sp
 - Visual asset: `public/spec-relay-hero.png`
 - Generation prompt summary: founder handoff workflow from AI-built prototype to QA checks and engineering packet; no logos or readable text.
 
+## Channel Rule Check
+
+Checked: 2026-05-01
+
+- Reddit general posture: Reddit's business guidance says communities vary, with some allowing self-promotion on specific days, some requiring disclosure, and some banning it; safest posture is useful participation before selling. Source: https://www.business.reddit.com/learning-hub/articles/smb-how-to-use-reddit
+- r/SaaS: a moderator update from 2026-04-14 says self-promotion is limited to once per 60 days and includes posts, comment plugs, links, and product mentions. Source: https://www.reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/
+- Indie Hackers: community-based marketing guidance says every community has different self-promotion rules and the safe pattern is to provide value, not drop a link without context. Source: https://www.indiehackers.com/post/guide-how-to-do-community-based-marketing-ee5c766673
+- Indie Hackers launch guidance also treats self-promotion as acceptable only when it is not spammy and follows the community guidelines. Source: https://www.indiehackers.com/post/how-to-bring-a-product-to-market-a-product-launch-checklist-36-steps-2eFoFLatE9R9yBmpLhHI
+- r/EntrepreneurRideAlong: no primary rule source was captured in this run. Treat as a story-first channel and do a final live sidebar/rules check before posting.
+- r/nocode: direct rule retrieval was inconclusive. Do not post a product link there until the live sidebar/rules can be verified in browser. Use only no-link, high-value replies if a relevant thread is found and rules allow it.
+
+Rule-safe initial priority:
+
+1. Use Indie Hackers, X, or LinkedIn for the build-in-public note after public URL exists.
+2. Use r/SaaS only sparingly: no link-drop posts, no repeated product mentions, and only after checking whether the user's account has enough non-promotional participation.
+3. Keep Reddit replies useful without a link by default; share the URL only when a user asks or the community rules clearly allow it.
+
 ## Candidate Action 1: Founder Build-In-Public Post
 
 Channel candidates: X, LinkedIn, Indie Hackers.
@@ -61,5 +78,6 @@ Final gate: verify channel rules and final composer content before any public re
 
 - Count direct replies, comments, and requests for URL.
 - Capture exact language users use for the pain.
+- Ask evaluators to answer the review questions included in the copied/downloaded packet.
 - Success threshold: 5 evaluations, 2 strong intent signals.
 - Failure signal: users prefer automated scanning over manual handoff packet, or contractors say the packet is too generic.

@@ -4,15 +4,15 @@
 
 | Bet | Why now | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
-| Ship SpecRelay MVP | Fastest honest test of founder handoff pain | Production build passes and local app generates a useful Markdown packet | Engineering + Design | In progress |
-| Prepare first growth sprint | Market signal is still weak | Two channel-specific posts or replies are staged to final action gate | Growth | Pending |
+| Ship SpecRelay MVP | Fastest honest test of founder handoff pain | Production build passes and local app generates a useful Markdown packet | Engineering + Design | Complete locally; public deploy gated |
+| Add example packets | Users need to understand output quality quickly | At least 3 sample packets for common AI-builder app types | Product + Design | Complete |
+| Prepare first growth sprint | Market signal is still weak | Two channel-specific posts or replies are staged to final action gate | Growth | Staged draft; waits on public URL and channel rule check |
 
 ## Next
 
 | Bet | Why next | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
-| Add example packets | Users need to understand output quality quickly | At least 3 sample packets for common AI-builder app types | Product + Design | Pending |
-| Add feedback capture | Need qualitative learning without backend complexity | A lightweight mailto or form-provider path is selected without credentials in repo | Growth + Release/Ops | Pending |
+| Add feedback capture | Need qualitative learning without backend complexity | Packet includes review prompts that can be used in manual outreach without backend credentials | Growth + Release/Ops | Complete for MVP |
 
 ## Later
 

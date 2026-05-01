@@ -16,9 +16,12 @@ Last updated: 2026-05-01
 
 - [x] Production build passes
 - [x] Desktop and mobile layout checked
-- [ ] Copy Markdown action checked
-- [ ] Download Markdown action checked
+- [x] Three sample packet presets checked
+- [x] Copy Markdown action checked
+- [x] Download Markdown action checked
+- [x] In-packet review questions checked
 - [x] Deployment path selected: GitHub Pages workflow staged
+- [x] Initial growth channel rule check documented
 - [ ] First growth copy staged to final action gate
 
 ## Post-Release Checklist
@@ -39,3 +42,9 @@ Last updated: 2026-05-01
 - Git branch: `main`
 - Commit status: local history is committed; run `git log --oneline -3` for the latest exact SHA
 - Public deploy command prepared in `docs/deploy.md`
+
+## Latest Local QA
+
+- 2026-05-01: `npm run build` passed after adding sample packet presets.
+- 2026-05-01: Headless system Chrome check passed for sample switching, clipboard copy, Markdown download, and no horizontal overflow at 390px and 1440px.
+- 2026-05-01: `npm run build` passed after adding review questions to copied/downloaded packets; headless system Chrome confirmed review questions appear in copied Markdown with no 390px overflow.
