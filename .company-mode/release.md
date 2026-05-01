@@ -51,3 +51,4 @@ Last updated: 2026-05-01
 - 2026-05-01: Headless system Chrome check passed for sample switching, clipboard copy, Markdown download, and no horizontal overflow at 390px and 1440px.
 - 2026-05-01: `npm run build` passed after adding review questions to copied/downloaded packets; headless system Chrome confirmed review questions appear in copied Markdown with no 390px overflow.
 - 2026-05-01: GitHub Pages deployed at https://willsuo-github.github.io/specrelay/; curl returned HTTP 200 and headless system Chrome confirmed title, hero image, sample presets, and no 390px overflow.
+- 2026-05-01: Pages workflow refreshed to `actions/configure-pages@v6` and `actions/upload-pages-artifact@v5`; redeploy succeeded.
