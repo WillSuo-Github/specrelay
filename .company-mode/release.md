@@ -34,6 +34,7 @@ Last updated: 2026-05-01
 ## Known Gates
 
 - Public deployment requires creating/pushing a GitHub repository and enabling Pages under the user's GitHub account.
+- GitHub Pages path is configured as a project site at `/specrelay/`, so it should not overwrite an existing account Pages site.
 - Public posts remain action-time gated until final composer content and channel rules are verified.
 
 ## Local Launch State

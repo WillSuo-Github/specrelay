@@ -21,3 +21,5 @@ gh repo create specrelay --public --source=. --remote=origin --push
 ```
 
 After the push, the Pages workflow can deploy the static `dist` bundle from `main`. The public URL depends on the GitHub repository name and Pages settings.
+
+This app is configured as a GitHub Pages project site at `/specrelay/`, so it will not overwrite an existing account site such as `username.github.io`.

@@ -436,7 +436,7 @@ export default function App() {
           </form>
 
           <aside className="result-panel">
-            <img src="/spec-relay-hero.png" alt="" className="hero-asset" />
+            <img src={`${import.meta.env.BASE_URL}spec-relay-hero.png`} alt="" className="hero-asset" />
             <div className="score-row">
               <div>
                 <p className="eyebrow">Launch Readiness</p>
