@@ -37,5 +37,5 @@ Last updated: 2026-05-01
 
 - Dev server: running at `http://localhost:4173/`
 - Git branch: `main`
-- Latest local commit: `82f9be4` (`Stage SpecRelay growth sprint`)
+- Commit status: local history is committed; run `git log --oneline -3` for the latest exact SHA
 - Public deploy command prepared in `docs/deploy.md`

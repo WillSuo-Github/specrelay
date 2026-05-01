@@ -17,9 +17,6 @@ The repository includes `.github/workflows/pages.yml`.
 Pending external release step:
 
 ```bash
-git init
-git add .
-git commit -m "Launch SpecRelay MVP"
 gh repo create specrelay --public --source=. --remote=origin --push
 ```
 
