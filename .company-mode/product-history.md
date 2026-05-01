@@ -19,6 +19,7 @@
 - Added three sample packet presets: SaaS onboarding, booking pilot, and ops dashboard.
 - Added in-packet review questions so first evaluator outreach can collect qualitative feedback without backend credentials.
 - Verified production build, sample switching, copy, download, and responsive overflow checks locally.
+- Published the public MVP to GitHub Pages at https://willsuo-github.github.io/specrelay/ as a project site, avoiding the account-level Pages site.
 
 ## Candidate Bets
 

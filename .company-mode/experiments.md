@@ -4,7 +4,7 @@
 
 | Date | Hypothesis | Change | Metric | Result | Next step |
 | --- | --- | --- | --- | --- | --- |
-| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, and engineering brief | Completed handoff packets and qualitative reviews | Local MVP ready; public deploy gated | Deploy publicly after approval, then collect first 5 qualitative reviews |
+| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP deployed at https://willsuo-github.github.io/specrelay/ | Collect first 5 qualitative reviews |
 
 ## Candidate Growth Actions
 

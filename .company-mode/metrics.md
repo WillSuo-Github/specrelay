@@ -10,7 +10,7 @@ Last updated: 2026-05-01
 
 | Stage | Metric | Current | Target | Notes |
 | --- | --- | ---: | ---: | --- |
-| Visit | Unique visitors | 0 | 50 | Starts after public deployment |
+| Visit | Unique visitors | 0 | 50 | Public URL is live; no analytics yet |
 | Start | Intake edited | 0 | 15 | No tracking yet |
 | Activate | Markdown copied or downloaded | 0 | 5 | Product's first activation event |
 | Learn | Qualitative review received | 0 | 5 | Founder or contractor feedback |
@@ -25,7 +25,7 @@ Last updated: 2026-05-01
 
 - No production analytics yet.
 - Feedback capture is manual for MVP: exported packets include review questions, but there is no hosted feedback form yet.
-- No public URL yet.
+- Public URL is live: https://willsuo-github.github.io/specrelay/
 
 ## Interpretation
 

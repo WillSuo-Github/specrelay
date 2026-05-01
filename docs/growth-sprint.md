@@ -49,7 +49,7 @@ The first MVP turns a Lovable/Bolt/Replit/Cursor-style prototype into:
 
 Looking for 5 founders or contractors who have reviewed an AI-built app and can tell me if this packet would save a handoff call.
 
-URL: [public URL pending]
+URL: https://willsuo-github.github.io/specrelay/
 ```
 
 Final gate: public post requires actual URL, attached visual verification, and action-time confirmation before clicking Post/Publish.

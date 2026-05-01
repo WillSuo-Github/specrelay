@@ -9,7 +9,8 @@ Last updated: 2026-05-01
 - Version: 0.1.0
 - Target date: 2026-05-01
 - Platforms: local dev server first; static hosting after account/deployment path is confirmed
-- Public URL: not assigned; local URL is http://localhost:4173/
+- Public URL: https://willsuo-github.github.io/specrelay/
+- Local URL: http://localhost:4173/
 - Rollback plan: static bundle can be removed or replaced; no production data exists
 
 ## Pre-Release Checklist
@@ -22,7 +23,7 @@ Last updated: 2026-05-01
 - [x] In-packet review questions checked
 - [x] Deployment path selected: GitHub Pages workflow staged
 - [x] Initial growth channel rule check documented
-- [ ] First growth copy staged to final action gate
+- [x] First growth copy staged to final action gate with live URL
 
 ## Post-Release Checklist
 
@@ -33,7 +34,7 @@ Last updated: 2026-05-01
 
 ## Known Gates
 
-- Public deployment requires creating/pushing a GitHub repository and enabling Pages under the user's GitHub account.
+- Public deployment completed through the `WillSuo-Github/specrelay` project repository.
 - GitHub Pages path is configured as a project site at `/specrelay/`, so it should not overwrite an existing account Pages site.
 - Public posts remain action-time gated until final composer content and channel rules are verified.
 
@@ -41,7 +42,7 @@ Last updated: 2026-05-01
 
 - Dev server: running at `http://localhost:4173/`
 - Git branch: `main`
-- Commit status: local history is committed; run `git log --oneline -3` for the latest exact SHA
+- Commit status: local history is committed and pushed to `origin/main`
 - Public deploy command prepared in `docs/deploy.md`
 
 ## Latest Local QA
@@ -49,3 +50,4 @@ Last updated: 2026-05-01
 - 2026-05-01: `npm run build` passed after adding sample packet presets.
 - 2026-05-01: Headless system Chrome check passed for sample switching, clipboard copy, Markdown download, and no horizontal overflow at 390px and 1440px.
 - 2026-05-01: `npm run build` passed after adding review questions to copied/downloaded packets; headless system Chrome confirmed review questions appear in copied Markdown with no 390px overflow.
+- 2026-05-01: GitHub Pages deployed at https://willsuo-github.github.io/specrelay/; curl returned HTTP 200 and headless system Chrome confirmed title, hero image, sample presets, and no 390px overflow.

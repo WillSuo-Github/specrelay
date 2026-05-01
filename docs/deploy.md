@@ -14,12 +14,14 @@ npm run dev -- --port 4173
 
 The repository includes `.github/workflows/pages.yml`.
 
-Pending external release step:
+Release step completed:
 
 ```bash
 gh repo create specrelay --public --source=. --remote=origin --push
 ```
 
-After the push, the Pages workflow can deploy the static `dist` bundle from `main`. The public URL depends on the GitHub repository name and Pages settings.
+The Pages workflow deploys the static `dist` bundle from `main`.
 
 This app is configured as a GitHub Pages project site at `/specrelay/`, so it will not overwrite an existing account site such as `username.github.io`.
+
+Public URL: https://willsuo-github.github.io/specrelay/
