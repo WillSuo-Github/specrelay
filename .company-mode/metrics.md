@@ -21,6 +21,7 @@ Last updated: 2026-05-02
 - Local copy/download QA checks passed: yes
 - Review questions included in copied/downloaded packets: yes
 - Public sharing metadata prepared: yes
+- Owned-channel launch artifacts public: GitHub release `v0.1.0` and feedback issue #1
 
 ## Instrumentation Gaps
 
@@ -31,4 +32,4 @@ Last updated: 2026-05-02
 ## Interpretation
 
 - Current numbers only show pre-launch state.
-- First measurement priority is whether users copy/download the packet, not vanity visits.
+- First measurement priority is whether reviewers comment, copy/download a packet, or say the packet would save a handoff call.

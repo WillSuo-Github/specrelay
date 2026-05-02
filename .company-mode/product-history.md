@@ -21,6 +21,13 @@
 - Verified production build, sample switching, copy, download, and responsive overflow checks locally.
 - Published the public MVP to GitHub Pages at https://willsuo-github.github.io/specrelay/ as a project site, avoiding the account-level Pages site.
 
+## 2026-05-02
+
+- Added public link preview metadata and verified it in the live HTML.
+- Published the owned-channel GitHub release `v0.1.0`.
+- Updated repository description, homepage, and topics for discovery.
+- Created public feedback issue #1 to collect first evaluator reviews.
+
 ## Candidate Bets
 
 | Candidate | Status | User problem | Key evidence | Next decision |

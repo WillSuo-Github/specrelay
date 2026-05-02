@@ -4,7 +4,7 @@
 
 | Date | Hypothesis | Change | Metric | Result | Next step |
 | --- | --- | --- | --- | --- | --- |
-| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP deployed at https://willsuo-github.github.io/specrelay/ | Collect first 5 qualitative reviews |
+| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP plus owned GitHub release and feedback issue are public | Collect first 5 qualitative reviews |
 
 ## Candidate Growth Actions
 
@@ -14,6 +14,7 @@
 | Indie Hackers / X / LinkedIn | Post a visual-first build-in-public note with the generated SpecRelay asset and a concrete ask for AI-builder founders | Public post is action-time gated; draft staged in `docs/growth-sprint.md` |
 | Reddit r/nocode, r/SaaS, or adjacent community | Reply with a useful handoff checklist and only link if channel rules allow | Rule and composer verification required before posting; draft staged in `docs/growth-sprint.md` |
 | Direct founder/contractor/agency outreach | Send one of the staged evaluator drafts and log replies in the readout table | External outreach is action-time gated; drafts staged in `docs/evaluator-outreach.md` |
+| GitHub owned channel | Release note plus public feedback issue for reviewers | Completed: release `v0.1.0` and issue #1 are public |
 
 ## Rule Check Notes
 

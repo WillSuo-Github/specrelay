@@ -10,7 +10,7 @@
 
 - In progress: first evaluator outreach
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: public marketing/community posts still require action-time confirmation and composer verification
+- Biggest blocker: first distribution beyond owned GitHub surfaces still requires a concrete channel/account and final composer verification
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
 - Next decision deadline: after first evaluator outreach artifact is published or manually sent
 
@@ -19,12 +19,12 @@
 - Product/CEO: keep SpecRelay focused on founder-to-engineer handoff, not broad app security scanning
 - Support/Research: collect qualitative feedback from AI-app-builder users and contractors
 - Engineering: keep the static generator shippable; sample packets and no-credential review prompts are now in the MVP
-- Growth: channel/rule check is documented; stage the build-in-public post in the final composer and verify content/media before any public publish
+- Growth: owned GitHub release and feedback issue are live; next channel is social/community or direct outreach after final account/composer verification
 - Release/Ops: monitor GitHub Pages deployment and keep rollback simple because no production data exists
 
 ## Pending Approvals
 
-- Exact live action currently gated: publish any public marketing/community post or reply for SpecRelay.
+- Exact live action currently gated: publish any social/community post, reply, or direct outreach message for SpecRelay outside the owned GitHub repository.
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
 ## Latest CEO After-Action Review
@@ -32,8 +32,8 @@
 - Date: `2026-05-02`
 - Current stage: public MVP live. The product is still a focused one-product company instance and the active thesis remains valid.
 - Evidence quality: market evidence is credible but indirect; product/user evidence is still missing until first evaluator outreach.
-- Current-run work completed: refreshed the company-mode kernel, verified the live GitHub Pages URL returned HTTP 200, added link-preview metadata, staged a no-send evaluator outreach pack, and cleaned stale roadmap language from the pre-release phase.
-- Instance-only improvements executed: Open Graph/Twitter metadata, evaluator DM/readout drafts, roadmap/state cleanup, and release QA notes.
+- Current-run work completed: published the owned-channel GitHub release `v0.1.0`, updated repo description/homepage/topics, created public feedback issue #1, linked the feedback issue from release notes, and verified the release URL returned HTTP 200.
+- Instance-only improvements executed: launch note, public feedback issue body, repo metadata, release/readout state updates, and owned-channel launch record.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: any public marketing/community posts remain blocked until action-time confirmation.
-- Stop-check: remaining high-leverage work is first evaluator outreach, which is gated on public post/reply confirmation or outside feedback. Keep heartbeat active for the next approval/status check.
+- Hard-gated improvements: social/community posts and direct external outreach remain blocked until the concrete channel/account/composer is available and verified.
+- Stop-check: owned-channel launch is complete; remaining high-leverage work is first evaluator outreach beyond GitHub or waiting for feedback on the public issue. Keep heartbeat active for follow-up.

@@ -4,6 +4,8 @@ Date: 2026-05-02
 
 Public URL: https://willsuo-github.github.io/specrelay/
 
+Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
+
 ## Objective
 
 Get 5 qualitative reviews from founders, contractors, or agencies who have touched an AI-built prototype.

@@ -77,6 +77,7 @@ Final gate: verify channel rules and final composer content before any public re
 ## Readout Plan
 
 - Count direct replies, comments, and requests for URL.
+- Count comments on public feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 - Capture exact language users use for the pain.
 - Ask evaluators to answer the review questions included in the copied/downloaded packet.
 - Use `docs/evaluator-outreach.md` for direct founder, contractor, and agency asks when a public post is not the right first move.

@@ -10,6 +10,8 @@ Last updated: 2026-05-02
 - Target date: 2026-05-01
 - Platforms: local dev server first; static hosting after account/deployment path is confirmed
 - Public URL: https://willsuo-github.github.io/specrelay/
+- GitHub release: https://github.com/WillSuo-Github/specrelay/releases/tag/v0.1.0
+- Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 - Local URL: http://localhost:4173/
 - Rollback plan: static bundle can be removed or replaced; no production data exists
 
@@ -37,7 +39,8 @@ Last updated: 2026-05-02
 
 - Public deployment completed through the `WillSuo-Github/specrelay` project repository.
 - GitHub Pages path is configured as a project site at `/specrelay/`, so it should not overwrite an existing account Pages site.
-- Public posts remain action-time gated until final composer content and channel rules are verified.
+- Owned-channel GitHub release and feedback issue are public.
+- Social/community posts and direct outreach remain action-time gated until final composer content, target account, and channel rules are verified.
 
 ## Local Launch State
 
@@ -54,3 +57,4 @@ Last updated: 2026-05-02
 - 2026-05-01: GitHub Pages deployed at https://willsuo-github.github.io/specrelay/; curl returned HTTP 200 and headless system Chrome confirmed title, hero image, sample presets, and no 390px overflow.
 - 2026-05-01: Pages workflow refreshed to `actions/configure-pages@v6` and `actions/upload-pages-artifact@v5`; redeploy succeeded.
 - 2026-05-02: Live URL returned HTTP 200 during heartbeat; Open Graph/Twitter metadata added and verified in the live HTML before first outreach.
+- 2026-05-02: Published GitHub release `v0.1.0`, updated repository description/homepage/topics, created feedback issue #1, linked it from release notes, and verified the release URL returned HTTP 200.
