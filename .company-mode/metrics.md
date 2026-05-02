@@ -22,6 +22,7 @@ Last updated: 2026-05-02
 - Review questions included in copied/downloaded packets: yes
 - Public sharing metadata prepared: yes
 - Owned-channel launch artifacts public: GitHub release `v0.1.0` and feedback issue #1
+- Live feedback CTA linked to public issue: yes
 
 ## Instrumentation Gaps
 

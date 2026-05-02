@@ -2,6 +2,11 @@
 
 No direct customer feedback yet.
 
+## Public Feedback Surface
+
+- GitHub issue #1 is open for evaluator reviews: https://github.com/WillSuo-Github/specrelay/issues/1
+- 2026-05-03 heartbeat check: no comments on the feedback issue yet.
+
 ## Research-Derived Pain Themes
 
 - AI-assisted coding adoption is high, while trust and debugging burden remain weak points.

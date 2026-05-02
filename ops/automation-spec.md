@@ -8,7 +8,7 @@ This file is the recoverable automation spec for this one-product company instan
 - Kind: heartbeat attached to the current thread
 - Status: active
 - Current cadence: 12-hour wake while waiting for external feedback or a concrete social/community outreach target
-- Reason: public deployment, GitHub release, and feedback issue are live; social/community posts and direct outreach remain action-time gated, and no user feedback exists yet
+- Reason: public deployment, GitHub release, feedback issue, and live-app feedback CTA are live; social/community posts and direct outreach remain action-time gated, and no user feedback exists yet
 
 ## Policy
 

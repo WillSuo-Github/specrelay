@@ -7,6 +7,7 @@ import {
   Download,
   FileText,
   Gauge,
+  MessageSquare,
   RefreshCw,
   Rocket,
   ShieldCheck,
@@ -39,6 +40,8 @@ type Score = {
   value: number;
   note: string;
 };
+
+const feedbackUrl = "https://github.com/WillSuo-Github/specrelay/issues/1";
 
 const defaultForm: FormState = {
   productName: "AI onboarding concierge",
@@ -256,6 +259,9 @@ function buildMarkdown(
     "",
     "## Review Questions",
     ...reviewQuestions.map((item) => `- ${item}`),
+    "",
+    "## Feedback",
+    `Share review notes: ${feedbackUrl}`,
     "",
     "## Decision",
     "Ship only after auth, data, and activation proof are reviewed for the current launch window.",
@@ -533,6 +539,14 @@ export default function App() {
                 Download
               </button>
             </div>
+
+            <a className="feedback-cta" href={feedbackUrl} target="_blank" rel="noreferrer">
+              <MessageSquare size={17} />
+              <span>
+                <strong>Share feedback</strong>
+                Help judge whether this packet saves a scoping call.
+              </span>
+            </a>
           </aside>
         </div>
       </section>

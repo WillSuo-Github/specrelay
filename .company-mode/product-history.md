@@ -5,7 +5,7 @@
 - Status: active
 - Name: `SpecRelay`
 - Started on: `2026-05-01`
-- Current stage: MVP implementation
+- Current stage: public MVP live
 - Current thesis: founders using AI app builders need a fast, neutral handoff packet before launch review or contractor engagement
 - Why it is the active product: it is a narrow bridge between AI-generated prototypes and serious engineering handoff, with a static MVP that can be shipped without accounts or paid services
 
@@ -27,6 +27,7 @@
 - Published the owned-channel GitHub release `v0.1.0`.
 - Updated repository description, homepage, and topics for discovery.
 - Created public feedback issue #1 to collect first evaluator reviews.
+- Added a live-app feedback CTA and included the feedback issue URL in copied/downloaded packets.
 
 ## Candidate Bets
 

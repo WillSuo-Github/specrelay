@@ -14,7 +14,7 @@
 
 - Working name: `SpecRelay`
 - Category: AI-built app launch readiness and developer handoff
-- Current stage: MVP implementation
+- Current stage: public MVP live
 - Primary platform: static web app
 - Operating model: one company instance operates one active product. Other products should get their own company instances that share the same kernel.
 

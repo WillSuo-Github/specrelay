@@ -440,6 +440,30 @@ textarea:focus {
   color: var(--graphite);
 }
 
+.feedback-cta {
+  align-items: center;
+  background: #fbfbf8;
+  border-top: 1px solid var(--line);
+  color: var(--graphite);
+  display: flex;
+  gap: 10px;
+  padding: 14px 18px 18px;
+  text-decoration: none;
+}
+
+.feedback-cta strong {
+  display: block;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.feedback-cta span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 @media (max-width: 1120px) {
   .workspace {
     grid-template-columns: minmax(0, 1fr);

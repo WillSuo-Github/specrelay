@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-02`
+- Last updated: `2026-05-03`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -32,8 +32,8 @@
 - Date: `2026-05-02`
 - Current stage: public MVP live. The product is still a focused one-product company instance and the active thesis remains valid.
 - Evidence quality: market evidence is credible but indirect; product/user evidence is still missing until first evaluator outreach.
-- Current-run work completed: published the owned-channel GitHub release `v0.1.0`, updated repo description/homepage/topics, created public feedback issue #1, linked the feedback issue from release notes, and verified the release URL returned HTTP 200.
-- Instance-only improvements executed: launch note, public feedback issue body, repo metadata, release/readout state updates, and owned-channel launch record.
+- Current-run work completed: refreshed the company-mode kernel, confirmed feedback issue #1 has no comments yet, added `.company-mode/goal.md`, added a live-app feedback CTA to issue #1, included the feedback URL in copied/downloaded packets, and updated stale company state.
+- Instance-only improvements executed: goal file, product feedback CTA, exported packet feedback link, roadmap/state/release/feedback cleanup.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: social/community posts and direct external outreach remain blocked until the concrete channel/account/composer is available and verified.
-- Stop-check: owned-channel launch is complete; remaining high-leverage work is first evaluator outreach beyond GitHub or waiting for feedback on the public issue. Keep heartbeat active for follow-up.
+- Stop-check: feedback capture is now stronger on owned surfaces; remaining high-leverage work is first evaluator outreach beyond GitHub or waiting for feedback on the public issue. Keep heartbeat active for follow-up.
