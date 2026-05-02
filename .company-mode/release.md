@@ -58,4 +58,4 @@ Last updated: 2026-05-03
 - 2026-05-01: Pages workflow refreshed to `actions/configure-pages@v6` and `actions/upload-pages-artifact@v5`; redeploy succeeded.
 - 2026-05-02: Live URL returned HTTP 200 during heartbeat; Open Graph/Twitter metadata added and verified in the live HTML before first outreach.
 - 2026-05-02: Published GitHub release `v0.1.0`, updated repository description/homepage/topics, created feedback issue #1, linked it from release notes, and verified the release URL returned HTTP 200.
-- 2026-05-03: Added a live-app feedback CTA to GitHub issue #1 and included the feedback URL in copied/downloaded Markdown packets.
+- 2026-05-03: Added and deployed a live-app feedback CTA to GitHub issue #1, included the feedback URL in copied/downloaded Markdown packets, and verified the live bundle contains the CTA/link.

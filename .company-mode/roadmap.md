@@ -8,7 +8,7 @@
 | Add example packets | Users need to understand output quality quickly | At least 3 sample packets for common AI-builder app types | Product + Design | Complete |
 | Prepare first growth sprint | Market signal is still weak | Two channel-specific posts or replies are staged to final action gate | Growth | Staged draft with live URL; public publish remains gated |
 | Improve link sharing | First outreach links need useful previews | Open Graph and Twitter card metadata ship with the public URL | Growth + Engineering | Complete and deployed |
-| Improve feedback capture | Live users need an obvious next action after inspecting a packet | Feedback issue is linked from the app and exported Markdown | Growth + Engineering | Complete locally; pending deploy |
+| Improve feedback capture | Live users need an obvious next action after inspecting a packet | Feedback issue is linked from the app and exported Markdown | Growth + Engineering | Complete and deployed |
 
 ## Next
 
