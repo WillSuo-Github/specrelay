@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-01`
+- Last updated: `2026-05-02`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -29,11 +29,11 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-01`
-- Current stage: MVP pre-release. The product is still a focused one-product company instance and the active thesis remains valid.
-- Evidence quality: market evidence is credible but indirect; product/user evidence is still missing until public deployment and first evaluator outreach.
-- Current-run work completed: added three sample packet presets, added review questions to copied/downloaded packets, verified build/copy/download/responsive behavior, documented initial channel rules, configured GitHub Pages project-site paths, created/pushed `WillSuo-Github/specrelay`, enabled Pages workflow deployment, and verified the live URL.
-- Instance-only improvements executed: sample presets, no-credential feedback prompts, release QA notes, roadmap/state cleanup, and growth rule-check notes.
+- Date: `2026-05-02`
+- Current stage: public MVP live. The product is still a focused one-product company instance and the active thesis remains valid.
+- Evidence quality: market evidence is credible but indirect; product/user evidence is still missing until first evaluator outreach.
+- Current-run work completed: refreshed the company-mode kernel, verified the live GitHub Pages URL returned HTTP 200, added link-preview metadata, staged a no-send evaluator outreach pack, and cleaned stale roadmap language from the pre-release phase.
+- Instance-only improvements executed: Open Graph/Twitter metadata, evaluator DM/readout drafts, roadmap/state cleanup, and release QA notes.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any public marketing/community posts remain blocked until action-time confirmation.
 - Stop-check: remaining high-leverage work is first evaluator outreach, which is gated on public post/reply confirmation or outside feedback. Keep heartbeat active for the next approval/status check.

@@ -1,6 +1,6 @@
 # Metrics
 
-Last updated: 2026-05-01
+Last updated: 2026-05-02
 
 ## North-Star Metric
 
@@ -20,6 +20,7 @@ Last updated: 2026-05-01
 - Sample packet presets available: 3
 - Local copy/download QA checks passed: yes
 - Review questions included in copied/downloaded packets: yes
+- Public sharing metadata prepared: yes
 
 ## Instrumentation Gaps
 

@@ -79,5 +79,6 @@ Final gate: verify channel rules and final composer content before any public re
 - Count direct replies, comments, and requests for URL.
 - Capture exact language users use for the pain.
 - Ask evaluators to answer the review questions included in the copied/downloaded packet.
+- Use `docs/evaluator-outreach.md` for direct founder, contractor, and agency asks when a public post is not the right first move.
 - Success threshold: 5 evaluations, 2 strong intent signals.
 - Failure signal: users prefer automated scanning over manual handoff packet, or contractors say the packet is too generic.

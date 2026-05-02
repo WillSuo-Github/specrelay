@@ -1,6 +1,6 @@
 # Release Ops
 
-Last updated: 2026-05-01
+Last updated: 2026-05-02
 
 ## Current Release
 
@@ -24,6 +24,7 @@ Last updated: 2026-05-01
 - [x] Deployment path selected: GitHub Pages workflow staged
 - [x] Initial growth channel rule check documented
 - [x] First growth copy staged to final action gate with live URL
+- [x] Link preview metadata prepared for public sharing
 
 ## Post-Release Checklist
 
@@ -52,3 +53,4 @@ Last updated: 2026-05-01
 - 2026-05-01: `npm run build` passed after adding review questions to copied/downloaded packets; headless system Chrome confirmed review questions appear in copied Markdown with no 390px overflow.
 - 2026-05-01: GitHub Pages deployed at https://willsuo-github.github.io/specrelay/; curl returned HTTP 200 and headless system Chrome confirmed title, hero image, sample presets, and no 390px overflow.
 - 2026-05-01: Pages workflow refreshed to `actions/configure-pages@v6` and `actions/upload-pages-artifact@v5`; redeploy succeeded.
+- 2026-05-02: Live URL returned HTTP 200 during heartbeat; Open Graph/Twitter metadata added before first outreach.
