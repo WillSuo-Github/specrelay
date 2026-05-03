@@ -1,6 +1,6 @@
 # Release Ops
 
-Last updated: 2026-05-03
+Last updated: 2026-05-04
 
 ## Current Release
 
@@ -61,6 +61,7 @@ Last updated: 2026-05-03
 - 2026-05-02: Live URL returned HTTP 200 during heartbeat; Open Graph/Twitter metadata added and verified in the live HTML before first outreach.
 - 2026-05-02: Published GitHub release `v0.1.0`, updated repository description/homepage/topics, created feedback issue #1, linked it from release notes, and verified the release URL returned HTTP 200.
 - 2026-05-03: Added and deployed a live-app feedback CTA to GitHub issue #1, included the feedback URL in copied/downloaded Markdown packets, and verified the live bundle contains the CTA/link.
+- 2026-05-04: Live URL returned HTTP 200; GitHub release URL returned HTTP 200; feedback issue #1 had no comments.
 
 ## Latest Growth Ops
 
@@ -68,3 +69,4 @@ Last updated: 2026-05-03
 - 2026-05-03: Staged HN Show HN submission in Chrome with title and URL only; after user confirmation, clicked `submit`, but HN rejected it with `fnop=toonew`, so no public HN post exists.
 - 2026-05-03: Used X search to identify first-wave evaluator targets and staged reply/DM drafts in `docs/x-target-discovery.md`.
 - 2026-05-03: After user confirmation, verified and sent six no-link X public replies to first-wave targets. Reply IDs: `2050832045006610903`, `2050832292898373859`, `2050832536507736227`, `2050832826090901529`, `2050833116072485365`, `2050833448395513980`. No likes, follows, reposts, standalone posts, URL drops, or DMs were sent.
+- 2026-05-04: X notifications showed one direct response from `@FSfakiotakis` and one weak like from `@LechMazur`; no public follow-up was sent because follow-up replies remain action-time gated.

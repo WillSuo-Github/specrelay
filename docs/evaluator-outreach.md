@@ -1,6 +1,6 @@
 # Evaluator Outreach Pack
 
-Date: 2026-05-03
+Date: 2026-05-04
 
 Public URL: https://willsuo-github.github.io/specrelay/
 
@@ -8,7 +8,7 @@ Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 
 X target discovery: `docs/x-target-discovery.md`
 
-Current outreach status: six no-link first-wave X public replies were sent on 2026-05-03; no replies or direct feedback observed immediately after sending.
+Current outreach status: six no-link first-wave X public replies were sent on 2026-05-03; one useful response received from `@FSfakiotakis`, and one weak like from `@LechMazur`.
 
 ## Objective
 
@@ -60,6 +60,7 @@ https://willsuo-github.github.io/specrelay/
 
 | Reviewer | Segment | Tried sample or own app? | Strong signal? | Exact language | Follow-up |
 | --- | --- | --- | --- | --- | --- |
+| `@FSfakiotakis` | Founder/operator using Lovable in B2B | Own app context offered, not yet inspected | No | "I did not hand it over. My use case is so simple that I can manage and maintain + update by myself." | No-link follow-up staged in `docs/x-target-discovery.md`; action-time gated |
 
 ## Guardrails
 

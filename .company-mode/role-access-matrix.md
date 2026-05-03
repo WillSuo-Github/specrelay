@@ -1,6 +1,6 @@
 # Role Access Matrix
 
-Last updated: `2026-05-03`
+Last updated: `2026-05-04`
 Scope: one-product company instance
 Current company stage: public MVP live, first external X distribution sent
 
@@ -15,7 +15,7 @@ Current company stage: public MVP live, first external X distribution sent
 - Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: follow-up public actions remain approval-gated
+- Main blockers: staged follow-up to first useful X response remains approval-gated
 
 ## Engineering
 
@@ -36,14 +36,14 @@ Current company stage: public MVP live, first external X distribution sent
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: first-wave X replies are sent, but follow-up replies/DMs and second-wave outreach require action-time confirmation; current HN account is too new/trust-limited for this submission
+- Main blockers: one X follow-up is staged, but follow-up replies/DMs and second-wave outreach require action-time confirmation; current HN account is too new/trust-limited for this submission
 
 ## Support/Research
 
 - Current responsibilities: run cheap demand research, triage feedback, watch competitors, and synthesize repeated pain points
 - Verified access: public GitHub feedback issue and local feedback log
 - Status: Partial
-- Main blockers: no external feedback yet
+- Main blockers: only one weak qualitative response so far; no packet review yet
 
 ## Release/Ops
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, first external X distribution sent
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable, and the first X evaluator wave is now live; market evidence is still missing until targets reply or try a packet.
-- Highest-leverage next upgrades: monitor first-wave responses, log exact user language, and only send URL/DM follow-ups after engagement and action-time confirmation.
+- Current interpretation: SpecRelay is technically shippable; the first X evaluator wave produced one useful segmentation signal, but market evidence is still weak until someone reviews or tries a packet.
+- Highest-leverage next upgrades: get permission to send the staged no-link `@FSfakiotakis` follow-up, then inspect whether his offered demo access reveals a concrete handoff trigger.

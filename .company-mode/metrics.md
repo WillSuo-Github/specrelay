@@ -1,6 +1,6 @@
 # Metrics
 
-Last updated: 2026-05-03
+Last updated: 2026-05-04
 
 ## North-Star Metric
 
@@ -13,7 +13,7 @@ Last updated: 2026-05-03
 | Visit | Unique visitors | 0 | 50 | Public URL is live; no analytics yet |
 | Start | Intake edited | 0 | 15 | No tracking yet |
 | Activate | Markdown copied or downloaded | 0 | 5 | Product's first activation event |
-| Learn | Qualitative review received | 0 | 5 | Six no-link X replies sent to first-wave evaluator targets; no responses yet |
+| Learn | Qualitative review received | 1 | 5 | One useful X response from `@FSfakiotakis`; no completed packet review yet |
 
 ## Product Readiness Counters
 
@@ -23,6 +23,7 @@ Last updated: 2026-05-03
 - Public sharing metadata prepared: yes
 - Owned-channel launch artifacts public: GitHub release `v0.1.0` and feedback issue #1
 - Live feedback CTA linked to public issue: yes
+- Strong intent signals: 0
 
 ## Instrumentation Gaps
 
@@ -35,3 +36,4 @@ Last updated: 2026-05-03
 
 - Current product usage numbers remain unknown because there is no analytics instrumentation.
 - First measurement priority is whether reviewers comment, copy/download a packet, or say the packet would save a handoff call.
+- Current learning: first founder response suggests handoff need is conditional on someone besides the founder needing to review or change the app.

@@ -129,6 +129,30 @@ Check for direct replies, likes with meaningful follow-up context, or profile vi
 
 If a target engages, use the staged follow-up with the SpecRelay URL only after verifying the reply/DM composer and target context. Future public replies and DMs remain action-time gated.
 
+## First-Wave Readout
+
+Date: 2026-05-04
+
+Checked surfaces:
+
+- X `Mentions` and `All` notifications in the logged-in Chrome session.
+- GitHub feedback issue #1 via `gh issue view`.
+
+Observed signal:
+
+- `@FSfakiotakis` replied to the first-wave public reply: "I did not hand it over. My use case is so simple that I can manage and maintain + update by myself. If you're interested I can give you free access to my app so that you can see what it looks like to @DanielSmidstrup as well."
+- Interpretation: useful but not a strong intent signal. Founder-maintained/simple B2B apps may not feel acute handoff pain until someone else needs to review, modify, or operate the app.
+- `@LechMazur` liked the reply asking about minimum pre-automation handoff packets. Treat as weak interest only, not validation.
+- No GitHub issue comments were present.
+
+Gated follow-up candidate for `@FSfakiotakis`:
+
+```text
+That distinction helps. It sounds like founder-maintained/simple B2B apps may not need a handoff packet until someone else has to review or change them. I'd be interested in a read-only/demo view if easy. The question I'd test is: what would a contractor need to know before touching InsightBites later?
+```
+
+Do not send this follow-up without action-time confirmation.
+
 If one of these replies gets a useful response, follow up with:
 
 ```text

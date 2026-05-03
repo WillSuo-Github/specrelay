@@ -35,6 +35,11 @@
 - Used X search to find first-wave evaluator targets for AI-built app handoff feedback.
 - After user confirmation, sent six no-link X public replies to first-wave targets; no direct feedback was observed immediately after sending.
 
+## 2026-05-04
+
+- Recorded the first direct X response: `@FSfakiotakis` said his simple Lovable B2B app is not handed off because he can maintain it himself, and offered free access for inspection.
+- Interpreted the response as a segmentation signal: SpecRelay's sharper wedge is external review/change/operation, not founder-maintained simple apps.
+
 ## Candidate Bets
 
 | Candidate | Status | User problem | Key evidence | Next decision |
