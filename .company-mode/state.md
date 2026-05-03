@@ -8,24 +8,24 @@
 
 ## Now
 
-- In progress: first evaluator channel/account selection
+- In progress: Hacker News Show HN staged to final confirmation gate
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: first distribution beyond owned GitHub surfaces requires a suitable account or outreach path; recommended priority is direct outreach, Hacker News, Indie Hackers, LinkedIn/X, then Product Hunt later
+- Biggest blocker: HN composer is staged in logged-in Chrome, but the final public `submit` click remains action-time approval-gated
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: after the first external post/outreach is sent, or after the user provides a usable channel account
+- Next decision deadline: after the user confirms whether to click HN `submit`
 
 ## Next Recommended Actions
 
 - Product/CEO: keep SpecRelay focused on founder-to-engineer handoff, not broad app security scanning
 - Support/Research: collect qualitative feedback from AI-app-builder users and contractors
 - Engineering: keep the static generator shippable; sample packets and no-credential review prompts are now in the MVP
-- Growth: channel exploration is complete in `docs/channel-exploration.md`; use direct outreach first if a real LinkedIn/X/email path exists, otherwise use Hacker News Show HN or Indie Hackers if an account is available
+- Growth: HN account is available and the Show HN form is staged with title and URL; submit only after action-time confirmation
 - Release/Ops: monitor GitHub Pages deployment and keep rollback simple because no production data exists
 
 ## Pending Approvals
 
 - Exact live action currently gated: publish any social/community post, reply, or direct outreach message for SpecRelay outside the owned GitHub repository.
-- Account gap to resolve: Hacker News, Indie Hackers, Product Hunt, LinkedIn/X, or Reddit account access is required before using those channels; Product Hunt also needs launch images before a real launch.
+- Account gap to resolve: Hacker News is available; Indie Hackers, Product Hunt, LinkedIn/X, or Reddit account access may still be useful for later channels. Product Hunt also needs launch images before a real launch.
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
 ## Latest CEO After-Action Review
@@ -33,8 +33,8 @@
 - Date: `2026-05-03`
 - Current stage: public MVP live. The product is still a focused one-product company instance and the active thesis remains valid.
 - Evidence quality: market evidence is credible but indirect; product/user evidence is still missing until first evaluator outreach.
-- Current-run work completed: refreshed the company-mode kernel, explored external channels for SpecRelay, documented channel fit/rules/account needs in `docs/channel-exploration.md`, prioritized direct outreach and HN/Indie Hackers over broad launch directories, staged HN copy and Product Hunt inputs, and updated stale company state.
-- Instance-only improvements executed: channel exploration doc, account-gap documentation, growth/roadmap/state/release updates.
+- Current-run work completed: refreshed the company-mode kernel, verified SpecRelay live URL returns HTTP 200, verified the user is logged into HN as `willsuo`, staged the HN Show HN composer with title and URL only, documented the staged submission in `docs/hn-show-submission.md`, and updated company state.
+- Instance-only improvements executed: HN submission staging doc, HN access/status updates, growth/roadmap/state/release updates.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: social/community posts and direct external outreach remain blocked until the concrete channel/account/composer is available and verified.
-- Stop-check: the next leverage point is using the first available high-fit external channel, not adding more MVP scope. Keep heartbeat active for follow-up while waiting on account/channel availability or feedback.
+- Hard-gated improvements: the HN `submit` click is blocked until explicit action-time confirmation.
+- Stop-check: all internal prep for HN is complete; the company is waiting on the user's final approval to submit the public post. Keep heartbeat active for follow-up.
