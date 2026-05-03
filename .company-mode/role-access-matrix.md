@@ -36,7 +36,7 @@ Current company stage: public MVP live, first external distribution staged
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
 - Verified access: Hacker News logged-in Chrome session for account `willsuo`; owned GitHub release and feedback issue are live
 - Status: Partial
-- Main blockers: HN `submit` click requires final action-time confirmation; other channels still need account/composer access
+- Main blockers: current HN account is too new/trust-limited for this submission; other channels still need account/composer access
 
 ## Support/Research
 
@@ -50,7 +50,7 @@ Current company stage: public MVP live, first external distribution staged
 - Current responsibilities: prepare release path, account guardrails, launch checklists, monitoring, and rollback readiness
 - Verified access: GitHub Pages public URL, GitHub release, local automation spec
 - Status: Ready
-- Main blockers: HN public submission remains gated
+- Main blockers: HN public submission is blocked by account trust/age, not product readiness
 
 ## Summary
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, first external distribution staged
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable and has an HN distribution path staged; market evidence is still missing.
-- Highest-leverage next upgrades: click HN `submit` after final approval, then monitor replies and capture exact feedback language.
+- Current interpretation: SpecRelay is technically shippable, but the first HN path is blocked by account age/trust; market evidence is still missing.
+- Highest-leverage next upgrades: use an older HN account or switch to Indie Hackers, LinkedIn/X/email outreach, or direct introductions.
