@@ -42,7 +42,7 @@ Last updated: 2026-05-03
 - GitHub Pages path is configured as a project site at `/specrelay/`, so it should not overwrite an existing account Pages site.
 - Owned-channel GitHub release and feedback issue are public.
 - Social/community posts and direct outreach remain action-time gated until final composer content, target account, and channel rules are verified.
-- External channels require user-provided or user-approved accounts: the current Hacker News account is blocked by `fnop=toonew`; Indie Hackers, Product Hunt, LinkedIn/X, Reddit, or a direct email/intro path remain later options.
+- External channels require user-provided or user-approved accounts: X is available and target discovery is complete; the current Hacker News account is blocked by `fnop=toonew`; Indie Hackers, Product Hunt, Reddit, or a direct email/intro path remain later options.
 
 ## Local Launch State
 
@@ -66,3 +66,4 @@ Last updated: 2026-05-03
 
 - 2026-05-03: Documented channel exploration in `docs/channel-exploration.md`; recommended sequence is direct outreach, Hacker News Show HN, Indie Hackers/LinkedIn/X, Product Hunt later, and cautious Reddit replies.
 - 2026-05-03: Staged HN Show HN submission in Chrome with title and URL only; after user confirmation, clicked `submit`, but HN rejected it with `fnop=toonew`, so no public HN post exists.
+- 2026-05-03: Used X search to identify first-wave evaluator targets and staged reply/DM drafts in `docs/x-target-discovery.md`; no X interactions were sent.

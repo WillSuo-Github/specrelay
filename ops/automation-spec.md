@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 12-hour wake while waiting for an older HN account, another usable channel/account, direct outreach path, or external feedback
-- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, and channel exploration are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`, and no user feedback exists yet
+- Current cadence: 12-hour wake while waiting for X outreach approval, another usable channel/account, direct outreach path, or external feedback
+- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, and X target discovery are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`, and no user feedback exists yet
 
 ## Policy
 

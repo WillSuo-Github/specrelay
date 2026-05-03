@@ -34,9 +34,9 @@ Current company stage: public MVP live, first external distribution staged
 ## Growth
 
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
-- Verified access: Hacker News logged-in Chrome session for account `willsuo`; owned GitHub release and feedback issue are live
+- Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: current HN account is too new/trust-limited for this submission; other channels still need account/composer access
+- Main blockers: X replies/DMs require action-time confirmation; current HN account is too new/trust-limited for this submission
 
 ## Support/Research
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, first external distribution staged
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable, but the first HN path is blocked by account age/trust; market evidence is still missing.
-- Highest-leverage next upgrades: use an older HN account or switch to Indie Hackers, LinkedIn/X/email outreach, or direct introductions.
+- Current interpretation: SpecRelay is technically shippable, and X target discovery has produced a concrete first wave; market evidence is still missing.
+- Highest-leverage next upgrades: verify and send a small first wave of X replies/DMs, then log replies and exact user language.

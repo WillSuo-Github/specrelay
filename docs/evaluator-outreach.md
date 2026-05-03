@@ -6,6 +6,8 @@ Public URL: https://willsuo-github.github.io/specrelay/
 
 Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 
+X target discovery: `docs/x-target-discovery.md`
+
 ## Objective
 
 Get 5 qualitative reviews from founders, contractors, or agencies who have touched an AI-built prototype.
@@ -62,3 +64,4 @@ https://willsuo-github.github.io/specrelay/
 - Do not send any message automatically from a company or personal account without action-time confirmation.
 - If posting publicly, verify composer text, URL, and visual preview before publishing.
 - Count only direct replies or observed packet use as evidence; do not infer traction from page availability.
+- For X, start with specific public replies to recent relevant posts before sending URL-heavy DMs.
