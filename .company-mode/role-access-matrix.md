@@ -2,7 +2,7 @@
 
 Last updated: `2026-05-03`
 Scope: one-product company instance
-Current company stage: public MVP live, first external distribution staged
+Current company stage: public MVP live, first external X distribution sent
 
 ## Reading this matrix
 
@@ -15,7 +15,7 @@ Current company stage: public MVP live, first external distribution staged
 - Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: final public actions remain approval-gated
+- Main blockers: follow-up public actions remain approval-gated
 
 ## Engineering
 
@@ -36,7 +36,7 @@ Current company stage: public MVP live, first external distribution staged
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: X replies/DMs require action-time confirmation; current HN account is too new/trust-limited for this submission
+- Main blockers: first-wave X replies are sent, but follow-up replies/DMs and second-wave outreach require action-time confirmation; current HN account is too new/trust-limited for this submission
 
 ## Support/Research
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, first external distribution staged
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable, and X target discovery has produced a concrete first wave; market evidence is still missing.
-- Highest-leverage next upgrades: verify and send a small first wave of X replies/DMs, then log replies and exact user language.
+- Current interpretation: SpecRelay is technically shippable, and the first X evaluator wave is now live; market evidence is still missing until targets reply or try a packet.
+- Highest-leverage next upgrades: monitor first-wave responses, log exact user language, and only send URL/DM follow-ups after engagement and action-time confirmation.

@@ -8,33 +8,33 @@
 
 ## Now
 
-- In progress: X target discovery and first-wave outreach staging
+- In progress: waiting for first-wave X reply feedback after six no-link public replies
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: X account is available and targets are identified, but public replies/DMs remain action-time gated
+- Biggest blocker: no external evaluator response yet; follow-up links, DMs, and additional public outreach remain action-time gated
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: after first approved X reply/DM wave is sent or rejected
+- Next decision deadline: after first X response, explicit request for the SpecRelay URL, or the next 12-hour heartbeat
 
 ## Next Recommended Actions
 
 - Product/CEO: keep SpecRelay focused on founder-to-engineer handoff, not broad app security scanning
-- Support/Research: collect qualitative feedback from AI-app-builder users and contractors
+- Support/Research: monitor the six X replies for qualitative feedback and extract exact user language
 - Engineering: keep the static generator shippable; sample packets and no-credential review prompts are now in the MVP
-- Growth: X is now the active channel; first-wave targets and reply/DM drafts are staged in `docs/x-target-discovery.md`
+- Growth: X is now the active channel; first-wave public replies were sent and next follow-up should only include the SpecRelay URL if a target engages or asks
 - Release/Ops: monitor GitHub Pages deployment and keep rollback simple because no production data exists
 
 ## Pending Approvals
 
-- Exact live action currently gated: publish any social/community post, reply, or direct outreach message for SpecRelay outside the owned GitHub repository.
-- Account gap to resolve: X account is available; public replies/DMs need action-time approval. Current Hacker News account is not sufficient for submission; Product Hunt also needs launch images before a real launch.
+- Exact live action currently gated: publish any new social/community post, reply, follow-up with the SpecRelay URL, or direct outreach message outside the owned GitHub repository.
+- Account gap to resolve: X account is available and first-wave public replies were sent; future public replies/DMs need action-time approval. Current Hacker News account is not sufficient for submission; Product Hunt also needs launch images before a real launch.
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
 ## Latest CEO After-Action Review
 
 - Date: `2026-05-03`
 - Current stage: public MVP live. The product is still a focused one-product company instance and the active thesis remains valid.
-- Evidence quality: market evidence is credible but indirect; product/user evidence is still missing until first evaluator outreach.
-- Current-run work completed: used logged-in X search to find first-wave and second-wave evaluator targets, documented target evidence and outreach drafts in `docs/x-target-discovery.md`, linked it from `docs/evaluator-outreach.md`, and updated company state.
-- Instance-only improvements executed: X target discovery doc, X channel blocker update, growth/roadmap/state/release updates.
+- Evidence quality: market evidence is credible but indirect; first evaluator outreach is now live, but product/user evidence is still missing until targets answer or try a packet.
+- Current-run work completed: after user confirmation, verified and sent six no-link X public replies to first-wave targets; recorded reply URLs and readout criteria in `docs/x-target-discovery.md`.
+- Instance-only improvements executed: X send-results log, state/experiment/release/feedback/metrics/automation updates.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: X public replies and DMs remain action-time gated; no X interaction was sent in this run.
-- Stop-check: internal X target prep is complete; next move is final composer verification and approval for the first small outreach wave. Keep heartbeat active for follow-up.
+- Hard-gated improvements: follow-up replies with the SpecRelay URL, DMs, second-wave X outreach, and other public/community actions remain action-time gated.
+- Stop-check: first-wave outreach is complete; the company is now waiting on outside feedback. Keep heartbeat active for a 12-hour follow-up check.

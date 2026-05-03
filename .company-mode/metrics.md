@@ -1,6 +1,6 @@
 # Metrics
 
-Last updated: 2026-05-02
+Last updated: 2026-05-03
 
 ## North-Star Metric
 
@@ -13,7 +13,7 @@ Last updated: 2026-05-02
 | Visit | Unique visitors | 0 | 50 | Public URL is live; no analytics yet |
 | Start | Intake edited | 0 | 15 | No tracking yet |
 | Activate | Markdown copied or downloaded | 0 | 5 | Product's first activation event |
-| Learn | Qualitative review received | 0 | 5 | Founder or contractor feedback |
+| Learn | Qualitative review received | 0 | 5 | Six no-link X replies sent to first-wave evaluator targets; no responses yet |
 
 ## Product Readiness Counters
 
@@ -29,8 +29,9 @@ Last updated: 2026-05-02
 - No production analytics yet.
 - Feedback capture is manual for MVP: exported packets include review questions, but there is no hosted feedback form yet.
 - Public URL is live: https://willsuo-github.github.io/specrelay/
+- Outreach tracking is manual: six first-wave X public replies are logged in `docs/x-target-discovery.md`.
 
 ## Interpretation
 
-- Current numbers only show pre-launch state.
+- Current product usage numbers remain unknown because there is no analytics instrumentation.
 - First measurement priority is whether reviewers comment, copy/download a packet, or say the packet would save a handoff call.

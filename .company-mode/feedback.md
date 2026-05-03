@@ -7,6 +7,7 @@ No direct customer feedback yet.
 - GitHub issue #1 is open for evaluator reviews: https://github.com/WillSuo-Github/specrelay/issues/1
 - 2026-05-03 heartbeat check: no comments on the feedback issue yet.
 - 2026-05-03: live app now links to issue #1 from the result panel, and exported Markdown includes the same feedback URL.
+- 2026-05-03: six no-link public X replies were sent to first-wave evaluator targets. No replies or direct feedback were observed immediately after sending.
 
 ## Research-Derived Pain Themes
 

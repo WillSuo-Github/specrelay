@@ -4,7 +4,7 @@ Date: 2026-05-03
 
 Channel: X, using the logged-in Chrome session.
 
-Status: target discovery only. No follows, likes, public replies, posts, or DMs were sent.
+Status: first-wave public replies sent after user confirmation. No follows, likes, reposts, URL drops, standalone posts, or DMs were sent.
 
 ## Objective
 
@@ -100,6 +100,34 @@ Send no more than 6 public replies first. Do not include the SpecRelay URL in th
 | 4 | `@leochen` | Public reply | Impressive timeline. Before App Store/customer review, did you make any QA/risk checklist for the AI-built app, or did you go straight from working prototype to submission? |
 | 5 | `@LechMazur` | Public reply | This maps closely to what I am testing: before automation, what minimum handoff packet should a vibe-coded app include so an engineer/reviewer can scope the next pass quickly? |
 | 6 | `@josephmiclaus` | Public reply | The sensitive-data split is exactly where I am focusing. What fields would you require in a handoff packet before reviewing an AI-built app that touches auth, payments, or private data? |
+
+## First-Wave Send Results
+
+Date: 2026-05-03
+
+Approval: user confirmed the six staged public replies before final X `Reply` clicks.
+
+Execution notes:
+
+- Each reply was opened through X's reply intent, verified in the visible composer against the staged text and target context, then submitted.
+- No links were included.
+- No likes, follows, reposts, standalone posts, or DMs were sent.
+- No response was observed immediately after sending.
+
+| Order | Target | Original status | Result | Reply URL |
+| --- | --- | --- | --- | --- |
+| 1 | `@FSfakiotakis` | https://x.com/FSfakiotakis/status/2050825356471337178 | Sent | https://x.com/thefuckkingguy/status/2050832045006610903 |
+| 2 | `@TeresaMelvinart` | https://x.com/TeresaMelvinart/status/2050822080405409936 | Sent | https://x.com/thefuckkingguy/status/2050832292898373859 |
+| 3 | `@russe39124` | https://x.com/russe39124/status/2050771770798395661 | Sent | https://x.com/thefuckkingguy/status/2050832536507736227 |
+| 4 | `@leochen` | https://x.com/leochen/status/2050717568651170290 | Sent | https://x.com/thefuckkingguy/status/2050832826090901529 |
+| 5 | `@LechMazur` | https://x.com/LechMazur/status/2050704280391131582 | Sent | https://x.com/thefuckkingguy/status/2050833116072485365 |
+| 6 | `@josephmiclaus` | https://x.com/josephmiclaus/status/2050685031807344896 | Sent | https://x.com/thefuckkingguy/status/2050833448395513980 |
+
+## Readout Plan
+
+Check for direct replies, likes with meaningful follow-up context, or profile visits only as weak signals. Count as validation only if a target answers the question, asks for the SpecRelay URL, tries a packet, or describes what a useful handoff packet must include.
+
+If a target engages, use the staged follow-up with the SpecRelay URL only after verifying the reply/DM composer and target context. Future public replies and DMs remain action-time gated.
 
 If one of these replies gets a useful response, follow up with:
 

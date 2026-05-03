@@ -29,6 +29,12 @@
 - Created public feedback issue #1 to collect first evaluator reviews.
 - Added a live-app feedback CTA and included the feedback issue URL in copied/downloaded packets.
 
+## 2026-05-03
+
+- Documented external channel exploration and confirmed Hacker News submission is blocked by the current account's `fnop=toonew` trust limit.
+- Used X search to find first-wave evaluator targets for AI-built app handoff feedback.
+- After user confirmation, sent six no-link X public replies to first-wave targets; no direct feedback was observed immediately after sending.
+
 ## Candidate Bets
 
 | Candidate | Status | User problem | Key evidence | Next decision |
