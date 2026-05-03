@@ -15,6 +15,10 @@ Find the first AI-app-builder users or contractors willing to judge whether a Sp
 
 Checked: 2026-05-01
 
+Updated channel exploration: `docs/channel-exploration.md` on 2026-05-03.
+
+Current channel decision: prioritize direct founder/contractor/agency outreach for fastest qualitative learning; use Hacker News Show HN or Indie Hackers if a suitable account is available; prepare Product Hunt later after first evaluator signal and launch assets.
+
 - Reddit general posture: Reddit's business guidance says communities vary, with some allowing self-promotion on specific days, some requiring disclosure, and some banning it; safest posture is useful participation before selling. Source: https://www.business.reddit.com/learning-hub/articles/smb-how-to-use-reddit
 - r/SaaS: a moderator update from 2026-04-14 says self-promotion is limited to once per 60 days and includes posts, comment plugs, links, and product mentions. Source: https://www.reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/
 - Indie Hackers: community-based marketing guidance says every community has different self-promotion rules and the safe pattern is to provide value, not drop a link without context. Source: https://www.indiehackers.com/post/guide-how-to-do-community-based-marketing-ee5c766673

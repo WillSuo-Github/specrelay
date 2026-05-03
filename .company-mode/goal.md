@@ -16,4 +16,4 @@ SpecRelay should remain a static, zero-backend MVP until the manual handoff pack
 
 ## Current Next Move
 
-Improve feedback capture on the live MVP and owned GitHub surfaces, then wait for feedback or a concrete approved social/community outreach target.
+Use the first available high-fit external channel to get evaluator conversations: direct founder/contractor/agency outreach first, Hacker News Show HN or Indie Hackers next if a suitable account is available, and Product Hunt only after early reviews or launch assets are ready.

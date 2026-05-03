@@ -32,6 +32,7 @@ Last updated: 2026-05-03
 
 - [ ] Watch for build/runtime errors
 - [ ] Collect first 5 qualitative reviews
+- [x] Document first external channel/account plan
 - [ ] Review completed handoff packet rate
 - [ ] Feed observations back into roadmap
 
@@ -41,6 +42,7 @@ Last updated: 2026-05-03
 - GitHub Pages path is configured as a project site at `/specrelay/`, so it should not overwrite an existing account Pages site.
 - Owned-channel GitHub release and feedback issue are public.
 - Social/community posts and direct outreach remain action-time gated until final composer content, target account, and channel rules are verified.
+- External channels require user-provided or user-approved accounts: Hacker News, Indie Hackers, Product Hunt, LinkedIn/X, Reddit, or a direct email/intro path.
 
 ## Local Launch State
 
@@ -59,3 +61,7 @@ Last updated: 2026-05-03
 - 2026-05-02: Live URL returned HTTP 200 during heartbeat; Open Graph/Twitter metadata added and verified in the live HTML before first outreach.
 - 2026-05-02: Published GitHub release `v0.1.0`, updated repository description/homepage/topics, created feedback issue #1, linked it from release notes, and verified the release URL returned HTTP 200.
 - 2026-05-03: Added and deployed a live-app feedback CTA to GitHub issue #1, included the feedback URL in copied/downloaded Markdown packets, and verified the live bundle contains the CTA/link.
+
+## Latest Growth Ops
+
+- 2026-05-03: Documented channel exploration in `docs/channel-exploration.md`; recommended sequence is direct outreach, Hacker News Show HN, Indie Hackers/LinkedIn/X, Product Hunt later, and cautious Reddit replies.
