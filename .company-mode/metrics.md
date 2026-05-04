@@ -30,7 +30,7 @@ Last updated: 2026-05-04
 - No production analytics yet.
 - Feedback capture is manual for MVP: exported packets include review questions, but there is no hosted feedback form yet.
 - Public URL is live: https://willsuo-github.github.io/specrelay/
-- Outreach tracking is manual: six first-wave X public replies are logged in `docs/x-target-discovery.md`.
+- Outreach tracking is manual: ten total X public replies are logged in `docs/x-target-discovery.md` (six first-wave no-link replies, one no-link Frank follow-up, one URL follow-up to Lech, and two no-link second-wave replies).
 
 ## Interpretation
 

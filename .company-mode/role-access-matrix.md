@@ -2,7 +2,7 @@
 
 Last updated: `2026-05-04`
 Scope: one-product company instance
-Current company stage: public MVP live, first external X distribution sent
+Current company stage: public MVP live, X first wave and second-wave micro-sprint sent
 
 ## Reading this matrix
 
@@ -15,7 +15,7 @@ Current company stage: public MVP live, first external X distribution sent
 - Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: staged follow-up to first useful X response remains approval-gated
+- Main blockers: no strong intent signal yet; any further public follow-up remains approval-gated
 
 ## Engineering
 
@@ -36,7 +36,7 @@ Current company stage: public MVP live, first external X distribution sent
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: one X follow-up is staged, but follow-up replies/DMs and second-wave outreach require action-time confirmation; current HN account is too new/trust-limited for this submission
+- Main blockers: active X replies are sent, but further follow-up replies/DMs and additional outreach require action-time confirmation; current HN account is too new/trust-limited for this submission
 
 ## Support/Research
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, first external X distribution sent
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable; the first X evaluator wave produced one useful segmentation signal, but market evidence is still weak until someone reviews or tries a packet.
-- Highest-leverage next upgrades: get permission to send the staged no-link `@FSfakiotakis` follow-up, then inspect whether his offered demo access reveals a concrete handoff trigger.
+- Current interpretation: SpecRelay is technically shippable; X outreach has produced one useful segmentation signal and one product-link ask, but market evidence is still weak until someone reviews or tries a packet.
+- Highest-leverage next upgrades: monitor active X targets for concrete handoff requirements, demo/read-only access, or product trial feedback; avoid more outreach until a response or fresh approval creates a sharper next action.

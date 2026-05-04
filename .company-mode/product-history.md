@@ -39,6 +39,8 @@
 
 - Recorded the first direct X response: `@FSfakiotakis` said his simple Lovable B2B app is not handed off because he can maintain it himself, and offered free access for inspection.
 - Interpreted the response as a segmentation signal: SpecRelay's sharper wedge is external review/change/operation, not founder-maintained simple apps.
+- After user confirmation, sent the shortened no-link `@FSfakiotakis` follow-up.
+- After user confirmation, sent a small X micro-sprint: one URL follow-up to engaged reviewer `@LechMazur` and two no-link questions to second-wave builder targets `@jessecolesmith` and `@HitenDharpure`.
 
 ## Candidate Bets
 
