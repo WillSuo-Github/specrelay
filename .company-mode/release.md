@@ -70,3 +70,4 @@ Last updated: 2026-05-04
 - 2026-05-03: Used X search to identify first-wave evaluator targets and staged reply/DM drafts in `docs/x-target-discovery.md`.
 - 2026-05-03: After user confirmation, verified and sent six no-link X public replies to first-wave targets. Reply IDs: `2050832045006610903`, `2050832292898373859`, `2050832536507736227`, `2050832826090901529`, `2050833116072485365`, `2050833448395513980`. No likes, follows, reposts, standalone posts, URL drops, or DMs were sent.
 - 2026-05-04: X notifications showed one direct response from `@FSfakiotakis` and one weak like from `@LechMazur`; no public follow-up was sent because follow-up replies remain action-time gated.
+- 2026-05-04: User confirmed the `@FSfakiotakis` follow-up, but X rejected the staged text as 24 characters over the limit. No public follow-up was sent; a shorter no-link replacement is staged in `docs/x-target-discovery.md`.

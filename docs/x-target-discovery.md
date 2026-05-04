@@ -151,7 +151,19 @@ Gated follow-up candidate for `@FSfakiotakis`:
 That distinction helps. It sounds like founder-maintained/simple B2B apps may not need a handoff packet until someone else has to review or change them. I'd be interested in a read-only/demo view if easy. The question I'd test is: what would a contractor need to know before touching InsightBites later?
 ```
 
-Do not send this follow-up without action-time confirmation.
+2026-05-04 send attempt:
+
+- User confirmed this staged follow-up.
+- X composer rejected it as 24 characters over the limit, so it was not sent.
+- No shortened replacement was sent without a new confirmation.
+
+Shortened candidate now gated:
+
+```text
+That distinction helps. Simple founder-maintained B2B apps may not need a handoff packet until someone else reviews or changes them. I'd be interested in a demo view if easy. The question I'd test: what would a contractor need before touching InsightBites later?
+```
+
+Do not send this shortened follow-up without action-time confirmation.
 
 If one of these replies gets a useful response, follow up with:
 
