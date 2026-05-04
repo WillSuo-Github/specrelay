@@ -4,7 +4,7 @@
 
 | Date | Hypothesis | Change | Metric | Result | Next step |
 | --- | --- | --- | --- | --- | --- |
-| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP plus owned GitHub release and feedback issue are public; one first-wave X target replied with a useful segmentation signal but no strong intent | Send the shortened no-link follow-up to `@FSfakiotakis` only after confirmation; otherwise monitor for more replies |
+| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP plus owned GitHub release and feedback issue are public; one first-wave X target replied with a useful segmentation signal and the no-link follow-up is sent; no strong intent yet | Monitor for demo/read-only access from `@FSfakiotakis` and additional first-wave responses |
 
 ## Candidate Growth Actions
 
@@ -12,7 +12,7 @@
 | --- | --- | --- |
 | Direct founder/contractor/agency outreach | Send 10 targeted evaluator messages using the staged drafts | Requires a real LinkedIn/X/email/intro path and final message verification |
 | Hacker News Show HN | Post the prepared Show HN if a suitable account exists | Attempted after approval; blocked by HN `fnop=toonew`; retry only with older/trusted account |
-| X targeted replies/DMs | Monitor first-wave replies and prepare follow-ups only for engaged targets | One shortened follow-up to `@FSfakiotakis` is staged; follow-up replies, DMs, and second-wave outreach require action-time confirmation |
+| X targeted replies/DMs | Monitor first-wave replies and prepare follow-ups only for engaged targets | Shortened follow-up to `@FSfakiotakis` sent; follow-up links, DMs, and second-wave outreach require action-time confirmation |
 | Indie Hackers / LinkedIn | Post a visual-first build-in-public note with the generated SpecRelay asset and a concrete ask for AI-builder founders | Public post is action-time gated; draft staged in `docs/growth-sprint.md`; account required |
 | Product Hunt | Prepare launch draft, thumbnail, gallery images, and maker first comment | Launch later after early reviewers/assets; personal Product Hunt account required |
 | Reddit r/nocode, r/SaaS, or adjacent community | Reply with a useful handoff checklist and only link if channel rules allow | Rule and composer verification required before posting; draft staged in `docs/growth-sprint.md` |
@@ -27,5 +27,6 @@
 - 2026-05-03: After user confirmation, six first-wave X public replies were verified in composer and sent without links; no immediate response observed.
 - 2026-05-04: `@FSfakiotakis` replied that his simple Lovable B2B app is founder-maintained and not handed off; he offered free access to inspect the app. This is useful segmentation feedback but not a strong intent signal.
 - 2026-05-04: User confirmed the first `@FSfakiotakis` follow-up, but X rejected it as 24 characters over the limit; no public follow-up was sent.
-- Current safest next public action after deployment: send the shortened no-link follow-up to `@FSfakiotakis` after confirmation; do not send the SpecRelay URL unless he asks or the thread clearly turns toward trying the tool.
+- 2026-05-04: User confirmed the shortened `@FSfakiotakis` follow-up; composer showed 17 characters remaining and the public no-link reply was sent.
+- Current safest next public action after deployment: wait for `@FSfakiotakis` to respond with demo/read-only access or for another first-wave response; do not send the SpecRelay URL unless he asks or the thread clearly turns toward trying the tool.
 - Reddit remains reply-first and no-link by default unless the live rules and thread context explicitly allow a URL.

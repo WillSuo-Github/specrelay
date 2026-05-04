@@ -157,13 +157,19 @@ That distinction helps. It sounds like founder-maintained/simple B2B apps may no
 - X composer rejected it as 24 characters over the limit, so it was not sent.
 - No shortened replacement was sent without a new confirmation.
 
-Shortened candidate now gated:
+Shortened candidate:
 
 ```text
 That distinction helps. Simple founder-maintained B2B apps may not need a handoff packet until someone else reviews or changes them. I'd be interested in a demo view if easy. The question I'd test: what would a contractor need before touching InsightBites later?
 ```
 
-Do not send this shortened follow-up without action-time confirmation.
+2026-05-04 shortened send result:
+
+- User confirmed the shortened follow-up.
+- Composer showed 17 characters remaining and target context `Replying to @FSfakiotakis and @DanielSmidstrup`.
+- Sent successfully.
+- Reply URL: https://x.com/thefuckkingguy/status/2051170192831754257
+- No link, like, follow, repost, standalone post, or DM was sent.
 
 If one of these replies gets a useful response, follow up with:
 

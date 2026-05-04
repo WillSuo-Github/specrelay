@@ -60,7 +60,7 @@ https://willsuo-github.github.io/specrelay/
 
 | Reviewer | Segment | Tried sample or own app? | Strong signal? | Exact language | Follow-up |
 | --- | --- | --- | --- | --- | --- |
-| `@FSfakiotakis` | Founder/operator using Lovable in B2B | Own app context offered, not yet inspected | No | "I did not hand it over. My use case is so simple that I can manage and maintain + update by myself." | No-link follow-up staged in `docs/x-target-discovery.md`; action-time gated |
+| `@FSfakiotakis` | Founder/operator using Lovable in B2B | Own app context offered, not yet inspected | No | "I did not hand it over. My use case is so simple that I can manage and maintain + update by myself." | No-link follow-up sent; wait for demo/read-only access response |
 
 ## Guardrails
 
