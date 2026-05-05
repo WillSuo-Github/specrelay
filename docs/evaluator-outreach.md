@@ -8,6 +8,8 @@ Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 
 X target discovery: `docs/x-target-discovery.md`
 
+Stability-first evaluator pack: `docs/stability-first-evaluator-pack.md`
+
 Current outreach status: six no-link first-wave X public replies were sent on 2026-05-03; useful responses received from `@FSfakiotakis` and `@jessecolesmith`; weak likes from `@LechMazur` and `@FSfakiotakis`; one URL follow-up to `@LechMazur`; and two no-link second-wave X replies to `@jessecolesmith` and `@HitenDharpure`.
 
 ## Objective
@@ -18,6 +20,12 @@ Get 5 qualitative reviews from founders, contractors, or agencies who have touch
 
 ```text
 Have you recently built or reviewed a Lovable/Bolt/Replit/Cursor/v0 prototype that needed to become launch- or contractor-ready?
+```
+
+## Current Sharper Screening Prompt
+
+```text
+Have you recently built, inherited, or reviewed an AI-built app where the next step was stabilizing basic flows before a contractor, teammate, or customer touched it?
 ```
 
 ## Founder DM Draft

@@ -10,6 +10,7 @@
 | Improve link sharing | First outreach links need useful previews | Open Graph and Twitter card metadata ship with the public URL | Growth + Engineering | Complete and deployed |
 | Improve feedback capture | Live users need an obvious next action after inspecting a packet | Feedback issue is linked from the app and exported Markdown | Growth + Engineering | Complete and deployed |
 | Add stability-first pass | Jesse's feedback says hands-on builders start with stability and basic features before promoting improvements | Generated packet includes a stability-first pass before the QA checklist | Product + Engineering | Complete and deployed |
+| Prepare stability-first evaluator pack | Jesse's feedback needs a sharper next outreach asset before more public touches | Contractor/agency/domain-builder screening questions, follow-ups, and signal criteria are documented | Growth + Support/Research | Complete in `docs/stability-first-evaluator-pack.md` |
 | Explore first external channels | First reviews need the right channel/account, not more product scope | Channel fit, account needs, and channel-specific draft inputs are documented | Growth + Product | Complete in `docs/channel-exploration.md` |
 
 ## Next
