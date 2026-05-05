@@ -9,7 +9,7 @@
 | Prepare first growth sprint | Market signal is still weak | Two channel-specific posts or replies are staged to final action gate | Growth | First X reply wave and second-wave micro-sprint sent; further public actions remain gated |
 | Improve link sharing | First outreach links need useful previews | Open Graph and Twitter card metadata ship with the public URL | Growth + Engineering | Complete and deployed |
 | Improve feedback capture | Live users need an obvious next action after inspecting a packet | Feedback issue is linked from the app and exported Markdown | Growth + Engineering | Complete and deployed |
-| Add stability-first pass | Jesse's feedback says hands-on builders start with stability and basic features before promoting improvements | Generated packet includes a stability-first pass before the QA checklist | Product + Engineering | Complete locally; deploy after push |
+| Add stability-first pass | Jesse's feedback says hands-on builders start with stability and basic features before promoting improvements | Generated packet includes a stability-first pass before the QA checklist | Product + Engineering | Complete and deployed |
 | Explore first external channels | First reviews need the right channel/account, not more product scope | Channel fit, account needs, and channel-specific draft inputs are documented | Growth + Product | Complete in `docs/channel-exploration.md` |
 
 ## Next
