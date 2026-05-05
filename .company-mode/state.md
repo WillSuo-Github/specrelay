@@ -8,24 +8,24 @@
 
 ## Now
 
-- In progress: Jesse follow-up remains staged/action-time gated; a stability-first evaluator pack is ready for the next approved outreach path
+- In progress: Jesse stability-first URL follow-up sent; waiting for Jesse response, other active X responses, or GitHub issue reviewers
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no strong intent signal or completed packet review yet; replying to Jesse with the updated product URL remains action-time gated
+- Biggest blocker: no strong intent signal or completed packet review yet; further public outreach remains action-time gated
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: after user approval for the staged Jesse follow-up, another active X target responds, GitHub issue #1 gets a comment, or the next 12-hour heartbeat
+- Next decision deadline: after Jesse responds to the stability-first URL follow-up, another active X target responds, GitHub issue #1 gets a comment, or the next 12-hour heartbeat
 
 ## Next Recommended Actions
 
 - Product/CEO: sharpen positioning around stability-first handoff when someone else must review or improve the AI-built app
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: stage a concise Jesse follow-up with the updated URL, but do not send it without action-time approval
+- Growth: Jesse follow-up is sent; wait for response before another public X touch
 - Support/Research + Growth: use `docs/stability-first-evaluator-pack.md` as the next non-public source of truth for contractor/agency/domain-builder screening
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
 
-- Exact live action currently gated: reply to `@jessecolesmith` with the staged stability-first update and SpecRelay URL, or publish any further social/community post, DM, or direct outreach message outside the owned GitHub repository.
+- Exact live action currently gated: publish any further social/community post, DM, follow-up URL reply, or direct outreach message outside the owned GitHub repository.
 - Account gap to resolve: X account is available and first-wave public replies were sent; future public replies/DMs need action-time approval. Current Hacker News account is not sufficient for submission; Product Hunt also needs launch images before a real launch.
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -55,9 +55,9 @@
 
 - Date: `2026-05-06`
 - Current stage: public MVP live. The product remains a focused one-product company instance in demand validation.
-- Evidence quality: still two useful X responses, no GitHub issue comments, no completed packet review, and no strong intent signal. No new useful X response appeared during this heartbeat.
-- Current-run work completed: refreshed company kernel, checked GitHub issue #1, live URL, and X notifications; confirmed the Jesse follow-up is still gated; prepared `docs/stability-first-evaluator-pack.md` as a non-public growth/research asset with segment screening, interview questions, public follow-up drafts, and strong/weak signal criteria.
-- Instance-only improvements executed: stability-first outreach asset plus feedback/experiments/roadmap/release/state updates and heartbeat prompt alignment.
+- Evidence quality: still two useful X responses, no GitHub issue comments, no completed packet review, and no strong intent signal. The Jesse URL follow-up is outbound ask, not validation yet.
+- Current-run work completed: user confirmed the Jesse follow-up; verified X composer target and content, blocked two unrelated draft states from being posted, then sent the stability-first URL reply. Reply URL: https://x.com/thefuckkingguy/status/2051718910630879706
+- Instance-only improvements executed: feedback/experiments/metrics/roadmap/release/state updates and heartbeat prompt alignment.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: the Jesse public follow-up with URL, further public/community actions, DMs, paid channel work, account changes, and credential work remain action-time gated.
-- Stop-check: internal non-public growth prep is complete; the company is waiting on user confirmation or outside feedback. Keep heartbeat active for a 12-hour follow-up check.
+- Hard-gated improvements: further public/community actions, DMs, paid channel work, account changes, and credential work remain action-time gated.
+- Stop-check: the approved public follow-up is sent; the company is waiting on outside feedback. Keep heartbeat active for a 12-hour follow-up check.

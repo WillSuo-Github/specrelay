@@ -1,6 +1,6 @@
 # Metrics
 
-Last updated: 2026-05-05
+Last updated: 2026-05-06
 
 ## North-Star Metric
 
@@ -31,7 +31,7 @@ Last updated: 2026-05-05
 - No production analytics yet.
 - Feedback capture is manual for MVP: exported packets include review questions, but there is no hosted feedback form yet.
 - Public URL is live: https://willsuo-github.github.io/specrelay/
-- Outreach tracking is manual: ten total X public replies are logged in `docs/x-target-discovery.md` (six first-wave no-link replies, one no-link Frank follow-up, one URL follow-up to Lech, and two no-link second-wave replies).
+- Outreach tracking is manual: eleven total X public replies are logged in `docs/x-target-discovery.md` (six first-wave no-link replies, one no-link Frank follow-up, one URL follow-up to Lech, two no-link second-wave replies, and one stability-first URL follow-up to Jesse).
 
 ## Interpretation
 

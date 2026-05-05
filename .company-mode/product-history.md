@@ -43,6 +43,7 @@
 - After user confirmation, sent a small X micro-sprint: one URL follow-up to engaged reviewer `@LechMazur` and two no-link questions to second-wave builder targets `@jessecolesmith` and `@HitenDharpure`.
 - Recorded the second direct X response: `@jessecolesmith` said he starts by playing with the app, promotes improvements from observed issues, and always starts with stability/basic features.
 - Added a stability-first pass to the generated report and exported Markdown so the packet maps better to hands-on builder workflow.
+- After user confirmation, sent the stability-first URL follow-up to `@jessecolesmith` asking whether the updated pass matches contractor handoff behavior.
 
 ## Candidate Bets
 

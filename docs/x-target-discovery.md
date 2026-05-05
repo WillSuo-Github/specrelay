@@ -227,7 +227,16 @@ That helps. I added a stability-first pass: freeze basic flows, promote fixes fr
 
 Gate:
 
-- Do not send without user confirmation and final X composer verification.
+- User confirmed on 2026-05-06; send result recorded below.
+
+2026-05-06 send result:
+
+- User confirmed the staged Jesse follow-up.
+- X initially surfaced unrelated existing compose drafts in other windows; those failed safety verification and were not posted.
+- A fresh reply window was opened, and the composer was verified against target context `Replying to @jessecolesmith and @iamcamengland`, the stability-first text, and the SpecRelay URL.
+- Sent successfully.
+- Reply URL: https://x.com/thefuckkingguy/status/2051718910630879706
+- No like, follow, repost, standalone post, or DM was sent.
 
 If one of these replies gets a useful response, follow up with:
 
