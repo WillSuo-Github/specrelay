@@ -196,6 +196,39 @@ Execution notes:
 | 2 | `@jessecolesmith` | https://x.com/jessecolesmith/status/2050779192967549406 | Sent, no link | https://x.com/thefuckkingguy/status/2051204162902532143 |
 | 3 | `@HitenDharpure` | https://x.com/HitenDharpure/status/2050664002712457343 | Sent, no link | https://x.com/thefuckkingguy/status/2051204299905233251 |
 
+## Active-Target Readout
+
+Date: 2026-05-05
+
+Checked surfaces:
+
+- X `Mentions` and `All` notifications in the logged-in Chrome session.
+- GitHub feedback issue #1 via `gh issue view`.
+- Live URL via `curl -I`.
+
+Observed signal:
+
+- `@jessecolesmith` replied to the second-wave no-link public question: "Honestly, just have to play with it. Improvements get promoted into existence so I take the issues as they come. Always start with stability. Basic features and build on top of that."
+- Reply URL: https://x.com/jessecolesmith/status/2051242221127585999
+- Interpretation: useful process feedback, not a strong intent signal. For hands-on domain builders, SpecRelay must feel like a stability-first next-pass tool rather than an abstract spec form.
+- `@FSfakiotakis` liked the shortened no-link follow-up. Treat as weak interest only, not validation.
+- No GitHub issue comments were present.
+- Live URL returned HTTP 200.
+
+Product response:
+
+- Added a stability-first pass to the generated report and exported Markdown.
+
+Staged public follow-up candidate for `@jessecolesmith`:
+
+```text
+That helps. I added a stability-first pass: freeze basic flows, promote fixes from observed issues, then QA the affected workflow. If you're open to one more look, does this match how you'd hand work to a contractor? https://willsuo-github.github.io/specrelay/
+```
+
+Gate:
+
+- Do not send without user confirmation and final X composer verification.
+
 If one of these replies gets a useful response, follow up with:
 
 ```text

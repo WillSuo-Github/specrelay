@@ -1,6 +1,6 @@
 # Feedback Log
 
-One direct qualitative response so far. No completed packet review yet.
+Two direct qualitative responses so far. No completed packet review yet.
 
 ## Public Feedback Surface
 
@@ -10,6 +10,7 @@ One direct qualitative response so far. No completed packet review yet.
 - 2026-05-03: six no-link public X replies were sent to first-wave evaluator targets. No replies or direct feedback were observed immediately after sending.
 - 2026-05-04 heartbeat check: no comments on the feedback issue yet.
 - 2026-05-04 user-confirmed X micro-sprint: one URL follow-up was sent to engaged reviewer `@LechMazur`; no-link questions were sent to second-wave targets `@jessecolesmith` and `@HitenDharpure`. No new feedback was observed before sending.
+- 2026-05-05 heartbeat check: GitHub issue #1 still had no comments; X notifications showed one `@jessecolesmith` reply and one `@FSfakiotakis` like on the no-link follow-up.
 
 ## Direct Feedback
 
@@ -35,12 +36,38 @@ Suggested next action:
 
 - Public follow-up is staged in `docs/x-target-discovery.md`, but it remains action-time gated.
 
+### 2026-05-05 - Jesse Smith / `@jessecolesmith`
+
+Source: X reply to second-wave no-link public question.
+
+Segment: tradesman/domain expert building a custom AI/vibe-coded workflow around Jobber and email.
+
+Exact language:
+
+```text
+Honestly, just have to play with it.
+Improvements get promoted into existence so I take the issues as they come.
+Always start with stability. Basic features and build on top of that.
+```
+
+Interpretation:
+
+- This is useful process feedback, not a strong intent signal.
+- For hands-on domain builders, an upfront handoff packet may feel too abstract unless it maps to "play with it, stabilize basics, promote observed issues."
+- The packet should emphasize the next stability pass before a broader QA or feature roadmap.
+
+Suggested next action:
+
+- Product updated to include a stability-first pass.
+- Public follow-up with the updated URL is staged in `docs/x-target-discovery.md`, but it remains action-time gated.
+
 ## Research-Derived Pain Themes
 
 - AI-assisted coding adoption is high, while trust and debugging burden remain weak points.
 - AI-generated code can pass functional checks while failing security expectations.
 - AI-builder users need a bridge artifact between prototype output and contractor/customer review.
 - The first direct founder response suggests the pain is conditional: simple apps maintained by the founder alone may not need handoff until external review or maintenance appears.
+- The first domain-builder response suggests the handoff packet must align with stability-first iteration, not just abstract requirements capture.
 
 ## Open Questions
 
@@ -48,3 +75,4 @@ Suggested next action:
 - Is the buyer the founder, contractor, agency, or AI-builder marketplace?
 - Which output matters most: QA checklist, risk register, developer brief, or launch score?
 - Does a technical reviewer who already agrees with UI/QA review loops find the manual packet concrete enough to inspect?
+- Does the new stability-first pass make the packet feel closer to how hands-on builders actually improve AI-built tools?

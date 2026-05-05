@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 12-hour wake while waiting for responses from active X targets (`@FSfakiotakis`, `@LechMazur`, `@jessecolesmith`, `@HitenDharpure`), GitHub issue comments, another usable channel/account, direct outreach path, or external feedback
-- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, and two no-link second-wave replies are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; one useful but weak X response is logged, and no strong intent signal exists yet
+- Current cadence: 12-hour wake while waiting for user approval on the staged Jesse follow-up, more responses from active X targets (`@FSfakiotakis`, `@LechMazur`, `@jessecolesmith`, `@HitenDharpure`), GitHub issue comments, another usable channel/account, direct outreach path, or external feedback
+- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, and two no-link second-wave replies are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged, the product now includes a stability-first pass from Jesse's feedback, and no strong intent signal exists yet
 
 ## Policy
 

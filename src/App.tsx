@@ -207,6 +207,23 @@ function generateQaChecklist(form: FormState): string[] {
   return [...base, ...conditional];
 }
 
+function generateStabilityPass(form: FormState): string[] {
+  const workflows = splitLines(form.workflows);
+  const issues = splitLines(form.knownIssues);
+  const basicFlows = workflows.slice(0, 3);
+  const blockers = issues.slice(0, 3);
+
+  return [
+    basicFlows.length
+      ? `Freeze the basic feature set around these flows before adding new scope: ${basicFlows.join("; ")}.`
+      : "Name the smallest set of basic flows that must stay stable before adding new scope.",
+    blockers.length
+      ? `Promote fixes from observed issues first: ${blockers.join("; ")}.`
+      : "Run one smoke pass and record the first real issue before planning feature improvements.",
+    "Keep the next pass stability-first: reproduce the issue, fix the basic path, rerun the affected workflow, then promote the improvement.",
+  ];
+}
+
 function generateBrief(form: FormState): string[] {
   const workflows = splitLines(form.workflows);
   const issues = splitLines(form.knownIssues);
@@ -229,6 +246,7 @@ function generateBrief(form: FormState): string[] {
 function generateReviewQuestions(form: FormState): string[] {
   return [
     `Would you use this ${form.handoffAudience.toLowerCase()} packet before the next ${form.launchWindow.toLowerCase()} review? Why or why not?`,
+    "Does the stability-first pass match how you would decide the next engineering improvement?",
     "Which risk or QA item would most likely block a real launch or handoff call?",
     "What information would an engineer, agency, or customer still need before trusting this prototype?",
   ];
@@ -238,6 +256,7 @@ function buildMarkdown(
   form: FormState,
   scores: Score[],
   risks: string[],
+  stabilityPass: string[],
   checklist: string[],
   brief: string[],
   reviewQuestions: string[],
@@ -250,6 +269,9 @@ function buildMarkdown(
     "",
     "## Priority Risks",
     ...risks.map((risk) => `- ${risk}`),
+    "",
+    "## Stability-First Pass",
+    ...stabilityPass.map((item) => `- ${item}`),
     "",
     "## QA Checklist",
     ...checklist.map((item) => `- [ ] ${item}`),
@@ -291,12 +313,13 @@ export default function App() {
 
   const scores = useMemo(() => scoreReadiness(form), [form]);
   const risks = useMemo(() => generateRisks(form), [form]);
+  const stabilityPass = useMemo(() => generateStabilityPass(form), [form]);
   const checklist = useMemo(() => generateQaChecklist(form), [form]);
   const brief = useMemo(() => generateBrief(form), [form]);
   const reviewQuestions = useMemo(() => generateReviewQuestions(form), [form]);
   const markdown = useMemo(
-    () => buildMarkdown(form, scores, risks, checklist, brief, reviewQuestions),
-    [form, scores, risks, checklist, brief, reviewQuestions],
+    () => buildMarkdown(form, scores, risks, stabilityPass, checklist, brief, reviewQuestions),
+    [form, scores, risks, stabilityPass, checklist, brief, reviewQuestions],
   );
   const overall = Math.round(scores.reduce((sum, score) => sum + score.value, 0) / scores.length);
 
@@ -490,6 +513,14 @@ export default function App() {
                     <li key={risk}>{risk}</li>
                   ))}
                 </ul>
+                <div className="review-block">
+                  <h3>Stability-First Pass</h3>
+                  <ul>
+                    {stabilityPass.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
                 <div className="review-block">
                   <h3>Review Questions</h3>
                   <ul>

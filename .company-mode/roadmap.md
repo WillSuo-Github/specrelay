@@ -9,6 +9,7 @@
 | Prepare first growth sprint | Market signal is still weak | Two channel-specific posts or replies are staged to final action gate | Growth | First X reply wave and second-wave micro-sprint sent; further public actions remain gated |
 | Improve link sharing | First outreach links need useful previews | Open Graph and Twitter card metadata ship with the public URL | Growth + Engineering | Complete and deployed |
 | Improve feedback capture | Live users need an obvious next action after inspecting a packet | Feedback issue is linked from the app and exported Markdown | Growth + Engineering | Complete and deployed |
+| Add stability-first pass | Jesse's feedback says hands-on builders start with stability and basic features before promoting improvements | Generated packet includes a stability-first pass before the QA checklist | Product + Engineering | Complete locally; deploy after push |
 | Explore first external channels | First reviews need the right channel/account, not more product scope | Channel fit, account needs, and channel-specific draft inputs are documented | Growth + Product | Complete in `docs/channel-exploration.md` |
 
 ## Next
@@ -16,7 +17,7 @@
 | Bet | Why next | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
 | Add feedback capture | Need qualitative learning without backend complexity | Packet includes review prompts that can be used in manual outreach without backend credentials | Growth + Release/Ops | Complete for MVP |
-| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 1 useful X response, 0 strong intent signals; active X targets are waiting for response |
+| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Jesse follow-up is staged but gated |
 | Prepare Product Hunt assets | Product Hunt needs stronger launch packaging than the current owned MVP assets | 240x240 thumbnail, 2 gallery images, and first comment draft are ready | Design + Growth | Later, after first evaluator signal |
 
 ## Later

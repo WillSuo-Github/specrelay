@@ -8,7 +8,7 @@ Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 
 X target discovery: `docs/x-target-discovery.md`
 
-Current outreach status: six no-link first-wave X public replies were sent on 2026-05-03; one useful response received from `@FSfakiotakis`, one weak like from `@LechMazur`, one URL follow-up to `@LechMazur`, and two no-link second-wave X replies to `@jessecolesmith` and `@HitenDharpure`.
+Current outreach status: six no-link first-wave X public replies were sent on 2026-05-03; useful responses received from `@FSfakiotakis` and `@jessecolesmith`; weak likes from `@LechMazur` and `@FSfakiotakis`; one URL follow-up to `@LechMazur`; and two no-link second-wave X replies to `@jessecolesmith` and `@HitenDharpure`.
 
 ## Objective
 
@@ -60,9 +60,9 @@ https://willsuo-github.github.io/specrelay/
 
 | Reviewer | Segment | Tried sample or own app? | Strong signal? | Exact language | Follow-up |
 | --- | --- | --- | --- | --- | --- |
-| `@FSfakiotakis` | Founder/operator using Lovable in B2B | Own app context offered, not yet inspected | No | "I did not hand it over. My use case is so simple that I can manage and maintain + update by myself." | No-link follow-up sent; wait for demo/read-only access response |
+| `@FSfakiotakis` | Founder/operator using Lovable in B2B | Own app context offered, not yet inspected | No | "I did not hand it over. My use case is so simple that I can manage and maintain + update by myself." | No-link follow-up sent and liked; wait for demo/read-only access response |
 | `@LechMazur` | Technical reviewer/advisor | Not yet | No | Liked the first handoff-packet question | URL follow-up sent; wait for packet critique |
-| `@jessecolesmith` | Domain expert building custom AI workflow | Not yet | No | No response yet | No-link second-wave question sent |
+| `@jessecolesmith` | Domain expert building custom AI workflow | Not yet | No | "Always start with stability. Basic features and build on top of that." | Product updated with stability-first pass; URL follow-up staged but gated |
 | `@HitenDharpure` | AI web app builder using Firebase | Not yet | No | No response yet | No-link second-wave question sent |
 
 ## Guardrails
