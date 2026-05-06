@@ -11,6 +11,7 @@
 | Improve feedback capture | Live users need an obvious next action after inspecting a packet | Feedback issue is linked from the app and exported Markdown | Growth + Engineering | Complete and deployed |
 | Add stability-first pass | Jesse's feedback says hands-on builders start with stability and basic features before promoting improvements | Generated packet includes a stability-first pass before the QA checklist | Product + Engineering | Complete and deployed |
 | Prepare stability-first evaluator pack | Jesse's feedback needs a sharper next outreach asset before more public touches | Contractor/agency/domain-builder screening questions, follow-ups, and signal criteria are documented | Growth + Support/Research | Complete in `docs/stability-first-evaluator-pack.md` |
+| Prepare stability-first target discovery | The next validation path needs higher-fit evaluators than generic founder replies | Rescue-service, agency, and community target list is documented with ask bank and gates | Growth + Support/Research | Complete in `docs/stability-first-target-discovery.md` |
 | Explore first external channels | First reviews need the right channel/account, not more product scope | Channel fit, account needs, and channel-specific draft inputs are documented | Growth + Product | Complete in `docs/channel-exploration.md` |
 
 ## Next
@@ -18,7 +19,7 @@
 | Bet | Why next | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
 | Add feedback capture | Need qualitative learning without backend complexity | Packet includes review prompts that can be used in manual outreach without backend credentials | Growth + Release/Ops | Complete for MVP |
-| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Jesse stability-first URL follow-up sent |
+| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Jesse stability-first URL follow-up sent; contractor/agency target discovery ready |
 | Prepare Product Hunt assets | Product Hunt needs stronger launch packaging than the current owned MVP assets | 240x240 thumbnail, 2 gallery images, and first comment draft are ready | Design + Growth | Later, after first evaluator signal |
 
 ## Later

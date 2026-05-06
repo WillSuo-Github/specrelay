@@ -4,14 +4,14 @@
 
 | Date | Hypothesis | Change | Metric | Result | Next step |
 | --- | --- | --- | --- | --- | --- |
-| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, stability-first pass, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP plus owned GitHub release and feedback issue are public; two useful X responses are logged; no completed packet review or strong intent yet | Get approval to send the staged Jesse follow-up, then monitor active targets |
+| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, stability-first pass, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP plus owned GitHub release and feedback issue are public; two useful X responses are logged; Jesse stability-first URL follow-up is sent; no completed packet review or strong intent yet | Monitor active targets; if approved, test the contractor/agency wedge using `docs/stability-first-target-discovery.md` |
 
 ## Candidate Growth Actions
 
 | Channel | Candidate action | Gate |
 | --- | --- | --- |
 | Direct founder/contractor/agency outreach | Send 10 targeted evaluator messages using the staged drafts | Requires a real LinkedIn/X/email/intro path and final message verification |
-| Stability-first evaluator outreach | Use `docs/stability-first-evaluator-pack.md` to screen contractors, agencies, hands-on domain builders, and technical reviewers | Non-public asset is ready; any public post, reply, DM, or direct outreach remains action-time gated |
+| Stability-first evaluator outreach | Use `docs/stability-first-evaluator-pack.md` and `docs/stability-first-target-discovery.md` to screen contractors, agencies, hands-on domain builders, and technical reviewers | Non-public assets are ready; any public post, reply, DM, or direct outreach remains action-time gated |
 | Hacker News Show HN | Post the prepared Show HN if a suitable account exists | Attempted after approval; blocked by HN `fnop=toonew`; retry only with older/trusted account |
 | X targeted replies/DMs | Monitor active replies and prepare follow-ups only for engaged targets | Jesse stability-first URL follow-up sent after user confirmation; further public touches require fresh action-time confirmation |
 | Indie Hackers / LinkedIn | Post a visual-first build-in-public note with the generated SpecRelay asset and a concrete ask for AI-builder founders | Public post is action-time gated; draft staged in `docs/growth-sprint.md`; account required |
@@ -33,5 +33,6 @@
 - 2026-05-05: `@jessecolesmith` replied that he starts by playing with the app, promotes improvements from observed issues, and always starts with stability/basic features. Frank also liked the no-link follow-up. Product added a stability-first pass to the generated packet and staged a Jesse follow-up, but did not send it.
 - 2026-05-06: No new GitHub issue comments or useful X responses. Prepared `docs/stability-first-evaluator-pack.md` as a non-public growth/research asset for the next approved outreach path.
 - 2026-05-06: User confirmed the staged Jesse follow-up; X composer target/content was verified and the stability-first URL reply was sent.
-- Current safest next public action after deployment: wait for Jesse or another active target to respond; do not send additional URLs, DMs, or second-wave touches without fresh action-time approval.
+- 2026-05-06: Follow-up heartbeat found no new GitHub issue comments or useful X response after the Jesse URL follow-up. Prepared `docs/stability-first-target-discovery.md` from AI-app rescue agencies, handoff/rescue services, and relevant Reddit discussion surfaces; no public action was taken.
+- Current safest next public action after deployment: wait for Jesse or another active target to respond, or get approval for one contractor/agency validation ask from `docs/stability-first-target-discovery.md`; do not send additional URLs, DMs, or second-wave touches without fresh action-time approval.
 - Reddit remains reply-first and no-link by default unless the live rules and thread context explicitly allow a URL.
