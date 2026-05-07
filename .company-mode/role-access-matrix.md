@@ -1,8 +1,8 @@
 # Role Access Matrix
 
-Last updated: `2026-05-04`
+Last updated: `2026-05-07`
 Scope: one-product company instance
-Current company stage: public MVP live, X first wave and second-wave micro-sprint sent
+Current company stage: public MVP live, X first wave, second-wave micro-sprint, and Jesse stability-first URL follow-up sent
 
 ## Reading this matrix
 
@@ -43,7 +43,7 @@ Current company stage: public MVP live, X first wave and second-wave micro-sprin
 - Current responsibilities: run cheap demand research, triage feedback, watch competitors, and synthesize repeated pain points
 - Verified access: public GitHub feedback issue and local feedback log
 - Status: Partial
-- Main blockers: only one weak qualitative response so far; no packet review yet
+- Main blockers: two useful but weak qualitative X responses so far; no packet review or strong intent signal yet
 
 ## Release/Ops
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, X first wave and second-wave micro-sprin
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable; X outreach has produced one useful segmentation signal and one product-link ask, but market evidence is still weak until someone reviews or tries a packet.
-- Highest-leverage next upgrades: monitor active X targets for concrete handoff requirements, demo/read-only access, or product trial feedback; avoid more outreach until a response or fresh approval creates a sharper next action.
+- Current interpretation: SpecRelay is technically shippable; X outreach has produced a founder-maintained-app segmentation signal and a stability-first workflow signal, but market evidence is still weak until someone reviews or tries a packet.
+- Highest-leverage next upgrades: monitor active X targets for concrete handoff requirements, demo/read-only access, or product trial feedback; with approval, test the contractor/agency wedge using the staged Afterbuild Labs message.

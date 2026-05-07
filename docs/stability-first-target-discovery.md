@@ -23,6 +23,8 @@ The next outreach should test whether a stability-first packet would reduce inta
 - [Bytewise](https://bytewise.agency/) describes production engineering for AI-generated apps, including rescuing prototypes built in Lovable, Bolt, Cursor, v0, Replit Agent, Bubble, and Base44.
 - [Makeitfuture](https://www.makeitfuture.com/ai-solutions/vibe-coding) offers vibe-code cleanup, AI code review, production readiness, and rescue for apps built with Lovable, Bolt, Claude Code, and Cursor.
 - [Pimp Your Code](https://pimpyourcode.com/) explicitly markets launch QA, handoff, audits, rescue, refactor, and production-ready prep for Lovable/Bolt/Cursor/Replit/v0 projects.
+- [AC Tech Labs](https://www.aclabs.io/) offers Bolt/Lovable rescue and MVP hardening, including a readiness score surface and productized rescue/hardening sprints.
+- [AppHandoff](https://apphandoff.com/) is an adjacent benchmark/competitor: an MCP-powered Lovable-to-production bridge with repo scanning, mismatch detection, Kanban, bot PRs, and SaaS pricing.
 - [Reddit r/webdev handoff thread](https://www.reddit.com/r/webdev/comments/1rgt074/the_handoff_between_no_code_builders_and/) contains strong language that AI/no-code handoff breaks when there is no record of what was built, assumed, or left out, and that the last 10% can become most of the engineering work.
 - [Reddit r/nocode AI builder thread](https://www.reddit.com/r/nocode/comments/1rw8r7s/i_burned_700_and_3_months_testing_11_ai_app/) includes comments about non-developers hitting a wall when custom backend flow is needed and asks which builder can hand off to a developer without getting stuck.
 - [Reddit r/fintech developer thread](https://www.reddit.com/r/fintech/comments/1n0iqq4/fintech_developers_view_on_lovable_replit_and_bolt/) includes agency/consultancy language around cleanup specialists, compliance gaps, integration failures, and security reviews for AI-generated MVPs.
@@ -36,8 +38,10 @@ The next outreach should test whether a stability-first packet would reduce inta
 | 3 | Bytewise | Production engineering / AI app hardening | Explicitly rescues AI-generated prototypes and sells code audits | Ask whether the packet is useful before a free audit or only after repo access | Direct outreach requires confirmation |
 | 4 | Makeitfuture | Vibe coding agency / cleanup and rescue | Offers cleanup, rescue, code review, and production readiness | Ask which packet fields matter before a discovery session | Direct outreach requires confirmation |
 | 5 | Pimp Your Code | AI app rescue / launch QA and handoff | Already names launch QA and handoff as part of its offer | Ask whether stability-first packet could become an intake requirement | Direct outreach requires confirmation |
-| 6 | Reddit r/webdev thread participants | Contractor/developer pain surface | Thread language directly matches no-code/AI handoff gap | Reply with no-link stability-first checklist only if rules/context allow | Public reply requires live rules/composer verification |
-| 7 | Reddit r/fintech thread participants | Regulated-app cleanup specialists | Fintech comments emphasize compliance, security, PII, and integration failures | Ask whether risk/stability packet helps before fintech AI cleanup | Public reply requires live rules/composer verification |
+| 6 | AC Tech Labs | Bolt/Lovable hardening service | Their readiness score overlaps the pre-handoff assessment surface | Ask whether a narrative packet complements or loses to a readiness score | Direct outreach requires confirmation |
+| 7 | AppHandoff | Adjacent SaaS benchmark / possible future competitor | Validates the handoff category with a repo-connected MCP workflow and pricing | Do not contact first; use as positioning benchmark against automated handoff | Research only |
+| 8 | Reddit r/webdev thread participants | Contractor/developer pain surface | Thread language directly matches no-code/AI handoff gap | Reply with no-link stability-first checklist only if rules/context allow | Public reply requires live rules/composer verification |
+| 9 | Reddit r/fintech thread participants | Regulated-app cleanup specialists | Fintech comments emphasize compliance, security, PII, and integration failures | Ask whether risk/stability packet helps before fintech AI cleanup | Public reply requires live rules/composer verification |
 
 ## Target-Specific Ask Bank
 
@@ -84,7 +88,7 @@ The most useful handoff artifact I have seen is not a giant spec. It is a stabil
 If the user confirms another public/direct action, the best next move is one of:
 
 1. Send the Jesse follow-up readout only if he responds.
-2. Contact one rescue-service target with the contractor/rescue-service ask.
+2. Contact one rescue-service target with the contractor/rescue-service ask, preferably the staged Afterbuild Labs message in `docs/contractor-agency-validation-sprint.md`.
 3. Rule-check the r/webdev handoff thread and stage a no-link stability-first reply if live rules/context allow it.
 
 No action should be sent from this document without final target, account, channel, and composer verification.

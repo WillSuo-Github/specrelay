@@ -358,6 +358,7 @@ export default function App() {
         <div>
           <p className="eyebrow">SpecRelay</p>
           <h1>Turn an AI-built prototype into a handoff packet.</h1>
+          <p className="topline">No login, no repo access. Capture stability, risk, QA, and engineering context before a scoping call.</p>
         </div>
         <button className="icon-button" type="button" onClick={() => loadSample(defaultForm)} aria-label="Reset sample">
           <RefreshCw size={18} />
