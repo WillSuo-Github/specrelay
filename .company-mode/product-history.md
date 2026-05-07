@@ -50,7 +50,7 @@
 - Confirmed no new GitHub feedback issue comments and no new useful X response after the Jesse stability-first URL follow-up.
 - Re-scanned the contractor/agency validation surface and found additional AI-app rescue/hardening signals plus AppHandoff as a direct adjacent SaaS benchmark for repo-connected handoff automation.
 - Prepared `docs/contractor-agency-validation-sprint.md`, staging the next approved outreach path around Afterbuild Labs first, with Bytewise and AC Tech Labs as backup validation targets.
-- Updated the live-app copy and metadata to emphasize SpecRelay's no-login, no-repo-access pre-scope positioning.
+- Updated and deployed the live-app copy and metadata to emphasize SpecRelay's no-login, no-repo-access pre-scope positioning.
 
 ## Candidate Bets
 
