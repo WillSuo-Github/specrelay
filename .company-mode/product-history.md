@@ -52,6 +52,12 @@
 - Prepared `docs/contractor-agency-validation-sprint.md`, staging the next approved outreach path around Afterbuild Labs first, with Bytewise and AC Tech Labs as backup validation targets.
 - Updated and deployed the live-app copy and metadata to emphasize SpecRelay's no-login, no-repo-access pre-scope positioning.
 
+## 2026-05-11
+
+- Confirmed GitHub issue #1 still had no comments and the live site still returned HTTP 200.
+- Re-checked X notifications and found no useful new response after the Jesse stability-first URL follow-up.
+- Prepared `docs/afterbuild-send-runbook.md` so the next live approval gate is one exact Afterbuild email route with a send checklist and fallback.
+
 ## Candidate Bets
 
 | Candidate | Status | User problem | Key evidence | Next decision |

@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 12-hour wake while waiting for Jesse's response to the stability-first URL follow-up, more responses from active X targets (`@FSfakiotakis`, `@LechMazur`, `@jessecolesmith`, `@HitenDharpure`), GitHub issue comments, another usable channel/account, direct outreach path, user approval for the staged Afterbuild Labs validation message, or external feedback
-- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, two no-link second-wave replies, and the Jesse stability-first URL follow-up are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged, the product includes a stability-first pass from Jesse's feedback, `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, and `docs/contractor-agency-validation-sprint.md` are ready for the next approved outreach path, and no strong intent signal exists yet
+- Current cadence: 24-hour wake while waiting for Jesse's response to the stability-first URL follow-up, more responses from active X targets (`@FSfakiotakis`, `@LechMazur`, `@jessecolesmith`, `@HitenDharpure`), GitHub issue comments, another usable channel/account, direct outreach path, user approval for the staged Afterbuild Labs email, or external feedback
+- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, two no-link second-wave replies, and the Jesse stability-first URL follow-up are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged, the product includes a stability-first pass from Jesse's feedback, `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, and `docs/afterbuild-send-runbook.md` are ready for the next approved outreach path, and no strong intent signal exists yet
 
 ## Policy
 
@@ -17,8 +17,8 @@ This file is the recoverable automation spec for this one-product company instan
 - If `.company-mode/kernel.md` points to a shared kernel repository, sync that kernel before operating when its worktree is clean and a remote is configured.
 - If the installed `company-mode` skill has `scripts/sync_company_kernel.py`, attempt to refresh the installed kernel from `custom-agent-skills` before every company-mode startup. If refresh succeeds, immediately read the updated installed `SKILL.md` path printed by the helper and use it as current-turn operating context. If refresh fails, continue with the installed copy and log the gap. Runtime metadata may still require the next trigger or a Codex restart, but operating instructions can be refreshed in-turn by reading the updated file.
 - Once the user explicitly starts company operation, leave a self-wake heartbeat armed after every active run.
-- Use a 10-minute next wake for non-external-wait states.
-- Use a 12-hour next wake when the company is genuinely waiting on external product, market, user, review, or approval feedback.
+- Use a 12-hour next wake for normal ongoing operation when there is meaningful internal work to stage.
+- Use a 24-hour next wake when the company is genuinely waiting on external product, market, user, review, or approval feedback.
 - During an active run, do not stop merely because a subtask finished, a draft was produced, a summary was written, or several plausible internal tasks exist.
 - Before the final stop-check, produce a CEO status report and run `ops/ceo-after-action-review.md`.
 - Product/CEO may execute non-hard-gated improvements without asking user approval. Reusable improvements should update the shared kernel or starter kit.
@@ -39,5 +39,5 @@ Before the final stop-check, produce a CEO status report and run the Product/CEO
 
 Respect hard gates on paid spend, irreversible data changes, legal commitments, domain or credential changes, API key creation/download, non-delegated public actions, and release/account changes under the wrong provider.
 
-Before ending, choose the next wake outcome and keep the heartbeat armed: 10 minutes for internal work or short waits, 12 hours for genuine external waits. If repo-backed company materials changed, stage, commit, and push them when push access is available.
+Before ending, choose the next wake outcome and keep the heartbeat armed: 10 minutes only for short verification loops, 12 hours for normal ongoing operation, and 24 hours for genuine external waits. If repo-backed company materials changed, stage, commit, and push them when push access is available.
 ```

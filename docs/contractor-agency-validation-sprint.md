@@ -4,6 +4,8 @@ Date: 2026-05-07
 
 Status: non-public staged growth asset. Do not send email, submit contact forms, post replies, like, follow, DM, book calls, or start paid audits without action-time confirmation.
 
+Route-verified send runbook: `docs/afterbuild-send-runbook.md`
+
 ## Objective
 
 Validate whether the sharper SpecRelay wedge is useful to people who already inherit, audit, rescue, or harden AI-built apps.

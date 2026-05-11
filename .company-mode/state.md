@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-07`
+- Last updated: `2026-05-11`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators through the highest-signal available channel
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -8,19 +8,19 @@
 
 ## Now
 
-- In progress: Jesse stability-first URL follow-up sent; no new response yet. Contractor/agency validation sprint is staged for the next approved outreach path.
+- In progress: Jesse stability-first URL follow-up sent; no new response yet. Afterbuild email runbook is staged for the next approved outreach path.
 - Public URL: https://willsuo-github.github.io/specrelay/
 - Biggest blocker: no strong intent signal or completed packet review yet; further public outreach remains action-time gated
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: after Jesse responds to the stability-first URL follow-up, another active X target responds, GitHub issue #1 gets a comment, user approves the staged contractor/agency outreach, or the next 12-hour heartbeat
+- Next decision deadline: after Jesse responds to the stability-first URL follow-up, another active X target responds, GitHub issue #1 gets a comment, user approves the staged Afterbuild email, or the next 24-hour heartbeat
 
 ## Next Recommended Actions
 
 - Product/CEO: sharpen positioning around stability-first handoff when someone else must review or improve the AI-built app
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Jesse or another active target before another public X touch; if the user confirms a new action, send the staged Afterbuild Labs validation message from `docs/contractor-agency-validation-sprint.md` after final route/account/composer verification
-- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, and `docs/contractor-agency-validation-sprint.md` as the next non-public source of truth for contractor/agency/domain-builder screening
+- Growth: wait for Jesse or another active target before another public X touch; if the user confirms a new action, send the staged Afterbuild Labs email from `docs/afterbuild-send-runbook.md` after final route/account/composer verification
+- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, and `docs/afterbuild-send-runbook.md` as the next non-public source of truth for contractor/agency/domain-builder screening
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
@@ -64,11 +64,11 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-07`
+- Date: `2026-05-11`
 - Current stage: public MVP live. The company remains in demand validation with a sharper stability-first contractor/agency wedge.
-- Evidence quality: external product signal is unchanged, but market/category evidence improved. GitHub issue #1 still has no comments; X notifications show no new useful responses after the Jesse URL follow-up; the live URL returned HTTP 200. New scan found a direct adjacent benchmark in AppHandoff and additional AI-app rescue/hardening surfaces, which supports the category but raises urgency to validate SpecRelay's low-friction pre-scope differentiation.
-- Current-run work completed: refreshed company-mode, synced the repo, checked GitHub feedback, X notifications, and live availability; researched current contractor/agency/rescue and adjacent SaaS surfaces; prepared `docs/contractor-agency-validation-sprint.md` with staged Afterbuild Labs, Bytewise, and AC Tech Labs outreach drafts and success criteria; clarified the live app positioning with "No login, no repo access" copy, deployed it, and verified the live page.
-- Instance-only improvements executed: market research, target discovery, feedback/experiments/roadmap/release/state updates, and heartbeat prompt alignment.
+- Evidence quality: external product signal is still unchanged. GitHub issue #1 still has no comments; X notifications still show no useful new response after the Jesse URL follow-up; the live URL returned HTTP 200. The core uncertainty remains whether a contractor/agency evaluator would read a founder-filled packet before repo access.
+- Current-run work completed: refreshed company-mode, synced the repo, checked GitHub feedback, X notifications, and live availability; narrowed the current approval gate into `docs/afterbuild-send-runbook.md` with an exact route, composer checklist, and fallback sequence.
+- Instance-only improvements executed: outreach-runbook hardening, feedback/experiments/roadmap/release/state updates, and heartbeat prompt alignment.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any public/community post, reply with link, DM, direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: no public or direct outreach action was taken; the useful internal work is complete and the company is waiting on outside feedback or user approval to send the staged Afterbuild Labs validation message. Keep heartbeat active for a 12-hour follow-up check.
+- Stop-check: no public or direct outreach action was taken; the useful internal work is complete and the company is waiting on outside feedback or user approval to send the staged Afterbuild Labs email. Keep heartbeat active for a 24-hour follow-up check.
