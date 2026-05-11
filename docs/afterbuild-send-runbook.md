@@ -2,7 +2,7 @@
 
 Date: 2026-05-11
 
-Status: non-public send runbook. Do not send email, submit forms, click paid audit CTA, book calls, DM, or publish without action-time confirmation.
+Status: sent on 2026-05-11. Keep as the source-of-truth runbook for the first contractor/agency outreach readout and fallback.
 
 ## Why This Exists
 
@@ -22,6 +22,13 @@ This runbook reduces that gate to a single confirmable action.
 - Live site: HTTP 200.
 - X notifications: still no useful new response after the Jesse stability-first URL follow-up.
 - Strong intent signals: 0.
+
+## Send Result
+
+- Sent on 2026-05-11 from Apple Mail using `willsuosuo@gmail.com`.
+- Composer was verified for exact recipient, exact subject, one live URL, and no attachments before send.
+- The message was confirmed in `All Sent`.
+- Next move is to wait up to 72 hours before considering the staged Bytewise fallback with fresh approval.
 
 ## Why Afterbuild First
 
@@ -122,8 +129,8 @@ If Afterbuild replies negatively because repo access is mandatory:
 
 ## Exact Remaining Approval Gate
 
-The narrowest remaining action is:
+The send gate in this runbook is already consumed. The next hard gate, if no reply arrives, is:
 
 ```text
-Confirm sending the staged email to hello@afterbuildlabs.com with the exact subject/body in this runbook after final composer verification.
+Confirm sending the staged Bytewise fallback after the 72-hour wait window.
 ```

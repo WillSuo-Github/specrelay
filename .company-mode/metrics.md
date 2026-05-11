@@ -25,6 +25,7 @@ Last updated: 2026-05-11
 - Owned-channel launch artifacts public: GitHub release `v0.1.0` and feedback issue #1
 - Live feedback CTA linked to public issue: yes
 - Strong intent signals: 0
+- Direct contractor/agency outreach sent: 1 (`hello@afterbuildlabs.com`, 2026-05-11)
 
 ## Instrumentation Gaps
 
@@ -32,7 +33,7 @@ Last updated: 2026-05-11
 - Feedback capture is manual for MVP: exported packets include review questions, but there is no hosted feedback form yet.
 - Public URL is live: https://willsuo-github.github.io/specrelay/
 - Outreach tracking is manual: eleven total X public replies are logged in `docs/x-target-discovery.md` (six first-wave no-link replies, one no-link Frank follow-up, one URL follow-up to Lech, two no-link second-wave replies, and one stability-first URL follow-up to Jesse).
-- Latest feedback check: 2026-05-11 found no GitHub issue comments and no new useful X response after the Jesse stability-first URL follow-up.
+- Latest feedback check: 2026-05-11 found no GitHub issue comments, no new useful X response after the Jesse stability-first URL follow-up, and no reply yet to the Afterbuild Labs outreach email.
 
 ## Interpretation
 

@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 24-hour wake while waiting for Jesse's response to the stability-first URL follow-up, more responses from active X targets (`@FSfakiotakis`, `@LechMazur`, `@jessecolesmith`, `@HitenDharpure`), GitHub issue comments, another usable channel/account, direct outreach path, user approval for the staged Afterbuild Labs email, or external feedback
-- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, two no-link second-wave replies, and the Jesse stability-first URL follow-up are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged, the product includes a stability-first pass from Jesse's feedback, `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, and `docs/afterbuild-send-runbook.md` are ready for the next approved outreach path, and no strong intent signal exists yet
+- Current cadence: 24-hour wake while waiting for an Afterbuild Labs reply, Jesse or another active X target to respond, GitHub issue comments, or other external feedback
+- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, two no-link second-wave replies, the Jesse stability-first URL follow-up, and the first contractor/agency outreach email to Afterbuild Labs are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged; the product includes a stability-first pass from Jesse's feedback; no strong intent signal exists yet
 
 ## Policy
 

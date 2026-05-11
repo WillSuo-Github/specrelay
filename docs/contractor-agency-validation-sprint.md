@@ -5,6 +5,7 @@ Date: 2026-05-07
 Status: non-public staged growth asset. Do not send email, submit contact forms, post replies, like, follow, DM, book calls, or start paid audits without action-time confirmation.
 
 Route-verified send runbook: `docs/afterbuild-send-runbook.md`
+Current send state: Afterbuild first-touch email sent on 2026-05-11; Bytewise is the next fallback candidate only if no reply arrives after 72 hours and fresh approval is granted.
 
 ## Objective
 
@@ -40,7 +41,7 @@ Strategic interpretation: do not race into automation yet. AppHandoff covers the
 
 | Priority | Target | Route to stage | Why this target | Best validation ask |
 | --- | --- | --- | --- | --- |
-| 1 | Afterbuild Labs | `hello@afterbuildlabs.com` or contact/audit path; do not submit without confirmation | Most explicitly sells async audits and fixed-scope AI-app rescue | Would a founder-completed stability-first packet improve the async audit input? |
+| 1 | Afterbuild Labs | `hello@afterbuildlabs.com`; sent on 2026-05-11 | Most explicitly sells async audits and fixed-scope AI-app rescue | Waiting to learn whether a founder-completed stability-first packet improves the async audit input |
 | 2 | Bytewise | Contact form or email; do not submit without confirmation | Intake already asks current platform, stack, user count, pain, scope, and budget | Which SpecRelay sections would reduce intake back-and-forth before a free assessment? |
 | 3 | AC Tech Labs | Contact/fit-call path; do not book without confirmation | Their readiness score overlaps the "pre-handoff assessment" surface | Is SpecRelay's narrative packet complementary to a readiness score, or redundant? |
 | 4 | AppStuck | Free assessment/contact path; do not submit without confirmation | Their handoff language maps to stuck AI-code takeover and launch completion | Would a packet improve project-state clarity before the first discovery meeting? |

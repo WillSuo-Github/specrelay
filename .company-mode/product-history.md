@@ -57,6 +57,7 @@
 - Confirmed GitHub issue #1 still had no comments and the live site still returned HTTP 200.
 - Re-checked X notifications and found no useful new response after the Jesse stability-first URL follow-up.
 - Prepared `docs/afterbuild-send-runbook.md` so the next live approval gate is one exact Afterbuild email route with a send checklist and fallback.
+- After user confirmation, sent the staged Afterbuild Labs email to `hello@afterbuildlabs.com` from Apple Mail and verified it landed in `All Sent`.
 
 ## Candidate Bets
 

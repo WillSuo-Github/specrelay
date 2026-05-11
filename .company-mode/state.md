@@ -8,18 +8,18 @@
 
 ## Now
 
-- In progress: Jesse stability-first URL follow-up sent; no new response yet. Afterbuild email runbook is staged for the next approved outreach path.
+- In progress: Afterbuild Labs validation email was sent from Apple Mail to `hello@afterbuildlabs.com`; no reply yet.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no strong intent signal or completed packet review yet; further public outreach remains action-time gated
+- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether a rescue-service evaluator responds to the first direct outreach
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: after Jesse responds to the stability-first URL follow-up, another active X target responds, GitHub issue #1 gets a comment, user approves the staged Afterbuild email, or the next 24-hour heartbeat
+- Next decision deadline: when Afterbuild replies, another active X target responds, GitHub issue #1 gets a comment, the 72-hour Afterbuild fallback window expires, or the next 24-hour heartbeat
 
 ## Next Recommended Actions
 
 - Product/CEO: sharpen positioning around stability-first handoff when someone else must review or improve the AI-built app
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Jesse or another active target before another public X touch; if the user confirms a new action, send the staged Afterbuild Labs email from `docs/afterbuild-send-runbook.md` after final route/account/composer verification
+- Growth: wait for Afterbuild, Jesse, or another active target before another outbound touch; if Afterbuild stays silent through the 72-hour fallback window, the next narrow candidate is the staged Bytewise message with fresh approval
 - Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, and `docs/afterbuild-send-runbook.md` as the next non-public source of truth for contractor/agency/domain-builder screening
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
@@ -66,9 +66,9 @@
 
 - Date: `2026-05-11`
 - Current stage: public MVP live. The company remains in demand validation with a sharper stability-first contractor/agency wedge.
-- Evidence quality: external product signal is still unchanged. GitHub issue #1 still has no comments; X notifications still show no useful new response after the Jesse URL follow-up; the live URL returned HTTP 200. The core uncertainty remains whether a contractor/agency evaluator would read a founder-filled packet before repo access.
-- Current-run work completed: refreshed company-mode, synced the repo, checked GitHub feedback, X notifications, and live availability; narrowed the current approval gate into `docs/afterbuild-send-runbook.md` with an exact route, composer checklist, and fallback sequence.
-- Instance-only improvements executed: outreach-runbook hardening, feedback/experiments/roadmap/release/state updates, and heartbeat prompt alignment.
+- Evidence quality: still weak, but stronger than the previous run because one real contractor/agency outreach is now in market. GitHub issue #1 still has no comments; X still shows no useful new response after the Jesse URL follow-up; the live URL remains healthy. The core uncertainty remains whether a contractor/agency evaluator would read a founder-filled packet before repo access.
+- Current-run work completed: user confirmed the staged Afterbuild action and requested the system route; created the email in Apple Mail, verified recipient, subject, body, single live URL, sender account, and no-attachment state in the composer, then sent it to `hello@afterbuildlabs.com` from `willsuosuo@gmail.com`. Verified the sent message appeared in `All Sent`.
+- Instance-only improvements executed: first direct contractor/agency outreach send, company-state/feedback/experiments/readout updates, and heartbeat prompt alignment.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: any public/community post, reply with link, DM, direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: no public or direct outreach action was taken; the useful internal work is complete and the company is waiting on outside feedback or user approval to send the staged Afterbuild Labs email. Keep heartbeat active for a 24-hour follow-up check.
+- Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
+- Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, any new X/GitHub feedback, or the 72-hour fallback window. Keep heartbeat active for a 24-hour follow-up check.

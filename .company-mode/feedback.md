@@ -16,6 +16,7 @@ Two direct qualitative responses so far. No completed packet review yet. Current
 - 2026-05-06 follow-up heartbeat check: GitHub issue #1 still had no comments; X notifications showed no new useful response to the Jesse stability-first URL follow-up. Prepared `docs/stability-first-target-discovery.md` from current contractor/agency/community surfaces; no public action was taken.
 - 2026-05-07 heartbeat check: GitHub issue #1 still had no comments; X notifications showed no new useful response after the Jesse stability-first URL follow-up; live site returned HTTP 200. Prepared `docs/contractor-agency-validation-sprint.md`; no public/direct action was taken.
 - 2026-05-11 heartbeat check: GitHub issue #1 still had no comments; live site returned HTTP 200; X notifications still showed no useful new response after the Jesse stability-first URL follow-up. Prepared `docs/afterbuild-send-runbook.md`; no public/direct action was taken.
+- 2026-05-11 user-confirmed direct action: sent the staged Afterbuild Labs email to `hello@afterbuildlabs.com` from `willsuosuo@gmail.com` via Apple Mail. Composer fields were verified before send, and the message then appeared in `All Sent`. No reply yet.
 
 ## Direct Feedback
 
