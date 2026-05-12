@@ -59,6 +59,11 @@
 - Prepared `docs/afterbuild-send-runbook.md` so the next live approval gate is one exact Afterbuild email route with a send checklist and fallback.
 - After user confirmation, sent the staged Afterbuild Labs email to `hello@afterbuildlabs.com` from Apple Mail and verified it landed in `All Sent`.
 
+## 2026-05-12
+
+- Confirmed GitHub issue #1 still has no comments, the live site still returns HTTP 200, Apple Mail still shows no inbound Afterbuild reply, and X notifications still show no useful new response after the Jesse stability-first URL follow-up.
+- Prepared `docs/bytewise-fallback-runbook.md` so the next fallback gate is one exact Bytewise email route only if the Afterbuild 72-hour window expires without a reply.
+
 ## Candidate Bets
 
 | Candidate | Status | User problem | Key evidence | Next decision |

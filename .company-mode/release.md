@@ -1,6 +1,6 @@
 # Release Ops
 
-Last updated: 2026-05-11
+Last updated: 2026-05-12
 
 ## Current Release
 
@@ -87,3 +87,4 @@ Last updated: 2026-05-11
 - 2026-05-07: X notifications showed no new useful response after the Jesse URL follow-up. Prepared `docs/contractor-agency-validation-sprint.md` and updated target discovery/market research with AppHandoff and AC Tech Labs; no public post, reply, DM, like, follow, form submit, call booking, paid audit, or repost was sent.
 - 2026-05-11: X notifications still showed no useful new response after the Jesse URL follow-up. Prepared `docs/afterbuild-send-runbook.md` with the exact email route, composer checklist, and fallback sequence; no public post, reply, DM, like, follow, form submit, call booking, paid audit, or repost was sent.
 - 2026-05-11: User confirmed the Afterbuild action. Sent the staged email to `hello@afterbuildlabs.com` from Apple Mail after verifying recipient, subject, body, single live URL, sender account, and no-attachment state. The sent message appeared in `All Sent`.
+- 2026-05-12: GitHub issue #1 still had no comments, Apple Mail showed no inbound Afterbuild reply, and X notifications showed no useful new response after the Jesse URL follow-up. Prepared `docs/bytewise-fallback-runbook.md` with the exact second-touch route, trigger window, and message; no public post, reply, DM, follow, form submit, call booking, paid audit, or repost was sent.

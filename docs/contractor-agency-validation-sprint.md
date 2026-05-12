@@ -4,7 +4,7 @@ Date: 2026-05-07
 
 Status: non-public staged growth asset. Do not send email, submit contact forms, post replies, like, follow, DM, book calls, or start paid audits without action-time confirmation.
 
-Route-verified send runbook: `docs/afterbuild-send-runbook.md`
+Route-verified send runbooks: `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`
 Current send state: Afterbuild first-touch email sent on 2026-05-11; Bytewise is the next fallback candidate only if no reply arrives after 72 hours and fresh approval is granted.
 
 ## Objective

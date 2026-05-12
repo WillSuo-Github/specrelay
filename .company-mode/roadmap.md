@@ -15,6 +15,7 @@
 | Prepare stability-first target discovery | The next validation path needs higher-fit evaluators than generic founder replies | Rescue-service, agency, and community target list is documented with ask bank and gates | Growth + Support/Research | Complete in `docs/stability-first-target-discovery.md` |
 | Prepare contractor/agency validation sprint | Category evidence now includes explicit AI-app rescue services and a direct adjacent handoff benchmark | One high-fit direct outreach message is staged with backup targets, route notes, and signal criteria | Growth + Support/Research | Complete in `docs/contractor-agency-validation-sprint.md` |
 | Narrow Afterbuild approval gate | Approval should stop at one exact composer-ready action, not a vague outreach decision | Exact route, send checklist, and fallback are documented | Growth + Support/Research | Complete in `docs/afterbuild-send-runbook.md` |
+| Narrow Bytewise fallback gate | If Afterbuild stays silent, approval should again stop at one exact second-touch action, not reopen target selection | Exact route, message, trigger window, and form-vs-email reasoning are documented | Growth + Support/Research | Complete in `docs/bytewise-fallback-runbook.md` |
 | Explore first external channels | First reviews need the right channel/account, not more product scope | Channel fit, account needs, and channel-specific draft inputs are documented | Growth + Product | Complete in `docs/channel-exploration.md` |
 
 ## Next
@@ -22,7 +23,7 @@
 | Bet | Why next | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
 | Add feedback capture | Need qualitative learning without backend complexity | Packet includes review prompts that can be used in manual outreach without backend credentials | Growth + Release/Ops | Complete for MVP |
-| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Afterbuild Labs email sent and awaiting reply |
+| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Afterbuild Labs email sent and awaiting reply; Bytewise fallback runbook ready if silence continues past 2026-05-14 23:07 CST |
 | Prepare Product Hunt assets | Product Hunt needs stronger launch packaging than the current owned MVP assets | 240x240 thumbnail, 2 gallery images, and first comment draft are ready | Design + Growth | Later, after first evaluator signal |
 
 ## Later
