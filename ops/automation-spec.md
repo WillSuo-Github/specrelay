@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 24-hour wake while waiting for an Afterbuild Labs reply, Jesse or another active X target to respond, GitHub issue comments, or other external feedback
-- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, two no-link second-wave replies, the Jesse stability-first URL follow-up, and the first contractor/agency outreach email to Afterbuild Labs are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged; the product includes a stability-first pass from Jesse's feedback; `docs/bytewise-fallback-runbook.md` now narrows the next fallback if Afterbuild stays silent; no strong intent signal exists yet
+- Current cadence: 24-hour wake while waiting for Afterbuild Labs or Bytewise to reply, Jesse or another active X target to respond, GitHub issue comments, or other external feedback
+- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, two no-link second-wave replies, the Jesse stability-first URL follow-up, and two contractor/agency outreach emails to Afterbuild Labs and Bytewise are complete; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged; the product includes a stability-first pass from Jesse's feedback; no strong intent signal exists yet
 
 ## Policy
 

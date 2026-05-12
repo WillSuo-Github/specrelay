@@ -8,19 +8,19 @@
 
 ## Now
 
-- In progress: Afterbuild Labs validation email was sent from Apple Mail to `hello@afterbuildlabs.com`; no reply yet.
+- In progress: Afterbuild Labs and Bytewise validation emails were sent from Apple Mail; no replies yet.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether a rescue-service evaluator responds to the first direct outreach
+- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether either rescue-service evaluator responds to the first two direct outreaches
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: when Afterbuild replies, another active X target responds, GitHub issue #1 gets a comment, the Afterbuild fallback window expires at `2026-05-14 23:07 CST`, or the next 24-hour heartbeat
+- Next decision deadline: when Afterbuild replies, Bytewise replies, another active X target responds, GitHub issue #1 gets a comment, or the next 24-hour heartbeat
 
 ## Next Recommended Actions
 
 - Product/CEO: sharpen positioning around stability-first handoff when someone else must review or improve the AI-built app
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Afterbuild, Jesse, or another active target before another outbound touch; if Afterbuild stays silent through the 72-hour fallback window, the next narrow candidate is the staged Bytewise message in `docs/bytewise-fallback-runbook.md` with fresh approval
-- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, and `docs/bytewise-fallback-runbook.md` as the next non-public source of truth for contractor/agency/domain-builder screening
+- Growth: wait for Afterbuild, Bytewise, Jesse, or another active target before another outbound touch; if both contractor/agency emails stay silent or come back negative, the next narrow candidate is the staged AC Tech Labs message with fresh approval
+- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, and `docs/bytewise-fallback-runbook.md` as the current source of truth for contractor/agency/domain-builder screening and reply readout
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
@@ -66,9 +66,9 @@
 
 - Date: `2026-05-12`
 - Current stage: public MVP live. The company remains in demand validation with a sharper stability-first contractor/agency wedge.
-- Evidence quality: still weak, but stronger than the previous run because one real contractor/agency outreach is now in market. GitHub issue #1 still has no comments; X still shows no useful new response after the Jesse URL follow-up; the live URL remains healthy. The core uncertainty remains whether a contractor/agency evaluator would read a founder-filled packet before repo access.
-- Current-run work completed: checked GitHub issue #1, live URL, Apple Mail, and X notifications. Afterbuild still has no reply; GitHub still has no comments; X still shows no useful new response after the Jesse follow-up. Converted the next fallback from a broad candidate into `docs/bytewise-fallback-runbook.md` with the exact email route, message, wait trigger, and honest route-selection logic.
-- Instance-only improvements executed: fallback-runbook hardening, company-state/feedback/experiments/readout updates, and heartbeat prompt alignment.
+- Evidence quality: still weak, but stronger than the previous run because two real contractor/agency outreach emails are now in market. GitHub issue #1 still has no comments; X still shows no useful new response after the Jesse URL follow-up; the live URL remains healthy. The core uncertainty remains whether a contractor/agency evaluator would read a founder-filled packet before repo access.
+- Current-run work completed: verified that the Bytewise outreach email had already been sent to `contact@bytewise.agency` at `2026-05-12 19:21:35 CST` from `willsuosuo@gmail.com` during the interrupted send flow, so no duplicate send was made. Updated company constraints so future outreach emails use `ws.software@outlook.com` unless explicitly overridden.
+- Instance-only improvements executed: sender-policy hardening, company-state/feedback/experiments/readout updates, and heartbeat prompt alignment.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, any new X/GitHub feedback, or the 72-hour fallback window ending at `2026-05-14 23:07 CST`. Keep heartbeat active for a 24-hour follow-up check.
+- Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, Bytewise's reply, or any new X/GitHub feedback. Keep heartbeat active for a 24-hour follow-up check.

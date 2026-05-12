@@ -46,6 +46,7 @@
 ## Constraints
 
 - Brand and tone: calm, technical, practical, founder-friendly
+- Outbound company email sender preference: use `ws.software@outlook.com` for future company outreach emails unless the user explicitly overrides it for a specific send
 - Growth visual rule: original low-cost launch, progress, positioning, and experiment posts should normally include a deliberate product-specific image or graphic generated, selected, or adapted by Design through Codex before Growth publishes. Skip the image only for direct replies, unsuitable channel rules/formats, risk of implying unshipped capabilities, or urgent text-only responses.
 - Tech constraints: first release must run as a static frontend without backend accounts, paid services, uploaded secrets, or external APIs
 - Operating constraints: operate exactly one active product in this company instance

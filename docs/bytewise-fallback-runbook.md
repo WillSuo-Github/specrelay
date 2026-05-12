@@ -2,13 +2,13 @@
 
 Date: 2026-05-12
 
-Status: non-public fallback runbook. Do not send email, submit forms, book calls, or publish without fresh action-time confirmation and the Afterbuild 72-hour wait window expiring first.
+Status: sent on 2026-05-12. Keep as the source-of-truth runbook for Bytewise readout and future route logic.
 
 ## Why This Exists
 
-Afterbuild is the first live contractor/agency validation attempt. If it stays silent, the next decision should not reopen the whole target list.
+Afterbuild was the first live contractor/agency validation attempt. If it stayed silent, the next decision should not reopen the whole target list.
 
-The next live decision should be:
+The now-consumed live decision was:
 
 ```text
 If Afterbuild does not reply within 72 hours, send one exact Bytewise message through one exact route.
@@ -17,20 +17,19 @@ If Afterbuild does not reply within 72 hours, send one exact Bytewise message th
 ## Current Readout
 
 - Afterbuild message sent: 2026-05-11 23:07:39 CST from Apple Mail.
-- Afterbuild reply status: no reply yet as of 2026-05-12 heartbeat.
+- Bytewise message sent: 2026-05-12 19:21:35 CST from Apple Mail.
+- Afterbuild reply status: no reply yet.
+- Bytewise reply status: no reply yet.
 - GitHub issue #1: still open, no comments.
 - X notifications: no useful new response after the Jesse stability-first URL follow-up.
 - Live site: HTTP 200.
 
-## Trigger Window
+## Send Result
 
-Do not use this fallback before:
-
-```text
-2026-05-14 23:07 CST
-```
-
-Use it only if there is still no Afterbuild reply by then and no stronger incoming signal appears first.
+- The Bytewise outreach email was sent to `contact@bytewise.agency` at `2026-05-12 19:21:35 CST`.
+- Sender used: `willsuosuo@gmail.com`.
+- A later user instruction changed the company-wide preferred sender for future outreach emails to `ws.software@outlook.com`.
+- No duplicate send was made after the sent-state was verified.
 
 ## Why Bytewise Next
 
@@ -88,15 +87,13 @@ No sales ask. I am trying to learn whether this should become an intake aid for 
 
 ## Validation Checklist
 
-Before sending, verify all of these:
+Pre-send verification for this runbook was:
 
-1. Afterbuild still has not replied and the 72-hour wait window has actually expired.
-2. Recipient is exactly `contact@bytewise.agency`.
-3. Subject exactly matches the staged subject above.
-4. Body contains the live URL only once.
-5. No attachments are present.
-6. No line implies an active rescue budget, booked project, or fake client urgency.
-7. The message still reads as a workflow-validation ask, not a disguised sales inquiry.
+1. Recipient exactly `contact@bytewise.agency`.
+2. Subject matched the staged subject above.
+3. Body contained the live URL once.
+4. No attachment was intended.
+5. The message stayed as a workflow-validation ask, not a disguised sales inquiry.
 
 ## Contact Form Notes
 
@@ -146,8 +143,4 @@ Capture exact language for:
 
 ## Exact Remaining Approval Gate
 
-The narrowest remaining action in this runbook is:
-
-```text
-If Afterbuild is still silent after 2026-05-14 23:07 CST, confirm sending the staged Bytewise email to contact@bytewise.agency after final composer verification.
-```
+This runbook's send gate is consumed. The next direct-outreach gate, if needed later, is a fresh approval for the staged AC Tech Labs message in `docs/contractor-agency-validation-sprint.md`.
