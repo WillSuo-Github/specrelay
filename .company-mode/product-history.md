@@ -70,6 +70,8 @@
 
 - Confirmed GitHub issue #1 still has no comments, the live site still returns HTTP 200, and no useful new X response was observed after the Jesse stability-first URL follow-up.
 - Prepared `docs/ac-tech-labs-runbook.md` so the next staged candidate is one exact AC Tech Labs fit-call form route with truthful field mapping rather than a vague “contact them later” placeholder.
+- Re-checked GitHub, Mail inbox counts, and X notifications; still no useful external feedback.
+- Prepared `docs/appstuck-runbook.md` and promoted AppStuck above AC Tech Labs because it offers a cleaner public async route for the same validation question.
 
 ## Candidate Bets
 

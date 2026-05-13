@@ -4,8 +4,8 @@ Date: 2026-05-07
 
 Status: non-public staged growth asset. Do not send email, submit contact forms, post replies, like, follow, DM, book calls, or start paid audits without action-time confirmation.
 
-Route-verified/staged runbooks: `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/ac-tech-labs-runbook.md`
-Current send state: Afterbuild first-touch email sent on 2026-05-11; Bytewise second-touch email sent on 2026-05-12; AC Tech Labs is the next staged candidate only with fresh approval.
+Route-verified/staged runbooks: `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/ac-tech-labs-runbook.md`, `docs/appstuck-runbook.md`
+Current send state: Afterbuild first-touch email sent on 2026-05-11; Bytewise second-touch email sent on 2026-05-12; AppStuck is now the cleanest next staged candidate; AC Tech Labs remains staged behind it.
 
 ## Objective
 
@@ -43,8 +43,8 @@ Strategic interpretation: do not race into automation yet. AppHandoff covers the
 | --- | --- | --- | --- | --- |
 | 1 | Afterbuild Labs | `hello@afterbuildlabs.com`; sent on 2026-05-11 | Most explicitly sells async audits and fixed-scope AI-app rescue | Waiting to learn whether a founder-completed stability-first packet improves the async audit input |
 | 2 | Bytewise | `contact@bytewise.agency`; sent on 2026-05-12 | Intake already asks current platform, stack, user count, pain, scope, and budget | Waiting to learn whether the packet reduces discovery back-and-forth before a free assessment |
-| 3 | AC Tech Labs | Contact/fit-call path; do not book without confirmation | Their readiness score overlaps the "pre-handoff assessment" surface | Is SpecRelay's narrative packet complementary to a readiness score, or redundant? |
-| 4 | AppStuck | Free assessment/contact path; do not submit without confirmation | Their handoff language maps to stuck AI-code takeover and launch completion | Would a packet improve project-state clarity before the first discovery meeting? |
+| 3 | AppStuck | `hello@appstuck.com` or free-assessment contact path; do not send without confirmation | Public email and free-assessment framing make it a cleaner async validation surface than a fit-call form | Would a packet improve project-state clarity before the first free assessment? |
+| 4 | AC Tech Labs | Contact/fit-call path; do not submit without confirmation | Their readiness score overlaps the "pre-handoff assessment" surface | Is SpecRelay's narrative packet complementary to a readiness score, or redundant? |
 | 5 | Pimp Your Code | Quote/intake path; do not submit without confirmation | Explicitly names launch QA plus handoff | Would the packet be useful before choosing quick fix, makeover, bodyguard, finisher, or full treatment? |
 | 6 | AppHandoff | Competitor benchmark first; possible later partnership/research outreach | It validates the handoff category but solves with repo/MCP automation | Do not contact first; use it to sharpen positioning against automated repo-connected tools. |
 
@@ -175,4 +175,4 @@ Negative signal:
 
 ## Recommended Next Approval Gate
 
-If Afterbuild and Bytewise still fail to produce a useful reply, ask for confirmation to submit the staged AC Tech Labs contact-form route in `docs/ac-tech-labs-runbook.md` with the truthful field mapping and validation note above.
+If Afterbuild and Bytewise still fail to produce a useful reply, ask for confirmation to send the staged AppStuck email in `docs/appstuck-runbook.md` from `ws.software@outlook.com` after final composer verification.

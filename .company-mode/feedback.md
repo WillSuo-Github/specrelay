@@ -20,6 +20,7 @@ Two direct qualitative responses so far. No completed packet review yet. Current
 - 2026-05-12 heartbeat check: GitHub issue #1 still had no comments; live site returned HTTP 200; Apple Mail still showed no inbound Afterbuild reply; X notifications still showed no useful new response after the Jesse stability-first URL follow-up. Prepared `docs/bytewise-fallback-runbook.md`; no public/direct action was taken.
 - 2026-05-12 user-confirmed direct action: the Bytewise validation email to `contact@bytewise.agency` was already sent from `willsuosuo@gmail.com` via Apple Mail at `2026-05-12 19:21:35 CST` during the interrupted send flow. No duplicate send was made after that fact was verified. Future company outreach emails should use `ws.software@outlook.com` unless explicitly overridden.
 - 2026-05-13 heartbeat check: GitHub issue #1 still had no comments; live site returned HTTP 200; no useful new X response was observed after the Jesse stability-first URL follow-up; no new contractor/agency reply was observed before staging the next asset. Prepared `docs/ac-tech-labs-runbook.md`; no public/direct action was taken.
+- 2026-05-13 follow-up heartbeat check: GitHub issue #1 still had no comments; live site returned HTTP 200; Mail inbox counts for Afterbuild and Bytewise were still zero; X notifications still showed no useful new response after the Jesse stability-first URL follow-up. Prepared `docs/appstuck-runbook.md` and promoted AppStuck above AC Tech Labs as the cleaner next async route. No public/direct action was taken.
 
 ## Direct Feedback
 
