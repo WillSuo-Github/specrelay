@@ -2,7 +2,7 @@
 
 Date: 2026-05-13
 
-Status: non-public staged candidate. Do not send email, submit forms, or publish without fresh action-time confirmation.
+Status: executed direct-outreach candidate. User approved the action on `2026-05-14`; the public contact-form route was submitted after the preferred email route failed to produce a verifiable sent item from system Mail.
 
 ## Why This Exists
 
@@ -21,6 +21,7 @@ That makes it a better async validation surface than AC Tech Labs for the curren
 - Bytewise email sent: 2026-05-12 19:21:35 CST.
 - Afterbuild reply status: no reply observed yet.
 - Bytewise reply status: no reply observed yet.
+- AppStuck submission status: submitted through `https://www.appstuck.com/contact` on `2026-05-14`; success verified by redirect to `https://www.appstuck.com/contact/thank-you`.
 - GitHub issue #1: still open, no comments.
 - X notifications: still no useful new response after the Jesse stability-first URL follow-up.
 - Live site: HTTP 200.
@@ -51,6 +52,7 @@ Reason:
 - Email is the cleanest async route.
 - The site itself advertises `free assessment` and shows the public mailbox.
 - The contact form is usable, but email keeps the message out of a sales-heavy structure.
+- In execution, system Mail could not produce a verifiable sent item from `ws.software@outlook.com`, so the contact form became the reliable fallback route.
 
 Observed public signals:
 
@@ -117,6 +119,13 @@ Before sending, verify all of these:
 6. No line implies an active paid rescue engagement or fake launch urgency.
 7. The sender email is `ws.software@outlook.com`.
 
+## Execution Note
+
+- `2026-05-14`: user approved the next external move.
+- System Mail was configured with `ws.software@outlook.com`, but it did not produce a verifiable sent item for the staged AppStuck email.
+- To avoid another maintenance-only round, the truthful fallback route was executed instead: the public AppStuck contact form was submitted with `Will Suo`, `ws.software@outlook.com`, company `SpecRelay`, and the validation ask in the details field.
+- Submission success was verified by the browser redirect to `https://www.appstuck.com/contact/thank-you`.
+
 ## Readout Interpretation
 
 Strong signal:
@@ -137,7 +146,7 @@ Negative signal:
 
 ## Exact Remaining Approval Gate
 
-The narrowest remaining action in this runbook is:
+The narrowest remaining action in this runbook was:
 
 ```text
 If Afterbuild and Bytewise still have not produced a useful reply, confirm sending the staged AppStuck email to hello@appstuck.com from ws.software@outlook.com after final composer verification.

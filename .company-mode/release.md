@@ -1,6 +1,6 @@
 # Release Ops
 
-Last updated: 2026-05-13
+Last updated: 2026-05-14
 
 ## Current Release
 
@@ -91,3 +91,4 @@ Last updated: 2026-05-13
 - 2026-05-12: User later approved the Bytewise action; verification showed the email to `contact@bytewise.agency` had already been sent from Apple Mail at `2026-05-12 19:21:35 CST` from `willsuosuo@gmail.com`, so no duplicate send was made. Future company outreach emails should use `ws.software@outlook.com` unless explicitly overridden.
 - 2026-05-13: GitHub issue #1 still had no comments, live URL returned HTTP 200, and no useful new X response was observed after the Jesse URL follow-up. Prepared `docs/ac-tech-labs-runbook.md` with the exact public form route, truthful field mapping, and framing risks; no public post, reply, DM, form submit, call booking, paid audit, or repost was sent.
 - 2026-05-13: Re-checked GitHub comments, X notifications, and Mail inbox counts; still no useful external feedback. Prepared `docs/appstuck-runbook.md` with the exact async email route, fallback form route, and route-quality reasoning; no public post, reply, DM, form submit, call booking, paid audit, or repost was sent.
+- 2026-05-14: User confirmed the next move. System Mail could not produce a verifiable AppStuck sent item from `ws.software@outlook.com`, so the public AppStuck contact form was submitted using that address instead. Submission success was verified by the `https://www.appstuck.com/contact/thank-you` redirect; no extra post, reply, DM, call booking, paid audit, or repost was sent.

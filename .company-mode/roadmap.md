@@ -18,6 +18,7 @@
 | Narrow Bytewise fallback gate | If Afterbuild stays silent, approval should again stop at one exact second-touch action, not reopen target selection | Exact route, message, trigger window, and form-vs-email reasoning are documented | Growth + Support/Research | Complete in `docs/bytewise-fallback-runbook.md` |
 | Narrow AC Tech Labs third-candidate gate | If the first two rescue-service emails fail to produce signal, approval should stop at one exact form route with truthful field mapping | Exact route, field strategy, and framing risks are documented | Growth + Support/Research | Complete in `docs/ac-tech-labs-runbook.md` |
 | Narrow AppStuck async gate | If the first two rescue-service emails fail to produce signal, approval should prefer the cleanest remaining async route over a sales-heavy fit-call form | Exact route, message, and form-vs-email reasoning are documented | Growth + Support/Research | Complete in `docs/appstuck-runbook.md` |
+| Prevent false progress loops | Repeated monitoring-only heartbeats should not be treated as company progress while a clean external move already exists | Company rules force either execution, exact gate escalation, or no-progress handling | Product/CEO | Complete in `.company-mode/company.md` and shared `company-mode` kernel |
 | Explore first external channels | First reviews need the right channel/account, not more product scope | Channel fit, account needs, and channel-specific draft inputs are documented | Growth + Product | Complete in `docs/channel-exploration.md` |
 
 ## Next
@@ -25,7 +26,7 @@
 | Bet | Why next | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
 | Add feedback capture | Need qualitative learning without backend complexity | Packet includes review prompts that can be used in manual outreach without backend credentials | Growth + Release/Ops | Complete for MVP |
-| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Afterbuild Labs and Bytewise emails sent and awaiting replies; AppStuck is now the cleanest staged next route if those two paths fail |
+| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Afterbuild Labs and Bytewise emails plus the AppStuck form submission are awaiting replies; AC Tech Labs is the next staged route if those three paths fail |
 | Prepare Product Hunt assets | Product Hunt needs stronger launch packaging than the current owned MVP assets | 240x240 thumbnail, 2 gallery images, and first comment draft are ready | Design + Growth | Later, after first evaluator signal |
 
 ## Later

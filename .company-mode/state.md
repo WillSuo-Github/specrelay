@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-13`
+- Last updated: `2026-05-14`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators through the highest-signal available channel
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -8,19 +8,19 @@
 
 ## Now
 
-- In progress: Afterbuild Labs and Bytewise validation emails were sent from Apple Mail; no replies yet.
+- In progress: Afterbuild Labs and Bytewise validation emails are in market; AppStuck's public contact form was submitted on `2026-05-14` using `ws.software@outlook.com`; no replies yet.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether either rescue-service evaluator responds to the first two direct outreaches
+- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether any of the three contractor/agency touches produce a useful reply
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: when Afterbuild replies, Bytewise replies, another active X target responds, GitHub issue #1 gets a comment, or the next 24-hour heartbeat
+- Next decision deadline: when Afterbuild replies, Bytewise replies, AppStuck replies, another active X target responds, GitHub issue #1 gets a comment, or the next 24-hour heartbeat
 
 ## Next Recommended Actions
 
 - Product/CEO: sharpen positioning around stability-first handoff when someone else must review or improve the AI-built app
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Afterbuild, Bytewise, Jesse, or another active target before another outbound touch; if both contractor/agency emails stay silent or come back negative, the next narrow candidate is the staged AppStuck email route in `docs/appstuck-runbook.md` with fresh approval
-- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/ac-tech-labs-runbook.md`, and `docs/appstuck-runbook.md` as the current source of truth for contractor/agency/domain-builder screening and reply readout
+- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; if the three contractor/agency touches stay silent or come back negative, the next narrow candidate is the staged AC Tech Labs form route in `docs/ac-tech-labs-runbook.md` with fresh approval
+- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, and `docs/ac-tech-labs-runbook.md` as the current source of truth for contractor/agency/domain-builder screening and reply readout
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
@@ -64,11 +64,11 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-13`
+- Date: `2026-05-14`
 - Current stage: public MVP live. The company remains in demand validation with a sharper stability-first contractor/agency wedge.
-- Evidence quality: still weak, but stronger than the previous run because two real contractor/agency outreach emails are now in market. GitHub issue #1 still has no comments; X still shows no useful new response after the Jesse URL follow-up; the live URL remains healthy. The core uncertainty remains whether a contractor/agency evaluator would read a founder-filled packet before repo access.
-- Current-run work completed: re-checked GitHub, live availability, Mail inbox counts, and X notifications. No new feedback was found. Prepared `docs/appstuck-runbook.md` and re-ranked the next staged candidate from AC Tech Labs to AppStuck because AppStuck offers a cleaner public async route (`hello@appstuck.com`) and a less distortive free-assessment form.
-- Instance-only improvements executed: AppStuck runbook hardening, staged-target reprioritization, company-state/feedback/experiments/readout updates, and heartbeat prompt alignment.
-- Kernel/template/migration improvements: none identified in this run.
+- Evidence quality: still weak, but stronger than the previous run because three real contractor/agency touches are now in market. GitHub issue #1 still has no comments; X still shows no useful new response after the Jesse URL follow-up; the live URL remains healthy. The core uncertainty remains whether a contractor/agency evaluator would read a founder-filled packet before repo access.
+- Current-run work completed: user approved moving again instead of accepting another maintenance-only loop. AppStuck outreach was executed through the public contact form using `ws.software@outlook.com` after system Mail could not produce a verifiable sent item from that sender. Submission success was verified by the `https://www.appstuck.com/contact/thank-you` redirect.
+- Instance-only improvements executed: company-state/readout updates, AppStuck execution logging, and an explicit no-false-progress operating rule in `.company-mode/company.md`.
+- Kernel/template/migration improvements: updated the shared `company-mode` kernel to prevent repeated maintenance-only heartbeat rounds from being treated as progress when a clean next external action already exists.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, Bytewise's reply, or any new X/GitHub feedback. Keep heartbeat active for a 24-hour follow-up check.
+- Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, Bytewise's reply, AppStuck's reply, or any new X/GitHub feedback. Keep heartbeat active for a 24-hour follow-up check.
