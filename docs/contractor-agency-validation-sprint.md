@@ -4,7 +4,7 @@ Date: 2026-05-07
 
 Status: non-public staged growth asset. Do not send email, submit contact forms, post replies, like, follow, DM, book calls, or start paid audits without action-time confirmation.
 
-Route-verified send runbooks: `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`
+Route-verified/staged runbooks: `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/ac-tech-labs-runbook.md`
 Current send state: Afterbuild first-touch email sent on 2026-05-11; Bytewise second-touch email sent on 2026-05-12; AC Tech Labs is the next staged candidate only with fresh approval.
 
 ## Objective
@@ -175,10 +175,4 @@ Negative signal:
 
 ## Recommended Next Approval Gate
 
-Ask the user for confirmation to send exactly one direct outreach message first:
-
-```text
-Confirm sending the Afterbuild Labs message above through the safest available route, after final route/account/composer verification.
-```
-
-No other public or direct action should happen in the same approval without a separate confirmation.
+If Afterbuild and Bytewise still fail to produce a useful reply, ask for confirmation to submit the staged AC Tech Labs contact-form route in `docs/ac-tech-labs-runbook.md` with the truthful field mapping and validation note above.

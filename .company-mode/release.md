@@ -1,6 +1,6 @@
 # Release Ops
 
-Last updated: 2026-05-12
+Last updated: 2026-05-13
 
 ## Current Release
 
@@ -89,3 +89,4 @@ Last updated: 2026-05-12
 - 2026-05-11: User confirmed the Afterbuild action. Sent the staged email to `hello@afterbuildlabs.com` from Apple Mail after verifying recipient, subject, body, single live URL, sender account, and no-attachment state. The sent message appeared in `All Sent`.
 - 2026-05-12: GitHub issue #1 still had no comments, Apple Mail showed no inbound Afterbuild reply, and X notifications showed no useful new response after the Jesse URL follow-up. Prepared `docs/bytewise-fallback-runbook.md` with the exact second-touch route, trigger window, and message; no public post, reply, DM, follow, form submit, call booking, paid audit, or repost was sent.
 - 2026-05-12: User later approved the Bytewise action; verification showed the email to `contact@bytewise.agency` had already been sent from Apple Mail at `2026-05-12 19:21:35 CST` from `willsuosuo@gmail.com`, so no duplicate send was made. Future company outreach emails should use `ws.software@outlook.com` unless explicitly overridden.
+- 2026-05-13: GitHub issue #1 still had no comments, live URL returned HTTP 200, and no useful new X response was observed after the Jesse URL follow-up. Prepared `docs/ac-tech-labs-runbook.md` with the exact public form route, truthful field mapping, and framing risks; no public post, reply, DM, form submit, call booking, paid audit, or repost was sent.

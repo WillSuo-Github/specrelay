@@ -66,6 +66,11 @@
 - Verified that the Bytewise validation email had already been sent to `contact@bytewise.agency` from Apple Mail at `2026-05-12 19:21:35 CST`; no duplicate send was made afterward.
 - Added a company-level sender constraint: future outreach emails should use `ws.software@outlook.com` unless explicitly overridden.
 
+## 2026-05-13
+
+- Confirmed GitHub issue #1 still has no comments, the live site still returns HTTP 200, and no useful new X response was observed after the Jesse stability-first URL follow-up.
+- Prepared `docs/ac-tech-labs-runbook.md` so the next staged candidate is one exact AC Tech Labs fit-call form route with truthful field mapping rather than a vague “contact them later” placeholder.
+
 ## Candidate Bets
 
 | Candidate | Status | User problem | Key evidence | Next decision |
