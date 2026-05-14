@@ -20,6 +20,7 @@
 | Narrow AppStuck async gate | If the first two rescue-service emails fail to produce signal, approval should prefer the cleanest remaining async route over a sales-heavy fit-call form | Exact route, message, and form-vs-email reasoning are documented | Growth + Support/Research | Complete in `docs/appstuck-runbook.md` |
 | Prevent false progress loops | Repeated monitoring-only heartbeats should not be treated as company progress while a clean external move already exists | Company rules force either execution, exact gate escalation, or no-progress handling | Product/CEO | Complete in `.company-mode/company.md` and shared `company-mode` kernel |
 | Define post-three-touch decision rule | The current contractor/agency batch needs a concrete continue/pivot threshold before more waiting time passes | A hard checkpoint, signal taxonomy, and exact next-step branches are documented | Product/CEO + Growth | Complete in `docs/post-three-touch-decision-tree.md` |
+| Stage founder-side pivot | If the contractor/agency wedge degrades, the company should already have a realistic adjacent experiment instead of improvising under deadline | Founder-side claim, output shape, activation rule, and validation questions are documented | Product/CEO + Growth | Complete in `docs/founder-stability-brief-pivot.md` |
 | Explore first external channels | First reviews need the right channel/account, not more product scope | Channel fit, account needs, and channel-specific draft inputs are documented | Growth + Product | Complete in `docs/channel-exploration.md` |
 
 ## Next
@@ -27,7 +28,7 @@
 | Bet | Why next | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
 | Add feedback capture | Need qualitative learning without backend complexity | Packet includes review prompts that can be used in manual outreach without backend credentials | Growth + Release/Ops | Complete for MVP |
-| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Afterbuild Labs and Bytewise emails plus the AppStuck form submission are awaiting replies; apply `docs/post-three-touch-decision-tree.md` at `2026-05-21 23:59 CST` before deciding whether AC Tech Labs, a pivot, or a stop is correct |
+| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Afterbuild Labs and Bytewise emails plus the AppStuck form submission are awaiting replies; apply `docs/post-three-touch-decision-tree.md` at `2026-05-21 23:59 CST`, then either continue with AC Tech Labs on weak-positive evidence or activate `docs/founder-stability-brief-pivot.md` |
 | Prepare Product Hunt assets | Product Hunt needs stronger launch packaging than the current owned MVP assets | 240x240 thumbnail, 2 gallery images, and first comment draft are ready | Design + Growth | Later, after first evaluator signal |
 
 ## Later

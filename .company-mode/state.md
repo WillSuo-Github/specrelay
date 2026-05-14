@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-14`
+- Last updated: `2026-05-15`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators through the highest-signal available channel
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -16,11 +16,11 @@
 
 ## Next Recommended Actions
 
-- Product/CEO: sharpen positioning around stability-first handoff when someone else must review or improve the AI-built app
+- Product/CEO: keep the contractor/agency wedge alive only until the hard checkpoint; if it downgrades, switch to the staged founder-side pivot asset in `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. AC Tech Labs is only the next narrow candidate if the first three touches produce at least weak positive signal.
-- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, `docs/ac-tech-labs-runbook.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for contractor/agency/domain-builder screening, reply readout, and wedge-decision logic
+- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. AC Tech Labs is only the next narrow candidate if the first three touches produce at least weak positive signal. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md` before any more rescue-service outreach.
+- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, `docs/ac-tech-labs-runbook.md`, `docs/post-three-touch-decision-tree.md`, and `docs/founder-stability-brief-pivot.md` as the current source of truth for contractor/agency/domain-builder screening, reply readout, and wedge-decision logic
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
@@ -72,6 +72,17 @@
 - Kernel/template/migration improvements: updated the shared `company-mode` kernel to prevent repeated maintenance-only heartbeat rounds from being treated as progress when a clean next external action already exists.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, Bytewise's reply, AppStuck's reply, or any new X/GitHub feedback. Keep heartbeat active for a 24-hour follow-up check.
+
+## Latest CEO After-Action Review
+
+- Date: `2026-05-15`
+- Current stage: public MVP live. The company is still waiting on outside replies, but the adjacent founder-side wedge is now staged if the contractor/agency thesis weakens.
+- Evidence quality: repo-backed external evidence remains unchanged in this run. GitHub issue #1 still has no comments, the latest deploy is successful, and the live URL returns HTTP 200. No new inbox or X claim was recorded because this run did not have a reliable read-only verification surface for those channels.
+- Current-run work completed: re-checked repo-backed external surfaces and prepared `docs/founder-stability-brief-pivot.md`, which defines the narrower founder-side stability brief, its output shape, validation questions, and activation rule if the current three-touch batch does not validate the contractor/agency wedge.
+- Instance-only improvements executed: durable-state/readout alignment and a staged founder-side pivot asset.
+- Kernel/template/migration improvements: none identified in this run.
+- Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
+- Stop-check: one coherent unit of work is complete and the company is waiting on outside replies or the hard checkpoint on `2026-05-21 23:59 CST`. Keep heartbeat active for a 24-hour follow-up check.
 
 ## Latest CEO After-Action Review
 
