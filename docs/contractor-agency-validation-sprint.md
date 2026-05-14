@@ -175,4 +175,4 @@ Negative signal:
 
 ## Recommended Next Approval Gate
 
-If Afterbuild, Bytewise, and AppStuck still fail to produce a useful reply, ask for confirmation to submit the staged AC Tech Labs route in `docs/ac-tech-labs-runbook.md` with the truthful field mapping and validation note above.
+If Afterbuild, Bytewise, and AppStuck still fail to produce a useful reply, first apply `docs/post-three-touch-decision-tree.md`. Only ask for confirmation to submit the staged AC Tech Labs route if the current batch produces at least weak positive signal.

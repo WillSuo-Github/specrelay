@@ -12,15 +12,15 @@
 - Public URL: https://willsuo-github.github.io/specrelay/
 - Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether any of the three contractor/agency touches produce a useful reply
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: when Afterbuild replies, Bytewise replies, AppStuck replies, another active X target responds, GitHub issue #1 gets a comment, or the next 24-hour heartbeat
+- Next decision deadline: when Afterbuild replies, Bytewise replies, AppStuck replies, another active X target responds, GitHub issue #1 gets a comment, or the contractor/agency wedge reaches its hard checkpoint on `2026-05-21 23:59 CST`
 
 ## Next Recommended Actions
 
 - Product/CEO: sharpen positioning around stability-first handoff when someone else must review or improve the AI-built app
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; if the three contractor/agency touches stay silent or come back negative, the next narrow candidate is the staged AC Tech Labs form route in `docs/ac-tech-labs-runbook.md` with fresh approval
-- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, and `docs/ac-tech-labs-runbook.md` as the current source of truth for contractor/agency/domain-builder screening and reply readout
+- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. AC Tech Labs is only the next narrow candidate if the first three touches produce at least weak positive signal.
+- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, `docs/ac-tech-labs-runbook.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for contractor/agency/domain-builder screening, reply readout, and wedge-decision logic
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
@@ -72,3 +72,14 @@
 - Kernel/template/migration improvements: updated the shared `company-mode` kernel to prevent repeated maintenance-only heartbeat rounds from being treated as progress when a clean next external action already exists.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, Bytewise's reply, AppStuck's reply, or any new X/GitHub feedback. Keep heartbeat active for a 24-hour follow-up check.
+
+## Latest CEO After-Action Review
+
+- Date: `2026-05-14`
+- Current stage: public MVP live. The company remains in demand validation, but the next major decision is now explicit rather than implied.
+- Evidence quality: unchanged from the previous run. GitHub issue #1 still has no comments, the live URL remains healthy, and no new external reply was observed in this run.
+- Current-run work completed: re-checked external surfaces and found no new signal. Added `docs/post-three-touch-decision-tree.md` so the company now has an explicit hard checkpoint, signal taxonomy, and pivot/continue logic for the current three-touch contractor/agency batch.
+- Instance-only improvements executed: durable-state/readout alignment and an explicit post-three-touch decision asset.
+- Kernel/template/migration improvements: none identified in this run beyond the previously shipped no-false-progress kernel rule.
+- Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
+- Stop-check: one coherent unit of work is complete and the company is waiting on outside replies. Keep heartbeat active for a 24-hour follow-up check.
