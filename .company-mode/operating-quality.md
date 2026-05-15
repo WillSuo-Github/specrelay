@@ -1,0 +1,62 @@
+# Operating Quality
+
+- Last updated: `2026-05-15`
+- Owner role: Product/CEO
+- Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
+
+## Current Quality Summary
+
+- Source ledger: `run-log.md`
+- Rolling window: last 10 active company runs
+- Real-progress rate: `90%` (`9/10`)
+- External-signal output rate: `8/10` runs either shipped a real external touch or staged the exact next gate
+- No-progress streak: `1`
+- Independent-check pass rate: `1/1` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
+- Account dependency closure rate: `100%` of current blocking needs are either absent or explicitly non-blocking
+- Scenario regression status: not run in this instance; no kernel change was made in this migration
+- Business audit status: current (`mixed` on `2026-05-15`)
+- Current quality risk: `medium`
+- Required correction: no more internal-only company prep before the current evidence window resolves or an actual blocker appears
+
+## KPI Thresholds
+
+| KPI | Target | Failure trigger | Corrective action |
+| --- | --- | --- | --- |
+| Real-progress rate | At least 60% over last 10 active runs; at least 80% in `pre-launch`, `no-traction`, and `monetization-search` unless blocked by real outside waits | Below target | Next run is failure recovery around the current revenue bottleneck |
+| External-signal output rate | At least 1 external signal action, staged final gate, or direct blocker removal every 2 weak-signal runs | 2 weak-signal runs without one | Stop maintenance and produce/stage the nearest external signal |
+| No-progress streak | 0 preferred; never more than 1 | 2 consecutive no-progress rounds | Use 10-minute cadence and resume execution before state hygiene |
+| Independent-check pass rate | 100% for runs with public, release, account, privacy, or revenue claims | Any hard blocker or below-threshold score | Fix before closeout or record exact dependency |
+| Account dependency closure rate | Every active need has status, verification method, fallback, resume action, and next check cadence | Any active need missing a field | Fix `account-needs.md` before closeout |
+| Business audit freshness | Weekly Friday 17:00 local time or every 10 active runs | Audit overdue or two consecutive `no` answers | Run audit before ordinary backlog; force strategy reset or `sunset-review` |
+| Scenario regression status | `scripts/run_scenario_tests.py` passes before reusable kernel commits | Any failure | Fix kernel or test expectation before commit |
+| Dashboard freshness | Dashboard updated whenever core business facts change | Stale or contradictory dashboard | Update `company-dashboard.md` from detailed files |
+| Revenue-bottleneck focus | 70/20/10 respected unless an emergency gate exists | Internal maintenance dominates weak-signal runs | Reclassify next run as failure recovery |
+
+## Run Quality Log
+
+This table is a summary view. The canonical per-run ledger and counters live in `run-log.md`.
+
+| Date | Stage | Bottleneck | Main output | Real progress? | External signal / blocker removed | Independent-check decision | Account status change | Next correction |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `2026-05-11` | `no-traction` | `distribution` | Afterbuild send gate and then live email send | yes | first contractor/agency outreach sent | inferred pass | none | read reply quality, not more generic prep |
+| `2026-05-12` | `no-traction` | `distribution` | Bytewise fallback gate and confirmed second email send | yes | second contractor/agency outreach sent | inferred pass | sender preference updated | keep external batch coherent |
+| `2026-05-13` | `no-traction` | `distribution` | AC Tech + AppStuck candidate narrowing | yes | third-path decision got cleaner | inferred pass | none | avoid extra channel sprawl |
+| `2026-05-14` | `no-traction` | `distribution` | AppStuck contact-form outreach executed | yes | third contractor/agency touch sent | inferred pass | none | wait for reply or checkpoint |
+| `2026-05-14` | `no-traction` | `decision` | hard checkpoint decision tree | yes | active-product continue/pivot gate clarified | inferred pass | none | no more internal drift |
+| `2026-05-15` | `no-traction` | `decision` | founder-side pivot staged | yes | adjacent experiment path clarified | inferred pass | none | do not activate before checkpoint |
+| `2026-05-15` | `no-traction` | `decision` | schema migration and CEO catch-up | no | none | pass | none | next run must stay on live evidence, not more structure |
+
+## Quality Review Questions
+
+- Did this run change a real business state, public state, revenue state, account dependency, final-action gate, or decision-grade evidence?
+- If not, why was the stop condition still valid?
+- Did the company spend most effort on the current revenue bottleneck?
+- Did independent check block anything?
+- Did open account needs move closer to verification, resume, or closure?
+- Is the next wake cadence consistent with progress and stage?
+
+## Escalation Rules
+
+- If quality risk is high, Product/CEO must choose failure recovery before ordinary backlog work.
+- If the same quality failure appears twice, update the shared kernel or scenario tests.
+- If the company repeatedly produces summaries without external signal movement, classify the next run as no-progress and use the 10-minute cadence.

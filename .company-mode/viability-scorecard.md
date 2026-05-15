@@ -1,0 +1,42 @@
+# Viability Scorecard
+
+- Last updated: `2026-05-15`
+- Owner role: Product/CEO
+- Purpose: prevent zombie maintenance by forcing an evidence-based continue, intensify, pivot, park, or sunset decision.
+
+## Current Decision
+
+- Recommendation: `continue`
+- Confidence: low
+- Reason: the current contractor/agency wedge still has a live evidence window through `2026-05-21 23:59 CST`, but there is still no strong intent signal, no reply from the three direct touches, and no monetization proof. Continue only to the existing checkpoint; do not extend the wedge by default.
+- Next review at: `2026-05-18 09:00 CST`
+- Next review trigger: weekly, every 5 active runs counted in `run-log.md`, after 3 weak/negative completed experiments, on material release/monetization/distribution result, or immediately when entering `sunset-review`
+- Evidence window: `2026-05-01` to `2026-05-21 23:59 CST` for the current contractor/agency validation wedge
+
+## Scorecard
+
+Score each dimension from 0 to 5. Use `unknown` only when the company has not yet run a fair evidence-producing step.
+
+| Dimension | Score | Evidence | Main risk | Next action |
+| --- | --- | --- | --- | --- |
+| Demand | 2 | two weak qualitative signals and a plausible adjacent service market, but no strong intent | the pain may be conditional or too narrow | read the current batch to checkpoint |
+| Activation | 1 | live product exists, but no confirmed packet completion by a real evaluator | users may never start or finish the manual packet | keep output stable; do not add scope |
+| Retention | 0 | no repeat usage evidence | even a useful first look may not recur | ignore until first real user exists |
+| Monetization | 0 | no paid offer, no price test, no willingness-to-pay language | solving the wrong buyer/workflow shape | wait for workflow-fit evidence before pricing |
+| Distribution | 2 | X outreach and three direct touches are live, but no repeatable channel winner exists | current outreach may still fail silently | apply the hard checkpoint rigorously |
+| Differentiation | 3 | no-login/no-repo + stability-first pre-scope angle is distinct from repo-connected adjacencies like AppHandoff | differentiation may still be too abstract | keep the wedge narrow |
+| Execution fit | 4 | static web product, low-cost ops, and reversible pivot path are all workable | risk is business fit, not implementation | maintain only |
+
+## Decision Rules
+
+- `intensify`: strong evidence in the current bottleneck and a clear next scaling move.
+- `continue`: enough evidence to justify one more bounded experiment.
+- `pivot`: demand exists but target, positioning, business model, or product shape is wrong.
+- `park`: evidence is inconclusive and a higher-leverage product/company move exists.
+- `sunset`: evidence window failed with no meaningful demand, activation, retention, monetization, distribution, or differentiation signal.
+
+## Review Log
+
+| Date | Recommendation | Scores changed | Evidence | Next review at | Next review trigger |
+| --- | --- | --- | --- | --- | --- |
+| `2026-05-15` | `continue` | initialized all dimensions from current durable evidence | product is live, direct outreach batch is still open, but strong intent and monetization remain absent | `2026-05-18 09:00 CST` | weekly cadence or earlier strong reply / checkpoint outcome |

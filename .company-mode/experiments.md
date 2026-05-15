@@ -1,5 +1,41 @@
 # Experiments
 
+- Last updated: `2026-05-15`
+- Owner role: Product/CEO + relevant execution role
+- Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
+
+## Current Experiment State
+
+- Active experiment: `EXP-0003 contractor/agency wedge validation`
+- Bottleneck tested: `distribution`
+- Evidence window: `2026-05-01` to `2026-05-21 23:59 CST`
+- Readout due: `2026-05-21 23:59 CST`
+- Current decision pressure: continue the contractor/agency wedge, pivot to the founder-side stability brief, or enter `sunset-review`
+- Last completed experiment result: `EXP-0002` produced weak-but-useful stability-first language and justified continuing with a sharper evaluator segment
+- Weak/negative completed experiments since last viability review: 0
+
+## Experiment Rules
+
+- Every active experiment must name a bottleneck, target segment, success metric, readout date, and decision rule before execution starts.
+- Do not keep running experiments with no readout date.
+- If the readout date passes without enough evidence, mark the experiment `inconclusive` and decide whether the next move is a better readout, strategy reset, or viability review.
+- If an experiment is weak or negative, update `viability-scorecard.md` when the result affects continuation risk.
+- If an experiment changes distribution, monetization, revenue, activation, retention, or account needs, mirror the result into the relevant state files.
+
+## Open Experiments
+
+| ID | Status | Bottleneck | Hypothesis | Target segment | Change / action | Success metric | Baseline | Target / threshold | Evidence source | Start date | Readout due | Authority gate | Owner lens |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `EXP-0003` | active | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Afterbuild email + Bytewise email + AppStuck contact form | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
+| `EXP-0004` | staged | decision | if the contractor/agency wedge weakens, a founder-side stability brief may be a more realistic adjacent product shape | founder/operator preparing to launch or hand off an AI-built app | `docs/founder-stability-brief-pivot.md` | at least one founder says the smaller brief is realistic and useful before outside help | not active yet | activate only if `EXP-0003` resolves weak/negative | founder replies and future validation | `2026-05-15` | activation only after `EXP-0003` readout | future public/direct action would be gated | Product/CEO |
+
+## Readout Log
+
+| Date | Experiment ID | Result | Evidence observed | Confidence | Decision | State files updated | Next step |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `2026-05-03` | `EXP-0001` | `inconclusive` | HN Show HN attempt failed with `fnop=toonew`; it tested account trust, not product demand | high for channel block | stop the HN route for now | `experiments.md`, `release.md`, `feedback.md` | move to direct targeted outreach |
+| `2026-05-05` | `EXP-0002` | `continue` | Frank gave a weak negative segmentation signal; Jesse gave a weak positive stability-first workflow signal | medium | narrow the product and outreach toward stability-first evaluator use | `feedback.md`, `release.md`, app output, `state.md` | run contractor/agency wedge with sharper framing |
+
 ## Active
 
 | Date | Hypothesis | Change | Metric | Result | Next step |
