@@ -65,6 +65,17 @@
 ## Latest CEO After-Action Review
 
 - Date: `2026-05-15`
+- Current stage: public MVP live. The company remains in a real outside wait on the current contractor/agency batch, and the durable state chronology is now normalized to the upgraded schema.
+- Evidence quality: unchanged on market signal in this run. No new verified reply, GitHub issue comment, or monetization signal was added. The meaningful work in this run was removing contradictory CEO review chronology that would otherwise degrade future autonomous recovery.
+- Current-run work completed: refreshed durable state, normalized duplicate `Latest CEO After-Action Review` sections into a consistent history, and recorded this run in the new schema ledger.
+- Instance-only improvements executed: state chronology repair and schema-era run-log/quality counter update.
+- Kernel/template/migration improvements: none identified in this run.
+- Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
+- Stop-check: one coherent operational repair is complete. The company remains in a valid outside wait until a reply arrives or the hard checkpoint on `2026-05-21 23:59 CST` is reached. Keep heartbeat active for a 24-hour follow-up check.
+
+## Previous CEO After-Action Review
+
+- Date: `2026-05-15`
 - Current stage: public MVP live. The company is still waiting on outside replies, and the internal operating schema is now upgraded to the latest company-mode structure.
 - Evidence quality: unchanged on market signal in this run. GitHub issue #1 still has no comments, the live URL remains healthy, and no new verified reply was added. Business audit for the current window is `mixed`: distribution moved closer to target evaluators, but demand, monetization, and buyer proof remain unresolved.
 - Current-run work completed: refreshed the installed kernel, ran non-force schema self-completion, migrated new starter-kit files without overwriting product facts, reconstructed `run-log.md`, initialized `company-dashboard.md`, `operating-quality.md`, `business-audit.md`, `viability-scorecard.md`, and aligned the new authority/account/business-model/signal/revenue files to current SpecRelay facts.
@@ -73,7 +84,7 @@
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent migration-and-audit run is complete. The company is in a real outside wait on Afterbuild, Bytewise, AppStuck, or the hard checkpoint on `2026-05-21 23:59 CST`. Keep heartbeat active for a 24-hour follow-up check.
 
-## Latest CEO After-Action Review
+## Previous CEO After-Action Review
 
 - Date: `2026-05-14`
 - Current stage: public MVP live. The company remains in demand validation with a sharper stability-first contractor/agency wedge.
@@ -84,7 +95,7 @@
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent unit of work is complete and the company is now waiting on Afterbuild's reply, Bytewise's reply, AppStuck's reply, or any new X/GitHub feedback. Keep heartbeat active for a 24-hour follow-up check.
 
-## Latest CEO After-Action Review
+## Previous CEO After-Action Review
 
 - Date: `2026-05-15`
 - Current stage: public MVP live. The company is still waiting on outside replies, but the adjacent founder-side wedge is now staged if the contractor/agency thesis weakens.
@@ -95,7 +106,7 @@
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent unit of work is complete and the company is waiting on outside replies or the hard checkpoint on `2026-05-21 23:59 CST`. Keep heartbeat active for a 24-hour follow-up check.
 
-## Latest CEO After-Action Review
+## Previous CEO After-Action Review
 
 - Date: `2026-05-14`
 - Current stage: public MVP live. The company remains in demand validation, but the next major decision is now explicit rather than implied.

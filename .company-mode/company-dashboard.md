@@ -9,8 +9,8 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0019` | `run-log.md` | high |
-| Active run count | 19 | `run-log.md` | medium |
+| Last active run | `RUN-0020` | `run-log.md` | high |
+| Active run count | 20 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
 | Current business model | `B2B/license` hypothesis with founder-side pivot staged but inactive | `business-model.md` | medium |
@@ -30,8 +30,8 @@
 - Highest-leverage next move: let the current three-touch contractor/agency batch reach its `2026-05-21 23:59 CST` readout, then apply the continue/pivot rule without adding drift work.
 - Narrowest approval/account gate, if any: any further public post, DM, follow-up with link, or new direct outreach remains action-time gated.
 - Current external signal opportunity: a useful reply from Afterbuild, Bytewise, AppStuck, or an active X target that clarifies whether the packet changes real workflow behavior.
-- Current real-progress status: the current migration run is `no-progress` from a business standpoint; the prior run changed the active-product plan by staging the founder-side pivot.
-- Last run-log entry: `RUN-0019` schema migration and CEO catch-up audit.
+- Current real-progress status: the latest run removed a durable-state contradiction; business signal is still unchanged, but future autonomous recovery is cleaner.
+- Last run-log entry: `RUN-0020` state chronology repair.
 - Last business-audit answer: `mixed`.
 - Next decision deadline: `2026-05-21 23:59 CST`.
 
