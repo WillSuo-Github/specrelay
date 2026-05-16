@@ -1,6 +1,6 @@
 # Revenue Pipeline
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-17`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
@@ -35,6 +35,7 @@
 | `@jessecolesmith` | founder / domain builder | stability-first workflow language | wait for any reply; use only as founder-side evidence, not monetization proof | public follow-up would be gated | weak positive logged |
 | `@FSfakiotakis` | founder / operator | simple founder-maintained apps may not need this early | keep as segmentation constraint | any new public action gated | weak negative logged |
 | Hacker News Show HN | public distribution | account too new (`fnop=toonew`) | do not retry unless HN becomes the chosen next channel | account trust would gate | blocked/stale for now |
+| Founder-side target pool | founder / operator | demo-to-launch confidence gap is already visible in public Replit, Lovable, and SaaS threads | if pivot activates, use `docs/founder-stability-target-pool.md` to choose the first exact no-link reply candidate instead of rediscovering targets | public/direct action still gated | staged |
 
 ## Channel Experiments
 
@@ -57,7 +58,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | wait for Afterbuild, Bytewise, or AppStuck reply through `2026-05-21 23:59 CST` | distribution | reply quality that validates or kills the contractor/agency wedge | no | active |
 | 2 | if any weak positive or stronger signal arrives, stage AC Tech Labs as corroboration | distribution | second source of workflow-fit confirmation | yes, direct outreach/form action | conditional |
-| 3 | if the batch is silent or negative at the checkpoint, activate `docs/founder-stability-brief-pivot.md` and `docs/founder-stability-brief-runbook.md` | decision | founder-side adjacent experiment instead of more rescue-service outreach | no for internal pivot work; yes for future public/direct action | staged |
+| 3 | if the batch is silent or negative at the checkpoint, activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` | decision | founder-side adjacent experiment instead of more rescue-service outreach | no for internal pivot work; yes for future public/direct action | staged |
 
 ## Acquisition Cadence
 

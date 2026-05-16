@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-17`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -47,6 +47,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-15` | `no-traction` | `decision` | schema migration and CEO catch-up | no | none | pass | none | next run must stay on live evidence, not more structure |
 | `2026-05-15` | `no-traction` | `decision` | durable-state chronology repair | yes | future autonomous recovery no longer depends on contradictory review history | pass | none | next run should stay on live evidence, not more structure |
 | `2026-05-16` | `no-traction` | `distribution` | founder-side validation runbook staged | yes | fallback path is now at a narrow future gate instead of abstract strategy | pass | none | wait for current batch; do not open new channel yet |
+| `2026-05-17` | `no-traction` | `distribution` | founder-side target pool staged | yes | founder-side pivot no longer depends on rediscovering live public targets at checkpoint time | pass | none | keep waiting; use the staged target pool only if the pivot activates |
 
 ## Quality Review Questions
 

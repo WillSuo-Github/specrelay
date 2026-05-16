@@ -1,6 +1,6 @@
 # Company Dashboard
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-17`
 - Owner role: Product/CEO
 - Purpose: keep a one-page CEO view of company health, current bottleneck, live blockers, and the next revenue move.
 
@@ -9,8 +9,8 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0021` | `run-log.md` | high |
-| Active run count | 21 | `run-log.md` | medium |
+| Last active run | `RUN-0022` | `run-log.md` | high |
+| Active run count | 22 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
 | Current business model | `B2B/license` hypothesis with founder-side pivot staged but inactive | `business-model.md` | medium |
@@ -30,8 +30,8 @@
 - Highest-leverage next move: let the current three-touch contractor/agency batch reach its `2026-05-21 23:59 CST` readout, then apply the continue/pivot rule without adding drift work.
 - Narrowest approval/account gate, if any: any further public post, DM, follow-up with link, or new direct outreach remains action-time gated.
 - Current external signal opportunity: a useful reply from Afterbuild, Bytewise, AppStuck, or an active X target that clarifies whether the packet changes real workflow behavior.
-- Current real-progress status: business signal is still unchanged, but the founder-side fallback is now compressed to an execution-grade runbook instead of a broad pivot note.
-- Last run-log entry: `RUN-0021` founder-side validation runbook staging.
+- Current real-progress status: business signal is still unchanged, but the founder-side fallback now has a ranked target pool and exact first approval candidate instead of only generic founder positioning.
+- Last run-log entry: `RUN-0022` founder-side target-pool staging.
 - Last business-audit answer: `mixed`.
 - Next decision deadline: `2026-05-21 23:59 CST`.
 
@@ -48,7 +48,7 @@
 | Release / reachability | strong | stable public surface | live GitHub Pages app and release issue are healthy | maintain only |
 | Reliability | acceptable | growth not wasted by defects | product is stable enough for manual evaluation | no product expansion before evidence |
 | Account dependencies | manageable | all needs explicit and current | no blocking account need right now | keep `account-needs.md` empty until a true blocker appears |
-| Operating quality | medium | no repeated internal-only loops | current run is no-progress, but last 10-run real-progress rate is still healthy | stop adding internal prep until the next readout or gate |
+| Operating quality | medium | no repeated internal-only loops | current run staged the exact founder-side target pool, and last 10-run real-progress rate is still healthy | stop adding internal prep after this until the next readout or gate |
 | Business audit | current | weekly / 10-run answer | `mixed` on `2026-05-15` | next audit on `2026-05-22 17:00 CST` or earlier trigger |
 
 ## Current Priorities
@@ -56,7 +56,7 @@
 | Rank | Priority | Why it matters now | Expected signal | Owner lens | Status |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Read the three-touch contractor/agency batch to checkpoint | this is the only live external evidence window with real target fit | reply quality that answers whether the packet changes intake/scoping behavior | Product/CEO + Growth | waiting |
-| 2 | Keep the founder-side stability-brief pivot ready but inactive | it is the cleanest adjacent experiment if the current wedge weakens | faster pivot decision with no more schema work needed | Product/CEO | staged |
+| 2 | Keep the founder-side stability-brief pivot ready but inactive | it is the cleanest adjacent experiment if the current wedge weakens | faster pivot decision with no more target rediscovery work needed | Product/CEO | staged |
 | 3 | Do not open a new channel or product prematurely | more internal/channel spread would hide the actual signal deficit | cleaner continue/pivot/stop decision on `2026-05-21` | Product/CEO | active constraint |
 
 ## Dashboard Rules

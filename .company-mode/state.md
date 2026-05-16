@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-16`
+- Last updated: `2026-05-17`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators through the highest-signal available channel
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -19,7 +19,7 @@
 - Product/CEO: keep the contractor/agency wedge alive only until the hard checkpoint; if it downgrades, switch to the staged founder-side pivot asset in `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. AC Tech Labs is only the next narrow candidate if the first three touches produce at least weak positive signal. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md` and the exact founder-side execution asset in `docs/founder-stability-brief-runbook.md` before any more rescue-service outreach.
+- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. AC Tech Labs is only the next narrow candidate if the first three touches produce at least weak positive signal. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` before any more rescue-service outreach.
 - Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, `docs/ac-tech-labs-runbook.md`, `docs/post-three-touch-decision-tree.md`, `docs/founder-stability-brief-pivot.md`, and `docs/founder-stability-brief-runbook.md` as the current source of truth for contractor/agency/domain-builder screening, reply readout, and wedge-decision logic
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
@@ -64,11 +64,11 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-16`
-- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency batch, but the founder-side fallback is now compressed into an exact validation runbook rather than a broad pivot note.
+- Date: `2026-05-17`
+- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency batch, and no new founder or evaluator signal exists yet.
 - Evidence quality: unchanged on market signal in this run. GitHub issue #1 still has no comments, the latest Pages deploy is healthy, and the live URL still returns HTTP 200. No new verified reply was added.
-- Current-run work completed: repo-backed external surfaces were re-checked and found unchanged; added `docs/founder-stability-brief-runbook.md` to narrow the founder-side fallback to one exact validation ask, one no-link public reply shape, one direct-message shape, and a precise activation rule.
-- Instance-only improvements executed: founder-side fallback was tightened from positioning to execution-grade runbook.
+- Current-run work completed: repo-backed external surfaces were re-checked and found unchanged; added `docs/founder-stability-target-pool.md` so the staged founder-side fallback now has ranked public targets, one exact first approval candidate, and one exact second candidate instead of rediscovery work at checkpoint time.
+- Instance-only improvements executed: founder-side fallback was tightened from runbook-only readiness to target-ready execution prep.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent growth-prep action is complete and the company remains in a valid outside wait until a reply arrives or the hard checkpoint on `2026-05-21 23:59 CST` is reached. Keep heartbeat active for a 24-hour follow-up check.

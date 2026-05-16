@@ -1,6 +1,6 @@
 # Market Map
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-17`
 - Owner role: Support/Research + Growth
 - Purpose: keep competitive, keyword, channel, and public pain-signal context current enough for the company to find users without paid promotion.
 
@@ -33,6 +33,10 @@
 | X / `@FSfakiotakis` | simple founder-maintained apps may not need a packet until someone else touches them | founder/operator | medium | narrow positioning to outside-review moments | logged |
 | X / `@jessecolesmith` | start with stability, basic features, and real observed issues | hands-on domain builder | medium | keep the product stability-first | logged |
 | Rescue-service sites | founders need rescue/audit/hardening help after AI-generated builds | contractor/agency | medium | test whether a pre-scope brief fits intake | active |
+| r/replit launch-confidence thread | founders say the demo works but launch confidence is low because auth, payments, emails, and breakage risk are unclear | founder/operator | medium | first founder-side no-link reply candidate if pivot activates | staged |
+| r/SaaS real-user-breakage thread | founders describe auth edge cases, billing webhooks, stale admin paths, and deployed breakage | founder/operator | medium | second founder-side no-link reply candidate if pivot activates | staged |
+| r/lovable launch-hardening thread | non-technical founders are already discussing pre-launch backend, auth, security, and monitoring checks | founder/operator | medium | use as founder-side positioning and reply surface if the top two threads go stale | staged |
+| Indie Hackers AI-built-codebase review post | service-side proof that invisible launch problems appear after visible MVP success | founder/operator plus service reviewer | medium | use as positioning evidence, not first contact route | staged |
 
 ## Channels
 
@@ -62,4 +66,4 @@
 | Priority | Question | Why it matters | Method | Status |
 | --- | --- | --- | --- | --- |
 | 1 | do contractor/agency evaluators say the artifact changes intake or scoping? | this decides whether the current wedge lives | current outreach batch | in progress |
-| 2 | if not, does the founder-side stability brief feel realistic enough to complete? | this is the cleanest adjacent pivot | founder-side validation after checkpoint | staged |
+| 2 | if not, does the founder-side stability brief feel realistic enough to complete? | this is the cleanest adjacent pivot | founder-side validation after checkpoint using `docs/founder-stability-target-pool.md` | staged |

@@ -1,6 +1,6 @@
 # Signal Sources
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-17`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
@@ -35,6 +35,7 @@
 | Manual exported packet QA | output quality and product reliability | local browser QA | medium | already used | only revisit if product output changes |
 | Product analytics | visitor, start, copy/download behavior | analytics service + privacy decision | currently unavailable | gap | request only if the current wedge survives |
 | Competitor/community research | pain language, adjacent channels, positioning | public web access | medium | available | use only when the next move needs fresh target sourcing |
+| Founder-side target threads | public launch-readiness pain and validation surfaces | public web access; future community account/session if activated | medium | now staged | use `docs/founder-stability-target-pool.md` if the founder-side pivot activates |
 
 ## Readout Log
 
@@ -45,6 +46,7 @@
 | `2026-05-11` to `2026-05-14` | would contractor/agency evaluators use the packet before scoping? | Afterbuild email, Bytewise email, AppStuck contact form | batch is live; no verified reply yet | low | `feedback.md`, `experiments.md`, `state.md` | read reply quality or apply checkpoint logic |
 | `2026-05-15` | is there any new repo-backed external signal before migration closeout? | GitHub issue + workflow status + live URL | no new repo-backed demand signal; release surface still healthy | high for release, low for demand | `release.md`, `business-audit.md`, `company-dashboard.md` | wait for direct replies or checkpoint |
 | `2026-05-16` | if the current wedge fails, is the founder-side fallback precise enough to activate immediately? | repo-backed strategy review + founder-side runbook prep | yes for internal readiness; still no external validation yet | medium for readiness, low for demand | `state.md`, `revenue-pipeline.md` | wait for replies or checkpoint |
+| `2026-05-17` | if the current wedge fails, does the founder-side pivot already have concrete public targets instead of only abstract positioning? | repo-backed checks + current public community research | yes for target readiness; still no founder-side validation yet | medium for readiness, low for demand | `state.md`, `revenue-pipeline.md`, `market-map.md` | wait for replies or checkpoint |
 
 ## Integration Requests
 
