@@ -44,6 +44,7 @@
 | `2026-05-05` | should the packet lead with specification or stability? | X reply from `@jessecolesmith` | weak positive for stability-first workflow | medium | `feedback.md`, app output, `release.md` | test whether the updated packet fits handoff behavior |
 | `2026-05-11` to `2026-05-14` | would contractor/agency evaluators use the packet before scoping? | Afterbuild email, Bytewise email, AppStuck contact form | batch is live; no verified reply yet | low | `feedback.md`, `experiments.md`, `state.md` | read reply quality or apply checkpoint logic |
 | `2026-05-15` | is there any new repo-backed external signal before migration closeout? | GitHub issue + workflow status + live URL | no new repo-backed demand signal; release surface still healthy | high for release, low for demand | `release.md`, `business-audit.md`, `company-dashboard.md` | wait for direct replies or checkpoint |
+| `2026-05-16` | if the current wedge fails, is the founder-side fallback precise enough to activate immediately? | repo-backed strategy review + founder-side runbook prep | yes for internal readiness; still no external validation yet | medium for readiness, low for demand | `state.md`, `revenue-pipeline.md` | wait for replies or checkpoint |
 
 ## Integration Requests
 

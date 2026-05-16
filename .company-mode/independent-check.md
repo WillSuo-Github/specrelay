@@ -1,16 +1,16 @@
 # Independent Check
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-16`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-05-15`
+- Run date: `2026-05-16`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: installed-kernel refresh, non-force bootstrap behavior, starter-file migration scope, public-action gate consistency, repo-backed evidence claims, run-log counters, and business-audit / viability carry-forward
+- Scope checked: repo-backed external signal claims, founder-side runbook narrowing, durable-state linkage, run-log counters, and stop-condition validity while the current outreach batch waits
 - Hard blockers found: no
-- Score: `19/21`
+- Score: `20/21`
 - Decision: `pass with notes`
 
 ## Hard Blockers
@@ -30,16 +30,17 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, workflow status, live URL, existing state files, git history, and bootstrap output | no fabricated external signal was added |
+| Evidence support | 3 | GitHub issue state, workflow status, live URL, and updated durable-state links | no fabricated external signal was added |
 | Account and provider correctness | 3 | repo, company instance, sender policy, and approval gates | no wrong-provider or wrong-account mutation in this run |
 | Public artifact fidelity | 2 | no new public artifact was published; existing live URL health was verified from repo-backed surface | no blocking issue, but no UI/browser deep check this run |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stopped after migration, audit, viability review, and state closeout | valid outside wait remains |
-| Durable state updates | 3 | state, dashboard, audit, viability, run-log, pipeline, signal, and quality files updated together | schema now matches product facts |
-| Resume and wake readiness | 2 | next checkpoint and next reviews are explicit | external mailbox/X readout still lacks a perfect automated surface |
+| Stop-condition validity | 3 | run stopped after a real growth-prep output while a valid outside wait remains | valid outside wait remains |
+| Durable state updates | 3 | state, run-log, pipeline, signal, experiments, dashboard, and quality files updated together | founder-side fallback is now linked end-to-end |
+| Resume and wake readiness | 3 | next checkpoint and next fallback gate are explicit | no blocker to future recovery |
 
 ## Check Log
 
 | Date | Checked by | Total score | Hard blockers | Decision | Follow-up |
 | --- | --- | --- | --- | --- | --- |
 | `2026-05-15` | explicit audit lens + repo-backed verification | `19/21` | none | `pass with notes` | keep future runs tied to live evidence, not more internal-only migration work |
+| `2026-05-16` | explicit audit lens + repo-backed verification | `20/21` | none | `pass with notes` | keep waiting discipline; use the founder-side runbook only if the checkpoint forces the pivot |

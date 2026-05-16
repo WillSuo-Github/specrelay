@@ -57,7 +57,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | wait for Afterbuild, Bytewise, or AppStuck reply through `2026-05-21 23:59 CST` | distribution | reply quality that validates or kills the contractor/agency wedge | no | active |
 | 2 | if any weak positive or stronger signal arrives, stage AC Tech Labs as corroboration | distribution | second source of workflow-fit confirmation | yes, direct outreach/form action | conditional |
-| 3 | if the batch is silent or negative at the checkpoint, activate `docs/founder-stability-brief-pivot.md` | decision | founder-side adjacent experiment instead of more rescue-service outreach | no for internal pivot work; yes for future public/direct action | staged |
+| 3 | if the batch is silent or negative at the checkpoint, activate `docs/founder-stability-brief-pivot.md` and `docs/founder-stability-brief-runbook.md` | decision | founder-side adjacent experiment instead of more rescue-service outreach | no for internal pivot work; yes for future public/direct action | staged |
 
 ## Acquisition Cadence
 

@@ -9,9 +9,9 @@
 - Source ledger: `run-log.md`
 - Rolling window: last 10 active company runs
 - Real-progress rate: `90%` (`9/10`)
-- External-signal output rate: `8/10` runs either shipped a real external touch or staged the exact next gate
+- External-signal output rate: `9/10` runs either shipped a real external touch or staged the exact next gate
 - No-progress streak: `0`
-- Independent-check pass rate: `1/1` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
+- Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either absent or explicitly non-blocking
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
 - Business audit status: current (`mixed` on `2026-05-15`)
@@ -46,6 +46,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-15` | `no-traction` | `decision` | founder-side pivot staged | yes | adjacent experiment path clarified | inferred pass | none | do not activate before checkpoint |
 | `2026-05-15` | `no-traction` | `decision` | schema migration and CEO catch-up | no | none | pass | none | next run must stay on live evidence, not more structure |
 | `2026-05-15` | `no-traction` | `decision` | durable-state chronology repair | yes | future autonomous recovery no longer depends on contradictory review history | pass | none | next run should stay on live evidence, not more structure |
+| `2026-05-16` | `no-traction` | `distribution` | founder-side validation runbook staged | yes | fallback path is now at a narrow future gate instead of abstract strategy | pass | none | wait for current batch; do not open new channel yet |
 
 ## Quality Review Questions
 

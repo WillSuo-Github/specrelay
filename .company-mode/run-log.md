@@ -6,15 +6,15 @@
 
 ## Current Counters
 
-- Total active runs: 20
-- Last run ID: `RUN-0020`
-- Next run ID: `RUN-0021`
-- Last active run at: `2026-05-15 23:15 CST`
-- Last real-progress run ID: `RUN-0020`
+- Total active runs: 21
+- Last run ID: `RUN-0021`
+- Next run ID: `RUN-0022`
+- Last active run at: `2026-05-16 15:08 CST`
+- Last real-progress run ID: `RUN-0021`
 - Last no-progress run ID: `RUN-0019`
 - No-progress streak: 0
-- Runs since viability review: 1
-- Runs since business audit: 1
+- Runs since viability review: 2
+- Runs since business audit: 2
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
@@ -64,6 +64,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0018` | `2026-05-15 07:00 CST` | `no-traction` | `decision` | stage founder-side fallback before checkpoint pressure | observe -> decide -> prepare | founder-side stability-brief pivot asset documented | yes | adjacent pivot path became explicit | inferred pass | n/a | n/a | none | docs, state, roadmap | 24h |
 | `RUN-0019` | `2026-05-15 19:39 CST` | `no-traction` | `decision` | migrate to latest company-mode schema without overwriting product facts | observe -> decide -> prepare -> verify | missing starter-kit files migrated; counters, audit, viability, dashboard, and ledgers aligned to SpecRelay facts | no | none; governance surface upgraded but no new market evidence created | pass | `mixed` | `continue` | none | `.company-mode/*`, `ops/*` | 24h |
 | `RUN-0020` | `2026-05-15 23:15 CST` | `no-traction` | `decision` | remove contradictory state chronology before the next autonomous recovery | observe -> decide -> prepare -> verify | `state.md` CEO review chronology normalized; schema counters advanced cleanly | yes | stale/contradictory durable-state blocker removed from future company operation | pass | n/a | n/a | none | `.company-mode/state.md`, `.company-mode/run-log.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md` | 24h |
+| `RUN-0021` | `2026-05-16 15:08 CST` | `no-traction` | `distribution` | compress the founder-side fallback into an exact future validation gate while the current batch waits | observe -> decide -> prepare -> verify | `docs/founder-stability-brief-runbook.md` created and linked into durable state | yes | future fallback path is now narrowed to exact asks and gates | pass | n/a | n/a | none | `docs/founder-stability-brief-runbook.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/signal-sources.md`, `.company-mode/experiments.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/run-log.md` | 24h |
 
 ## Correction Log
 
