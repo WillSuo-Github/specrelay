@@ -1,17 +1,17 @@
 # Independent Check
 
-- Last updated: `2026-05-17`
+- Last updated: `2026-05-18`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-05-17`
+- Run date: `2026-05-18`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: repo-backed external signal claims, Mail readout reliability claim, durable-state linkage, run-log counters, and stop-condition validity while the current outreach batch waits
+- Scope checked: repo-backed external signal claims, Mail UI readout reliability, Afterbuild delivery-status correction, durable-state linkage, viability cadence, and stop-condition validity while the current outreach batch waits
 - Hard blockers found: no
-- Score: `20/21`
-- Decision: `pass with notes`
+- Score: `21/21`
+- Decision: `pass`
 
 ## Hard Blockers
 
@@ -30,13 +30,13 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, workflow status, live URL, Mail permission error evidence, and updated durable-state links | no fabricated external signal was added |
-| Account and provider correctness | 3 | repo, company instance, sender policy, approval gates, and Mail permission blocker recording | no wrong-provider or wrong-account mutation in this run |
-| Public artifact fidelity | 2 | no new public artifact was published; existing live URL health was verified from repo-backed surface | no blocking issue, but no UI/browser deep check this run |
+| Evidence support | 3 | GitHub issue state, workflow status, live URL, Mail UI search results, and updated durable-state links | no fabricated external signal was added |
+| Account and provider correctness | 3 | repo, company instance, sender policy, approval gates, and Mail UI readout path | no wrong-provider or wrong-account mutation in this run |
+| Public artifact fidelity | 3 | no new public artifact was published; existing live URL health was verified from repo-backed surface | no blocking issue |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops after converting a silent readout gap into an exact blocker while a valid outside wait remains | valid outside wait remains |
-| Durable state updates | 3 | state, run-log, account-needs, pipeline, signal, dashboard, and quality files updated together | Mail monitoring is no longer implied without evidence |
-| Resume and wake readiness | 3 | next checkpoint, `ACC-0001` verification path, and fallback route are explicit | no blocker to future recovery |
+| Stop-condition validity | 3 | run stops after correcting the live-touch readout and refreshing viability while a valid outside wait remains | valid outside wait remains |
+| Durable state updates | 3 | state, run-log, feedback, account-needs, pipeline, signal, viability, dashboard, and quality files updated together | false distribution assumptions are removed from durable state |
+| Resume and wake readiness | 3 | next checkpoint, remaining live touches, and fallback route are explicit | no blocker to future recovery |
 
 ## Check Log
 
@@ -46,3 +46,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-16` | explicit audit lens + repo-backed verification | `20/21` | none | `pass with notes` | keep waiting discipline; use the founder-side runbook only if the checkpoint forces the pivot |
 | `2026-05-17` | explicit independent audit lens + repo-backed verification | `20/21` | none | `pass with notes` | no new business signal exists; if pivot activates later, use the staged target pool rather than improvising new sourcing |
 | `2026-05-17` | explicit independent audit lens + repo-backed verification | `20/21` | none | `pass with notes` | direct-email monitoring must stay marked partial until `ACC-0001` is verified |
+| `2026-05-18` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | keep Mail UI as the current readout path; treat Afterbuild as failed delivery, not live silence |

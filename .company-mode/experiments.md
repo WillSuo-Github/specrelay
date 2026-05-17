@@ -1,6 +1,6 @@
 # Experiments
 
-- Last updated: `2026-05-17`
+- Last updated: `2026-05-18`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
@@ -26,7 +26,7 @@
 
 | ID | Status | Bottleneck | Hypothesis | Target segment | Change / action | Success metric | Baseline | Target / threshold | Evidence source | Start date | Readout due | Authority gate | Owner lens |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `EXP-0003` | active | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Afterbuild email + Bytewise email + AppStuck contact form | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
+| `EXP-0003` | active | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Bytewise email + AppStuck contact form; Afterbuild email attempt is now excluded because delivery failed | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
 | `EXP-0004` | staged | decision | if the contractor/agency wedge weakens, a founder-side stability brief may be a more realistic adjacent product shape | founder/operator preparing to launch or hand off an AI-built app | `docs/founder-stability-brief-pivot.md` + `docs/founder-stability-brief-runbook.md` + `docs/founder-stability-target-pool.md` | at least one founder says the smaller brief is realistic and useful before outside help | not active yet | activate only if `EXP-0003` resolves weak/negative | founder replies and future validation | `2026-05-15` | activation only after `EXP-0003` readout | future public/direct action would be gated | Product/CEO |
 
 ## Readout Log
@@ -87,5 +87,6 @@
 - 2026-05-15: Repo-backed checks still showed no new signal: GitHub issue #1 has no comments, the latest deploy succeeded, and the live URL returned HTTP 200. Prepared `docs/founder-stability-brief-pivot.md` so the company has a concrete founder-side adjacent experiment ready if the contractor/agency wedge weakens at the `2026-05-21 23:59 CST` checkpoint.
 - 2026-05-16: Repo-backed checks still showed no new signal: GitHub issue #1 has no comments, the latest deploy succeeded, and the live URL returned HTTP 200. Prepared `docs/founder-stability-brief-runbook.md` so the founder-side fallback now has exact validation asks and a narrow future approval gate instead of only a positioning memo.
 - 2026-05-17: Repo-backed checks still showed no new signal: GitHub issue #1 has no comments, the latest deploy remained healthy, and the live URL returned HTTP 200. Added `docs/founder-stability-target-pool.md` so the founder-side fallback now has ranked public targets, one exact first approval candidate, and a second candidate if the first route goes stale.
+- 2026-05-18: Mail UI readout corrected the current contractor/agency batch: Afterbuild did not remain a live touch and instead ended in a `Delivery Status Notification (Failure)` on `2026-05-15`; Bytewise and AppStuck still have no inbox reply; GitHub issue #1 remains silent and the live URL remains healthy.
 - Current safest next public action after deployment: wait for Afterbuild, Bytewise, Jesse, or another active target to respond. Do not send additional URLs, DMs, or new direct outreach without fresh approval.
 - Reddit remains reply-first and no-link by default unless the live rules and thread context explicitly allow a URL.

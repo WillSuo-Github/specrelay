@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-05-17`
+- Last updated: `2026-05-18`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -12,7 +12,7 @@
 - External-signal output rate: `9/10` runs either shipped a real external touch or staged the exact next gate
 - No-progress streak: `0`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
-- Account dependency closure rate: `100%` of current blocking needs are explicitly tracked with verification and resume steps
+- Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
 - Business audit status: current (`mixed` on `2026-05-15`)
 - Current quality risk: `medium`
@@ -49,6 +49,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-16` | `no-traction` | `distribution` | founder-side validation runbook staged | yes | fallback path is now at a narrow future gate instead of abstract strategy | pass | none | wait for current batch; do not open new channel yet |
 | `2026-05-17` | `no-traction` | `distribution` | founder-side target pool staged | yes | founder-side pivot no longer depends on rediscovering live public targets at checkpoint time | pass | none | keep waiting; use the staged target pool only if the pivot activates |
 | `2026-05-17` | `no-traction` | `distribution` | direct-email readout blocker formalized as `ACC-0001` | yes | inbox monitoring is no longer falsely treated as reliable; exact user-action path is recorded | pass | `ACC-0001` opened | verify Mail permission or keep direct-email readout explicitly partial |
+| `2026-05-18` | `no-traction` | `distribution` | Afterbuild delivery failure corrected; Mail UI readout verified; viability review refreshed | yes | a false live-touch assumption was removed and the blocker was closed without more setup | pass | `ACC-0001` closed | keep reading Bytewise/AppStuck to checkpoint; do not count technical failures as market silence |
 
 ## Quality Review Questions
 

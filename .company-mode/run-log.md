@@ -1,27 +1,27 @@
 # Run Log
 
-- Last updated: `2026-05-17`
+- Last updated: `2026-05-18`
 - Owner role: Product/CEO + Release/Ops
 - Purpose: provide the canonical active-run ledger and counter source for cadence, operating quality, viability review, and business audit triggers.
 
 ## Current Counters
 
-- Total active runs: 23
-- Last run ID: `RUN-0023`
-- Next run ID: `RUN-0024`
-- Last active run at: `2026-05-17 23:10 CST`
-- Last real-progress run ID: `RUN-0023`
+- Total active runs: 24
+- Last run ID: `RUN-0024`
+- Next run ID: `RUN-0025`
+- Last active run at: `2026-05-18 02:02 CST`
+- Last real-progress run ID: `RUN-0024`
 - Last no-progress run ID: `RUN-0019`
 - No-progress streak: 0
-- Runs since viability review: 4
-- Runs since business audit: 4
+- Runs since viability review: 0
+- Runs since business audit: 5
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
 
 | Trigger | Source | Due when | Current status | Required action |
 | --- | --- | --- | --- | --- |
-| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0019`; next due `2026-05-18 09:00 CST` or earlier trigger | review before ordinary backlog if due |
+| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0024`; next due `2026-05-21 23:59 CST` or earlier trigger | review before ordinary backlog if due |
 | Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0019`; next due `2026-05-22 17:00 CST` or earlier trigger | audit before ordinary backlog if due |
 | Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | not due | resume execution around the current revenue bottleneck if triggered |
 
@@ -67,9 +67,11 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0021` | `2026-05-16 15:08 CST` | `no-traction` | `distribution` | compress the founder-side fallback into an exact future validation gate while the current batch waits | observe -> decide -> prepare -> verify | `docs/founder-stability-brief-runbook.md` created and linked into durable state | yes | future fallback path is now narrowed to exact asks and gates | pass | n/a | n/a | none | `docs/founder-stability-brief-runbook.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/signal-sources.md`, `.company-mode/experiments.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/run-log.md` | 24h |
 | `RUN-0022` | `2026-05-17 07:08 CST` | `no-traction` | `distribution` | stage a real founder-side target pool so the fallback can create signal immediately if activated | observe -> decide -> research -> prepare -> verify | `docs/founder-stability-target-pool.md` created with ranked public targets and an exact first approval candidate | yes | founder-side fallback no longer depends on rediscovering targets at checkpoint time | pass | n/a | n/a | none | `docs/founder-stability-target-pool.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/signal-sources.md`, `.company-mode/market-map.md`, `.company-mode/experiments.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
 | `RUN-0023` | `2026-05-17 23:10 CST` | `no-traction` | `distribution` | verify whether direct-outreach replies are actually monitorable from this machine and formalize any blocker | observe -> verify -> decide -> prepare | `ACC-0001` opened for Mail readout permission after AppleScript and `~/Library/Mail` access failed to provide reliable local inbox monitoring | yes | direct-email readout blocker is now explicit with exact user action, verification, fallback, and resume path | pass | n/a | n/a | `ACC-0001` opened | `.company-mode/account-needs.md`, `.company-mode/state.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
+| `RUN-0024` | `2026-05-18 02:02 CST` | `no-traction` | `distribution` | correct the live contractor/agency batch from direct Mail evidence and refresh viability | observe -> verify -> decide -> review -> prepare | Afterbuild was corrected to `Delivery Status Notification (Failure)`; Mail UI readout was verified; `ACC-0001` was closed; viability review was refreshed | yes | a false live-touch assumption was removed and current readout is now grounded in direct Mail evidence | pass | n/a | `continue` | `ACC-0001` closed | `.company-mode/account-needs.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/business-audit.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/run-log.md` | 24h |
 
 ## Correction Log
 
 | Date | Run ID | Correction | Reason | Files updated |
 | --- | --- | --- | --- | --- |
 | `2026-05-15` | `RUN-0001` - `RUN-0018` | Historical baseline reconstructed into the new schema | `run-log.md` did not exist before kernel migration; counters had to be backfilled from durable records | `run-log.md`, `operating-quality.md`, `business-audit.md`, `viability-scorecard.md`, `company-dashboard.md` |
+| `2026-05-18` | `RUN-0012` and downstream “three live touches” references | Afterbuild was corrected from “live outreach in market” to technical delivery failure discovered via Mail UI | the original send existed, but the message did not stay delivered in market; future readouts must not count it as a silent evaluator touch | `feedback.md`, `revenue-pipeline.md`, `company-dashboard.md`, `experiments.md`, `business-audit.md`, `viability-scorecard.md`, `state.md`, `run-log.md` |

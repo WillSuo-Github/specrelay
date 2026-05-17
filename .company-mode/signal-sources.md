@@ -1,6 +1,6 @@
 # Signal Sources
 
-- Last updated: `2026-05-17`
+- Last updated: `2026-05-18`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
@@ -8,10 +8,10 @@
 
 - Primary business question: will a founder, contractor, or agency actually use a manual stability-first handoff artifact before launch, scoping, or outside help?
 - Current bottleneck: `distribution`
-- Primary readout source: direct evaluator replies from Afterbuild, Bytewise, AppStuck, and active X targets
+- Primary readout source: direct evaluator replies from Bytewise, AppStuck, and active X targets; Afterbuild is no longer a live reply source because delivery failed
 - Secondary readout source: GitHub feedback issue, live-site health, and exported packet quality
 - Evidence quality: weak but real
-- Missing source or integration: no product analytics, no reliable automated X readout surface, no completed packet review, and direct-email readout is now explicitly blocked by macOS Mail permissions until `ACC-0001` is verified
+- Missing source or integration: no product analytics, no reliable automated X readout surface, and no completed packet review
 - Next readout: current three-touch contractor/agency batch checkpoint on `2026-05-21 23:59 CST`
 
 ## Source Selection Rules
@@ -28,7 +28,7 @@
 | Source | Best for | Account / access needed | Evidence quality | Status | Next action |
 | --- | --- | --- | --- | --- | --- |
 | GitHub feedback issue #1 | evaluator comments and longer-form critique | GitHub repo access or public issue page | medium | live but silent | keep as passive review surface |
-| Direct outreach replies (Afterbuild / Bytewise) | contractor/agency workflow fit | email inbox access | high if replies arrive | live batch in market | read replies before `2026-05-21 23:59 CST` |
+| Direct outreach replies (Bytewise) | contractor/agency workflow fit | Mail UI inbox access | high if replies arrive | live batch in market | read replies before `2026-05-21 23:59 CST` |
 | AppStuck contact route | contractor/agency workflow fit | public contact path; inbox follow-up access | medium/high if reply arrives | live batch in market | read reply before checkpoint |
 | X replies and notifications | founder / builder language and segmentation | logged-in X session | medium | weak but useful | watch for direct critique or intent signal |
 | GitHub Pages live URL | release reachability and public artifact health | public URL | medium | healthy | keep verifying on deploy-touching runs |
@@ -47,7 +47,8 @@
 | `2026-05-15` | is there any new repo-backed external signal before migration closeout? | GitHub issue + workflow status + live URL | no new repo-backed demand signal; release surface still healthy | high for release, low for demand | `release.md`, `business-audit.md`, `company-dashboard.md` | wait for direct replies or checkpoint |
 | `2026-05-16` | if the current wedge fails, is the founder-side fallback precise enough to activate immediately? | repo-backed strategy review + founder-side runbook prep | yes for internal readiness; still no external validation yet | medium for readiness, low for demand | `state.md`, `revenue-pipeline.md` | wait for replies or checkpoint |
 | `2026-05-17` | if the current wedge fails, does the founder-side pivot already have concrete public targets instead of only abstract positioning? | repo-backed checks + current public community research | yes for target readiness; still no founder-side validation yet | medium for readiness, low for demand | `state.md`, `revenue-pipeline.md`, `market-map.md` | wait for replies or checkpoint |
-| `2026-05-17` | is direct-email reply monitoring actually reliable on this machine? | Mail AppleScript attempt + `~/Library/Mail` access check | no; AppleScript readout did not yield deterministic results and filesystem access to `~/Library/Mail` was denied by macOS permissions | high for the blocker, low for inbox state itself | `account-needs.md`, `state.md`, `company-dashboard.md` | verify `ACC-0001` before treating inbox monitoring as reliable |
+| `2026-05-17` | is direct-email reply monitoring actually reliable on this machine? | Mail AppleScript attempt + `~/Library/Mail` access check | no for automation surfaces; AppleScript readout did not yield deterministic results and filesystem access to `~/Library/Mail` was denied by macOS permissions | high for the automation gap | `account-needs.md`, `state.md`, `company-dashboard.md` | try Mail UI readout before escalating |
+| `2026-05-18` | can direct-email reply state still be recovered without system-permission changes? | Mail UI search/readout through Computer Use | yes; Afterbuild failure thread was visible, and Bytewise/AppStuck had no inbox matches | high | `feedback.md`, `account-needs.md`, `state.md`, `revenue-pipeline.md` | keep using Mail UI readout during the current evidence window |
 
 ## Integration Requests
 

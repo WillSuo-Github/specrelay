@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-17`
+- Last updated: `2026-05-18`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators through the highest-signal available channel
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -8,19 +8,18 @@
 
 ## Now
 
-- In progress: Afterbuild Labs and Bytewise validation emails are in market; AppStuck's public contact form was submitted on `2026-05-14` using `ws.software@outlook.com`; no replies yet.
+- In progress: Bytewise validation email and AppStuck's public contact form are still in market; the Afterbuild email attempt ended in delivery failure on `2026-05-15`; no live reply yet.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether any of the three contractor/agency touches produce a useful reply
-- Readout blocker: reliable local Mail automation for Afterbuild / Bytewise reply monitoring is currently blocked by macOS permissions; see `ACC-0001` in `account-needs.md`
+- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether Bytewise or AppStuck produce a useful reply before checkpoint
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: when Afterbuild replies, Bytewise replies, AppStuck replies, another active X target responds, GitHub issue #1 gets a comment, or the contractor/agency wedge reaches its hard checkpoint on `2026-05-21 23:59 CST`
+- Next decision deadline: when Bytewise replies, AppStuck replies, another active X target responds, GitHub issue #1 gets a comment, or the contractor/agency wedge reaches its hard checkpoint on `2026-05-21 23:59 CST`
 
 ## Next Recommended Actions
 
-- Product/CEO: keep the contractor/agency wedge alive only until the hard checkpoint; if it downgrades, switch to the staged founder-side pivot asset in `docs/founder-stability-brief-pivot.md`
+- Product/CEO: keep the contractor/agency wedge alive only until the hard checkpoint; treat Afterbuild as a failed delivery rather than a live silence; if it downgrades, switch to the staged founder-side pivot asset in `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Afterbuild, Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. AC Tech Labs is only the next narrow candidate if the first three touches produce at least weak positive signal. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` before any more rescue-service outreach.
+- Growth: wait for Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. Afterbuild no longer counts as an active live touch because delivery failed. AC Tech Labs is the current narrow replacement candidate if a replacement route is approved or if the remaining live touches produce at least weak positive signal. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` before any more rescue-service outreach.
 - Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, `docs/ac-tech-labs-runbook.md`, `docs/post-three-touch-decision-tree.md`, `docs/founder-stability-brief-pivot.md`, and `docs/founder-stability-brief-runbook.md` as the current source of truth for contractor/agency/domain-builder screening, reply readout, and wedge-decision logic
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
@@ -65,11 +64,11 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-17`
-- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency batch, and no new founder or evaluator signal exists yet.
-- Evidence quality: unchanged on market signal in this run. GitHub issue #1 still has no comments, the latest Pages deploy is healthy, and the live URL still returns HTTP 200. No new verified reply was added.
-- Current-run work completed: repo-backed external surfaces were re-checked and found unchanged; attempted to verify direct-email readout through Mail AppleScript and local Mail data access; AppleScript did not yield deterministic results and `~/Library/Mail` access was denied by macOS. Opened `ACC-0001` so the blocker is explicit and recoverable instead of being silently ignored.
-- Instance-only improvements executed: readout reliability gap was converted into an exact account/permission need with verification and resume steps.
+- Date: `2026-05-18`
+- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency wedge, but the current live readout is weaker than previously logged because Afterbuild never actually reached market.
+- Evidence quality: corrected and stronger than the previous run because Mail UI now gives direct evidence. GitHub issue #1 still has no comments, the latest Pages deploy is healthy, and the live URL still returns HTTP 200. Mail UI shows Afterbuild ended in `Delivery Status Notification (Failure)` on `2026-05-15`; Bytewise and AppStuck still show no inbox reply.
+- Current-run work completed: verified Mail UI as the current readout surface; corrected Afterbuild from “live touch” to failed delivery; closed `ACC-0001` because no user-side permission change is needed for current operation; refreshed the due viability review from this corrected evidence.
+- Instance-only improvements executed: distribution-state correction, Mail readout recovery, and viability refresh.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent growth-prep action is complete and the company remains in a valid outside wait until a reply arrives or the hard checkpoint on `2026-05-21 23:59 CST` is reached. Keep heartbeat active for a 24-hour follow-up check.

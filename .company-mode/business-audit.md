@@ -35,7 +35,7 @@ Allowed answers:
 | Paying intent / monetization | no willingness-to-pay signal; model hypothesis is clearer but unproven | unchanged | medium | `business-model.md`, `experiments.md` |
 | Users / demand | two weak X signals remain the only direct feedback; no completed packet review yet | unchanged | medium | `metrics.md`, `feedback.md`, `market-map.md` |
 | Activation / retention | product is usable, but no evaluator completion is confirmed | unchanged | low | `metrics.md`, `signal-sources.md` |
-| Distribution | Afterbuild, Bytewise, and AppStuck were all put into market during the window | closer | medium | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md` |
+| Distribution | Bytewise and AppStuck were put into market during the window; Afterbuild later proved to be a technical delivery failure rather than a delivered touch | closer, but weaker than previously logged | medium | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
 | Release / reachability | live URL and Pages deploys remained healthy | unchanged | high | `release.md` |
 | Account dependencies | no new blocking account need prevented the chosen move | unchanged | medium | `account-needs.md` |
 | Operating quality | the company avoided blind drift by adding explicit checkpoint and pivot rules, but this migration run itself is no-progress | closer | medium | `operating-quality.md`, `independent-check.md` |
@@ -54,7 +54,7 @@ Allowed answers:
 
 | Date | Window | Answer | Evidence summary | Decision | Required action | Next audit at |
 | --- | --- | --- | --- | --- | --- | --- |
-| `2026-05-15` | `2026-05-09` to `2026-05-15` | `mixed` | distribution moved closer to the target segment through three live outreach touches, but there is still no reply, no strong intent, and no monetization evidence | continue only to the existing checkpoint; do not broaden the wedge | wait for reply quality or apply the pivot/stop rule on `2026-05-21 23:59 CST` | `2026-05-22 17:00 CST` |
+| `2026-05-15` | `2026-05-09` to `2026-05-15` | `mixed` | distribution moved closer to the target segment through two delivered outreach touches plus one failed delivery, but there is still no reply, no strong intent, and no monetization evidence | continue only to the existing checkpoint; do not broaden the wedge | wait for reply quality or apply the pivot/stop rule on `2026-05-21 23:59 CST` | `2026-05-22 17:00 CST` |
 
 ## Audit Closeout Checklist
 
