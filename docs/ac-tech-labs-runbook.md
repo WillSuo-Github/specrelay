@@ -1,8 +1,8 @@
 # AC Tech Labs Runbook
 
-Date: 2026-05-13
+Date: 2026-05-18
 
-Status: non-public staged candidate. Do not submit the form, book a call, or publish without fresh action-time confirmation.
+Status: executed replacement direct-outreach candidate. User approved the form submit on `2026-05-18`, and the public route was submitted with a truthful validation framing.
 
 ## Why This Exists
 
@@ -16,10 +16,12 @@ If we choose AC Tech Labs next, use the public contact form only with an explici
 
 ## Current Readout
 
-- Afterbuild email sent: 2026-05-11 23:07:39 CST.
+- Afterbuild email attempt: 2026-05-11 23:07:39 CST.
 - Bytewise email sent: 2026-05-12 19:21:35 CST.
-- Afterbuild reply status: no reply observed yet.
+- AppStuck public contact-form outreach sent: 2026-05-14.
+- Afterbuild reply status: later corrected to `Delivery Status Notification (Failure)` on `2026-05-15`; it does not count as a live market touch.
 - Bytewise reply status: no reply observed yet.
+- AppStuck reply status: no reply observed yet.
 - GitHub issue #1: still open, no comments.
 - X notifications: still no useful new response after the Jesse stability-first URL follow-up.
 - Live site: HTTP 200.
@@ -133,10 +135,17 @@ Negative signal:
 - the score/form plus repo access already solves the job
 - narrative packet is redundant before their first technical review
 
-## Exact Remaining Approval Gate
+## Execution Note
 
-The narrowest remaining action in this runbook is:
-
-```text
-If Afterbuild and Bytewise still have not produced a useful reply, confirm submitting the AC Tech Labs contact form with the truthful field mapping and validation message above.
-```
+- `2026-05-18`: user approved the next direct outreach after Afterbuild was corrected from live silence to technical delivery failure.
+- Public route used: `https://www.aclabs.io/contact`
+- Truthful field values used:
+  - `Your name`: `Will Suo`
+  - `Email`: `ws.software@outlook.com`
+  - `Prototype source`: `Other`
+  - `Tech stack`: `Static web validation prototype. Zero-login tool that generates stability-first handoff packets for AI-built apps. This is a validation check, not an active client rescue request, and there is no rescue deadline.`
+  - `Users / revenue today`: `0 users, 0 revenue. Testing whether a founder-filled packet helps before a readiness score or fit-call workflow.`
+  - `Must-have date`: `2026-05-31`
+  - `Link to repo or demo`: `https://willsuo-github.github.io/specrelay/`
+- Verification: browser network trace captured `POST https://www.aclabs.io/api/contact` returning `200` with body `{\"ok\":true}`.
+- No call was booked. This run only executed the public contact-form submission.

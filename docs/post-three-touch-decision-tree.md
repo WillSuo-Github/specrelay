@@ -6,17 +6,19 @@ Status: internal decision asset. Use this after the current three contractor/age
 
 ## Why This Exists
 
-SpecRelay now has three real contractor/agency validation touches in market:
+SpecRelay currently has three delivered contractor/agency validation touches in market:
 
-- Afterbuild Labs email sent on `2026-05-11`
 - Bytewise email sent on `2026-05-12`
 - AppStuck contact form submitted on `2026-05-14`
+- AC Tech Labs contact form submitted on `2026-05-18`
+
+Afterbuild no longer counts as one of the three because the original email later resolved to `Delivery Status Notification (Failure)` on `2026-05-15`.
 
 The company should not improvise its next move after those replies or silences arrive. This file sets the exact readout logic so the next heartbeat can decide quickly.
 
 ## Hard Checkpoint
 
-If there is still no useful reply from Afterbuild, Bytewise, or AppStuck by `2026-05-21 23:59 CST`, treat that as the default decision point for the current contractor/agency wedge.
+If there is still no useful reply from Bytewise, AppStuck, or AC Tech Labs by `2026-05-21 23:59 CST`, treat that as the default decision point for the current contractor/agency wedge.
 
 Earlier action is allowed if any of the three paths produce a clearly positive or clearly negative response before that date.
 
@@ -89,7 +91,7 @@ Decision:
 
 Immediate next actions:
 
-1. Do not send AC Tech Labs yet.
+1. Do not add a fourth rescue-service touch.
 2. Write a short pivot memo with the exact evidence against the current wedge.
 3. Choose one of two narrower follow-ups:
    - founder-side stability-first launch brief
@@ -101,9 +103,9 @@ Default recommendation:
 
 ## AC Tech Labs Rule
 
-`docs/ac-tech-labs-runbook.md` should only be used if there is at least one weak positive or stronger signal from the first three touches.
+`docs/ac-tech-labs-runbook.md` has now been executed as the replacement for the failed Afterbuild route.
 
-If Afterbuild, Bytewise, and AppStuck are all silent or negative by `2026-05-21 23:59 CST`, AC Tech Labs is not the default next move. The default next move is pivot or stop.
+If Bytewise, AppStuck, and AC Tech Labs are all silent or negative by `2026-05-21 23:59 CST`, do not add a fourth rescue-service touch by default. The default next move is pivot or stop.
 
 ## Stop/Continue Summary
 

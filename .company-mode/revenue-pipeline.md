@@ -9,7 +9,7 @@
 - Business stage: `no-traction`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: two weak qualitative signals, zero completed packet reviews, zero strong intent signals
-- Distribution status: live GitHub Pages product plus X outreach; Bytewise and AppStuck are still live contractor/agency touches, but Afterbuild failed delivery on `2026-05-15`; no repeatable winning channel yet
+- Distribution status: live GitHub Pages product plus X outreach; Bytewise, AppStuck, and AC Tech Labs are live contractor/agency touches, while Afterbuild failed delivery on `2026-05-15`; no repeatable winning channel yet
 - Monetization status: model hypothesis chosen, but no price/package/purchase-path proof
 - Current revenue bottleneck: `distribution`
 - Business model hypothesis: `B2B/license` for the current wedge; see `business-model.md`
@@ -33,6 +33,7 @@
 | Afterbuild Labs | agency / rescue-service | adjacent buyer who might value pre-scope clarity | do not count as live; delivery failed on `2026-05-15` because `afterbuildlabs.com` did not accept the connection | replacement outreach would be action-time gated | failed delivery |
 | Bytewise | agency / rescue-service | adjacent buyer who might value audit/handoff context | wait for reply until checkpoint | none while waiting | live |
 | AppStuck | rescue-service | adjacent buyer with async form route | wait for reply until checkpoint | none while waiting | live |
+| AC Tech Labs | agency / rescue-service | adjacent buyer who might value pre-assessment clarity before a fit-call workflow | wait for reply until checkpoint | none while waiting | live |
 | `@jessecolesmith` | founder / domain builder | stability-first workflow language | wait for any reply; use only as founder-side evidence, not monetization proof | public follow-up would be gated | weak positive logged |
 | `@FSfakiotakis` | founder / operator | simple founder-maintained apps may not need this early | keep as segmentation constraint | any new public action gated | weak negative logged |
 | Hacker News Show HN | public distribution | account too new (`fnop=toonew`) | do not retry unless HN becomes the chosen next channel | account trust would gate | blocked/stale for now |
@@ -43,7 +44,7 @@
 | Channel | Hypothesis | Action | Cost | Approval needed | Result | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
 | X replies | direct public evaluator replies can yield honest workflow language quickly | 11 public replies across first wave, follow-ups, and Jesse link | 0 | already executed; any further public action needs approval | 2 weak qualitative signals, 0 strong intent | keep only as passive readout until a new approval-worthy move exists |
-| Direct rescue-service outreach | targeted evaluator messages may validate intake/scoping value faster than broad founder posting | Afterbuild email attempt, Bytewise email, AppStuck form | 0 | already executed | Afterbuild failed delivery; Bytewise/AppStuck still have no reply yet | read the two live touches to checkpoint and treat Afterbuild as a technical miss, not a silence |
+| Direct rescue-service outreach | targeted evaluator messages may validate intake/scoping value faster than broad founder posting | Afterbuild email attempt, Bytewise email, AppStuck form, AC Tech Labs form | 0 | already executed | Afterbuild failed delivery; Bytewise/AppStuck/AC Tech Labs still have no reply yet | read the three live touches to checkpoint and treat Afterbuild as a technical miss, not a silence |
 | GitHub owned surface | release + feedback issue can collect longer-form critique | live public issue and release note | 0 | no | no comments yet | keep passive |
 
 ## Monetization Hypotheses
@@ -57,9 +58,8 @@
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | wait for Bytewise or AppStuck reply through `2026-05-21 23:59 CST` | distribution | reply quality that validates or kills the contractor/agency wedge | no | active |
-| 2 | if user approves a replacement for the failed Afterbuild route before checkpoint, use the staged AC Tech Labs candidate or another exact async route rather than pretending Afterbuild is still live | distribution | restore the intended sample size with a real delivered touch | yes, direct outreach/form action | conditional |
-| 3 | if the remaining live touches are silent or negative at the checkpoint, activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` | decision | founder-side adjacent experiment instead of more rescue-service outreach | no for internal pivot work; yes for future public/direct action | staged |
+| 1 | wait for Bytewise, AppStuck, or AC Tech Labs reply through `2026-05-21 23:59 CST` | distribution | reply quality that validates or kills the contractor/agency wedge | no | active |
+| 2 | if the three live touches are silent or negative at the checkpoint, activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` | decision | founder-side adjacent experiment instead of a fourth rescue-service outreach | no for internal pivot work; yes for future public/direct action | staged |
 
 ## Acquisition Cadence
 

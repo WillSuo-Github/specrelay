@@ -1,6 +1,6 @@
 # Release Ops
 
-Last updated: 2026-05-15
+Last updated: 2026-05-18
 
 ## Current Release
 
@@ -95,3 +95,4 @@ Last updated: 2026-05-15
 - 2026-05-14: User confirmed the next move. System Mail could not produce a verifiable AppStuck sent item from `ws.software@outlook.com`, so the public AppStuck contact form was submitted using that address instead. Submission success was verified by the `https://www.appstuck.com/contact/thank-you` redirect; no extra post, reply, DM, call booking, paid audit, or repost was sent.
 - 2026-05-14: Later heartbeat found no new external signal. Prepared `docs/post-three-touch-decision-tree.md` with the hard checkpoint date, signal taxonomy, and continue/pivot branches for the current contractor/agency batch; no public post, reply, DM, form submit, call booking, paid audit, or repost was sent.
 - 2026-05-15: Repo-backed checks still showed no new external signal: GitHub issue #1 had no comments, the latest deploy remained healthy, and the live URL returned HTTP 200. Prepared `docs/founder-stability-brief-pivot.md` so the founder-side adjacent wedge is ready if the current contractor/agency batch weakens at the hard checkpoint; no public post, reply, DM, form submit, call booking, paid audit, or repost was sent.
+- 2026-05-18: User approved the replacement outreach after Afterbuild was corrected to delivery failure. Submitted the AC Tech Labs public contact form with truthful validation framing using `ws.software@outlook.com`; browser network trace verified `POST https://www.aclabs.io/api/contact` returned `200` with `{\"ok\":true}`. No call booking, paid audit, DM, or social post was made.

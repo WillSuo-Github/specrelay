@@ -6,15 +6,15 @@
 
 ## Current Counters
 
-- Total active runs: 24
-- Last run ID: `RUN-0024`
-- Next run ID: `RUN-0025`
-- Last active run at: `2026-05-18 02:02 CST`
-- Last real-progress run ID: `RUN-0024`
+- Total active runs: 25
+- Last run ID: `RUN-0025`
+- Next run ID: `RUN-0026`
+- Last active run at: `2026-05-18 02:30 CST`
+- Last real-progress run ID: `RUN-0025`
 - Last no-progress run ID: `RUN-0019`
 - No-progress streak: 0
-- Runs since viability review: 0
-- Runs since business audit: 5
+- Runs since viability review: 1
+- Runs since business audit: 6
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
@@ -68,6 +68,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0022` | `2026-05-17 07:08 CST` | `no-traction` | `distribution` | stage a real founder-side target pool so the fallback can create signal immediately if activated | observe -> decide -> research -> prepare -> verify | `docs/founder-stability-target-pool.md` created with ranked public targets and an exact first approval candidate | yes | founder-side fallback no longer depends on rediscovering targets at checkpoint time | pass | n/a | n/a | none | `docs/founder-stability-target-pool.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/signal-sources.md`, `.company-mode/market-map.md`, `.company-mode/experiments.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
 | `RUN-0023` | `2026-05-17 23:10 CST` | `no-traction` | `distribution` | verify whether direct-outreach replies are actually monitorable from this machine and formalize any blocker | observe -> verify -> decide -> prepare | `ACC-0001` opened for Mail readout permission after AppleScript and `~/Library/Mail` access failed to provide reliable local inbox monitoring | yes | direct-email readout blocker is now explicit with exact user action, verification, fallback, and resume path | pass | n/a | n/a | `ACC-0001` opened | `.company-mode/account-needs.md`, `.company-mode/state.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
 | `RUN-0024` | `2026-05-18 02:02 CST` | `no-traction` | `distribution` | correct the live contractor/agency batch from direct Mail evidence and refresh viability | observe -> verify -> decide -> review -> prepare | Afterbuild was corrected to `Delivery Status Notification (Failure)`; Mail UI readout was verified; `ACC-0001` was closed; viability review was refreshed | yes | a false live-touch assumption was removed and current readout is now grounded in direct Mail evidence | pass | n/a | `continue` | `ACC-0001` closed | `.company-mode/account-needs.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/business-audit.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/run-log.md` | 24h |
+| `RUN-0025` | `2026-05-18 02:30 CST` | `no-traction` | `distribution` | replace the failed Afterbuild route with one real delivered contractor/agency touch | observe -> verify -> publish -> verify | AC Tech Labs public contact form submitted with truthful validation framing; network trace verified `POST /api/contact` returned `200` | yes | restored the intended three-touch delivered batch after the Afterbuild delivery failure | pass | n/a | n/a | none | `docs/ac-tech-labs-runbook.md`, `docs/post-three-touch-decision-tree.md`, `.company-mode/feedback.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/experiments.md`, `.company-mode/state.md`, `.company-mode/signal-sources.md`, `.company-mode/company-dashboard.md`, `.company-mode/run-log.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/release.md`, `ops/automation-spec.md` | 24h |
 
 ## Correction Log
 

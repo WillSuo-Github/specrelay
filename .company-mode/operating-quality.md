@@ -50,6 +50,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-17` | `no-traction` | `distribution` | founder-side target pool staged | yes | founder-side pivot no longer depends on rediscovering live public targets at checkpoint time | pass | none | keep waiting; use the staged target pool only if the pivot activates |
 | `2026-05-17` | `no-traction` | `distribution` | direct-email readout blocker formalized as `ACC-0001` | yes | inbox monitoring is no longer falsely treated as reliable; exact user-action path is recorded | pass | `ACC-0001` opened | verify Mail permission or keep direct-email readout explicitly partial |
 | `2026-05-18` | `no-traction` | `distribution` | Afterbuild delivery failure corrected; Mail UI readout verified; viability review refreshed | yes | a false live-touch assumption was removed and the blocker was closed without more setup | pass | `ACC-0001` closed | keep reading Bytewise/AppStuck to checkpoint; do not count technical failures as market silence |
+| `2026-05-18` | `no-traction` | `distribution` | AC Tech Labs replacement outreach executed with verified `POST /api/contact` `200` | yes | the contractor/agency batch returned to three delivered touches after the Afterbuild miss | pass | none | wait for Bytewise/AppStuck/AC Tech Labs replies; do not add a fourth touch before checkpoint |
 
 ## Quality Review Questions
 

@@ -8,18 +8,18 @@
 
 ## Now
 
-- In progress: Bytewise validation email and AppStuck's public contact form are still in market; the Afterbuild email attempt ended in delivery failure on `2026-05-15`; no live reply yet.
+- In progress: Bytewise validation email, AppStuck's public contact form, and the AC Tech Labs public contact form are still in market; the Afterbuild email attempt ended in delivery failure on `2026-05-15`; no live reply yet.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether Bytewise or AppStuck produce a useful reply before checkpoint
+- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether Bytewise, AppStuck, or AC Tech Labs produce a useful reply before checkpoint
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: when Bytewise replies, AppStuck replies, another active X target responds, GitHub issue #1 gets a comment, or the contractor/agency wedge reaches its hard checkpoint on `2026-05-21 23:59 CST`
+- Next decision deadline: when Bytewise replies, AppStuck replies, AC Tech Labs replies, another active X target responds, GitHub issue #1 gets a comment, or the contractor/agency wedge reaches its hard checkpoint on `2026-05-21 23:59 CST`
 
 ## Next Recommended Actions
 
 - Product/CEO: keep the contractor/agency wedge alive only until the hard checkpoint; treat Afterbuild as a failed delivery rather than a live silence; if it downgrades, switch to the staged founder-side pivot asset in `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Bytewise, AppStuck, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. Afterbuild no longer counts as an active live touch because delivery failed. AC Tech Labs is the current narrow replacement candidate if a replacement route is approved or if the remaining live touches produce at least weak positive signal. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` before any more rescue-service outreach.
+- Growth: wait for Bytewise, AppStuck, AC Tech Labs, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. Afterbuild no longer counts as an active live touch because delivery failed, and AC Tech Labs is now the delivered replacement touch. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` before any more rescue-service outreach.
 - Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, `docs/ac-tech-labs-runbook.md`, `docs/post-three-touch-decision-tree.md`, `docs/founder-stability-brief-pivot.md`, and `docs/founder-stability-brief-runbook.md` as the current source of truth for contractor/agency/domain-builder screening, reply readout, and wedge-decision logic
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
@@ -65,13 +65,13 @@
 ## Latest CEO After-Action Review
 
 - Date: `2026-05-18`
-- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency wedge, but the current live readout is weaker than previously logged because Afterbuild never actually reached market.
-- Evidence quality: corrected and stronger than the previous run because Mail UI now gives direct evidence. GitHub issue #1 still has no comments, the latest Pages deploy is healthy, and the live URL still returns HTTP 200. Mail UI shows Afterbuild ended in `Delivery Status Notification (Failure)` on `2026-05-15`; Bytewise and AppStuck still show no inbox reply.
-- Current-run work completed: verified Mail UI as the current readout surface; corrected Afterbuild from “live touch” to failed delivery; closed `ACC-0001` because no user-side permission change is needed for current operation; refreshed the due viability review from this corrected evidence.
-- Instance-only improvements executed: distribution-state correction, Mail readout recovery, and viability refresh.
+- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency wedge, and the failed Afterbuild route has now been replaced with one real delivered AC Tech Labs touch.
+- Evidence quality: stronger than the previous run because this run produced a verified external action, not just a corrected readout. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and the AC Tech Labs contact-form submission is backed by a captured `POST /api/contact` `200` response.
+- Current-run work completed: used the fresh user approval to execute the AC Tech Labs replacement outreach with truthful field mapping; verified the exact payload and `200` API result; updated the three-touch decision logic so the current live batch is Bytewise + AppStuck + AC Tech Labs rather than a fictional Afterbuild wait.
+- Instance-only improvements executed: replacement outreach execution, runbook/state alignment, and corrected checkpoint logic for the current wedge.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: one coherent growth-prep action is complete and the company remains in a valid outside wait until a reply arrives or the hard checkpoint on `2026-05-21 23:59 CST` is reached. Keep heartbeat active for a 24-hour follow-up check.
+- Stop-check: one coherent market action is complete and the company remains in a valid outside wait until Bytewise, AppStuck, AC Tech Labs, GitHub, or X produces a reply, or the hard checkpoint on `2026-05-21 23:59 CST` is reached. Keep heartbeat active for a 24-hour follow-up check.
 
 ## Previous CEO After-Action Review
 
