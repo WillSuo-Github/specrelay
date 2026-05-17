@@ -1,15 +1,16 @@
 # Account Needs
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-17`
 - Owner role: Release/Ops + Product/CEO
 - Purpose: record external accounts, services, logins, credentials, or platform access the company needs the user to set up.
 
 ## Current Blocking Needs
 
-No blocking account or service need is active right now. The company is in a real outside wait on replies, not blocked on setup.
+The company is still in a real outside wait on replies, but one real readout dependency is now explicit: direct outreach replies are part of the primary evidence loop, and current local automation cannot reliably read Mail because both AppleScript access and `~/Library/Mail` filesystem access are blocked by macOS permissions.
 
 | ID | Priority | Service / account | Needed for | Required user action | Why now | Fallback | Resume action after completion | Verification method | Next check cadence | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `ACC-0001` | high | macOS Mail readout permission for Codex/Terminal | reliable verification of Afterbuild / Bytewise reply state from the local machine | grant the current Codex/Terminal process the needed macOS permission path for Mail readout: either Automation access to control Mail via AppleScript, or filesystem access that allows reading `~/Library/Mail` metadata, whichever prompt/path the system exposes first | the company now depends on direct outreach replies as the primary readout source, and repeated heartbeats should not keep pretending inbox monitoring is reliable when the local permission surface is blocked | continue using GitHub issue state, Pages health, and any user-reported inbox observations; treat direct-email monitoring as partial until verified | rerun the local Mail readout checks, then record whether Afterbuild / Bytewise have replied and close or downgrade this need | successful local readout command returning deterministic sent/inbox results without permission denial or indefinite hang | every heartbeat until resolved or made stale | `user-action-needed` |
 
 ## Status Model
 

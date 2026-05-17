@@ -11,6 +11,7 @@
 - In progress: Afterbuild Labs and Bytewise validation emails are in market; AppStuck's public contact form was submitted on `2026-05-14` using `ws.software@outlook.com`; no replies yet.
 - Public URL: https://willsuo-github.github.io/specrelay/
 - Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether any of the three contractor/agency touches produce a useful reply
+- Readout blocker: reliable local Mail automation for Afterbuild / Bytewise reply monitoring is currently blocked by macOS permissions; see `ACC-0001` in `account-needs.md`
 - Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
 - Next decision deadline: when Afterbuild replies, Bytewise replies, AppStuck replies, another active X target responds, GitHub issue #1 gets a comment, or the contractor/agency wedge reaches its hard checkpoint on `2026-05-21 23:59 CST`
 
@@ -67,8 +68,8 @@
 - Date: `2026-05-17`
 - Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency batch, and no new founder or evaluator signal exists yet.
 - Evidence quality: unchanged on market signal in this run. GitHub issue #1 still has no comments, the latest Pages deploy is healthy, and the live URL still returns HTTP 200. No new verified reply was added.
-- Current-run work completed: repo-backed external surfaces were re-checked and found unchanged; added `docs/founder-stability-target-pool.md` so the staged founder-side fallback now has ranked public targets, one exact first approval candidate, and one exact second candidate instead of rediscovery work at checkpoint time.
-- Instance-only improvements executed: founder-side fallback was tightened from runbook-only readiness to target-ready execution prep.
+- Current-run work completed: repo-backed external surfaces were re-checked and found unchanged; attempted to verify direct-email readout through Mail AppleScript and local Mail data access; AppleScript did not yield deterministic results and `~/Library/Mail` access was denied by macOS. Opened `ACC-0001` so the blocker is explicit and recoverable instead of being silently ignored.
+- Instance-only improvements executed: readout reliability gap was converted into an exact account/permission need with verification and resume steps.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
 - Stop-check: one coherent growth-prep action is complete and the company remains in a valid outside wait until a reply arrives or the hard checkpoint on `2026-05-21 23:59 CST` is reached. Keep heartbeat active for a 24-hour follow-up check.

@@ -11,7 +11,7 @@
 - Primary readout source: direct evaluator replies from Afterbuild, Bytewise, AppStuck, and active X targets
 - Secondary readout source: GitHub feedback issue, live-site health, and exported packet quality
 - Evidence quality: weak but real
-- Missing source or integration: no product analytics, no reliable automated inbox/X readout surface, and no completed packet review
+- Missing source or integration: no product analytics, no reliable automated X readout surface, no completed packet review, and direct-email readout is now explicitly blocked by macOS Mail permissions until `ACC-0001` is verified
 - Next readout: current three-touch contractor/agency batch checkpoint on `2026-05-21 23:59 CST`
 
 ## Source Selection Rules
@@ -47,6 +47,7 @@
 | `2026-05-15` | is there any new repo-backed external signal before migration closeout? | GitHub issue + workflow status + live URL | no new repo-backed demand signal; release surface still healthy | high for release, low for demand | `release.md`, `business-audit.md`, `company-dashboard.md` | wait for direct replies or checkpoint |
 | `2026-05-16` | if the current wedge fails, is the founder-side fallback precise enough to activate immediately? | repo-backed strategy review + founder-side runbook prep | yes for internal readiness; still no external validation yet | medium for readiness, low for demand | `state.md`, `revenue-pipeline.md` | wait for replies or checkpoint |
 | `2026-05-17` | if the current wedge fails, does the founder-side pivot already have concrete public targets instead of only abstract positioning? | repo-backed checks + current public community research | yes for target readiness; still no founder-side validation yet | medium for readiness, low for demand | `state.md`, `revenue-pipeline.md`, `market-map.md` | wait for replies or checkpoint |
+| `2026-05-17` | is direct-email reply monitoring actually reliable on this machine? | Mail AppleScript attempt + `~/Library/Mail` access check | no; AppleScript readout did not yield deterministic results and filesystem access to `~/Library/Mail` was denied by macOS permissions | high for the blocker, low for inbox state itself | `account-needs.md`, `state.md`, `company-dashboard.md` | verify `ACC-0001` before treating inbox monitoring as reliable |
 
 ## Integration Requests
 

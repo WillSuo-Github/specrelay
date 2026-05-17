@@ -16,6 +16,7 @@
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
 - Next cadence recommendation: 24 hours while the current outreach batch is in a real outside wait
+- Readout risk note: direct-email replies are a primary evidence source for the current batch, but reliable local Mail automation is blocked until `ACC-0001` is resolved
 
 ## Target Customers
 

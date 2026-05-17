@@ -9,8 +9,8 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0022` | `run-log.md` | high |
-| Active run count | 22 | `run-log.md` | medium |
+| Last active run | `RUN-0023` | `run-log.md` | high |
+| Active run count | 23 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
 | Current business model | `B2B/license` hypothesis with founder-side pivot staged but inactive | `business-model.md` | medium |
@@ -21,7 +21,7 @@
 | Viability recommendation | `continue` until the current evidence window closes | `viability-scorecard.md` | medium |
 | Last business audit | `2026-05-15 mixed` | `business-audit.md` | medium |
 | Closer to revenue? | `mixed` | `business-audit.md`, `operating-quality.md` | medium |
-| Open account/service blocker | `none blocking current wait state` | `account-needs.md` | medium |
+| Open account/service blocker | `ACC-0001` Mail readout permission blocks reliable local inbox verification for the current direct-outreach batch | `account-needs.md` | high |
 | Next wake | `24-hour external wait unless a reply arrives first` | `ops/automation-spec.md`, `state.md` | high |
 
 ## CEO Focus
@@ -30,8 +30,8 @@
 - Highest-leverage next move: let the current three-touch contractor/agency batch reach its `2026-05-21 23:59 CST` readout, then apply the continue/pivot rule without adding drift work.
 - Narrowest approval/account gate, if any: any further public post, DM, follow-up with link, or new direct outreach remains action-time gated.
 - Current external signal opportunity: a useful reply from Afterbuild, Bytewise, AppStuck, or an active X target that clarifies whether the packet changes real workflow behavior.
-- Current real-progress status: business signal is still unchanged, but the founder-side fallback now has a ranked target pool and exact first approval candidate instead of only generic founder positioning.
-- Last run-log entry: `RUN-0022` founder-side target-pool staging.
+- Current real-progress status: business signal is still unchanged, but the current direct-email readout blocker is now explicit instead of being silently treated as monitored.
+- Last run-log entry: `RUN-0023` Mail readout blocker formalization.
 - Last business-audit answer: `mixed`.
 - Next decision deadline: `2026-05-21 23:59 CST`.
 
@@ -47,8 +47,8 @@
 | Monetization | absent | chosen paid offer plus willingness-to-pay evidence | current model is still hypothesis only | record next monetization test after readout |
 | Release / reachability | strong | stable public surface | live GitHub Pages app and release issue are healthy | maintain only |
 | Reliability | acceptable | growth not wasted by defects | product is stable enough for manual evaluation | no product expansion before evidence |
-| Account dependencies | manageable | all needs explicit and current | no blocking account need right now | keep `account-needs.md` empty until a true blocker appears |
-| Operating quality | medium | no repeated internal-only loops | current run staged the exact founder-side target pool, and last 10-run real-progress rate is still healthy | stop adding internal prep after this until the next readout or gate |
+| Account dependencies | active | all needs explicit and current | `ACC-0001` blocks reliable local Mail readout for direct outreach replies | verify the permission path or keep direct-email readout explicitly partial |
+| Operating quality | medium | no repeated internal-only loops | current run turned a silent monitoring gap into an explicit blocker with a resume path, and last 10-run real-progress rate is still healthy | stop adding internal prep after this until the next readout, gate, or blocker resolution |
 | Business audit | current | weekly / 10-run answer | `mixed` on `2026-05-15` | next audit on `2026-05-22 17:00 CST` or earlier trigger |
 
 ## Current Priorities

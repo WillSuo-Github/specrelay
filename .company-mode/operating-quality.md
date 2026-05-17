@@ -12,7 +12,7 @@
 - External-signal output rate: `9/10` runs either shipped a real external touch or staged the exact next gate
 - No-progress streak: `0`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
-- Account dependency closure rate: `100%` of current blocking needs are either absent or explicitly non-blocking
+- Account dependency closure rate: `100%` of current blocking needs are explicitly tracked with verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
 - Business audit status: current (`mixed` on `2026-05-15`)
 - Current quality risk: `medium`
@@ -48,6 +48,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-15` | `no-traction` | `decision` | durable-state chronology repair | yes | future autonomous recovery no longer depends on contradictory review history | pass | none | next run should stay on live evidence, not more structure |
 | `2026-05-16` | `no-traction` | `distribution` | founder-side validation runbook staged | yes | fallback path is now at a narrow future gate instead of abstract strategy | pass | none | wait for current batch; do not open new channel yet |
 | `2026-05-17` | `no-traction` | `distribution` | founder-side target pool staged | yes | founder-side pivot no longer depends on rediscovering live public targets at checkpoint time | pass | none | keep waiting; use the staged target pool only if the pivot activates |
+| `2026-05-17` | `no-traction` | `distribution` | direct-email readout blocker formalized as `ACC-0001` | yes | inbox monitoring is no longer falsely treated as reliable; exact user-action path is recorded | pass | `ACC-0001` opened | verify Mail permission or keep direct-email readout explicitly partial |
 
 ## Quality Review Questions
 
