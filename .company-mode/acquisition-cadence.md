@@ -1,6 +1,6 @@
 # Acquisition Cadence
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-18`
 - Owner role: Growth
 - Rule: the company chooses its own acquisition rhythm from evidence, business stage, and current bottleneck.
 
@@ -8,8 +8,8 @@
 
 - Business stage: `no-traction`
 - Current bottleneck: `distribution`
-- Chosen cadence: `24-hour external-wait readout while the current three-touch batch is live`
-- Why this cadence: the company has already put Afterbuild, Bytewise, and AppStuck into market, and the highest-leverage next move is to read replies or enforce the existing hard checkpoint rather than open another channel mid-window
+- Chosen cadence: `24-hour external-wait readout while the current three-touch delivered batch is live`
+- Why this cadence: the company has Bytewise, AppStuck, and AC Tech Labs in market after correcting Afterbuild to delivery failure, and the highest-leverage next move is to read replies or enforce the existing hard checkpoint rather than open another channel mid-window
 - Next cadence review: `2026-05-21 23:59 CST` or immediately on any useful reply
 
 ## Cadence Options

@@ -28,7 +28,7 @@
 | Bet | Why next | Success signal | Owner role | Status |
 | --- | --- | --- | --- | --- |
 | Add feedback capture | Need qualitative learning without backend complexity | Packet includes review prompts that can be used in manual outreach without backend credentials | Growth + Release/Ops | Complete for MVP |
-| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Afterbuild Labs and Bytewise emails plus the AppStuck form submission are awaiting replies; apply `docs/post-three-touch-decision-tree.md` at `2026-05-21 23:59 CST`, then either continue with AC Tech Labs on weak-positive evidence or activate `docs/founder-stability-brief-pivot.md` |
+| Collect first reviews | Product/user evidence is still missing | 5 qualitative reviews, with at least 2 strong intent signals | Growth + Support/Research | 2 useful X responses, 0 strong intent signals; Bytewise email, AppStuck form, and AC Tech Labs form are awaiting replies after the Afterbuild delivery failure; apply `docs/post-three-touch-decision-tree.md` at `2026-05-21 23:59 CST`, then either pivot founder-side or stop rather than opening a fourth rescue-service touch by default |
 | Prepare Product Hunt assets | Product Hunt needs stronger launch packaging than the current owned MVP assets | 240x240 thumbnail, 2 gallery images, and first comment draft are ready | Design + Growth | Later, after first evaluator signal |
 
 ## Later

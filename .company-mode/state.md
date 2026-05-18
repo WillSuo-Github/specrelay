@@ -65,13 +65,13 @@
 ## Latest CEO After-Action Review
 
 - Date: `2026-05-18`
-- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency wedge, and the failed Afterbuild route has now been replaced with one real delivered AC Tech Labs touch.
-- Evidence quality: stronger than the previous run because this run produced a verified external action, not just a corrected readout. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and the AC Tech Labs contact-form submission is backed by a captured `POST /api/contact` `200` response.
-- Current-run work completed: used the fresh user approval to execute the AC Tech Labs replacement outreach with truthful field mapping; verified the exact payload and `200` API result; updated the three-touch decision logic so the current live batch is Bytewise + AppStuck + AC Tech Labs rather than a fictional Afterbuild wait.
-- Instance-only improvements executed: replacement outreach execution, runbook/state alignment, and corrected checkpoint logic for the current wedge.
+- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency wedge, with Bytewise + AppStuck + AC Tech Labs as the only live delivered touches.
+- Evidence quality: unchanged on demand in this run, but cleaner on operations. GitHub issue #1 still has no comments, the latest Pages deploy completed successfully, the live URL still returns HTTP 200, and Bytewise inbox count still returns `0`. No new verified AppStuck or AC Tech Labs reply was added.
+- Current-run work completed: verified the external wait state again; confirmed the latest deploy succeeded; confirmed there is still no GitHub feedback; then removed stale current-state references that still described Afterbuild as live or AC Tech Labs as merely staged.
+- Instance-only improvements executed: durable-state cleanup across role access, roadmap, cadence, experiments, dashboard, and CEO recovery context.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: one coherent market action is complete and the company remains in a valid outside wait until Bytewise, AppStuck, AC Tech Labs, GitHub, or X produces a reply, or the hard checkpoint on `2026-05-21 23:59 CST` is reached. Keep heartbeat active for a 24-hour follow-up check.
+- Stop-check: no new external signal landed, and no new user action is needed. The company remains in a valid 24-hour outside wait until Bytewise, AppStuck, AC Tech Labs, GitHub, or X produces a reply, or the hard checkpoint on `2026-05-21 23:59 CST` is reached.
 
 ## Previous CEO After-Action Review
 

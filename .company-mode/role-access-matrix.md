@@ -1,8 +1,8 @@
 # Role Access Matrix
 
-Last updated: `2026-05-07`
+Last updated: `2026-05-18`
 Scope: one-product company instance
-Current company stage: public MVP live, X first wave, second-wave micro-sprint, and Jesse stability-first URL follow-up sent
+Current company stage: public MVP live, contractor/agency wedge active, Bytewise + AppStuck + AC Tech Labs in market, waiting for readout through `2026-05-21 23:59 CST`
 
 ## Reading this matrix
 
@@ -61,4 +61,4 @@ Current company stage: public MVP live, X first wave, second-wave micro-sprint, 
 ## What this means
 
 - Current interpretation: SpecRelay is technically shippable; X outreach has produced a founder-maintained-app segmentation signal and a stability-first workflow signal, but market evidence is still weak until someone reviews or tries a packet.
-- Highest-leverage next upgrades: monitor active X targets for concrete handoff requirements, demo/read-only access, or product trial feedback; with approval, test the contractor/agency wedge using the staged Afterbuild Labs message.
+- Highest-leverage next upgrades: monitor Bytewise/AppStuck/AC Tech Labs plus active X targets for concrete workflow-fit feedback; do not open a fourth rescue-service touch before the hard checkpoint.

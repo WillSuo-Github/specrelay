@@ -51,6 +51,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-17` | `no-traction` | `distribution` | direct-email readout blocker formalized as `ACC-0001` | yes | inbox monitoring is no longer falsely treated as reliable; exact user-action path is recorded | pass | `ACC-0001` opened | verify Mail permission or keep direct-email readout explicitly partial |
 | `2026-05-18` | `no-traction` | `distribution` | Afterbuild delivery failure corrected; Mail UI readout verified; viability review refreshed | yes | a false live-touch assumption was removed and the blocker was closed without more setup | pass | `ACC-0001` closed | keep reading Bytewise/AppStuck to checkpoint; do not count technical failures as market silence |
 | `2026-05-18` | `no-traction` | `distribution` | AC Tech Labs replacement outreach executed with verified `POST /api/contact` `200` | yes | the contractor/agency batch returned to three delivered touches after the Afterbuild miss | pass | none | wait for Bytewise/AppStuck/AC Tech Labs replies; do not add a fourth touch before checkpoint |
+| `2026-05-18` | `no-traction` | `distribution` | no new external reply; stale current-state references repaired after external checks | yes | future recovery will not reintroduce “Afterbuild still live” or “AC still staged” assumptions | pass | none | remain in 24-hour external wait until a reply or the hard checkpoint |
 
 ## Quality Review Questions
 
