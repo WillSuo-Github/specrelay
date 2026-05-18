@@ -6,15 +6,15 @@
 
 ## Current Counters
 
-- Total active runs: 26
-- Last run ID: `RUN-0026`
-- Next run ID: `RUN-0027`
-- Last active run at: `2026-05-18 15:15 CST`
-- Last real-progress run ID: `RUN-0026`
+- Total active runs: 27
+- Last run ID: `RUN-0027`
+- Next run ID: `RUN-0028`
+- Last active run at: `2026-05-19 07:16 CST`
+- Last real-progress run ID: `RUN-0027`
 - Last no-progress run ID: `RUN-0019`
 - No-progress streak: 0
-- Runs since viability review: 2
-- Runs since business audit: 7
+- Runs since viability review: 3
+- Runs since business audit: 8
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
@@ -70,6 +70,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0024` | `2026-05-18 02:02 CST` | `no-traction` | `distribution` | correct the live contractor/agency batch from direct Mail evidence and refresh viability | observe -> verify -> decide -> review -> prepare | Afterbuild was corrected to `Delivery Status Notification (Failure)`; Mail UI readout was verified; `ACC-0001` was closed; viability review was refreshed | yes | a false live-touch assumption was removed and current readout is now grounded in direct Mail evidence | pass | n/a | `continue` | `ACC-0001` closed | `.company-mode/account-needs.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/business-audit.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/run-log.md` | 24h |
 | `RUN-0025` | `2026-05-18 02:30 CST` | `no-traction` | `distribution` | replace the failed Afterbuild route with one real delivered contractor/agency touch | observe -> verify -> publish -> verify | AC Tech Labs public contact form submitted with truthful validation framing; network trace verified `POST /api/contact` returned `200` | yes | restored the intended three-touch delivered batch after the Afterbuild delivery failure | pass | n/a | n/a | none | `docs/ac-tech-labs-runbook.md`, `docs/post-three-touch-decision-tree.md`, `.company-mode/feedback.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/experiments.md`, `.company-mode/state.md`, `.company-mode/signal-sources.md`, `.company-mode/company-dashboard.md`, `.company-mode/run-log.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/release.md`, `ops/automation-spec.md` | 24h |
 | `RUN-0026` | `2026-05-18 15:15 CST` | `no-traction` | `distribution` | verify that no new external reply landed and remove stale current-state references before the next recovery | observe -> verify -> decide -> prepare | GitHub issue #1 remained silent, the latest Pages deploy succeeded, the live URL stayed `HTTP 200`, Bytewise inbox count still returned `0`, and stale Afterbuild/AC staged references were removed from durable current-state files | yes | future recovery no longer depends on stale “Afterbuild still live” or “AC still staged” assumptions | pass | n/a | n/a | none | `.company-mode/role-access-matrix.md`, `.company-mode/roadmap.md`, `.company-mode/acquisition-cadence.md`, `.company-mode/experiments.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
+| `RUN-0027` | `2026-05-19 07:16 CST` | `no-traction` | `distribution` | verify the first full post-AC wait cycle and align founder-side trigger docs to the real delivered batch | observe -> verify -> decide -> prepare | GitHub issue #1 remained silent, the latest Pages deploy succeeded, the live URL stayed `HTTP 200`, AppleScript inbox counts returned `0` for Bytewise/AppStuck/AC Tech Labs, and the founder-side pivot trigger was corrected to the current three-touch batch | yes | future pivot activation will read the correct delivered batch instead of the old Afterbuild-based set | pass | n/a | n/a | none | `docs/founder-stability-brief-runbook.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
 
 ## Correction Log
 

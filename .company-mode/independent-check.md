@@ -6,9 +6,9 @@
 
 ## Current Run Check
 
-- Run date: `2026-05-18`
+- Run date: `2026-05-19`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: repo-backed external signal claims, latest deploy status, Bytewise inbox readout, stale current-state references, durable-state linkage, and stop-condition validity while the current outreach batch waits
+- Scope checked: repo-backed external signal claims, latest deploy status, inbox counts for the three live touches, founder-side trigger correctness, durable-state linkage, and stop-condition validity while the current outreach batch waits
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass`
@@ -30,7 +30,7 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, latest workflow status, live URL, Bytewise inbox count, and updated durable-state links | no fabricated external signal was added |
+| Evidence support | 3 | GitHub issue state, latest workflow status, live URL, inbox counts for Bytewise/AppStuck/AC Tech Labs, and updated durable-state links | no fabricated external signal was added |
 | Account and provider correctness | 3 | repo, company instance, sender policy, approval gates, and Mail UI readout path | no wrong-provider or wrong-account mutation in this run |
 | Public artifact fidelity | 3 | latest public deploy succeeded and the live URL still returns `HTTP 200` | no blocking issue |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
@@ -49,3 +49,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-18` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | keep Mail UI as the current readout path; treat Afterbuild as failed delivery, not live silence |
 | `2026-05-18` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | AC Tech Labs replacement outreach is now verified by network response; wait for reply rather than adding a fourth touch |
 | `2026-05-18` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; stale current-state references were removed so the next recovery reads the right batch |
+| `2026-05-19` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; founder-side trigger now matches the real Bytewise/AppStuck/AC batch |

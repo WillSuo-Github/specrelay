@@ -9,8 +9,8 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0026` | `run-log.md` | high |
-| Active run count | 26 | `run-log.md` | medium |
+| Last active run | `RUN-0027` | `run-log.md` | high |
+| Active run count | 27 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
 | Current business model | `B2B/license` hypothesis with founder-side pivot staged but inactive | `business-model.md` | medium |
@@ -30,8 +30,8 @@
 - Highest-leverage next move: let the remaining Bytewise/AppStuck/AC Tech Labs contractor/agency touches reach the `2026-05-21 23:59 CST` readout, then apply the continue/pivot rule without adding drift work.
 - Narrowest approval/account gate, if any: any further public post, DM, follow-up with link, or new direct outreach remains action-time gated.
 - Current external signal opportunity: a useful reply from Bytewise, AppStuck, AC Tech Labs, or an active X target that clarifies whether the packet changes real workflow behavior.
-- Current real-progress status: AC Tech Labs remains the delivered replacement touch, and the latest run removed stale current-state references so future heartbeats recover from the right three-touch batch.
-- Last run-log entry: `RUN-0026` external wait verified and stale state repaired.
+- Current real-progress status: AC Tech Labs remains the delivered replacement touch, and the latest run verified all three inbox counts at `0` while aligning the founder-side pivot trigger to that real delivered batch.
+- Last run-log entry: `RUN-0027` external wait reverified and pivot trigger aligned.
 - Last business-audit answer: `mixed`.
 - Next decision deadline: `2026-05-21 23:59 CST`.
 
@@ -48,7 +48,7 @@
 | Release / reachability | strong | stable public surface | live GitHub Pages app and release issue are healthy | maintain only |
 | Reliability | acceptable | growth not wasted by defects | product is stable enough for manual evaluation | no product expansion before evidence |
 | Account dependencies | manageable | all needs explicit and current | no blocking account need right now; Mail UI readout is verified and AC used a public form route | keep using the verified Mail UI path |
-| Operating quality | medium | no repeated internal-only loops | latest run found no new external signal and used the turn to clear stale state that would have misled the next recovery | stop adding internal prep after this until the next readout or gate |
+| Operating quality | medium | no repeated internal-only loops | latest run found no new external signal and used the turn to align the founder-side trigger with the actual live batch | stop adding internal prep after this until the next readout or gate |
 | Business audit | current | weekly / 10-run answer | `mixed` on `2026-05-15` | next audit on `2026-05-22 17:00 CST` or earlier trigger |
 
 ## Current Priorities

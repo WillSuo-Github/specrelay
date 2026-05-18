@@ -18,7 +18,7 @@ Before you launch or hand an AI-built app to someone else, freeze the basic flow
 
 Activate this runbook only when one of these becomes true:
 
-1. Afterbuild, Bytewise, and AppStuck are all silent or negative at `2026-05-21 23:59 CST`.
+1. Bytewise, AppStuck, and AC Tech Labs are all silent or negative at `2026-05-21 23:59 CST`.
 2. The contractor/agency batch produces only weak positives and Product/CEO decides the buyer is still too indirect.
 3. A founder or builder explicitly says the smaller stability brief sounds more realistic than a full handoff packet.
 
