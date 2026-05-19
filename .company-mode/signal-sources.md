@@ -1,6 +1,7 @@
 # Signal Sources
 
 - Last updated: `2026-05-18`
+- Last updated: `2026-05-19`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
@@ -52,6 +53,7 @@
 | `2026-05-18` | can direct-email reply state still be recovered without system-permission changes? | Mail UI search/readout through Computer Use | yes; Afterbuild failure thread was visible, and Bytewise/AppStuck had no inbox matches | high | `feedback.md`, `account-needs.md`, `state.md`, `revenue-pipeline.md` | keep using Mail UI readout during the current evidence window |
 | `2026-05-18` | did any new contractor/agency reply arrive after the AC Tech Labs submission? | GitHub issue check + workflow status + live URL + AppleScript inbox count for Bytewise | no repo-backed external signal; latest deploy succeeded; Bytewise inbox count remained `0`; no new verified AppStuck or AC Tech Labs reply was added | medium | `feedback.md`, `state.md`, `run-log.md` | keep the 24-hour wait until reply or checkpoint |
 | `2026-05-19` | did any contractor/agency reply arrive after the first AC replacement wait cycle? | GitHub issue check + workflow status + live URL + AppleScript inbox counts for Bytewise/AppStuck/AC Tech Labs | no; latest deploy succeeded; all three counts returned `0`; no new verified reply was added | medium | `feedback.md`, `state.md`, `run-log.md` | keep the 24-hour wait until reply or checkpoint |
+| `2026-05-19` | is the AppleScript inbox-count path stable enough to reuse for the full live batch? | GitHub issue check + workflow status + live URL + second AppleScript count cycle for Bytewise/AppStuck/AC Tech Labs | yes for the current wait state; the same count path returned `0` across all three live touches again | medium/high | `feedback.md`, `state.md`, `run-log.md` | reuse this path during the remaining evidence window unless it regresses |
 
 ## Integration Requests
 

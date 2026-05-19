@@ -8,7 +8,7 @@
 
 - Run date: `2026-05-19`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: repo-backed external signal claims, latest deploy status, inbox counts for the three live touches, founder-side trigger correctness, durable-state linkage, and stop-condition validity while the current outreach batch waits
+- Scope checked: repo-backed external signal claims, latest deploy status, repeat inbox counts for the three live touches, durable-state linkage, and stop-condition validity while the current outreach batch waits
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass`
@@ -50,3 +50,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-18` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | AC Tech Labs replacement outreach is now verified by network response; wait for reply rather than adding a fourth touch |
 | `2026-05-18` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; stale current-state references were removed so the next recovery reads the right batch |
 | `2026-05-19` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; founder-side trigger now matches the real Bytewise/AppStuck/AC batch |
+| `2026-05-19` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; repeated AppleScript counts now cover the full live batch through one consistent readout path |
