@@ -1,6 +1,6 @@
 # Revenue Pipeline
 
-- Last updated: `2026-05-18`
+- Last updated: `2026-05-20`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
@@ -16,7 +16,7 @@
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
 - Next cadence recommendation: 24 hours while the current outreach batch is in a real outside wait
-- Readout risk note: direct-email replies remain a primary evidence source, but current monitoring relies on Mail UI readout rather than AppleScript or direct filesystem access
+- Readout risk note: direct-email replies remain a primary evidence source, but current monitoring is mixed: GitHub/live URL checks are deterministic, Bytewise AppleScript count is still working, and AppStuck/AC Tech Labs AppleScript checks timed out in this run, so Mail UI remains the fallback if a reply check becomes urgent
 
 ## Target Customers
 

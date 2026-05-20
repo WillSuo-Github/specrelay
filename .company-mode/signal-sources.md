@@ -1,7 +1,6 @@
 # Signal Sources
 
-- Last updated: `2026-05-18`
-- Last updated: `2026-05-19`
+- Last updated: `2026-05-20`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
@@ -12,7 +11,7 @@
 - Primary readout source: direct evaluator replies from Bytewise, AppStuck, AC Tech Labs, and active X targets; Afterbuild is no longer a live reply source because delivery failed
 - Secondary readout source: GitHub feedback issue, live-site health, and exported packet quality
 - Evidence quality: weak but real
-- Missing source or integration: no product analytics, no reliable automated X readout surface, and no completed packet review
+- Missing source or integration: no product analytics, no reliable automated X readout surface, no completed packet review, and Mail AppleScript readout is again partial for AppStuck/AC Tech Labs
 - Next readout: current three-touch contractor/agency batch checkpoint on `2026-05-21 23:59 CST`
 
 ## Source Selection Rules
@@ -54,6 +53,7 @@
 | `2026-05-18` | did any new contractor/agency reply arrive after the AC Tech Labs submission? | GitHub issue check + workflow status + live URL + AppleScript inbox count for Bytewise | no repo-backed external signal; latest deploy succeeded; Bytewise inbox count remained `0`; no new verified AppStuck or AC Tech Labs reply was added | medium | `feedback.md`, `state.md`, `run-log.md` | keep the 24-hour wait until reply or checkpoint |
 | `2026-05-19` | did any contractor/agency reply arrive after the first AC replacement wait cycle? | GitHub issue check + workflow status + live URL + AppleScript inbox counts for Bytewise/AppStuck/AC Tech Labs | no; latest deploy succeeded; all three counts returned `0`; no new verified reply was added | medium | `feedback.md`, `state.md`, `run-log.md` | keep the 24-hour wait until reply or checkpoint |
 | `2026-05-19` | is the AppleScript inbox-count path stable enough to reuse for the full live batch? | GitHub issue check + workflow status + live URL + second AppleScript count cycle for Bytewise/AppStuck/AC Tech Labs | yes for the current wait state; the same count path returned `0` across all three live touches again | medium/high | `feedback.md`, `state.md`, `run-log.md` | reuse this path during the remaining evidence window unless it regresses |
+| `2026-05-20` | is the current three-touch batch still silent, and is the Mail automation path still stable enough for checkpoint monitoring? | GitHub issue check + workflow status + live URL + AppleScript inbox count for Bytewise plus AppleScript timeout attempts for AppStuck/AC Tech Labs | no new repo-backed external signal; latest deploy succeeded; Bytewise stayed `0`; AppStuck and AC Tech Labs timed out in AppleScript, so the current Mail automation is only partial again | medium | `feedback.md`, `state.md`, `run-log.md`, `viability-scorecard.md`, `business-audit.md` | keep the 24-hour wait to checkpoint and use Mail UI fallback if a reply check becomes urgent |
 
 ## Integration Requests
 

@@ -1,17 +1,17 @@
 # Independent Check
 
-- Last updated: `2026-05-18`
+- Last updated: `2026-05-20`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-05-19`
+- Run date: `2026-05-20`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: repo-backed external signal claims, latest deploy status, repeat inbox counts for the three live touches, durable-state linkage, and stop-condition validity while the current outreach batch waits
+- Scope checked: repo-backed external signal claims, latest deploy status, current inbox readout surface for the three live touches, due viability/business-audit refresh, durable-state linkage, and stop-condition validity while the current outreach batch waits
 - Hard blockers found: no
-- Score: `21/21`
-- Decision: `pass`
+- Score: `20/21`
+- Decision: `pass with notes`
 
 ## Hard Blockers
 
@@ -30,12 +30,12 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, latest workflow status, live URL, inbox counts for Bytewise/AppStuck/AC Tech Labs, and updated durable-state links | no fabricated external signal was added |
+| Evidence support | 2 | GitHub issue state, latest workflow status, live URL, Bytewise inbox count, AppStuck/AC Tech Labs AppleScript timeouts, and updated durable-state links | no fabricated external signal was added, but today's Mail automation only reconfirmed part of the batch |
 | Account and provider correctness | 3 | repo, company instance, sender policy, approval gates, and Mail UI readout path | no wrong-provider or wrong-account mutation in this run |
 | Public artifact fidelity | 3 | latest public deploy succeeded and the live URL still returns `HTTP 200` | no blocking issue |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops after executing the approved replacement outreach while a valid outside wait remains | valid outside wait remains |
-| Durable state updates | 3 | state, run-log, feedback, pipeline, signal, dashboard, quality, release, and automation files updated together | replacement-touch state is aligned across durable files |
+| Stop-condition validity | 3 | run stops after executing the due audit/review refresh while a valid outside wait remains | valid outside wait remains |
+| Durable state updates | 3 | state, run-log, feedback, pipeline, signal, dashboard, quality, audit, viability, and release files updated together | current checkpoint state is aligned across durable files |
 | Resume and wake readiness | 3 | next checkpoint, remaining live touches, and fallback route are explicit | no blocker to future recovery |
 
 ## Check Log
@@ -51,3 +51,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-18` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; stale current-state references were removed so the next recovery reads the right batch |
 | `2026-05-19` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; founder-side trigger now matches the real Bytewise/AppStuck/AC batch |
 | `2026-05-19` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | no new external signal landed; repeated AppleScript counts now cover the full live batch through one consistent readout path |
+| `2026-05-20` | explicit independent audit lens + repo-backed verification | `20/21` | none | `pass with notes` | no new external signal landed; Bytewise still reads `0`, AppStuck/AC Tech Labs AppleScript checks timed out, and the company stayed honest by treating the run as no-progress while refreshing due audit/review state |
