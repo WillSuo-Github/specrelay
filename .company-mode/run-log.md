@@ -1,19 +1,19 @@
 # Run Log
 
-- Last updated: `2026-05-20`
+- Last updated: `2026-05-21`
 - Owner role: Product/CEO + Release/Ops
 - Purpose: provide the canonical active-run ledger and counter source for cadence, operating quality, viability review, and business audit triggers.
 
 ## Current Counters
 
-- Total active runs: 29
-- Last run ID: `RUN-0029`
-- Next run ID: `RUN-0030`
-- Last active run at: `2026-05-20 15:15 CST`
+- Total active runs: 30
+- Last run ID: `RUN-0030`
+- Next run ID: `RUN-0031`
+- Last active run at: `2026-05-21 07:15 CST`
 - Last real-progress run ID: `RUN-0028`
-- Last no-progress run ID: `RUN-0029`
-- No-progress streak: 1
-- Runs since viability review: 0
+- Last no-progress run ID: `RUN-0030`
+- No-progress streak: 2
+- Runs since viability review: 1
 - Runs since business audit: 0
 - Rolling quality window: last 10 active runs
 
@@ -22,8 +22,8 @@
 | Trigger | Source | Due when | Current status | Required action |
 | --- | --- | --- | --- | --- |
 | Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0029`; next due `2026-05-21 23:59 CST` or earlier material reply | review before ordinary backlog if due |
-| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0029`; next due `2026-05-21 23:59 CST` or earlier material reply | audit before ordinary backlog if due |
-| Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | not due | resume execution around the current revenue bottleneck if triggered |
+| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0030`; next due `2026-05-21 23:59 CST` or earlier material reply | audit before ordinary backlog if due |
+| Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | due at the hard checkpoint if no material reply arrives first | force continue/pivot/stop tonight instead of another passive wait round |
 
 ## Active Run Definition
 
@@ -73,6 +73,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0027` | `2026-05-19 07:16 CST` | `no-traction` | `distribution` | verify the first full post-AC wait cycle and align founder-side trigger docs to the real delivered batch | observe -> verify -> decide -> prepare | GitHub issue #1 remained silent, the latest Pages deploy succeeded, the live URL stayed `HTTP 200`, AppleScript inbox counts returned `0` for Bytewise/AppStuck/AC Tech Labs, and the founder-side pivot trigger was corrected to the current three-touch batch | yes | future pivot activation will read the correct delivered batch instead of the old Afterbuild-based set | pass | n/a | n/a | none | `docs/founder-stability-brief-runbook.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
 | `RUN-0028` | `2026-05-19 23:11 CST` | `no-traction` | `distribution` | verify the second wait cycle and complete deterministic inbox-count readout across all three live touches | observe -> verify -> decide -> prepare | GitHub issue #1 remained silent, Pages deploy `26019045739` succeeded, the live URL stayed `HTTP 200`, and AppleScript inbox counts returned `0` for Bytewise, AppStuck, and AC Tech Labs in one consistent cycle | yes | current mail readout is now consistent across the full live contractor/agency batch | pass | n/a | n/a | none | `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h |
 | `RUN-0029` | `2026-05-20 15:15 CST` | `no-traction` | `distribution` | recheck the live batch and refresh the due viability review plus business audit before the hard checkpoint | observe -> verify -> review -> decide -> prepare | GitHub issue #1 remained silent, Pages deploy `26106387465` succeeded, the live URL stayed `HTTP 200`, Bytewise inbox count stayed `0`, AppStuck and AC Tech Labs AppleScript counts timed out, viability stayed `continue`, and the business audit answer stayed `mixed` | no | none; the company only refreshed due checkpoint governance around the same silent batch | pass with notes | `mixed` | `continue` | none | `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/viability-scorecard.md`, `.company-mode/business-audit.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h or hard checkpoint |
+| `RUN-0030` | `2026-05-21 07:15 CST` | `no-traction` | `distribution` | verify whether any new signal arrived before the hard checkpoint and tighten the wake to the exact decision time | observe -> verify -> review -> decide -> prepare | GitHub issue #1 remained silent, Pages deploy `26147682652` succeeded, the live URL stayed `HTTP 200`, Bytewise inbox count stayed `0`, no new verified AppStuck or AC Tech Labs reply was added, the no-progress streak reached two, and the next wake was tightened to `2026-05-21 23:59 CST` | no | none; the company is still waiting on the same silent batch and only improved checkpoint discipline in this run | pass with notes | `mixed` | n/a | none | `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/business-audit.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | exact hard checkpoint |
 
 ## Correction Log
 

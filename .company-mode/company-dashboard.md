@@ -1,6 +1,6 @@
 # Company Dashboard
 
-- Last updated: `2026-05-20`
+- Last updated: `2026-05-21`
 - Owner role: Product/CEO
 - Purpose: keep a one-page CEO view of company health, current bottleneck, live blockers, and the next revenue move.
 
@@ -9,8 +9,8 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0029` | `run-log.md` | high |
-| Active run count | 29 | `run-log.md` | medium |
+| Last active run | `RUN-0030` | `run-log.md` | high |
+| Active run count | 30 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
 | Current business model | `B2B/license` hypothesis with founder-side pivot staged but inactive | `business-model.md` | medium |
@@ -19,19 +19,19 @@
 | Distribution signal | `Bytewise, AppStuck, and AC Tech Labs are live; Afterbuild failed delivery on 2026-05-15` | `feedback.md`, `revenue-pipeline.md` | high |
 | Monetization signal | `no willingness-to-pay evidence yet` | `business-model.md`, `revenue-ledger.md` | high |
 | Viability recommendation | `continue` until the current evidence window closes | `viability-scorecard.md` | medium |
-| Last business audit | `2026-05-20 mixed` | `business-audit.md` | medium |
+| Last business audit | `2026-05-21 mixed` | `business-audit.md` | medium |
 | Closer to revenue? | `mixed` | `business-audit.md`, `operating-quality.md` | medium |
 | Open account/service blocker | `none blocking current wait state` | `account-needs.md` | medium |
-| Next wake | `24-hour external wait unless a reply arrives first` | `ops/automation-spec.md`, `state.md` | high |
+| Next wake | `hard checkpoint at 2026-05-21 23:59 CST unless a reply arrives first` | `ops/automation-spec.md`, `state.md` | high |
 
 ## CEO Focus
 
 - One-line company diagnosis: product is live and narrowly positioned, but it still lacks proof that anyone will use the packet before handoff, launch, or scoping.
-- Highest-leverage next move: let the remaining Bytewise/AppStuck/AC Tech Labs contractor/agency touches reach the `2026-05-21 23:59 CST` readout, then apply the continue/pivot rule without adding drift work.
+- Highest-leverage next move: let the remaining Bytewise/AppStuck/AC Tech Labs contractor/agency touches reach tonight's `2026-05-21 23:59 CST` readout, then apply the continue/pivot rule without adding drift work.
 - Narrowest approval/account gate, if any: any further public post, DM, follow-up with link, or new direct outreach remains action-time gated.
 - Current external signal opportunity: a useful reply from Bytewise, AppStuck, AC Tech Labs, or an active X target that clarifies whether the packet changes real workflow behavior.
-- Current real-progress status: no new business progress landed in this run; the company only rechecked the silent batch and completed the due viability review plus business audit before the hard checkpoint.
-- Last run-log entry: `RUN-0029` silent batch rechecked; viability stayed `continue` and audit stayed `mixed`.
+- Current real-progress status: no new business progress landed in this run; the company only rechecked the silent batch, confirmed release health again, and refreshed the due audit because the no-progress streak reached two.
+- Last run-log entry: `RUN-0030` silent batch rechecked; business audit stayed `mixed`; the next wake is the exact hard checkpoint tonight.
 - Last business-audit answer: `mixed`.
 - Next decision deadline: `2026-05-21 23:59 CST`.
 
@@ -48,8 +48,8 @@
 | Release / reachability | strong | stable public surface | live GitHub Pages app and release issue are healthy | maintain only |
 | Reliability | acceptable | growth not wasted by defects | product is stable enough for manual evaluation | no product expansion before evidence |
 | Account dependencies | manageable | all needs explicit and current | no blocking account need right now; Mail UI remains the fallback when AppleScript readout regresses | keep using the verified Mail UI fallback if a reply check becomes urgent |
-| Operating quality | medium | no repeated internal-only loops | latest run found no new external signal and treated itself as no-progress while refreshing the due audit/review | do not add internal prep before the checkpoint resolves |
-| Business audit | current | weekly / 10-run answer | `mixed` on `2026-05-20` | next audit at the hard checkpoint on `2026-05-21 23:59 CST` or earlier material reply |
+| Operating quality | medium/high | no repeated internal-only loops | latest run found no new external signal and became the second consecutive no-progress wait round | do not add internal prep before the checkpoint resolves; force the wedge decision tonight |
+| Business audit | current | weekly / 10-run answer | `mixed` on `2026-05-21` | next audit at the hard checkpoint on `2026-05-21 23:59 CST` or earlier material reply |
 
 ## Current Priorities
 

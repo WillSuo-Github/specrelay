@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-20`
+- Last updated: `2026-05-21`
 - Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators through the highest-signal available channel
 - Current stage: public MVP live
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -64,14 +64,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-20`
+- Date: `2026-05-21`
 - Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency wedge, with Bytewise + AppStuck + AC Tech Labs as the only live delivered touches.
-- Evidence quality: unchanged on demand and slightly weaker on automation confidence in this run. GitHub issue #1 still has no comments, the latest Pages deploy remains successful, the live URL still returns HTTP 200, Bytewise inbox count still returned `0`, and AppStuck plus AC Tech Labs AppleScript reads timed out. No new verified reply was added.
-- Current-run work completed: rechecked the current external wait; confirmed the deploy and live URL remain healthy; confirmed Bytewise still has no inbox match; observed AppleScript timeouts for AppStuck and AC Tech Labs; completed the due viability review; and completed the due business audit before the hard checkpoint.
-- Instance-only improvements executed: feedback/signal/release refresh plus due viability/business-audit state updates. This run is recorded as `no-progress` on business movement.
+- Evidence quality: unchanged on demand and still partial on inbox automation. GitHub issue #1 still has no comments, the latest Pages deploy remains successful, the live URL still returns HTTP 200, Bytewise inbox count still returned `0`, and no new verified AppStuck or AC Tech Labs reply was added in this run. No new verified reply was added anywhere.
+- Current-run work completed: rechecked the current external wait; confirmed the deploy and live URL remain healthy again; confirmed Bytewise still has no inbox match; refreshed the business audit because the no-progress streak reached two; and tightened the next wake from a generic 24-hour wait to the exact hard checkpoint tonight.
+- Instance-only improvements executed: feedback/signal/release refresh, second no-progress-round accounting, business-audit refresh, and checkpoint-wake tightening. This run is recorded as `no-progress` on business movement.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: no new external signal landed, and no new user action is needed. Viability remains `continue` only until the hard checkpoint, and the business-audit answer remains `mixed`. The company stays in a valid outside wait until Bytewise, AppStuck, AC Tech Labs, GitHub, or X produces a reply, or the hard checkpoint on `2026-05-21 23:59 CST` is reached.
+- Stop-check: no new external signal landed, and no new user action is needed. The no-progress streak is now two, so the company must not take another passive round after this one. Viability still points to the hard checkpoint, the business-audit answer remains `mixed`, and the next wake is the exact checkpoint on `2026-05-21 23:59 CST` unless Bytewise, AppStuck, AC Tech Labs, GitHub, or X produces a reply first.
 
 ## Previous CEO After-Action Review
 

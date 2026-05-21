@@ -1,18 +1,18 @@
 # Business Audit
 
-- Last updated: `2026-05-20`
+- Last updated: `2026-05-21`
 - Owner role: Product/CEO
 - Purpose: force a recurring evidence-based answer to whether the company is actually closer to revenue, not merely busier.
 
 ## Current Audit State
 
 - Audit window: last 7 days or last 10 active company runs from `run-log.md`, whichever contains more decision-grade evidence
-- Last audit: `2026-05-20` in `RUN-0029`
+- Last audit: `2026-05-21` in `RUN-0030`
 - Next audit at: `2026-05-21 23:59 CST`
 - Current answer: `mixed`
 - Confidence: low
 - Required decision: keep the current contractor/agency batch alive only until the existing hard checkpoint; do not extend the wedge by default
-- Required action: wait for replies or apply the founder-side pivot / stop logic on `2026-05-21 23:59 CST`; do not add a fourth rescue-service touch before that readout
+- Required action: wait for replies or apply the founder-side pivot / stop logic on `2026-05-21 23:59 CST`; do not add a fourth rescue-service touch before that readout, and do not count this waiting round as business progress
 
 ## Audit Question
 
@@ -56,6 +56,7 @@ Allowed answers:
 | --- | --- | --- | --- | --- | --- | --- |
 | `2026-05-15` | `2026-05-09` to `2026-05-15` | `mixed` | distribution moved closer to the target segment through two delivered outreach touches plus one failed delivery, but there is still no reply, no strong intent, and no monetization evidence | continue only to the existing checkpoint; do not broaden the wedge | wait for reply quality or apply the pivot/stop rule on `2026-05-21 23:59 CST` | `2026-05-22 17:00 CST` |
 | `2026-05-20` | `2026-05-12` to `2026-05-20` | `mixed` | the company corrected the false Afterbuild assumption, restored the three-touch delivered batch with AC Tech Labs, kept the live product healthy, and refreshed monitoring, but there is still no reply, no strong intent, and no paid signal | continue only to the hard checkpoint; do not add a fourth rescue-service touch | wait for Bytewise, AppStuck, AC Tech Labs, GitHub, or X to produce a useful reply, otherwise apply the founder-side pivot / stop rule on `2026-05-21 23:59 CST` | `2026-05-21 23:59 CST` |
+| `2026-05-21` | `2026-05-13` to `2026-05-21 07:12 CST` | `mixed` | two consecutive no-progress wait rounds still did not add demand or revenue evidence, but the window is not closed yet and the delivered three-touch batch remains the active test until tonight's hard checkpoint | keep the wedge alive only to the exact checkpoint; do not broaden it | wait for Bytewise, AppStuck, AC Tech Labs, GitHub, or X to produce a useful reply before `2026-05-21 23:59 CST`; otherwise apply the founder-side pivot / stop rule at the checkpoint | `2026-05-21 23:59 CST` |
 
 ## Audit Closeout Checklist
 

@@ -1,6 +1,6 @@
 # Revenue Pipeline
 
-- Last updated: `2026-05-20`
+- Last updated: `2026-05-21`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
@@ -15,8 +15,8 @@
 - Business model hypothesis: `B2B/license` for the current wedge; see `business-model.md`
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
-- Next cadence recommendation: 24 hours while the current outreach batch is in a real outside wait
-- Readout risk note: direct-email replies remain a primary evidence source, but current monitoring is mixed: GitHub/live URL checks are deterministic, Bytewise AppleScript count is still working, and AppStuck/AC Tech Labs AppleScript checks timed out in this run, so Mail UI remains the fallback if a reply check becomes urgent
+- Next cadence recommendation: exact hard-checkpoint wake at `2026-05-21 23:59 CST`, not a generic 24-hour loop
+- Readout risk note: direct-email replies remain a primary evidence source, but current monitoring is mixed: GitHub/live URL checks are deterministic, Bytewise AppleScript count is still working, and AppStuck/AC Tech Labs remain only partially monitorable through automation, so Mail UI remains the fallback if a reply check becomes urgent
 
 ## Target Customers
 
@@ -58,7 +58,7 @@
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | wait for Bytewise, AppStuck, or AC Tech Labs reply through `2026-05-21 23:59 CST` | distribution | reply quality that validates or kills the contractor/agency wedge | no | active |
+| 1 | wait for Bytewise, AppStuck, or AC Tech Labs reply through `2026-05-21 23:59 CST` and then force the wedge decision | distribution | reply quality that validates or kills the contractor/agency wedge | no | active |
 | 2 | if the three live touches are silent or negative at the checkpoint, activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` | decision | founder-side adjacent experiment instead of a fourth rescue-service outreach | no for internal pivot work; yes for future public/direct action | staged |
 
 ## Acquisition Cadence
