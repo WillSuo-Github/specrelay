@@ -1,6 +1,6 @@
 # Company Dashboard
 
-- Last updated: `2026-05-21`
+- Last updated: `2026-05-22`
 - Owner role: Product/CEO
 - Purpose: keep a one-page CEO view of company health, current bottleneck, live blockers, and the next revenue move.
 
@@ -9,55 +9,55 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0030` | `run-log.md` | high |
-| Active run count | 30 | `run-log.md` | medium |
+| Last active run | `RUN-0031` | `run-log.md` | high |
+| Active run count | 31 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
-| Current business model | `B2B/license` hypothesis with founder-side pivot staged but inactive | `business-model.md` | medium |
+| Current business model | founder-side low-ticket self-serve brief / toolkit hypothesis | `business-model.md` | medium |
 | Revenue status | `0 revenue, 0 paid signal` | `revenue-ledger.md` | high |
 | User signal | `2 weak qualitative signals; 0 strong intent; 0 completed packet reviews` | `metrics.md`, `feedback.md` | high |
-| Distribution signal | `Bytewise, AppStuck, and AC Tech Labs are live; Afterbuild failed delivery on 2026-05-15` | `feedback.md`, `revenue-pipeline.md` | high |
+| Distribution signal | `contractor/agency checkpoint closed silent; founder-side stability-brief pivot is now the active next wedge` | `feedback.md`, `revenue-pipeline.md` | high |
 | Monetization signal | `no willingness-to-pay evidence yet` | `business-model.md`, `revenue-ledger.md` | high |
-| Viability recommendation | `continue` until the current evidence window closes | `viability-scorecard.md` | medium |
-| Last business audit | `2026-05-21 mixed` | `business-audit.md` | medium |
-| Closer to revenue? | `mixed` | `business-audit.md`, `operating-quality.md` | medium |
+| Viability recommendation | `pivot` to founder-side stability brief | `viability-scorecard.md` | medium |
+| Last business audit | `2026-05-22 no` | `business-audit.md` | medium |
+| Closer to revenue? | `no` | `business-audit.md`, `operating-quality.md` | medium |
 | Open account/service blocker | `none blocking current wait state` | `account-needs.md` | medium |
-| Next wake | `hard checkpoint at 2026-05-21 23:59 CST unless a reply arrives first` | `ops/automation-spec.md`, `state.md` | high |
+| Next wake | `paused at the exact founder-side approval gate unless a late reply materially changes the readout` | `ops/automation-spec.md`, `state.md` | high |
 
 ## CEO Focus
 
-- One-line company diagnosis: product is live and narrowly positioned, but it still lacks proof that anyone will use the packet before handoff, launch, or scoping.
-- Highest-leverage next move: let the remaining Bytewise/AppStuck/AC Tech Labs contractor/agency touches reach tonight's `2026-05-21 23:59 CST` readout, then apply the continue/pivot rule without adding drift work.
+- One-line company diagnosis: product is live, but the contractor/agency buyer did not validate; the only justified next try is the smaller founder-side stability brief.
+- Highest-leverage next move: stop at one exact founder-side approval gate instead of reopening contractor/agency outreach or inventing more internal prep.
 - Narrowest approval/account gate, if any: any further public post, DM, follow-up with link, or new direct outreach remains action-time gated.
-- Current external signal opportunity: a useful reply from Bytewise, AppStuck, AC Tech Labs, or an active X target that clarifies whether the packet changes real workflow behavior.
-- Current real-progress status: no new business progress landed in this run; the company only rechecked the silent batch, confirmed release health again, and refreshed the due audit because the no-progress streak reached two.
-- Last run-log entry: `RUN-0030` silent batch rechecked; business audit stayed `mixed`; the next wake is the exact hard checkpoint tonight.
-- Last business-audit answer: `mixed`.
-- Next decision deadline: `2026-05-21 23:59 CST`.
+- Current external signal opportunity: either a late contractor/agency reply that materially challenges the checkpoint decision, or a founder-side reply after approval of the first pivot action.
+- Current real-progress status: the checkpoint closed the old wedge, activated the founder-side pivot, and converted the next move into one exact approval gate.
+- Last run-log entry: `RUN-0031` contractor/agency wedge closed `inconclusive`; founder-side pivot activated.
+- Last business-audit answer: `no`.
+- Next decision deadline: first founder-side approval or `2026-05-29 23:59 CST` founder-side readout.
 
 ## Operating Scoreboard
 
 | Area | Status | Target / threshold | Current evidence | Next action |
 | --- | --- | --- | --- | --- |
 | Revenue | weak | first paid signal or credible willingness-to-pay proof | no paid offer or paid user yet | choose monetization test only after workflow value is validated |
-| Users / demand | weak | 5 qualitative reviews, 2 strong intent signals | 2 weak X signals, 0 completed packet reviews | wait for the current contractor/agency batch or pivot readout |
+| Users / demand | weak | 5 qualitative reviews, 2 strong intent signals | 2 weak X signals, 0 completed packet reviews | run one founder-side validation loop |
 | Activation | weak | at least one real evaluator completes or critiques a packet | no confirmed packet completion yet | keep output usable; do not expand scope |
 | Retention | absent | repeated usage or repeat need evidence | no usage instrumentation | defer until first user signal exists |
-| Distribution | weak | repeatable zero-cost evaluator channel | X plus 3 live direct touches; Afterbuild was a technical miss, not a live evaluator | read the current batch to checkpoint |
-| Monetization | absent | chosen paid offer plus willingness-to-pay evidence | current model is still hypothesis only | record next monetization test after readout |
+| Distribution | weak | repeatable zero-cost evaluator channel | contractor/agency wedge closed silent; founder-side first route is staged but not yet approved | stop at the exact founder-side gate |
+| Monetization | absent | chosen paid offer plus willingness-to-pay evidence | current model is still hypothesis only | record next monetization test only after founder-side usage intent appears |
 | Release / reachability | strong | stable public surface | live GitHub Pages app and release issue are healthy | maintain only |
 | Reliability | acceptable | growth not wasted by defects | product is stable enough for manual evaluation | no product expansion before evidence |
 | Account dependencies | manageable | all needs explicit and current | no blocking account need right now; Mail UI remains the fallback when AppleScript readout regresses | keep using the verified Mail UI fallback if a reply check becomes urgent |
-| Operating quality | medium/high | no repeated internal-only loops | latest run found no new external signal and became the second consecutive no-progress wait round | do not add internal prep before the checkpoint resolves; force the wedge decision tonight |
-| Business audit | current | weekly / 10-run answer | `mixed` on `2026-05-21` | next audit at the hard checkpoint on `2026-05-21 23:59 CST` or earlier material reply |
+| Operating quality | medium | no repeated internal-only loops | latest run used the hard checkpoint to force a real strategy reset instead of a third passive wait round | stop at the next exact approval gate rather than reopening passive monitoring |
+| Business audit | current | weekly / 10-run answer | `no` on `2026-05-22` | next audit on `2026-05-29 17:00 CST` or earlier material founder-side / late external reply |
 
 ## Current Priorities
 
 | Rank | Priority | Why it matters now | Expected signal | Owner lens | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Read the remaining contractor/agency batch to checkpoint | this is the only live external evidence window with real target fit | reply quality that answers whether the packet changes intake/scoping behavior | Product/CEO + Growth | waiting |
-| 2 | Keep the founder-side stability-brief pivot ready but inactive | it is the cleanest adjacent experiment if the current wedge weakens | faster pivot decision with no more target rediscovery work needed | Product/CEO | staged |
-| 3 | Do not open a new channel or product prematurely | more internal/channel spread would hide the actual signal deficit | cleaner continue/pivot/stop decision on `2026-05-21` | Product/CEO | active constraint |
+| 1 | Stop at the first founder-side approval gate | this is now the cleanest adjacent experiment with any surviving language fit | one approved no-link founder-side reply route | Product/CEO + Growth | gated |
+| 2 | Treat any late Bytewise/AppStuck/AC reply as extra evidence, not as license to reopen the old wedge | late signals can still matter, but the default decision is already made | unexpected strong positive that challenges the pivot | Support/Research | passive |
+| 3 | Do not open a second adjacent wedge or more rescue-service outreach | more spread would hide the failed checkpoint and muddy the pivot readout | clean founder-side signal or clean stop | Product/CEO | active constraint |
 
 ## Dashboard Rules
 

@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-05-21`
+- Last updated: `2026-05-22`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -10,13 +10,13 @@
 - Rolling window: last 10 active company runs
 - Real-progress rate: `90%` (`9/10`)
 - External-signal output rate: `9/10` runs either shipped a real external touch or staged the exact next gate
-- No-progress streak: `2`
+- No-progress streak: `0`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
-- Business audit status: current (`mixed` on `2026-05-21`)
+- Business audit status: current (`no` on `2026-05-22`)
 - Current quality risk: `medium`
-- Required correction: no more internal-only company prep before the current evidence window resolves; tonight's hard checkpoint must force continue/pivot/stop instead of another passive round
+- Required correction: stop at the exact founder-side approval gate; do not reopen passive contractor/agency monitoring as if the old wedge were still active
 
 ## KPI Thresholds
 
@@ -56,6 +56,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-19` | `no-traction` | `distribution` | no new external reply; AppleScript inbox counts reverified across the full live batch | yes | current wait-state monitoring now uses one consistent count surface for Bytewise/AppStuck/AC Tech Labs | pass | none | remain in 24-hour external wait until a reply or the hard checkpoint |
 | `2026-05-20` | `no-traction` | `distribution` | no new external reply; due viability review and business audit completed before checkpoint | no | none; current market state is unchanged and AppStuck/AC Tech Labs AppleScript reads regressed to timeout in this run | pass with notes | none | keep the company in honest outside wait until a reply or the hard checkpoint |
 | `2026-05-21` | `no-traction` | `distribution` | no new external reply; second consecutive no-progress wait round recorded and hard-checkpoint wake tightened to tonight | no | none; market evidence is still unchanged and only Bytewise was re-verified through automation in this run | pass with notes | none | do not allow a third passive round; force the wedge decision at `2026-05-21 23:59 CST` |
+| `2026-05-22` | `no-traction` | `distribution` | contractor/agency wedge closed silent at the hard checkpoint; founder-side pivot activated | yes | the company replaced a failed wedge with one narrower adjacent experiment and an exact approval gate instead of drifting further | pass | none | stop at the founder-side approval gate and do not create a new passive wait loop |
 
 ## Quality Review Questions
 

@@ -6,9 +6,9 @@ This file is the recoverable automation spec for this one-product company instan
 
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
-- Status: active
-- Current cadence: exact wake at the hard checkpoint on `2026-05-21 23:59 CST`, unless Bytewise, AppStuck, AC Tech Labs, GitHub, X, or another external source produces a material reply first
-- Reason: public deployment, GitHub release, feedback issue, live-app feedback CTA, channel exploration, first-wave X public replies, the first no-link follow-up, one URL follow-up, two no-link second-wave replies, the Jesse stability-first URL follow-up, the Bytewise outreach email, the AppStuck contact-form outreach, and the AC Tech Labs replacement contact-form outreach are still live; the original Afterbuild email was later verified as `Delivery Status Notification (Failure)` on `2026-05-15` rather than a live market touch; HN Show HN was attempted after approval but rejected with `fnop=toonew`; two useful but weak X responses are logged; the product includes a stability-first pass from Jesse's feedback; `docs/post-three-touch-decision-tree.md` defines the hard checkpoint and continue/pivot logic for the current wedge; `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` stage the adjacent founder-side experiment if that wedge weakens; no strong intent signal exists yet; the company has now recorded two consecutive no-progress wait rounds; and the next wake must therefore be the exact checkpoint rather than another generic 24-hour loop
+- Status: paused
+- Current cadence: no automatic wake while the company is stopped at the exact founder-side approval gate
+- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; and the next live move is one exact public no-link founder-side reply candidate that remains action-time gated. Late Bytewise/AppStuck/AC Tech Labs replies may still matter as extra evidence, but they no longer justify keeping the old wedge active or continuing passive heartbeats by default.
 
 ## Policy
 

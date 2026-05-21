@@ -1,8 +1,8 @@
 # Role Access Matrix
 
-Last updated: `2026-05-18`
+Last updated: `2026-05-22`
 Scope: one-product company instance
-Current company stage: public MVP live, contractor/agency wedge active, Bytewise + AppStuck + AC Tech Labs in market, waiting for readout through `2026-05-21 23:59 CST`
+Current company stage: public MVP live, founder-side stability-brief pivot active, stopped at the first founder-side approval gate after the contractor/agency checkpoint closed silent
 
 ## Reading this matrix
 
@@ -15,7 +15,7 @@ Current company stage: public MVP live, contractor/agency wedge active, Bytewise
 - Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: no strong intent signal yet; any further public follow-up remains approval-gated
+- Main blockers: no strong founder-side usage-intent signal yet; the first live founder-side validation action remains approval-gated
 
 ## Engineering
 
@@ -36,14 +36,14 @@ Current company stage: public MVP live, contractor/agency wedge active, Bytewise
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: active X replies are sent, but further follow-up replies/DMs and additional outreach require action-time confirmation; current HN account is too new/trust-limited for this submission
+- Main blockers: the next live founder-side reply is public and still needs action-time confirmation; current HN account is too new/trust-limited for this submission
 
 ## Support/Research
 
 - Current responsibilities: run cheap demand research, triage feedback, watch competitors, and synthesize repeated pain points
 - Verified access: public GitHub feedback issue and local feedback log
 - Status: Partial
-- Main blockers: two useful but weak qualitative X responses so far; no packet review or strong intent signal yet
+- Main blockers: two useful but weak qualitative X responses so far; no founder has yet said they would actually complete the smaller stability brief
 
 ## Release/Ops
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, contractor/agency wedge active, Bytewise
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable; X outreach has produced a founder-maintained-app segmentation signal and a stability-first workflow signal, but market evidence is still weak until someone reviews or tries a packet.
-- Highest-leverage next upgrades: monitor Bytewise/AppStuck/AC Tech Labs plus active X targets for concrete workflow-fit feedback; do not open a fourth rescue-service touch before the hard checkpoint.
+- Current interpretation: SpecRelay is technically shippable; the contractor/agency buyer did not validate by the hard checkpoint, but the founder-side stability-first workflow signal is still alive enough for one narrower pivot.
+- Highest-leverage next upgrades: stop at one exact founder-side approval gate and do not reopen contractor/agency outreach unless a late reply materially changes the evidence.

@@ -1,18 +1,18 @@
 # Experiments
 
-- Last updated: `2026-05-18`
+- Last updated: `2026-05-22`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
 ## Current Experiment State
 
-- Active experiment: `EXP-0003 contractor/agency wedge validation`
+- Active experiment: `EXP-0004 founder-side stability brief validation`
 - Bottleneck tested: `distribution`
-- Evidence window: `2026-05-01` to `2026-05-21 23:59 CST`
-- Readout due: `2026-05-21 23:59 CST`
-- Current decision pressure: continue the contractor/agency wedge, pivot to the founder-side stability brief, or enter `sunset-review`
-- Last completed experiment result: `EXP-0002` produced weak-but-useful stability-first language and justified continuing with a sharper evaluator segment
-- Weak/negative completed experiments since last viability review: 0
+- Evidence window: `2026-05-22` to `2026-05-29 23:59 CST`
+- Readout due: `2026-05-29 23:59 CST`
+- Current decision pressure: validate one founder-side wedge or move to `sunset-review`
+- Last completed experiment result: `EXP-0003` closed `inconclusive` at the contractor/agency checkpoint with no reply
+- Weak/negative completed experiments since last viability review: 1
 
 ## Experiment Rules
 
@@ -26,8 +26,8 @@
 
 | ID | Status | Bottleneck | Hypothesis | Target segment | Change / action | Success metric | Baseline | Target / threshold | Evidence source | Start date | Readout due | Authority gate | Owner lens |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `EXP-0003` | active | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Bytewise email + AppStuck contact form + AC Tech Labs contact form; Afterbuild email attempt is now excluded because delivery failed | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
-| `EXP-0004` | staged | decision | if the contractor/agency wedge weakens, a founder-side stability brief may be a more realistic adjacent product shape | founder/operator preparing to launch or hand off an AI-built app | `docs/founder-stability-brief-pivot.md` + `docs/founder-stability-brief-runbook.md` + `docs/founder-stability-target-pool.md` | at least one founder says the smaller brief is realistic and useful before outside help | not active yet | activate only if `EXP-0003` resolves weak/negative | founder replies and future validation | `2026-05-15` | activation only after `EXP-0003` readout | future public/direct action would be gated | Product/CEO |
+| `EXP-0003` | completed | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Bytewise email + AppStuck contact form + AC Tech Labs contact form; Afterbuild email attempt is now excluded because delivery failed | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
+| `EXP-0004` | active | distribution | a smaller founder-side stability brief is more realistic than a full intake packet and can produce explicit pre-launch or pre-handoff usage intent | founder/operator preparing to launch or hand off an AI-built app | activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md`; exact first live gate is the staged no-link r/replit reply | at least one founder says they would fill out the brief before launch or before asking for help | 0 founder-side usage-intent signals; only weak Jesse/Frank language exists | 1 weak-positive-or-stronger founder reply by `2026-05-29 23:59 CST`; strong threshold is clear pre-launch or pre-handoff usage intent | founder replies, GitHub issue, and future community validation | `2026-05-22` | `2026-05-29 23:59 CST` | first public/direct founder-side action remains action-time gated | Product/CEO + Growth |
 
 ## Readout Log
 
@@ -35,12 +35,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `2026-05-03` | `EXP-0001` | `inconclusive` | HN Show HN attempt failed with `fnop=toonew`; it tested account trust, not product demand | high for channel block | stop the HN route for now | `experiments.md`, `release.md`, `feedback.md` | move to direct targeted outreach |
 | `2026-05-05` | `EXP-0002` | `continue` | Frank gave a weak negative segmentation signal; Jesse gave a weak positive stability-first workflow signal | medium | narrow the product and outreach toward stability-first evaluator use | `feedback.md`, `release.md`, app output, `state.md` | run contractor/agency wedge with sharper framing |
+| `2026-05-22` | `EXP-0003` | `inconclusive` | Bytewise, AppStuck, and AC Tech Labs produced no verified reply by the `2026-05-21 23:59 CST` checkpoint; GitHub issue #1 remained silent; no contractor/agency evaluator confirmed the packet changes intake behavior | medium | stop contractor/agency outreach for this version and pivot to the founder-side stability brief | `experiments.md`, `viability-scorecard.md`, `business-audit.md`, `revenue-pipeline.md`, `state.md` | activate `EXP-0004` and stop at the exact founder-side approval gate |
 
 ## Active
 
 | Date | Hypothesis | Change | Metric | Result | Next step |
 | --- | --- | --- | --- | --- | --- |
-| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, stability-first pass, and engineering brief | Completed handoff packets and qualitative reviews | Live MVP plus owned GitHub release and feedback issue are public; two useful X responses are logged; Afterbuild later failed delivery, and the current three delivered contractor/agency touches are Bytewise, AppStuck, and AC Tech Labs; no completed packet review or strong intent yet | Wait for Bytewise, AppStuck, or AC Tech Labs to reply; then apply `docs/post-three-touch-decision-tree.md` at the hard checkpoint on `2026-05-21 23:59 CST`. If the wedge degrades, switch to `docs/founder-stability-brief-pivot.md` instead of extending contractor/agency outreach by default |
+| 2026-05-01 | Founders need a structured packet before contractor handoff or launch QA | Ship a zero-login web tool that generates a readiness score, risk register, QA checklist, stability-first pass, and engineering brief | Completed handoff packets and qualitative reviews | The contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint: no completed packet review, no strong intent, and no evaluator reply said the packet changes intake behavior | Activate the founder-side stability brief wedge once, using the exact approval candidate in `docs/founder-stability-target-pool.md`, rather than extending contractor/agency outreach by default |
 
 ## Candidate Growth Actions
 

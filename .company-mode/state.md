@@ -1,26 +1,26 @@
 # Current State
 
-- Last updated: `2026-05-21`
-- Dominant objective: validate demand for AI-built app handoff packets by getting the live MVP in front of first evaluators through the highest-signal available channel
-- Current stage: public MVP live
+- Last updated: `2026-05-22`
+- Dominant objective: validate whether a smaller founder-side stability brief is realistic enough to use before launch or before asking for help
+- Current stage: public MVP live, pivot active
 - Current release: SpecRelay static prototype-to-handoff generator
 - Health summary: Market research identified a credible gap between AI app generation and launch/contractor handoff. The MVP is live on GitHub Pages, generates packets, includes three sample packet presets, and has no backend, credentials, or production data.
 
 ## Now
 
-- In progress: Bytewise validation email, AppStuck's public contact form, and the AC Tech Labs public contact form are still in market; the Afterbuild email attempt ended in delivery failure on `2026-05-15`; no live reply yet.
+- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge, but its first live action is still approval-gated.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no strong intent signal or completed packet review yet; current learning now depends on whether Bytewise, AppStuck, or AC Tech Labs produce a useful reply before checkpoint
-- Highest-risk assumption: founders will spend time creating a handoff packet before talking to a contractor or launching
-- Next decision deadline: when Bytewise replies, AppStuck replies, AC Tech Labs replies, another active X target responds, GitHub issue #1 gets a comment, or the contractor/agency wedge reaches its hard checkpoint on `2026-05-21 23:59 CST`
+- Biggest blocker: no founder has yet said they would actually complete even the smaller stability brief before launch or before asking for help
+- Highest-risk assumption: founders will spend time freezing flows, blockers, and a launch decision before they simply keep fixing the app ad hoc
+- Next decision deadline: when a founder-side reply lands after approval of the first pivot action, a late Bytewise/AppStuck/AC Tech Labs reply materially challenges the pivot, or the founder-side pivot window reaches `2026-05-29 23:59 CST`
 
 ## Next Recommended Actions
 
-- Product/CEO: keep the contractor/agency wedge alive only until the hard checkpoint; treat Afterbuild as a failed delivery rather than a live silence; if it downgrades, switch to the staged founder-side pivot asset in `docs/founder-stability-brief-pivot.md`
+- Product/CEO: the contractor/agency wedge is now closed `inconclusive`; run exactly one founder-side strategy reset using `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: wait for Bytewise, AppStuck, AC Tech Labs, Jesse, or another active target before another outbound touch; use `docs/post-three-touch-decision-tree.md` at the current batch checkpoint. Afterbuild no longer counts as an active live touch because delivery failed, and AC Tech Labs is now the delivered replacement touch. If the wedge downgrades, switch to `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md` before any more rescue-service outreach.
-- Support/Research + Growth: use `docs/stability-first-evaluator-pack.md`, `docs/stability-first-target-discovery.md`, `docs/contractor-agency-validation-sprint.md`, `docs/afterbuild-send-runbook.md`, `docs/bytewise-fallback-runbook.md`, `docs/appstuck-runbook.md`, `docs/ac-tech-labs-runbook.md`, `docs/post-three-touch-decision-tree.md`, `docs/founder-stability-brief-pivot.md`, and `docs/founder-stability-brief-runbook.md` as the current source of truth for contractor/agency/domain-builder screening, reply readout, and wedge-decision logic
+- Growth: do not add any more rescue-service outreach for this version. The next exact move is the founder-side no-link reply candidate in `docs/founder-stability-target-pool.md`, and it remains action-time gated.
+- Support/Research + Growth: use `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, `docs/founder-stability-target-pool.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for the pivot and any late-contractor reply interpretation
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
@@ -64,14 +64,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-21`
-- Current stage: public MVP live. The company is still in a real outside wait on the contractor/agency wedge, with Bytewise + AppStuck + AC Tech Labs as the only live delivered touches.
-- Evidence quality: unchanged on demand and still partial on inbox automation. GitHub issue #1 still has no comments, the latest Pages deploy remains successful, the live URL still returns HTTP 200, Bytewise inbox count still returned `0`, and no new verified AppStuck or AC Tech Labs reply was added in this run. No new verified reply was added anywhere.
-- Current-run work completed: rechecked the current external wait; confirmed the deploy and live URL remain healthy again; confirmed Bytewise still has no inbox match; refreshed the business audit because the no-progress streak reached two; and tightened the next wake from a generic 24-hour wait to the exact hard checkpoint tonight.
-- Instance-only improvements executed: feedback/signal/release refresh, second no-progress-round accounting, business-audit refresh, and checkpoint-wake tightening. This run is recorded as `no-progress` on business movement.
+- Date: `2026-05-22`
+- Current stage: public MVP live, but the active wedge has changed. The company closed the contractor/agency checkpoint without validation and activated the founder-side stability brief pivot.
+- Evidence quality: still weak, but the decision is now cleaner. GitHub issue #1 still has no comments, Pages workflow `26218772659` completed successfully, the live URL still returns HTTP 200, Bytewise inbox count still returned `0`, and no verified contractor/agency reply landed by the checkpoint. That is enough to close the old wedge as `inconclusive`.
+- Current-run work completed: reached the exact hard checkpoint; closed `EXP-0003` as `inconclusive`; changed viability from `continue` to `pivot`; changed the business-audit answer from `mixed` to `no`; switched the active business-model hypothesis to a founder-side low-ticket brief/toolkit; and converted the next move into one exact founder-side approval gate.
+- Instance-only improvements executed: experiment closure, pivot activation, model shift, dashboard/state refresh, and heartbeat stop-condition change.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: any further public/community post, reply with link, DM, new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: no new external signal landed, and no new user action is needed. The no-progress streak is now two, so the company must not take another passive round after this one. Viability still points to the hard checkpoint, the business-audit answer remains `mixed`, and the next wake is the exact checkpoint on `2026-05-21 23:59 CST` unless Bytewise, AppStuck, AC Tech Labs, GitHub, or X produces a reply first.
+- Stop-check: the contractor/agency wedge is no longer the active experiment. The company is now stopped at one exact approval gate: whether to send the first founder-side no-link reply from `docs/founder-stability-target-pool.md`. No further autonomous public action should occur before that approval or a materially different late reply.
 
 ## Previous CEO After-Action Review
 

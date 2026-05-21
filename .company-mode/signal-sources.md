@@ -1,18 +1,18 @@
 # Signal Sources
 
-- Last updated: `2026-05-21`
+- Last updated: `2026-05-22`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
 ## Current Signal Strategy
 
-- Primary business question: will a founder, contractor, or agency actually use a manual stability-first handoff artifact before launch, scoping, or outside help?
+- Primary business question: will a founder actually use a smaller stability-first brief before launch or before asking someone else for help on an AI-built app?
 - Current bottleneck: `distribution`
-- Primary readout source: direct evaluator replies from Bytewise, AppStuck, AC Tech Labs, and active X targets; Afterbuild is no longer a live reply source because delivery failed
+- Primary readout source: founder-side replies from the active pivot route plus any late contractor/agency reply that materially challenges the pivot; Afterbuild is no longer a live reply source because delivery failed
 - Secondary readout source: GitHub feedback issue, live-site health, and exported packet quality
 - Evidence quality: weak but real
-- Missing source or integration: no product analytics, no reliable automated X readout surface, no completed packet review, and Mail AppleScript readout remains partial beyond Bytewise
-- Next readout: current three-touch contractor/agency batch checkpoint on `2026-05-21 23:59 CST`
+- Missing source or integration: no product analytics, no reliable automated X/community readout surface, no completed packet/brief review, and Mail AppleScript readout remains partial beyond Bytewise
+- Next readout: founder-side first live reply after approval, or the founder-side pivot window close on `2026-05-29 23:59 CST`
 
 ## Source Selection Rules
 
@@ -28,15 +28,15 @@
 | Source | Best for | Account / access needed | Evidence quality | Status | Next action |
 | --- | --- | --- | --- | --- | --- |
 | GitHub feedback issue #1 | evaluator comments and longer-form critique | GitHub repo access or public issue page | medium | live but silent | keep as passive review surface |
-| Direct outreach replies (Bytewise) | contractor/agency workflow fit | Mail UI inbox access | high if replies arrive | live batch in market | read replies before `2026-05-21 23:59 CST` |
-| AppStuck contact route | contractor/agency workflow fit | public contact path; inbox follow-up access | medium/high if reply arrives | live batch in market | read reply before checkpoint |
-| AC Tech Labs contact route | contractor/agency workflow fit | public contact path | medium/high if reply arrives | live batch in market | read reply before checkpoint |
+| Direct outreach replies (Bytewise) | late contractor/agency counter-evidence | Mail UI inbox access | high if replies arrive | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
+| AppStuck contact route | late contractor/agency counter-evidence | public contact path; inbox follow-up access | medium/high if reply arrives | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
+| AC Tech Labs contact route | late contractor/agency counter-evidence | public contact path | medium/high if reply arrives | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
 | X replies and notifications | founder / builder language and segmentation | logged-in X session | medium | weak but useful | watch for direct critique or intent signal |
 | GitHub Pages live URL | release reachability and public artifact health | public URL | medium | healthy | keep verifying on deploy-touching runs |
 | Manual exported packet QA | output quality and product reliability | local browser QA | medium | already used | only revisit if product output changes |
 | Product analytics | visitor, start, copy/download behavior | analytics service + privacy decision | currently unavailable | gap | request only if the current wedge survives |
 | Competitor/community research | pain language, adjacent channels, positioning | public web access | medium | available | use only when the next move needs fresh target sourcing |
-| Founder-side target threads | public launch-readiness pain and validation surfaces | public web access; future community account/session if activated | medium | now staged | use `docs/founder-stability-target-pool.md` if the founder-side pivot activates |
+| Founder-side target threads | founder-side launch-readiness validation | public web access; future community account/session for the approved route | medium | active next wedge | use `docs/founder-stability-target-pool.md` for the first exact approval candidate |
 
 ## Readout Log
 
@@ -55,6 +55,7 @@
 | `2026-05-19` | is the AppleScript inbox-count path stable enough to reuse for the full live batch? | GitHub issue check + workflow status + live URL + second AppleScript count cycle for Bytewise/AppStuck/AC Tech Labs | yes for the current wait state; the same count path returned `0` across all three live touches again | medium/high | `feedback.md`, `state.md`, `run-log.md` | reuse this path during the remaining evidence window unless it regresses |
 | `2026-05-20` | is the current three-touch batch still silent, and is the Mail automation path still stable enough for checkpoint monitoring? | GitHub issue check + workflow status + live URL + AppleScript inbox count for Bytewise plus AppleScript timeout attempts for AppStuck/AC Tech Labs | no new repo-backed external signal; latest deploy succeeded; Bytewise stayed `0`; AppStuck and AC Tech Labs timed out in AppleScript, so the current Mail automation is only partial again | medium | `feedback.md`, `state.md`, `run-log.md`, `viability-scorecard.md`, `business-audit.md` | keep the 24-hour wait to checkpoint and use Mail UI fallback if a reply check becomes urgent |
 | `2026-05-21` | did any new pre-checkpoint external signal appear before the hard decision wake? | GitHub issue check + workflow status + live URL + AppleScript inbox count for Bytewise | no new repo-backed external signal; latest deploy succeeded; Bytewise stayed `0`; AppStuck and AC Tech Labs remain only partially monitorable from automation in this run | medium | `feedback.md`, `state.md`, `run-log.md`, `business-audit.md`, `ops/automation-spec.md` | wake again at the exact hard checkpoint and apply the continue/pivot rule there |
+| `2026-05-22` | did the contractor/agency wedge validate by the hard checkpoint? | GitHub issue check + workflow status + live URL + Bytewise inbox count + prior checkpoint monitoring history | no; no verified contractor/agency reply landed by the checkpoint, so the wedge closed `inconclusive` and the founder-side stability brief became the active next experiment | medium | `feedback.md`, `state.md`, `run-log.md`, `experiments.md`, `viability-scorecard.md`, `business-audit.md` | stop at the founder-side approval gate or read any late contractor reply as extra evidence only |
 
 ## Integration Requests
 

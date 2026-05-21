@@ -1,18 +1,18 @@
 # Business Audit
 
-- Last updated: `2026-05-21`
+- Last updated: `2026-05-22`
 - Owner role: Product/CEO
 - Purpose: force a recurring evidence-based answer to whether the company is actually closer to revenue, not merely busier.
 
 ## Current Audit State
 
 - Audit window: last 7 days or last 10 active company runs from `run-log.md`, whichever contains more decision-grade evidence
-- Last audit: `2026-05-21` in `RUN-0030`
-- Next audit at: `2026-05-21 23:59 CST`
-- Current answer: `mixed`
-- Confidence: low
-- Required decision: keep the current contractor/agency batch alive only until the existing hard checkpoint; do not extend the wedge by default
-- Required action: wait for replies or apply the founder-side pivot / stop logic on `2026-05-21 23:59 CST`; do not add a fourth rescue-service touch before that readout, and do not count this waiting round as business progress
+- Last audit: `2026-05-22` in `RUN-0031`
+- Next audit at: `2026-05-29 17:00 CST`
+- Current answer: `no`
+- Confidence: medium
+- Required decision: stop treating contractor/agency intake as the active wedge and activate the founder-side stability brief as the one adjacent strategy reset
+- Required action: do not add more rescue-service outreach; stop at the exact founder-side approval gate and run the new wedge only if that first live action is approved
 
 ## Audit Question
 
@@ -32,13 +32,13 @@ Allowed answers:
 | Area | Evidence in window | Direction | Confidence | Source files |
 | --- | --- | --- | --- | --- |
 | Revenue | still zero revenue and zero paid signal | unchanged | high | `revenue-ledger.md` |
-| Paying intent / monetization | no willingness-to-pay signal; model hypothesis is clearer but still unproven | unchanged | medium | `business-model.md`, `experiments.md` |
-| Users / demand | two weak X signals remain the only direct feedback; no completed packet review and no contractor/agency reply yet | unchanged | medium | `metrics.md`, `feedback.md`, `market-map.md` |
-| Activation / retention | product is usable, but no evaluator completion is confirmed | unchanged | low | `metrics.md`, `signal-sources.md` |
-| Distribution | Afterbuild was removed as a false live touch, AC Tech Labs restored the intended three-touch delivered batch, and the batch is still silent | closer, but still unresolved | medium | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
-| Release / reachability | live URL and Pages deploys remained healthy, including workflow `26106387465` | unchanged | high | `release.md` |
+| Paying intent / monetization | still no willingness-to-pay signal; the previous B2B intake model did not earn even weak buyer engagement | unchanged | medium | `business-model.md`, `experiments.md` |
+| Users / demand | two weak X signals remain the only direct feedback; no completed packet review and no contractor/agency reply landed by checkpoint | unchanged | medium | `metrics.md`, `feedback.md`, `market-map.md` |
+| Activation / retention | product is usable, but neither the full packet nor a smaller brief has confirmed completion behavior yet | unchanged | low | `metrics.md`, `signal-sources.md` |
+| Distribution | the three-touch contractor/agency batch closed silent at checkpoint and therefore did not move the company closer to revenue | no | high | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
+| Release / reachability | live URL and Pages deploys remained healthy, including workflow `26218772659` | unchanged | high | `release.md` |
 | Account dependencies | no new blocking account need prevented the chosen move | unchanged | medium | `account-needs.md` |
-| Operating quality | the company kept the current run honest as no-progress while still completing the due viability review and audit before the checkpoint | closer | medium | `operating-quality.md`, `independent-check.md` |
+| Operating quality | the company hit the exact checkpoint, did not fake progress, and forced a strategy reset instead of another passive round | closer | medium | `operating-quality.md`, `independent-check.md` |
 
 ## Decision Rules
 
@@ -57,6 +57,7 @@ Allowed answers:
 | `2026-05-15` | `2026-05-09` to `2026-05-15` | `mixed` | distribution moved closer to the target segment through two delivered outreach touches plus one failed delivery, but there is still no reply, no strong intent, and no monetization evidence | continue only to the existing checkpoint; do not broaden the wedge | wait for reply quality or apply the pivot/stop rule on `2026-05-21 23:59 CST` | `2026-05-22 17:00 CST` |
 | `2026-05-20` | `2026-05-12` to `2026-05-20` | `mixed` | the company corrected the false Afterbuild assumption, restored the three-touch delivered batch with AC Tech Labs, kept the live product healthy, and refreshed monitoring, but there is still no reply, no strong intent, and no paid signal | continue only to the hard checkpoint; do not add a fourth rescue-service touch | wait for Bytewise, AppStuck, AC Tech Labs, GitHub, or X to produce a useful reply, otherwise apply the founder-side pivot / stop rule on `2026-05-21 23:59 CST` | `2026-05-21 23:59 CST` |
 | `2026-05-21` | `2026-05-13` to `2026-05-21 07:12 CST` | `mixed` | two consecutive no-progress wait rounds still did not add demand or revenue evidence, but the window is not closed yet and the delivered three-touch batch remains the active test until tonight's hard checkpoint | keep the wedge alive only to the exact checkpoint; do not broaden it | wait for Bytewise, AppStuck, AC Tech Labs, GitHub, or X to produce a useful reply before `2026-05-21 23:59 CST`; otherwise apply the founder-side pivot / stop rule at the checkpoint | `2026-05-21 23:59 CST` |
+| `2026-05-22` | `2026-05-15` to `2026-05-22 00:02 CST` | `no` | the contractor/agency wedge ended with no verified evaluator reply, no completed packet review, no strong intent, and no paid signal; distribution did not move the company closer to revenue by the checkpoint | stop the current wedge and run one founder-side strategy reset instead of more rescue-service outreach | activate the founder-side stability-brief experiment and stop at the exact public-reply approval gate | `2026-05-29 17:00 CST` |
 
 ## Audit Closeout Checklist
 

@@ -14,7 +14,7 @@
 
 - Working name: `SpecRelay`
 - Category: AI-built app launch readiness and developer handoff
-- Current stage: public MVP live
+- Current stage: public MVP live, founder-side pivot active
 - Primary platform: static web app
 - Operating model: one company instance operates one active product. Other products should get their own company instances that share the same kernel.
 
@@ -22,7 +22,7 @@
 
 - Ideal customer profile: nontechnical or semi-technical founders using AI app builders such as Lovable, Bolt, Replit, Cursor, or v0
 - Top pain point: they can produce a prototype but cannot clearly prove what is ready, risky, or contractor-ready before a customer pilot
-- Current promise: convert an AI-built prototype into a launch QA checklist and developer handoff packet in under 10 minutes
+- Current promise: help a founder freeze the core flows, blockers, risky paths, and one launch decision before launch or before asking someone else for help
 
 ## North-Star Metric
 

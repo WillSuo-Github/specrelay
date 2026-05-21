@@ -52,6 +52,14 @@
 - Prepared `docs/contractor-agency-validation-sprint.md`, staging the next approved outreach path around Afterbuild Labs first, with Bytewise and AC Tech Labs as backup validation targets.
 - Updated and deployed the live-app copy and metadata to emphasize SpecRelay's no-login, no-repo-access pre-scope positioning.
 
+## 2026-05-21 / 2026-05-22 checkpoint
+
+- Reached the contractor/agency hard checkpoint at `2026-05-21 23:59 CST` with no verified reply from Bytewise, AppStuck, or AC Tech Labs.
+- Treated the original contractor/agency wedge as `inconclusive` rather than pretending silence is validation.
+- Closed the active wedge around agency-intake / rescue-service buyers and pivoted the company to one narrower adjacent experiment: a founder-side stability brief used before launch or before asking for help.
+- Activated the founder-side runbook and target pool as the new exact approval gate instead of preparing more rescue-service outreach.
+- Changed the active business-model hypothesis from `B2B/license` toward a founder-side low-ticket self-serve brief/toolkit.
+
 ## 2026-05-11
 
 - Confirmed GitHub issue #1 still had no comments and the live site still returned HTTP 200.
