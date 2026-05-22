@@ -9,29 +9,29 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0032` | `run-log.md` | high |
-| Active run count | 32 | `run-log.md` | medium |
+| Last active run | `RUN-0033` | `run-log.md` | high |
+| Active run count | 33 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
 | Current business model | founder-side low-ticket self-serve brief / toolkit hypothesis | `business-model.md` | medium |
 | Revenue status | `0 revenue, 0 paid signal` | `revenue-ledger.md` | high |
 | User signal | `2 weak qualitative signals; 0 strong intent; 0 completed packet reviews` | `metrics.md`, `feedback.md` | high |
-| Distribution signal | `contractor/agency checkpoint closed silent; founder-side stability-brief pivot is active; the first approved r/replit reply did not become publicly verifiable, so the next exact gate is now the second founder-side candidate` | `feedback.md`, `revenue-pipeline.md` | high |
+| Distribution signal | `contractor/agency checkpoint closed silent; founder-side stability-brief pivot is active; the first approved r/replit reply and second approved r/SaaS reply did not become publicly verifiable, so the next exact gate is now the third founder-side candidate` | `feedback.md`, `revenue-pipeline.md` | high |
 | Monetization signal | `no willingness-to-pay evidence yet` | `business-model.md`, `revenue-ledger.md` | high |
 | Viability recommendation | `pivot` to founder-side stability brief | `viability-scorecard.md` | medium |
 | Last business audit | `2026-05-22 no` | `business-audit.md` | medium |
 | Closer to revenue? | `no` | `business-audit.md`, `operating-quality.md` | medium |
 | Open account/service blocker | `none blocking current wait state` | `account-needs.md` | medium |
-| Next wake | `paused at the exact second founder-side approval gate unless a late reply or late visible Reddit post materially changes the readout` | `ops/automation-spec.md`, `state.md` | high |
+| Next wake | `paused at the exact third founder-side approval gate unless a late reply or late visible Reddit post materially changes the readout` | `ops/automation-spec.md`, `state.md` | high |
 
 ## CEO Focus
 
 - One-line company diagnosis: product is live, but the contractor/agency buyer did not validate; the only justified next try is the smaller founder-side stability brief.
-- Highest-leverage next move: stop at one exact founder-side approval gate instead of reopening contractor/agency outreach, counting an unverified post as progress, or inventing more internal prep.
+- Highest-leverage next move: stop at one exact founder-side approval gate instead of reopening contractor/agency outreach, counting another unverified post as progress, or inventing more internal prep.
 - Narrowest approval/account gate, if any: the next founder-side public reply remains action-time gated.
-- Current external signal opportunity: either a late contractor/agency reply that materially challenges the checkpoint decision, a late visible first Reddit reply, or a founder-side reply after approval of the next pivot action.
-- Current real-progress status: the first founder-side public action was attempted, but post-send verification prevented the company from falsely counting it as a live market touch; the next move is now one exact second approval gate.
-- Last run-log entry: `RUN-0032` founder-side first reply attempted but not publicly verified; next gate shifted to the second candidate.
+- Current external signal opportunity: either a late contractor/agency reply that materially challenges the checkpoint decision, a late visible Reddit reply from one of the first two attempts, or a founder-side reply after approval of the next pivot action.
+- Current real-progress status: the second founder-side public action was attempted, but post-send verification prevented the company from falsely counting it as a live market touch; the next move is now one exact third approval gate.
+- Last run-log entry: `RUN-0033` founder-side second reply attempted but not publicly verified; next gate shifted to the third candidate.
 - Last business-audit answer: `no`.
 - Next decision deadline: first founder-side approval or `2026-05-29 23:59 CST` founder-side readout.
 
@@ -55,7 +55,7 @@
 
 | Rank | Priority | Why it matters now | Expected signal | Owner lens | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Stop at the second founder-side approval gate | this is still the cleanest adjacent experiment with any surviving language fit after the first route failed public verification | one approved no-link founder-side reply route | Product/CEO + Growth | gated |
+| 1 | Stop at the third founder-side approval gate | this is still the cleanest adjacent experiment with any surviving language fit after the first two routes failed public verification | one approved no-link founder-side reply route | Product/CEO + Growth | gated |
 | 2 | Treat any late Bytewise/AppStuck/AC reply as extra evidence, not as license to reopen the old wedge | late signals can still matter, but the default decision is already made | unexpected strong positive that challenges the pivot | Support/Research | passive |
 | 3 | Do not open a second adjacent wedge or more rescue-service outreach | more spread would hide the failed checkpoint and muddy the pivot readout | clean founder-side signal or clean stop | Product/CEO | active constraint |
 

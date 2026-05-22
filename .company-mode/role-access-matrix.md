@@ -1,8 +1,8 @@
 # Role Access Matrix
 
-Last updated: `2026-05-22`
+Last updated: `2026-05-23`
 Scope: one-product company instance
-Current company stage: public MVP live, founder-side stability-brief pivot active, stopped at the first founder-side approval gate after the contractor/agency checkpoint closed silent
+Current company stage: public MVP live, founder-side stability-brief pivot active, stopped at the third founder-side approval gate after the contractor/agency checkpoint closed silent and the first two founder-side Reddit attempts failed public verification
 
 ## Reading this matrix
 
@@ -15,7 +15,7 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 - Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: no strong founder-side usage-intent signal yet; the first live founder-side validation action remains approval-gated
+- Main blockers: no strong founder-side usage-intent signal yet; the next live founder-side validation action remains approval-gated after two unverified Reddit attempts
 
 ## Engineering
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable; the contractor/agency buyer did not validate by the hard checkpoint, but the founder-side stability-first workflow signal is still alive enough for one narrower pivot.
+- Current interpretation: SpecRelay is technically shippable; the contractor/agency buyer did not validate by the hard checkpoint, and the founder-side stability-first workflow signal is still alive enough for one narrower pivot, but Reddit execution reliability is now part of the channel risk.
 - Highest-leverage next upgrades: stop at one exact founder-side approval gate and do not reopen contractor/agency outreach unless a late reply materially changes the evidence.

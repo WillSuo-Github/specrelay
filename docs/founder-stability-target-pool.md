@@ -117,6 +117,14 @@ If `EXP-0003` resolves silent/negative and Product/CEO activates the founder-sid
 If the first candidate is stale, removed, clearly hostile to non-promotional replies, or cannot be publicly verified after an approved send attempt:
 
 - Route: no-link public reply in the r/SaaS “when it first broke with real users” thread
+- Execution note:
+  - `2026-05-23`: user approved this route; the reply was staged in the Reddit Markdown composer under the first high-fit auth/billing/stale-admin-path comment, the visible `Comment` control was triggered, and the control then became disabled, but the reply did not become publicly visible on the thread or on `u/Fit_Hamster_4754/comments/`. Do not count this as a live touch.
+
+## Exact Third Approval Candidate
+
+If the second candidate is stale, removed, clearly hostile to non-promotional replies, or cannot be publicly verified after an approved send attempt:
+
+- Route: no-link public reply in the r/lovable “12 Years of Coding and 100+ Apps Later” thread
 
 ## No-Link Reply Shape
 

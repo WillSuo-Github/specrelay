@@ -9,7 +9,7 @@
 - Business stage: `no-traction`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: two weak qualitative signals, zero completed packet reviews, zero strong intent signals
-- Distribution status: live GitHub Pages product plus X history remain, but the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint; the founder-side stability brief is now the active next wedge; the first approved r/replit action was attempted but did not become publicly verifiable, so the next live move is now the second founder-side gate
+- Distribution status: live GitHub Pages product plus X history remain, but the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint; the founder-side stability brief is now the active next wedge; the first approved r/replit action and second approved r/SaaS action were attempted but did not become publicly verifiable, so the next live move is now the third founder-side gate
 - Monetization status: model hypothesis chosen, but no price/package/purchase-path proof
 - Current revenue bottleneck: `distribution`
 - Business model hypothesis: founder-side low-ticket self-serve brief / toolkit; see `business-model.md`
@@ -37,7 +37,7 @@
 | `@jessecolesmith` | founder / domain builder | stability-first workflow language | wait for any reply; use only as founder-side evidence, not monetization proof | public follow-up would be gated | weak positive logged |
 | `@FSfakiotakis` | founder / operator | simple founder-maintained apps may not need this early | keep as segmentation constraint | any new public action gated | weak negative logged |
 | Hacker News Show HN | public distribution | account too new (`fnop=toonew`) | do not retry unless HN becomes the chosen next channel | account trust would gate | blocked/stale for now |
-| Founder-side target pool | founder / operator | demo-to-launch confidence gap is already visible in public Replit, Lovable, and SaaS threads | the first r/replit no-link reply was attempted but not publicly verifiable; use `docs/founder-stability-target-pool.md` and stop at the exact second no-link reply approval candidate | public/direct action still gated | active next gate |
+| Founder-side target pool | founder / operator | demo-to-launch confidence gap is already visible in public Replit, Lovable, and SaaS threads | the first r/replit no-link reply and second r/SaaS no-link reply were attempted but not publicly verifiable; use `docs/founder-stability-target-pool.md` and stop at the exact third no-link reply approval candidate | public/direct action still gated | active next gate |
 
 ## Channel Experiments
 
@@ -58,7 +58,7 @@
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | stop at the exact founder-side second approval gate in `docs/founder-stability-target-pool.md` | distribution | one approved founder-side no-link reply route that can produce explicit usage intent after the unverified first attempt | yes | active |
+| 1 | stop at the exact founder-side third approval gate in `docs/founder-stability-target-pool.md` | distribution | one approved founder-side no-link reply route that can produce explicit usage intent after two unverified attempts | yes | active |
 | 2 | treat any late Bytewise, AppStuck, or AC Tech Labs reply as extra evidence, not as permission to reopen contractor/agency outreach by default | decision | a late strong positive would challenge the pivot decision | no while waiting | passive |
 
 ## Acquisition Cadence

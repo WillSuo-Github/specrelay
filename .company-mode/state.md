@@ -8,7 +8,7 @@
 
 ## Now
 
-- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge; the first live r/replit reply was approved and attempted, but it did not become publicly verifiable on the thread or profile, so it cannot be counted as a live founder-side touch.
+- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge; the first live r/replit reply and the second live r/SaaS reply were both approved and attempted, but neither became publicly verifiable on the thread or profile, so neither can be counted as a live founder-side touch.
 - Public URL: https://willsuo-github.github.io/specrelay/
 - Biggest blocker: no founder has yet said they would actually complete even the smaller stability brief before launch or before asking for help
 - Highest-risk assumption: founders will spend time freezing flows, blockers, and a launch decision before they simply keep fixing the app ad hoc
@@ -19,7 +19,7 @@
 - Product/CEO: the contractor/agency wedge is now closed `inconclusive`; run exactly one founder-side strategy reset using `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: do not add any more rescue-service outreach for this version. The first founder-side r/replit reply attempt is not publicly verifiable, so the next exact move is now the second no-link founder-side candidate in `docs/founder-stability-target-pool.md`, and it remains action-time gated.
+- Growth: do not add any more rescue-service outreach for this version. The first founder-side r/replit reply attempt and the second founder-side r/SaaS reply attempt are not publicly verifiable, so the next exact move is now the third no-link founder-side candidate in `docs/founder-stability-target-pool.md`, and it remains action-time gated.
 - Support/Research + Growth: use `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, `docs/founder-stability-target-pool.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for the pivot and any late-contractor reply interpretation
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
@@ -64,14 +64,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-22`
-- Current stage: public MVP live, founder-side pivot active. The old contractor/agency wedge remains closed, and the company is now testing whether any founder will publicly endorse the smaller stability brief.
-- Evidence quality: still weak. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and there is still no verified founder-side reply. The only new evidence is operational: the approved first founder-side Reddit action was attempted, but it did not become publicly visible on the thread or on the profile page used to verify the send.
-- Current-run work completed: refreshed the installed company-mode kernel, verified the current repo-backed external surfaces, opened the exact r/replit founder-side target in the logged-in Reddit session, verified the staged no-link reply content in the Markdown composer, triggered the final `Comment` click, then checked both the thread and `u/Fit_Hamster_4754/comments/`. The reply did not appear in either surface, so no founder-side market touch can be claimed. Product/CEO then re-closed the run at the next exact gate instead of pretending the post landed.
-- Instance-only improvements executed: founder-side send-attempt logging, target-pool gate rollover from first to second candidate, and durable-state/readout correction so future runs do not misread this attempt as a published signal.
+- Date: `2026-05-23`
+- Current stage: public MVP live, founder-side pivot active. The old contractor/agency wedge remains closed, and the company is still trying to find one founder-side route that can actually produce a publicly verifiable interaction.
+- Evidence quality: still weak. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and there is still no verified founder-side reply. The only new evidence is operational: the approved second founder-side Reddit action was attempted, but it did not become publicly visible on the thread or on the profile page used to verify the send.
+- Current-run work completed: refreshed the installed company-mode kernel, verified the current repo-backed external surfaces, opened the exact r/SaaS founder-side target in the logged-in Reddit session, verified the staged no-link reply content in the Markdown composer, triggered the final `Comment` action on the visible button, then checked both the thread and `u/Fit_Hamster_4754/comments/`. The reply did not appear in either surface, so no founder-side market touch can be claimed. Product/CEO then re-closed the run at the next exact gate instead of pretending the post landed.
+- Instance-only improvements executed: founder-side second send-attempt logging, target-pool gate rollover from second to third candidate, and durable-state/readout correction so future runs do not misread this attempt as a published signal.
 - Kernel/template/migration improvements: none identified in this run.
 - Hard-gated improvements: the next founder-side public/community reply, any DM, any follow-up with a link, any new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: the first founder-side action was attempted but not publicly verified. The company is now stopped at the next exact approval gate: whether to send the second founder-side no-link reply from `docs/founder-stability-target-pool.md`. No further autonomous public action should occur before that approval or a materially different late reply.
+- Stop-check: the second founder-side action was attempted but not publicly verified. The company is now stopped at the next exact approval gate: whether to send the third founder-side no-link reply from `docs/founder-stability-target-pool.md`. No further autonomous public action should occur before that approval or a materially different late reply.
 
 ## Previous CEO After-Action Review
 
