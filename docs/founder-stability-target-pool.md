@@ -109,10 +109,12 @@ If `EXP-0003` resolves silent/negative and Product/CEO activates the founder-sid
   - explicit launch-confidence pain
   - users already discussing “looks done” versus “is ready”
   - low risk of over-claiming if the reply stays workflow-first
+- Execution note:
+  - `2026-05-22`: user approved this route; the reply was staged in the Reddit Markdown composer and the final `Comment` click was triggered, but the reply did not become publicly visible on the thread or on `u/Fit_Hamster_4754/comments/`. Do not count this as a live touch.
 
 ## Exact Second Approval Candidate
 
-If the first candidate is stale, removed, or clearly hostile to non-promotional replies:
+If the first candidate is stale, removed, clearly hostile to non-promotional replies, or cannot be publicly verified after an approved send attempt:
 
 - Route: no-link public reply in the r/SaaS “when it first broke with real users” thread
 

@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: paused
-- Current cadence: no automatic wake while the company is stopped at the exact founder-side approval gate
-- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; and the next live move is one exact public no-link founder-side reply candidate that remains action-time gated. Late Bytewise/AppStuck/AC Tech Labs replies may still matter as extra evidence, but they no longer justify keeping the old wedge active or continuing passive heartbeats by default.
+- Current cadence: no automatic wake while the company is stopped at the exact second founder-side approval gate
+- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; the first approved r/replit founder-side reply was attempted but did not become publicly verifiable on the thread or on the profile page used to confirm sends; and the next live move is now the second exact public no-link founder-side reply candidate, which remains action-time gated. Late Bytewise/AppStuck/AC Tech Labs replies or a late visible first Reddit post may still matter as extra evidence, but they do not justify passive heartbeats by default.
 
 ## Policy
 

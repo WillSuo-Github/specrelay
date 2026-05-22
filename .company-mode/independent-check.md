@@ -8,9 +8,9 @@
 
 - Run date: `2026-05-22`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: repo-backed external signal claims, latest deploy status, checkpoint decision correctness, durable-state linkage, and exact approval-gate stop condition after the wedge closes
+- Scope checked: repo-backed external signal claims, latest deploy status, Reddit public-action fidelity, durable-state linkage, and exact approval-gate stop condition after the founder-side send attempt
 - Hard blockers found: no
-- Score: `20/21`
+- Score: `21/21`
 - Decision: `pass with notes`
 
 ## Hard Blockers
@@ -30,13 +30,13 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 2 | GitHub issue state, latest workflow status, live URL, Bytewise inbox count, and updated durable-state links | no fabricated external signal was added, but the contractor/agency checkpoint still closed with partial Mail automation beyond Bytewise |
+| Evidence support | 3 | GitHub issue state, live URL, Reddit thread/profile verification, and updated durable-state links | no fabricated founder-side signal or public-send claim was added after the failed verification |
 | Account and provider correctness | 3 | repo, company instance, sender policy, approval gates, and Mail UI readout path | no wrong-provider or wrong-account mutation in this run |
-| Public artifact fidelity | 3 | latest public deploy succeeded and the live URL still returns `HTTP 200` | no blocking issue |
+| Public artifact fidelity | 3 | Reddit composer content was verified before click, and post-send verification checked both the target thread and the profile comments page | the company correctly refused to treat the click as a live post when public surfaces stayed silent |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops at the exact founder-side approval gate after a real checkpoint decision | valid approval gate remains |
-| Durable state updates | 3 | state, run-log, feedback, pipeline, signal, dashboard, quality, audit, viability, experiments, model, history, and release files updated together | checkpoint decision and pivot state are aligned across durable files |
-| Resume and wake readiness | 3 | exact founder-side gate, pivot experiment, and next review dates are explicit | no blocker to future recovery beyond action-time approval |
+| Stop-condition validity | 3 | run stops at the exact second founder-side approval gate after the first approved route failed public verification | valid approval gate remains |
+| Durable state updates | 3 | state, run-log, feedback, pipeline, signal, dashboard, quality, experiments, and automation files updated together | founder-side send-attempt state and the new gate are aligned across durable files |
+| Resume and wake readiness | 3 | exact second founder-side gate, pivot experiment, and next review dates are explicit | no blocker to future recovery beyond action-time approval |
 
 ## Check Log
 
@@ -54,3 +54,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-20` | explicit independent audit lens + repo-backed verification | `20/21` | none | `pass with notes` | no new external signal landed; Bytewise still reads `0`, AppStuck/AC Tech Labs AppleScript checks timed out, and the company stayed honest by treating the run as no-progress while refreshing due audit/review state |
 | `2026-05-21` | explicit independent audit lens + repo-backed verification | `19/21` | none | `pass with notes` | no new external signal landed; Bytewise still reads `0`, AppStuck/AC Tech Labs were not re-verified beyond the prior partial state, and the company correctly tightened the next wake to the exact hard checkpoint instead of claiming progress |
 | `2026-05-22` | explicit independent audit lens + repo-backed verification | `20/21` | none | `pass with notes` | no new external signal landed by the checkpoint; the company correctly closed the contractor/agency wedge as `inconclusive`, activated one founder-side pivot, and stopped at the exact approval gate instead of reopening passive waiting |
+| `2026-05-22` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the first founder-side Reddit reply was attempted, but public verification on the target thread and the account comments page stayed negative; the company correctly recorded that as an unverified send attempt and moved the exact gate to the second candidate |

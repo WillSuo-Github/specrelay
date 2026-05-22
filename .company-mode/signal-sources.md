@@ -11,8 +11,8 @@
 - Primary readout source: founder-side replies from the active pivot route plus any late contractor/agency reply that materially challenges the pivot; Afterbuild is no longer a live reply source because delivery failed
 - Secondary readout source: GitHub feedback issue, live-site health, and exported packet quality
 - Evidence quality: weak but real
-- Missing source or integration: no product analytics, no reliable automated X/community readout surface, no completed packet/brief review, and Mail AppleScript readout remains partial beyond Bytewise
-- Next readout: founder-side first live reply after approval, or the founder-side pivot window close on `2026-05-29 23:59 CST`
+- Missing source or integration: no product analytics, no reliable automated X/community readout surface, no reliable Reddit post-confirmation surface from the current session, no completed packet/brief review, and Mail AppleScript readout remains partial beyond Bytewise
+- Next readout: a publicly verifiable founder-side reply after the next approved founder-side action, or the founder-side pivot window close on `2026-05-29 23:59 CST`
 
 ## Source Selection Rules
 
@@ -36,7 +36,7 @@
 | Manual exported packet QA | output quality and product reliability | local browser QA | medium | already used | only revisit if product output changes |
 | Product analytics | visitor, start, copy/download behavior | analytics service + privacy decision | currently unavailable | gap | request only if the current wedge survives |
 | Competitor/community research | pain language, adjacent channels, positioning | public web access | medium | available | use only when the next move needs fresh target sourcing |
-| Founder-side target threads | founder-side launch-readiness validation | public web access; future community account/session for the approved route | medium | active next wedge | use `docs/founder-stability-target-pool.md` for the first exact approval candidate |
+| Founder-side target threads | founder-side launch-readiness validation | public web access; future community account/session for the approved route | medium | active next wedge | the first r/replit candidate was attempted but not publicly verifiable; use `docs/founder-stability-target-pool.md` for the current exact next approval candidate |
 
 ## Readout Log
 
@@ -56,6 +56,7 @@
 | `2026-05-20` | is the current three-touch batch still silent, and is the Mail automation path still stable enough for checkpoint monitoring? | GitHub issue check + workflow status + live URL + AppleScript inbox count for Bytewise plus AppleScript timeout attempts for AppStuck/AC Tech Labs | no new repo-backed external signal; latest deploy succeeded; Bytewise stayed `0`; AppStuck and AC Tech Labs timed out in AppleScript, so the current Mail automation is only partial again | medium | `feedback.md`, `state.md`, `run-log.md`, `viability-scorecard.md`, `business-audit.md` | keep the 24-hour wait to checkpoint and use Mail UI fallback if a reply check becomes urgent |
 | `2026-05-21` | did any new pre-checkpoint external signal appear before the hard decision wake? | GitHub issue check + workflow status + live URL + AppleScript inbox count for Bytewise | no new repo-backed external signal; latest deploy succeeded; Bytewise stayed `0`; AppStuck and AC Tech Labs remain only partially monitorable from automation in this run | medium | `feedback.md`, `state.md`, `run-log.md`, `business-audit.md`, `ops/automation-spec.md` | wake again at the exact hard checkpoint and apply the continue/pivot rule there |
 | `2026-05-22` | did the contractor/agency wedge validate by the hard checkpoint? | GitHub issue check + workflow status + live URL + Bytewise inbox count + prior checkpoint monitoring history | no; no verified contractor/agency reply landed by the checkpoint, so the wedge closed `inconclusive` and the founder-side stability brief became the active next experiment | medium | `feedback.md`, `state.md`, `run-log.md`, `experiments.md`, `viability-scorecard.md`, `business-audit.md` | stop at the founder-side approval gate or read any late contractor reply as extra evidence only |
+| `2026-05-22` | did the first approved founder-side community reply actually enter market? | logged-in Reddit thread check + profile comments-page check after the final `Comment` click | no public verification; the reply text did not appear on the target thread or on `u/Fit_Hamster_4754/comments/`, so no founder-side touch can be claimed yet | medium | `feedback.md`, `state.md`, `run-log.md`, `experiments.md`, `revenue-pipeline.md`, `ops/automation-spec.md` | stop at the second founder-side approval gate instead of retrying the first route blindly |
 
 ## Integration Requests
 

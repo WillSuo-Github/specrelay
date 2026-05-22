@@ -6,23 +6,23 @@
 
 ## Current Counters
 
-- Total active runs: 31
-- Last run ID: `RUN-0031`
-- Next run ID: `RUN-0032`
-- Last active run at: `2026-05-22 00:03 CST`
-- Last real-progress run ID: `RUN-0031`
+- Total active runs: 32
+- Last run ID: `RUN-0032`
+- Next run ID: `RUN-0033`
+- Last active run at: `2026-05-22 11:24 CST`
+- Last real-progress run ID: `RUN-0032`
 - Last no-progress run ID: `RUN-0030`
 - No-progress streak: 0
-- Runs since viability review: 0
-- Runs since business audit: 0
+- Runs since viability review: 1
+- Runs since business audit: 1
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
 
 | Trigger | Source | Due when | Current status | Required action |
 | --- | --- | --- | --- | --- |
-| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0031`; next due `2026-05-29 23:59 CST` or earlier founder-side material reply | review before ordinary backlog if due |
-| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0031`; next due `2026-05-29 17:00 CST` or earlier founder-side material reply | audit before ordinary backlog if due |
+| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0031`; next due `2026-05-29 23:59 CST` or earlier founder-side material reply or a publicly verified founder-side post/reply | review before ordinary backlog if due |
+| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0031`; next due `2026-05-29 17:00 CST` or earlier founder-side material reply or a publicly verified founder-side post/reply | audit before ordinary backlog if due |
 | Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | not due | strategy reset executed at the checkpoint; do not reopen the old wedge passively |
 
 ## Active Run Definition
@@ -75,6 +75,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0029` | `2026-05-20 15:15 CST` | `no-traction` | `distribution` | recheck the live batch and refresh the due viability review plus business audit before the hard checkpoint | observe -> verify -> review -> decide -> prepare | GitHub issue #1 remained silent, Pages deploy `26106387465` succeeded, the live URL stayed `HTTP 200`, Bytewise inbox count stayed `0`, AppStuck and AC Tech Labs AppleScript counts timed out, viability stayed `continue`, and the business audit answer stayed `mixed` | no | none; the company only refreshed due checkpoint governance around the same silent batch | pass with notes | `mixed` | `continue` | none | `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/viability-scorecard.md`, `.company-mode/business-audit.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h or hard checkpoint |
 | `RUN-0030` | `2026-05-21 07:15 CST` | `no-traction` | `distribution` | verify whether any new signal arrived before the hard checkpoint and tighten the wake to the exact decision time | observe -> verify -> review -> decide -> prepare | GitHub issue #1 remained silent, Pages deploy `26147682652` succeeded, the live URL stayed `HTTP 200`, Bytewise inbox count stayed `0`, no new verified AppStuck or AC Tech Labs reply was added, the no-progress streak reached two, and the next wake was tightened to `2026-05-21 23:59 CST` | no | none; the company is still waiting on the same silent batch and only improved checkpoint discipline in this run | pass with notes | `mixed` | n/a | none | `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/business-audit.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | exact hard checkpoint |
 | `RUN-0031` | `2026-05-22 00:03 CST` | `no-traction` | `distribution` | apply the hard-checkpoint decision and either continue, pivot, or stop the current wedge | observe -> verify -> review -> decide -> prepare | GitHub issue #1 remained silent, Pages deploy `26218772659` succeeded, the live URL stayed `HTTP 200`, Bytewise inbox count stayed `0`, the contractor/agency wedge closed `inconclusive`, viability switched to `pivot`, the business-audit answer switched to `no`, and the founder-side stability-brief experiment became the active next wedge with one exact approval gate | yes | the company stopped extending a silent wedge and changed the active experiment instead of drifting further | pass with notes | `no` | `pivot` | none | `.company-mode/company.md`, `.company-mode/role-access-matrix.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/business-audit.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/business-model.md`, `.company-mode/product-history.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/release.md`, `.company-mode/state.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | exact founder-side approval gate |
+| `RUN-0032` | `2026-05-22 11:24 CST` | `no-traction` | `distribution` | execute the first approved founder-side action and verify whether it actually enters market | observe -> publish -> verify -> decide -> prepare | GitHub issue #1 remained silent, the live URL still returned `HTTP 200`, the approved r/replit no-link reply was staged in the logged-in Reddit Markdown composer and the final `Comment` click was triggered, but the reply did not appear on the target thread or on `u/Fit_Hamster_4754/comments/`; no founder-side touch can be claimed, and the next exact gate moved to the second candidate | yes | the company consumed the founder-side approval gate, attempted the live move, and removed a false “post sent” assumption from durable state | pass with notes | n/a | n/a | none | `docs/founder-stability-target-pool.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/experiments.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | paused at exact second founder-side approval gate |
 
 ## Correction Log
 
