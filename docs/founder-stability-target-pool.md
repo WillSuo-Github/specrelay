@@ -65,6 +65,8 @@ Bad targets:
 - Best route if pivot activates: no-link public reply or comment under a relevant subthread
 - Use case:
   - good for validating whether founders want a lighter “freeze flows + blockers + launch decision” artifact instead of a full handoff packet
+- Execution note:
+  - `2026-05-23`: attempted under blanket approval with a no-link reply about using a tiny pre-launch brief between test mode and paid users. The reply did not become publicly visible on the thread or on `u/Fit_Hamster_4754/comments/`. Do not count this as a live touch.
 
 ### 4. r/lovable: “Is there anyone here launched their SaaS with lovable and earning money?”
 
@@ -98,6 +100,8 @@ Bad targets:
 - Best route if pivot activates: no-link public reply only if the thread still has active discussion
 - Risk:
   - less acute launch pain than the top three threads
+- Execution note:
+  - `2026-05-23`: attempted under blanket approval with a no-link reply about using a tiny pre-launch brief before paying for outside help. The reply did not become publicly visible on the thread or on `u/Fit_Hamster_4754/comments/`. Do not count this as a live touch.
 
 ## Exact First Approval Candidate
 
@@ -125,6 +129,21 @@ If the first candidate is stale, removed, clearly hostile to non-promotional rep
 If the second candidate is stale, removed, clearly hostile to non-promotional replies, or cannot be publicly verified after an approved send attempt:
 
 - Route: no-link public reply in the r/lovable “12 Years of Coding and 100+ Apps Later” thread
+
+## Execution Sweep Result
+
+`2026-05-23`: after the user granted blanket approval for the remaining founder-side public validation replies in the current pivot window, the remaining safe Reddit public routes were attempted:
+
+- r/lovable “12 Years of Coding and 100+ Apps Later”
+- r/SaaS “Non-tech founders building SaaS, how did you actually do it?”
+
+Neither produced a publicly visible reply on the target thread or on `u/Fit_Hamster_4754/comments/`.
+
+Current interpretation:
+
+- This is now a Reddit execution blocker, not just one more candidate miss.
+- Do not keep treating Reddit as the active founder-side route in the current pivot window.
+- The next route should move to X or another logged-in non-Reddit surface where send verification is more reliable.
 
 ## No-Link Reply Shape
 

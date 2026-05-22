@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-05-22`
+- Last updated: `2026-05-23`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -16,7 +16,7 @@
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
 - Business audit status: current (`no` on `2026-05-22`)
 - Current quality risk: `medium`
-- Required correction: stop at the exact third founder-side approval gate; do not count unverified Reddit submission attempts as market progress and do not reopen passive contractor/agency monitoring as if the old wedge were still active
+- Required correction: stop counting Reddit submission attempts as separate growth paths once the same public-verification failure repeats; prune the surface and move to a new channel instead of turning channel failure into fake iteration
 
 ## KPI Thresholds
 
@@ -59,6 +59,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-22` | `no-traction` | `distribution` | contractor/agency wedge closed silent at the hard checkpoint; founder-side pivot activated | yes | the company replaced a failed wedge with one narrower adjacent experiment and an exact approval gate instead of drifting further | pass | none | stop at the founder-side approval gate and do not create a new passive wait loop |
 | `2026-05-22` | `no-traction` | `distribution` | founder-side first Reddit action attempted, but post-send verification showed no public thread/profile evidence | yes | the company consumed the approval gate, attempted the live move, and prevented a false “post sent” claim from entering durable state | pass with notes | none | stop at the second founder-side approval gate; do not retry blindly or count the first click as a live touch |
 | `2026-05-23` | `no-traction` | `distribution` | founder-side second Reddit action attempted, but post-send verification still showed no public thread/profile evidence | yes | the company consumed the next approval gate, attempted the live move, and prevented a second false “post sent” claim from entering durable state | pass with notes | none | stop at the third founder-side approval gate; do not retry blindly or count the second attempt as a live touch |
+| `2026-05-23` | `no-traction` | `distribution` | blanket-approved Reddit founder-side sweep exhausted without any publicly verifiable send | yes | the company learned that Reddit is an execution blocker for this pivot and pruned the channel instead of continuing to misread platform failure as product progress | pass with notes | none | move to a non-Reddit founder-side route on the next active run |
 
 ## Quality Review Questions
 

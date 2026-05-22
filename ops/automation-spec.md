@@ -6,9 +6,9 @@ This file is the recoverable automation spec for this one-product company instan
 
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
-- Status: paused
-- Current cadence: no automatic wake while the company is stopped at the exact third founder-side approval gate
-- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; the first approved r/replit founder-side reply and second approved r/SaaS founder-side reply were both attempted but did not become publicly verifiable on the thread or on the profile page used to confirm sends; and the next live move is now the third exact public no-link founder-side reply candidate, which remains action-time gated. Late Bytewise/AppStuck/AC Tech Labs replies or a late visible Reddit post may still matter as extra evidence, but they do not justify passive heartbeats by default.
+- Status: active
+- Current cadence: 12-hour autonomous cadence while the company replaces Reddit with a non-Reddit founder-side route
+- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; the safe Reddit founder-side public pool was attempted under user approval but still did not produce publicly verifiable sends; and the next live move is now a non-Reddit founder-side route. Late Bytewise/AppStuck/AC Tech Labs replies or a late visible Reddit post may still matter as extra evidence, but they no longer justify keeping Reddit as the active route or keeping the heartbeat paused.
 
 ## Policy
 

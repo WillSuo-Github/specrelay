@@ -2,7 +2,7 @@
 
 Last updated: `2026-05-23`
 Scope: one-product company instance
-Current company stage: public MVP live, founder-side stability-brief pivot active, stopped at the third founder-side approval gate after the contractor/agency checkpoint closed silent and the first two founder-side Reddit attempts failed public verification
+Current company stage: public MVP live, founder-side stability-brief pivot active, Reddit founder-side public pool exhausted without public verification after the contractor/agency checkpoint closed silent
 
 ## Reading this matrix
 
@@ -15,7 +15,7 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 - Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: no strong founder-side usage-intent signal yet; the next live founder-side validation action remains approval-gated after two unverified Reddit attempts
+- Main blockers: no strong founder-side usage-intent signal yet; the current Reddit route has become an execution blocker and the next live founder-side validation action needs a non-Reddit channel
 
 ## Engineering
 
@@ -36,7 +36,7 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: the next live founder-side reply is public and still needs action-time confirmation; current HN account is too new/trust-limited for this submission
+- Main blockers: Reddit is not yielding publicly verifiable replies in the current session, so Growth needs a non-Reddit founder-side route; current HN account is still too new/trust-limited for this submission
 
 ## Support/Research
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable; the contractor/agency buyer did not validate by the hard checkpoint, and the founder-side stability-first workflow signal is still alive enough for one narrower pivot, but Reddit execution reliability is now part of the channel risk.
-- Highest-leverage next upgrades: stop at one exact founder-side approval gate and do not reopen contractor/agency outreach unless a late reply materially changes the evidence.
+- Current interpretation: SpecRelay is technically shippable; the contractor/agency buyer did not validate by the hard checkpoint, and the founder-side stability-first workflow signal is still alive enough for one narrower pivot, but Reddit execution reliability has now degraded into a concrete channel blocker.
+- Highest-leverage next upgrades: prune Reddit for this founder-side wedge, shift to a non-Reddit founder-side route, and do not reopen contractor/agency outreach unless a late reply materially changes the evidence.

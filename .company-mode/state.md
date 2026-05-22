@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-05-22`
+- Last updated: `2026-05-23`
 - Dominant objective: validate whether a smaller founder-side stability brief is realistic enough to use before launch or before asking for help
 - Current stage: public MVP live, pivot active
 - Current release: SpecRelay static prototype-to-handoff generator
@@ -8,24 +8,24 @@
 
 ## Now
 
-- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge; the first live r/replit reply and the second live r/SaaS reply were both approved and attempted, but neither became publicly verifiable on the thread or profile, so neither can be counted as a live founder-side touch.
+- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge; the approved Reddit founder-side sweep was executed across r/replit, r/SaaS, r/lovable, and a second r/SaaS thread, but none of the attempts became publicly verifiable on the thread or profile, so none can be counted as live founder-side touches.
 - Public URL: https://willsuo-github.github.io/specrelay/
 - Biggest blocker: no founder has yet said they would actually complete even the smaller stability brief before launch or before asking for help
 - Highest-risk assumption: founders will spend time freezing flows, blockers, and a launch decision before they simply keep fixing the app ad hoc
-- Next decision deadline: when a founder-side reply lands after a publicly verifiable founder-side post, a late Bytewise/AppStuck/AC Tech Labs reply materially challenges the pivot, or the founder-side pivot window reaches `2026-05-29 23:59 CST`
+- Next decision deadline: when a founder-side reply lands after a publicly verifiable non-Reddit founder-side post, a late Bytewise/AppStuck/AC Tech Labs reply materially challenges the pivot, or the founder-side pivot window reaches `2026-05-29 23:59 CST`
 
 ## Next Recommended Actions
 
 - Product/CEO: the contractor/agency wedge is now closed `inconclusive`; run exactly one founder-side strategy reset using `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: do not add any more rescue-service outreach for this version. The first founder-side r/replit reply attempt and the second founder-side r/SaaS reply attempt are not publicly verifiable, so the next exact move is now the third no-link founder-side candidate in `docs/founder-stability-target-pool.md`, and it remains action-time gated.
+- Growth: do not add any more rescue-service outreach for this version. The Reddit founder-side public pool is now exhausted without a publicly verifiable send, so the next exact move is to prune Reddit as an execution surface and shift the active founder-side route to X or another logged-in non-Reddit channel.
 - Support/Research + Growth: use `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, `docs/founder-stability-target-pool.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for the pivot and any late-contractor reply interpretation
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
 
-- Exact live action currently gated: publish the next founder-side social/community reply, DM, follow-up URL reply, or direct outreach message outside the owned GitHub repository.
+- Exact live action currently gated: the user granted blanket approval on `2026-05-23` for the remaining founder-side validation replies in the current pivot window; Reddit candidates are now exhausted, so the next live founder-side route should shift channels rather than waiting on another per-reply approval inside this same pivot window.
 - Account gap to resolve: X account is available and first-wave public replies were sent; future public replies/DMs need action-time approval. Current Hacker News account is not sufficient for submission; Product Hunt also needs launch images before a real launch.
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -65,13 +65,13 @@
 ## Latest CEO After-Action Review
 
 - Date: `2026-05-23`
-- Current stage: public MVP live, founder-side pivot active. The old contractor/agency wedge remains closed, and the company is still trying to find one founder-side route that can actually produce a publicly verifiable interaction.
-- Evidence quality: still weak. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and there is still no verified founder-side reply. The only new evidence is operational: the approved second founder-side Reddit action was attempted, but it did not become publicly visible on the thread or on the profile page used to verify the send.
-- Current-run work completed: refreshed the installed company-mode kernel, verified the current repo-backed external surfaces, opened the exact r/SaaS founder-side target in the logged-in Reddit session, verified the staged no-link reply content in the Markdown composer, triggered the final `Comment` action on the visible button, then checked both the thread and `u/Fit_Hamster_4754/comments/`. The reply did not appear in either surface, so no founder-side market touch can be claimed. Product/CEO then re-closed the run at the next exact gate instead of pretending the post landed.
-- Instance-only improvements executed: founder-side second send-attempt logging, target-pool gate rollover from second to third candidate, and durable-state/readout correction so future runs do not misread this attempt as a published signal.
+- Current stage: public MVP live, founder-side pivot active. The old contractor/agency wedge remains closed, and the company has now learned something concrete about distribution execution: the current Reddit route is not producing publicly verifiable founder-side touches.
+- Evidence quality: still weak on demand, but stronger on channel execution. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and there is still no verified founder-side reply. The new evidence is operational: after the user granted blanket approval, the remaining safe Reddit founder-side no-link candidates were attempted and still did not produce any publicly visible reply on-thread or on the profile verification surface.
+- Current-run work completed: refreshed the installed company-mode kernel, verified the current repo-backed external surfaces, then exhausted the remaining safe Reddit founder-side public routes by attempting the r/lovable thread and the second r/SaaS thread in addition to the already-attempted r/replit and first r/SaaS thread. None became publicly visible on the target thread or on `u/Fit_Hamster_4754/comments/`. Product/CEO therefore classified Reddit as an execution blocker for this founder-side wedge instead of continuing to burn attempts on the same surface.
+- Instance-only improvements executed: founder-side Reddit-sweep logging, channel-prune decision, approval-scope recording, and durable-state/readout correction so future runs do not misread Reddit execution failure as demand rejection.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: the next founder-side public/community reply, any DM, any follow-up with a link, any new direct outreach, paid channel work, account change, call booking, credential action, or launch action remains action-time gated.
-- Stop-check: the second founder-side action was attempted but not publicly verified. The company is now stopped at the next exact approval gate: whether to send the third founder-side no-link reply from `docs/founder-stability-target-pool.md`. No further autonomous public action should occur before that approval or a materially different late reply.
+- Hard-gated improvements: paid channel work, account changes, call bookings, credential actions, and any public route meaningfully outside the current founder-side pivot still remain gated. Inside the current founder-side pivot window, the user-approved public validation scope is now exhausted on Reddit.
+- Stop-check: the approved Reddit founder-side sweep is complete and no longer justifies another approval gate on the same surface. The company should resume autonomous operation on a 12-hour cadence to select and execute the next non-Reddit founder-side validation route.
 
 ## Previous CEO After-Action Review
 

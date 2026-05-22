@@ -1,6 +1,6 @@
 # Revenue Pipeline
 
-- Last updated: `2026-05-22`
+- Last updated: `2026-05-23`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
@@ -9,13 +9,13 @@
 - Business stage: `no-traction`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: two weak qualitative signals, zero completed packet reviews, zero strong intent signals
-- Distribution status: live GitHub Pages product plus X history remain, but the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint; the founder-side stability brief is now the active next wedge; the first approved r/replit action and second approved r/SaaS action were attempted but did not become publicly verifiable, so the next live move is now the third founder-side gate
+- Distribution status: live GitHub Pages product plus X history remain, but the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint; the founder-side stability brief is now the active next wedge; the safe Reddit founder-side public pool has been attempted without publicly verifiable sends, so the next live move must shift to a non-Reddit route
 - Monetization status: model hypothesis chosen, but no price/package/purchase-path proof
 - Current revenue bottleneck: `distribution`
 - Business model hypothesis: founder-side low-ticket self-serve brief / toolkit; see `business-model.md`
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
-- Next cadence recommendation: no automatic market action until the founder-side first approval gate is cleared or a late external reply arrives
+- Next cadence recommendation: resume a 12-hour autonomous cadence because the old Reddit approval gate is exhausted; the next job is to choose and run the next non-Reddit founder-side route
 - Readout risk note: GitHub/live URL checks are deterministic, but direct-email monitoring remains partial beyond Bytewise; late contractor/agency replies can still matter, but they no longer justify keeping the old wedge active by default
 
 ## Target Customers
@@ -37,7 +37,8 @@
 | `@jessecolesmith` | founder / domain builder | stability-first workflow language | wait for any reply; use only as founder-side evidence, not monetization proof | public follow-up would be gated | weak positive logged |
 | `@FSfakiotakis` | founder / operator | simple founder-maintained apps may not need this early | keep as segmentation constraint | any new public action gated | weak negative logged |
 | Hacker News Show HN | public distribution | account too new (`fnop=toonew`) | do not retry unless HN becomes the chosen next channel | account trust would gate | blocked/stale for now |
-| Founder-side target pool | founder / operator | demo-to-launch confidence gap is already visible in public Replit, Lovable, and SaaS threads | the first r/replit no-link reply and second r/SaaS no-link reply were attempted but not publicly verifiable; use `docs/founder-stability-target-pool.md` and stop at the exact third no-link reply approval candidate | public/direct action still gated | active next gate |
+| Founder-side target pool | founder / operator | demo-to-launch confidence gap is already visible in public Replit, Lovable, and SaaS threads | the safe Reddit founder-side public pool has now been attempted without publicly verifiable sends | no more Reddit-first action inside this pivot | pruned for current route |
+| Existing X founder/builder targets | founder / operator | two weak but useful founder-side signals already came from X, and the session is logged in | reuse `docs/x-target-discovery.md` and the prior engaged founder language to pick the next non-Reddit route | current pivot public validation scope is already blanket-approved | active next route |
 
 ## Channel Experiments
 
@@ -58,7 +59,7 @@
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | stop at the exact founder-side third approval gate in `docs/founder-stability-target-pool.md` | distribution | one approved founder-side no-link reply route that can produce explicit usage intent after two unverified attempts | yes | active |
+| 1 | prune Reddit and move the founder-side route to X or another logged-in non-Reddit surface | distribution | one publicly verifiable founder-side reply route after Reddit execution failure | no inside the current pivot window; yes if the route expands outside it | active |
 | 2 | treat any late Bytewise, AppStuck, or AC Tech Labs reply as extra evidence, not as permission to reopen contractor/agency outreach by default | decision | a late strong positive would challenge the pivot decision | no while waiting | passive |
 
 ## Acquisition Cadence
