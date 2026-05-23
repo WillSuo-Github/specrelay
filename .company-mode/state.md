@@ -8,24 +8,24 @@
 
 ## Now
 
-- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge; the approved Reddit founder-side sweep was executed across r/replit, r/SaaS, r/lovable, and a second r/SaaS thread, but none of the attempts became publicly verifiable on the thread or profile, so none can be counted as live founder-side touches.
+- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge; the approved Reddit founder-side sweep was exhausted without any publicly verifiable touch; Reddit has now been replaced by a non-Reddit founder-side route, and a publicly verifiable X reply is live in the existing Jesse thread at `https://x.com/thefuckkingguy/status/2058104945103212971`.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no founder has yet said they would actually complete even the smaller stability brief before launch or before asking for help
+- Biggest blocker: no founder has yet replied yes/no to the smaller stability brief after a publicly verifiable non-Reddit founder-side touch
 - Highest-risk assumption: founders will spend time freezing flows, blockers, and a launch decision before they simply keep fixing the app ad hoc
-- Next decision deadline: when a founder-side reply lands after a publicly verifiable non-Reddit founder-side post, a late Bytewise/AppStuck/AC Tech Labs reply materially challenges the pivot, or the founder-side pivot window reaches `2026-05-29 23:59 CST`
+- Next decision deadline: when Jesse or another founder replies to the live X founder-side ask, a late Bytewise/AppStuck/AC Tech Labs reply materially challenges the pivot, or the founder-side pivot window reaches `2026-05-29 23:59 CST`
 
 ## Next Recommended Actions
 
 - Product/CEO: the contractor/agency wedge is now closed `inconclusive`; run exactly one founder-side strategy reset using `docs/founder-stability-brief-pivot.md`
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: do not add any more rescue-service outreach for this version. The Reddit founder-side public pool is now exhausted without a publicly verifiable send, so the next exact move is to prune Reddit as an execution surface and shift the active founder-side route to X or another logged-in non-Reddit channel.
+- Growth: do not add any more rescue-service outreach for this version. Reddit is already pruned for the current pivot, and the first replacement non-Reddit founder-side route is now live on X in the Jesse thread. The next move is to read that reply honestly before opening another founder-side channel.
 - Support/Research + Growth: use `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, `docs/founder-stability-target-pool.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for the pivot and any late-contractor reply interpretation
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
 
-- Exact live action currently gated: the user granted blanket approval on `2026-05-23` for the remaining founder-side validation replies in the current pivot window; Reddit candidates are now exhausted, so the next live founder-side route should shift channels rather than waiting on another per-reply approval inside this same pivot window.
+- Exact live action currently gated: none while the live X founder-side replacement route is in market. A new public reply, DM, or another channel expansion after this readout would be the next exact approval gate if needed.
 - Account gap to resolve: X account is available and first-wave public replies were sent; future public replies/DMs need action-time approval. Current Hacker News account is not sufficient for submission; Product Hunt also needs launch images before a real launch.
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -65,13 +65,13 @@
 ## Latest CEO After-Action Review
 
 - Date: `2026-05-23`
-- Current stage: public MVP live, founder-side pivot active. The old contractor/agency wedge remains closed, and the company has now learned something concrete about distribution execution: the current Reddit route is not producing publicly verifiable founder-side touches.
-- Evidence quality: still weak on demand, but stronger on channel execution. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and there is still no verified founder-side reply. The new evidence is operational: after the user granted blanket approval, the remaining safe Reddit founder-side no-link candidates were attempted and still did not produce any publicly visible reply on-thread or on the profile verification surface.
-- Current-run work completed: refreshed the installed company-mode kernel, verified the current repo-backed external surfaces, then exhausted the remaining safe Reddit founder-side public routes by attempting the r/lovable thread and the second r/SaaS thread in addition to the already-attempted r/replit and first r/SaaS thread. None became publicly visible on the target thread or on `u/Fit_Hamster_4754/comments/`. Product/CEO therefore classified Reddit as an execution blocker for this founder-side wedge instead of continuing to burn attempts on the same surface.
-- Instance-only improvements executed: founder-side Reddit-sweep logging, channel-prune decision, approval-scope recording, and durable-state/readout correction so future runs do not misread Reddit execution failure as demand rejection.
+- Current stage: public MVP live, founder-side pivot active. The old contractor/agency wedge remains closed, Reddit is pruned for this pivot, and the first non-Reddit founder-side route is now live on X.
+- Evidence quality: still weak on demand, but stronger on execution truth. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and there is still no verified founder-side reply. The new evidence is that one founder-side replacement route is now publicly visible and can be read honestly for demand instead of platform-send reliability.
+- Current-run work completed: refreshed the installed company-mode kernel, verified the current repo-backed external surfaces, reused the existing Jesse X thread as the narrowest logged-in founder-side replacement route, staged and sent a no-link founder-side stability-brief ask, and verified the live result on both `https://x.com/thefuckkingguy/with_replies` and the direct public status URL `https://x.com/thefuckkingguy/status/2058104945103212971`.
+- Instance-only improvements executed: X-route execution logging, signal-source alignment, durable-state/readout correction, and heartbeat stop-condition reset from channel replacement work to honest external waiting.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: paid channel work, account changes, call bookings, credential actions, and any public route meaningfully outside the current founder-side pivot still remain gated. Inside the current founder-side pivot window, the user-approved public validation scope is now exhausted on Reddit.
-- Stop-check: the approved Reddit founder-side sweep is complete and no longer justifies another approval gate on the same surface. The company should resume autonomous operation on a 12-hour cadence to select and execute the next non-Reddit founder-side validation route.
+- Hard-gated improvements: paid channel work, account changes, call bookings, credential actions, and any public route meaningfully outside the current founder-side pivot still remain gated.
+- Stop-check: one coherent founder-side replacement action is complete and publicly verified. The company is now in a real external wait on Jesse/X, late contractor replies, GitHub issue feedback, or the founder-side pivot readout window. Keep heartbeat active for a 24-hour follow-up check.
 
 ## Previous CEO After-Action Review
 

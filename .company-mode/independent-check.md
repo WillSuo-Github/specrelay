@@ -1,6 +1,6 @@
 # Independent Check
 
-- Last updated: `2026-05-22`
+- Last updated: `2026-05-23`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
@@ -8,7 +8,7 @@
 
 - Run date: `2026-05-23`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: repo-backed external signal claims, latest deploy status, Reddit public-action fidelity across the founder-side sweep, durable-state linkage, and stop-condition validity after the channel-prune decision
+- Scope checked: repo-backed external signal claims, latest deploy status, X public-action fidelity for the founder-side replacement route, durable-state linkage, and stop-condition validity after converting Reddit prune into a live non-Reddit route
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -30,13 +30,13 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, live URL, Reddit thread/profile verification, and updated durable-state links | no fabricated founder-side signal or public-send claim was added after the failed verification |
+| Evidence support | 3 | GitHub issue state, live URL, X send confirmation, `with_replies` verification, direct status URL, and updated durable-state links | the founder-side X touch is now supported by public verification instead of inferred from a click |
 | Account and provider correctness | 3 | repo, company instance, sender policy, approval gates, and Mail UI readout path | no wrong-provider or wrong-account mutation in this run |
-| Public artifact fidelity | 3 | Reddit composer content was verified before click, and post-send verification checked both the target thread and the profile comments page | the company correctly refused to treat the click as a live post when public surfaces stayed silent |
+| Public artifact fidelity | 3 | X composer content was verified before send, and post-send verification checked both `with_replies` and the direct public status URL | the company correctly upgraded from failed same-surface attempts to one publicly visible founder-side post |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops after exhausting the approved Reddit founder-side pool and pruning the channel, not at another fake gate on the same surface | valid stop condition |
-| Durable state updates | 3 | state, run-log, feedback, pipeline, signal, dashboard, quality, experiments, and automation files updated together | founder-side send-attempt state and the new gate are aligned across durable files |
-| Resume and wake readiness | 3 | exact second founder-side gate, pivot experiment, and next review dates are explicit | no blocker to future recovery beyond action-time approval |
+| Stop-condition validity | 3 | run stops after one publicly verified non-Reddit founder-side touch enters market, which creates a real outside wait | valid stop condition |
+| Durable state updates | 3 | state, run-log, feedback, pipeline, signal, dashboard, quality, experiments, and automation files updated together | the live X route, wait condition, and next gate are aligned across durable files |
+| Resume and wake readiness | 3 | live X status URL, pivot experiment, and next readout dates are explicit | no blocker to future recovery beyond waiting or a later new-route gate |
 
 ## Check Log
 
@@ -57,3 +57,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-22` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the first founder-side Reddit reply was attempted, but public verification on the target thread and the account comments page stayed negative; the company correctly recorded that as an unverified send attempt and moved the exact gate to the second candidate |
 | `2026-05-23` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the second founder-side Reddit reply was attempted, the visible `Comment` control entered a disabled state, but public verification on the target thread and the account comments page stayed negative; the company correctly recorded that as an unverified send attempt and moved the exact gate to the third candidate |
 | `2026-05-23` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the remaining safe Reddit founder-side routes were attempted under blanket approval and still produced no public verification; the company correctly pruned Reddit as the active route instead of inventing another same-surface gate |
+| `2026-05-23` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | the Jesse founder-side X replacement reply was verified by send confirmation, `with_replies`, and the direct public status URL, so the company can now wait on real founder-side evidence instead of channel reliability |
