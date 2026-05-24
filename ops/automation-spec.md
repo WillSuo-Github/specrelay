@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 24-hour external-wait cadence while the first non-Reddit founder-side X reply is live
-- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; the safe Reddit founder-side public pool was attempted under user approval but still did not produce publicly verifiable sends; Reddit was pruned; and the replacement founder-side X reply is now publicly visible at `https://x.com/thefuckkingguy/status/2058104945103212971`. Late Bytewise/AppStuck/AC Tech Labs replies or a late visible Reddit post may still matter as extra evidence, but the immediate next readout is now Jesse/X rather than another channel-prep loop.
+- Current cadence: approval-gate posture with late-signal monitoring
+- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; the safe Reddit founder-side public pool was attempted under user approval but still did not produce publicly verifiable sends; Reddit was pruned; the replacement Jesse X reply entered market but now reads as stalled; and the next live move is narrowed to one exact approval-gated founder-side X reply in the James Hsi thread. Late Jesse, Bytewise, AppStuck, or AC Tech Labs replies may still matter as extra evidence.
 
 ## Policy
 

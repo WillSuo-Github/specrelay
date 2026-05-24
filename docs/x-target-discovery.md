@@ -267,6 +267,34 @@ Interpretation:
 - This is the first publicly verifiable non-Reddit founder-side touch in the current pivot window.
 - No founder-side demand signal exists yet; this run only verifies that the route entered market.
 
+2026-05-25 stall readout:
+
+- The direct status URL remained public.
+- `with_replies` still showed the same founder-side post with no founder response.
+- The direct status page still showed only `2` visible views after roughly 32 hours.
+- Product/CEO now treats the Jesse route as stalled, not as the main active waiting surface.
+
+## Exact Next Founder-Side Approval Candidate
+
+If the stalled Jesse route does not wake up with a late reply, the next exact founder-side X move should be:
+
+- Target: [James Hsi](https://x.com/james_hsi) / `@james_hsi`
+- Thread: `https://x.com/james_hsi/status/2050747016159093132`
+- Why this route:
+  - still a founder/builder showing an AI-built prototype to real testers
+  - cleaner pre-launch / pre-feedback context than the stalled Jesse follow-up
+  - live thread verified in Chrome during this run
+
+Staged no-link reply:
+
+```text
+Congrats on shipping keyki. For AI-built apps near real testers, would you fill out a tiny stability brief before sharing wider: core flows, blockers from real use, risky paths, then ship/fix/hold? Curious if that helps more than just clicking around and patching issues.
+```
+
+Gate:
+
+- public reply remains approval-gated
+
 If one of these replies gets a useful response, follow up with:
 
 ```text

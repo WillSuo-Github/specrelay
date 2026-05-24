@@ -9,13 +9,13 @@
 - Business stage: `no-traction`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: two weak qualitative signals, zero completed packet reviews, zero strong intent signals
-- Distribution status: live GitHub Pages product plus X history remain, the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint, the founder-side stability brief is the active wedge, Reddit has been pruned as an execution surface, and one replacement founder-side X reply is now publicly live in the Jesse thread
+- Distribution status: live GitHub Pages product plus X history remain, the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint, the founder-side stability brief is the active wedge, Reddit has been pruned as an execution surface, the Jesse replacement X reply did enter market, and it now reads as stalled rather than waiting
 - Monetization status: model hypothesis chosen, but no price/package/purchase-path proof
 - Current revenue bottleneck: `distribution`
 - Business model hypothesis: founder-side low-ticket self-serve brief / toolkit; see `business-model.md`
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
-- Next cadence recommendation: use a 24-hour external-wait cadence while the first non-Reddit founder-side X reply is live, then decide whether the next move is a second X route or a broader pivot readout
+- Next cadence recommendation: stop passive waiting on Jesse and move to an exact approval gate for the next founder-side X candidate while still allowing late replies to matter as extra evidence
 - Readout risk note: GitHub/live URL checks are deterministic, but direct-email monitoring remains partial beyond Bytewise; late contractor/agency replies can still matter, but they no longer justify keeping the old wedge active by default
 
 ## Target Customers
@@ -34,7 +34,8 @@
 | Bytewise | agency / rescue-service | adjacent buyer who might value audit/handoff context | treat any late reply as unexpected extra evidence, not as license to keep the old wedge active | none while waiting | checkpoint silent |
 | AppStuck | rescue-service | adjacent buyer with async form route | treat any late reply as unexpected extra evidence, not as license to keep the old wedge active | none while waiting | checkpoint silent |
 | AC Tech Labs | agency / rescue-service | adjacent buyer who might value pre-assessment clarity before a fit-call workflow | treat any late reply as unexpected extra evidence, not as license to keep the old wedge active | none while waiting | checkpoint silent |
-| `@jessecolesmith` | founder / domain builder | stability-first workflow language plus a live founder-side brief ask in-thread | wait for reply to the live no-link founder-side X follow-up at `https://x.com/thefuckkingguy/status/2058104945103212971`; use only as founder-side evidence, not monetization proof | none while waiting on the live reply | active founder-side readout |
+| `@jessecolesmith` | founder / domain builder | stability-first workflow language plus a publicly visible founder-side brief ask in-thread | treat any late reply to `https://x.com/thefuckkingguy/status/2058104945103212971` as extra evidence, but do not keep using it as the active waiting surface after the stalled readout | none while waiting on late evidence | stalled route |
+| `@james_hsi` | founder / prototype builder | prototype builder showing an AI-built app to testers; good fit for pre-launch stability-brief ask | next exact candidate is a no-link public reply on `https://x.com/james_hsi/status/2050747016159093132` using the staged text in `docs/x-target-discovery.md` | user approval for the staged public reply | exact next gate |
 | `@FSfakiotakis` | founder / operator | simple founder-maintained apps may not need this early | keep as segmentation constraint | any new public action gated | weak negative logged |
 | Hacker News Show HN | public distribution | account too new (`fnop=toonew`) | do not retry unless HN becomes the chosen next channel | account trust would gate | blocked/stale for now |
 | Founder-side target pool | founder / operator | demo-to-launch confidence gap is already visible in public Replit, Lovable, and SaaS threads | the safe Reddit founder-side public pool has now been attempted without publicly verifiable sends | no more Reddit-first action inside this pivot | pruned for current route |
@@ -59,9 +60,8 @@
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | read the live Jesse founder-side X reply honestly before opening another route | distribution | one founder yes/no/maybe on the stability brief, or silence strong enough to justify the next X route | no while waiting | active |
-| 2 | if Jesse stays silent, choose the next non-Reddit founder-side route from X or another logged-in surface instead of reopening Reddit | distribution | second publicly verifiable founder-side touch | yes if it becomes a new public action outside the current live reply | staged |
-| 3 | treat any late Bytewise, AppStuck, or AC Tech Labs reply as extra evidence, not as permission to reopen contractor/agency outreach by default | decision | a late strong positive would challenge the pivot decision | no while waiting | passive |
+| 1 | stop at the staged `@james_hsi` founder-side X approval gate | distribution | second publicly verifiable founder-side touch aimed at pre-launch/tester use | yes | active gate |
+| 2 | treat any late reply from Jesse, Bytewise, AppStuck, or AC Tech Labs as extra evidence, not as permission to reopen the old wedge by default | decision | a late strong positive would challenge the pivot decision or reduce the need for the next X route | no while waiting | passive |
 
 ## Acquisition Cadence
 

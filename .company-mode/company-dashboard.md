@@ -9,29 +9,29 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `SpecRelay` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0036` | `run-log.md` | high |
-| Active run count | 36 | `run-log.md` | medium |
+| Last active run | `RUN-0037` | `run-log.md` | high |
+| Active run count | 37 | `run-log.md` | medium |
 | Business stage | `no-traction` | `state.md`, `metrics.md`, `feedback.md` | medium |
 | Primary revenue bottleneck | `distribution` | `state.md`, `revenue-pipeline.md` | medium |
 | Current business model | founder-side low-ticket self-serve brief / toolkit hypothesis | `business-model.md` | medium |
 | Revenue status | `0 revenue, 0 paid signal` | `revenue-ledger.md` | high |
 | User signal | `2 weak qualitative signals; 0 strong intent; 0 completed packet reviews` | `metrics.md`, `feedback.md` | high |
-| Distribution signal | `contractor/agency checkpoint closed silent; founder-side stability-brief pivot is active; Reddit is pruned; one replacement founder-side X reply is now publicly visible in the Jesse thread` | `feedback.md`, `revenue-pipeline.md` | high |
+| Distribution signal | `contractor/agency checkpoint closed silent; founder-side stability-brief pivot is active; Reddit is pruned; Jesse entered market but now reads as stalled; one exact next X candidate is staged` | `feedback.md`, `revenue-pipeline.md` | high |
 | Monetization signal | `no willingness-to-pay evidence yet` | `business-model.md`, `revenue-ledger.md` | high |
 | Viability recommendation | `continue` the active founder-side stability-brief experiment | `viability-scorecard.md` | medium |
 | Last business audit | `2026-05-22 no` | `business-audit.md` | medium |
 | Closer to revenue? | `no` | `business-audit.md`, `operating-quality.md` | medium |
 | Open account/service blocker | `none blocking current wait state` | `account-needs.md` | medium |
-| Next wake | `24h honest external wait on the live Jesse founder-side X reply, GitHub issue feedback, or a late contractor reply that materially challenges the pivot` | `ops/automation-spec.md`, `state.md` | high |
+| Next wake | `exact James Hsi founder-side X approval gate, while late Jesse/GitHub/contractor replies still matter as extra evidence` | `ops/automation-spec.md`, `state.md` | high |
 
 ## CEO Focus
 
 - One-line company diagnosis: product is live, but the contractor/agency buyer did not validate; the only justified next try is the smaller founder-side stability brief.
-- Highest-leverage next move: keep waiting on the live Jesse founder-side X reply until it produces a yes/no/maybe readout or clearly stalls.
-- Narrowest approval/account gate, if any: no immediate gate while the live X founder-side replacement route is waiting for response; the next gate appears only if a second fresh public route is needed.
-- Current external signal opportunity: either a reply to the live Jesse X ask, a late contractor/agency reply that materially challenges the pivot, or GitHub feedback issue activity.
-- Current real-progress status: this run is an honest no-progress external-wait round after the live X send; no new market evidence landed yet.
-- Last run-log entry: `RUN-0036` no new founder-side or contractor/agency reply after the first X wait cycle; due viability review refreshed.
+- Highest-leverage next move: stop at the staged James Hsi founder-side X candidate instead of pretending Jesse is still the main waiting surface.
+- Narrowest approval/account gate, if any: approve the exact no-link public reply in the James Hsi thread.
+- Current external signal opportunity: either a late reply to the Jesse X ask, a late contractor/agency reply that materially challenges the pivot, or a newly approved James Hsi founder-side route.
+- Current real-progress status: the company converted a stalled X route into one exact next founder-side approval gate instead of taking a second passive no-progress round.
+- Last run-log entry: `RUN-0037` Jesse route classified stalled; James Hsi approval gate staged.
 - Last business-audit answer: `no`.
 - Next decision deadline: first founder-side approval or `2026-05-29 23:59 CST` founder-side readout.
 
@@ -43,7 +43,7 @@
 | Users / demand | weak | 5 qualitative reviews, 2 strong intent signals | 2 weak X signals, 0 completed packet reviews | run one founder-side validation loop |
 | Activation | weak | at least one real evaluator completes or critiques a packet | no confirmed packet completion yet | keep output usable; do not expand scope |
 | Retention | absent | repeated usage or repeat need evidence | no usage instrumentation | defer until first user signal exists |
-| Distribution | weak | repeatable zero-cost evaluator channel | contractor/agency wedge closed silent; founder-side pivot has one live X route with public verification but no reply yet | wait for reply, then decide whether the route can repeat |
+| Distribution | weak | repeatable zero-cost evaluator channel | contractor/agency wedge closed silent; founder-side pivot has one stalled Jesse X route and one exact next X candidate staged | either get approval for the next candidate or absorb late replies |
 | Monetization | absent | chosen paid offer plus willingness-to-pay evidence | current model is still hypothesis only | record next monetization test only after founder-side usage intent appears |
 | Release / reachability | strong | stable public surface | live GitHub Pages app and release issue are healthy | maintain only |
 | Reliability | acceptable | growth not wasted by defects | product is stable enough for manual evaluation | no product expansion before evidence |
@@ -55,9 +55,9 @@
 
 | Rank | Priority | Why it matters now | Expected signal | Owner lens | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Read the live Jesse founder-side X route honestly | this is still the only publicly verifiable non-Reddit founder-side touch after the Reddit prune | founder yes/no/maybe on the stability brief | Product/CEO + Growth | active |
-| 2 | Treat any late Bytewise/AppStuck/AC reply as extra evidence, not as license to reopen the old wedge | late signals can still matter, but the default decision is already made | unexpected strong positive that challenges the pivot | Support/Research | passive |
-| 3 | Do not spray more founder/community channels before this X readout lands or clearly stalls | more spread would muddy whether this replacement route can work at all | clean founder-side signal or a justified second route | Product/CEO | active constraint |
+| 1 | Stop at the exact James Hsi founder-side X gate | Jesse now looks stalled, so the company needs one precise next route instead of more waiting | second publicly verifiable founder-side touch | Product/CEO + Growth | active |
+| 2 | Treat any late Jesse or contractor/agency reply as extra evidence, not as license to reopen everything | late signals can still matter, but the default direction is unchanged | unexpected strong positive that challenges the staged gate | Support/Research | passive |
+| 3 | Do not open a third founder-side channel before the James Hsi gate resolves | more spread would dilute the readout again | clean founder-side signal or a justified next gate | Product/CEO | active constraint |
 
 ## Dashboard Rules
 
