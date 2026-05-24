@@ -1,27 +1,27 @@
 # Run Log
 
-- Last updated: `2026-05-23`
+- Last updated: `2026-05-24`
 - Owner role: Product/CEO + Release/Ops
 - Purpose: provide the canonical active-run ledger and counter source for cadence, operating quality, viability review, and business audit triggers.
 
 ## Current Counters
 
-- Total active runs: 35
-- Last run ID: `RUN-0035`
-- Next run ID: `RUN-0036`
-- Last active run at: `2026-05-23 16:37 CST`
+- Total active runs: 36
+- Last run ID: `RUN-0036`
+- Next run ID: `RUN-0037`
+- Last active run at: `2026-05-24 08:44 CST`
 - Last real-progress run ID: `RUN-0035`
-- Last no-progress run ID: `RUN-0030`
-- No-progress streak: 0
-- Runs since viability review: 4
-- Runs since business audit: 4
+- Last no-progress run ID: `RUN-0036`
+- No-progress streak: 1
+- Runs since viability review: 0
+- Runs since business audit: 5
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
 
 | Trigger | Source | Due when | Current status | Required action |
 | --- | --- | --- | --- | --- |
-| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0031`; next due `2026-05-29 23:59 CST` or earlier founder-side material reply or a publicly verified founder-side post/reply | review before ordinary backlog if due |
+| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0036`; next due `2026-05-29 23:59 CST` or earlier founder-side material reply or a clearly stalled founder-side route that forces the next candidate | review before ordinary backlog if due |
 | Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0031`; next due `2026-05-29 17:00 CST` or earlier founder-side material reply or a publicly verified founder-side post/reply | audit before ordinary backlog if due |
 | Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | not due | strategy reset executed at the checkpoint; do not reopen the old wedge passively |
 
@@ -79,6 +79,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0033` | `2026-05-23 00:16 CST` | `no-traction` | `distribution` | execute the second approved founder-side action and verify whether it actually enters market | observe -> publish -> verify -> decide -> prepare | GitHub issue #1 remained silent, the live URL still returned `HTTP 200`, the approved r/SaaS no-link reply was staged in the logged-in Reddit Markdown composer, the visible `Comment` control was triggered and entered a disabled state, but the reply did not appear on the target thread or on `u/Fit_Hamster_4754/comments/`; no founder-side touch can be claimed, and the next exact gate moved to the third candidate | yes | the company consumed the second founder-side approval gate, attempted the live move, and removed a second false “post sent” assumption from durable state | pass with notes | n/a | n/a | none | `docs/founder-stability-target-pool.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/experiments.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | paused at exact third founder-side approval gate |
 | `RUN-0034` | `2026-05-23 00:27 CST` | `no-traction` | `distribution` | exhaust the remaining safe Reddit founder-side public pool and decide whether the surface itself should be pruned | observe -> publish -> verify -> decide -> prepare | GitHub issue #1 remained silent, the live URL still returned `HTTP 200`, the remaining safe Reddit founder-side routes in r/lovable and a second r/SaaS thread were attempted under blanket approval, but neither produced a publicly visible reply on-thread or on `u/Fit_Hamster_4754/comments/`; the company therefore pruned Reddit as the active founder-side route and resumed 12-hour autonomous work to find a non-Reddit replacement | yes | the company converted repeated same-surface failure into a channel-prune decision instead of continuing to misclassify it as product iteration | pass with notes | n/a | n/a | none | `docs/founder-stability-target-pool.md`, `.company-mode/role-access-matrix.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/experiments.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | resume 12h autonomous non-Reddit founder-side route work |
 | `RUN-0035` | `2026-05-23 16:37 CST` | `no-traction` | `distribution` | replace Reddit with one publicly verifiable non-Reddit founder-side route using the current approval scope | observe -> publish -> verify -> decide | GitHub issue #1 remained silent, the live URL still returned `HTTP 200`, and a no-link founder-side X reply was sent in the existing Jesse thread. X returned `Your post was sent.`, the reply appeared on `https://x.com/thefuckkingguy/with_replies`, and the direct public status URL is `https://x.com/thefuckkingguy/status/2058104945103212971` | yes | the company replaced a failed founder-side channel with one publicly verifiable live touch that can now produce real demand evidence | pass | n/a | n/a | none | `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/signal-sources.md`, `.company-mode/company-dashboard.md`, `.company-mode/acquisition-cadence.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/state.md`, `.company-mode/run-log.md`, `docs/x-target-discovery.md`, `ops/automation-spec.md` | 24h external wait on Jesse/X founder-side readout |
+| `RUN-0036` | `2026-05-24 08:44 CST` | `no-traction` | `distribution` | verify whether the live Jesse founder-side X route produced any reply after the first wait cycle and refresh any due governance | observe -> verify -> review -> decide | GitHub issue #1 remained silent, the live URL stayed `HTTP 200`, the Jesse founder-side X reply remained publicly visible but had no founder response yet, Mail AppleScript access was denied when attempting a late contractor/agency inbox sweep, and the due viability review moved from `pivot` to `continue` because the founder-side evidence window is live but not yet read out | no | none; this run only confirmed the same wait-state and refreshed due viability governance around it | pass with notes | n/a | `continue` | none | `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/signal-sources.md`, `.company-mode/viability-scorecard.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h honest external wait on Jesse/X or material late reply |
 
 ## Correction Log
 

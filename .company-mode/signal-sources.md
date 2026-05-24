@@ -1,6 +1,6 @@
 # Signal Sources
 
-- Last updated: `2026-05-23`
+- Last updated: `2026-05-24`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
@@ -60,6 +60,7 @@
 | `2026-05-23` | did the second approved founder-side community reply actually enter market? | logged-in Reddit thread check + visible composer-button submission attempt + profile comments-page check | no public verification; the reply text did not appear on the target thread or on `u/Fit_Hamster_4754/comments/`, and the visible `Comment` control only became disabled without producing a public comment | medium | `feedback.md`, `state.md`, `run-log.md`, `experiments.md`, `revenue-pipeline.md`, `ops/automation-spec.md` | stop at the third founder-side approval gate instead of retrying the second route blindly |
 | `2026-05-23` | is Reddit still a valid founder-side execution surface after the remaining safe routes are attempted? | logged-in Reddit thread checks + profile comments-page checks across r/lovable and the second r/SaaS route | no; the remaining safe Reddit founder-side public pool also failed to produce a publicly visible reply, so Reddit is now an execution blocker for this pivot instead of the active route | medium/high | `feedback.md`, `state.md`, `run-log.md`, `experiments.md`, `revenue-pipeline.md`, `role-access-matrix.md`, `ops/automation-spec.md` | move the next route to X or another logged-in non-Reddit channel |
 | `2026-05-23` | did the first non-Reddit founder-side replacement route actually enter market? | logged-in X send confirmation + `with_replies` verification + direct public status URL check | yes; the Jesse founder-side no-link reply is publicly visible at `https://x.com/thefuckkingguy/status/2058104945103212971` | high for send verification | `feedback.md`, `state.md`, `run-log.md`, `experiments.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | wait for founder response before creating another live route |
+| `2026-05-24` | did the first live Jesse founder-side X route produce any new response after the first wait cycle? | direct X status URL + `with_replies` + GitHub issue check + live URL check + attempted Mail AppleScript late-reply sweep | no new founder response yet; GitHub remained silent; the live URL stayed healthy; late contractor/agency monitoring remained partial because Mail AppleScript access was denied in this run | medium | `feedback.md`, `state.md`, `run-log.md`, `viability-scorecard.md`, `company-dashboard.md` | keep the outside wait honest and do not open a second founder-side route yet |
 
 ## Integration Requests
 

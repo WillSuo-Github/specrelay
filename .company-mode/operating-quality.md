@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-05-23`
+- Last updated: `2026-05-24`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -8,15 +8,15 @@
 
 - Source ledger: `run-log.md`
 - Rolling window: last 10 active company runs
-- Real-progress rate: `80%` (`8/10`)
-- External-signal output rate: `8/10` runs either shipped a real external touch or staged the exact next gate
-- No-progress streak: `0`
+- Real-progress rate: `70%` (`7/10`)
+- External-signal output rate: `7/10` runs either shipped a real external touch or staged the exact next gate
+- No-progress streak: `1`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
 - Business audit status: current (`no` on `2026-05-22`)
 - Current quality risk: `medium`
-- Required correction: stop counting Reddit submission attempts as separate growth paths once the same public-verification failure repeats; prune the surface and move to a new channel instead of turning channel failure into fake iteration
+- Required correction: do not let the live Jesse X wait turn into a second passive no-progress round; if the next readout is still silent, either show why the route is clearly stalled and stage the next exact founder-side candidate, or keep the outside wait explicitly justified.
 
 ## KPI Thresholds
 
@@ -61,6 +61,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-23` | `no-traction` | `distribution` | founder-side second Reddit action attempted, but post-send verification still showed no public thread/profile evidence | yes | the company consumed the next approval gate, attempted the live move, and prevented a second false “post sent” claim from entering durable state | pass with notes | none | stop at the third founder-side approval gate; do not retry blindly or count the second attempt as a live touch |
 | `2026-05-23` | `no-traction` | `distribution` | blanket-approved Reddit founder-side sweep exhausted without any publicly verifiable send | yes | the company learned that Reddit is an execution blocker for this pivot and pruned the channel instead of continuing to misread platform failure as product progress | pass with notes | none | move to a non-Reddit founder-side route on the next active run |
 | `2026-05-23` | `no-traction` | `distribution` | first non-Reddit founder-side replacement route sent and publicly verified on X | yes | the company replaced a failed channel with one live founder-side touch that can now generate real demand evidence | pass | none | wait for Jesse/X readout before opening another founder-side route |
+| `2026-05-24` | `no-traction` | `distribution` | no new founder-side or contractor/agency reply after the first Jesse X wait cycle; due viability review refreshed | no | none; the company only re-verified the same live route, confirmed no GitHub signal, and kept the outside wait honest | pass with notes | none | do not allow another passive wait round without either a founder reply or the next exact founder-side candidate |
 
 ## Quality Review Questions
 

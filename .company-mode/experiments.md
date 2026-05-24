@@ -1,6 +1,6 @@
 # Experiments
 
-- Last updated: `2026-05-23`
+- Last updated: `2026-05-24`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
@@ -40,6 +40,7 @@
 | `2026-05-23` | `EXP-0004` | `continue` | the user-approved second r/SaaS founder-side reply was staged in the Markdown composer and the visible `Comment` control was triggered, but the reply did not appear on the public thread or on the account comments page, so no founder-side signal can be claimed yet | medium | continue the founder-side experiment without counting this as a live market touch; move the exact gate to the third candidate | `experiments.md`, `state.md`, `feedback.md`, `signal-sources.md`, `revenue-pipeline.md` | stop at the third founder-side approval candidate instead of retrying blindly |
 | `2026-05-23` | `EXP-0004` | `continue` | after the user granted blanket approval, the r/lovable thread and the second r/SaaS thread were also attempted, and neither produced a publicly visible reply on-thread or on the account comments page | medium | continue the founder-side experiment, but prune Reddit as the active route because the current session no longer yields publicly verifiable sends | `experiments.md`, `state.md`, `feedback.md`, `signal-sources.md`, `revenue-pipeline.md`, `role-access-matrix.md` | move the next exact route to X or another logged-in non-Reddit channel |
 | `2026-05-23` | `EXP-0004` | `continue` | a no-link founder-side X reply was sent in the existing Jesse thread and publicly verified on both the `with_replies` surface and the direct status URL `https://x.com/thefuckkingguy/status/2058104945103212971`; no reply yet | high for send verification, low for demand | keep the founder-side pivot live and wait for founder response before opening another founder-side route | `experiments.md`, `state.md`, `feedback.md`, `signal-sources.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | read Jesse/X honestly; if silence persists, choose the next non-Reddit founder-side candidate instead of reopening Reddit |
+| `2026-05-24` | `EXP-0004` | `continue` | after the first external-wait cycle, the Jesse X route is still publicly visible but has no founder reply; GitHub remains silent; no late contractor/agency reply was newly verified in this run | medium | continue the current founder-side evidence window; do not open a second route yet because the first X route has not clearly stalled | `feedback.md`, `state.md`, `run-log.md`, `signal-sources.md`, `viability-scorecard.md`, `company-dashboard.md` | keep reading the live Jesse route honestly until a reply arrives, the route clearly stalls, or the founder-side readout window closes |
 
 ## Active
 
