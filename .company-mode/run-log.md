@@ -1,28 +1,28 @@
 # Run Log
 
-- Last updated: `2026-05-29`
+- Last updated: `2026-05-30`
 - Owner role: Product/CEO + Release/Ops
 - Purpose: provide the canonical active-run ledger and counter source for cadence, operating quality, viability review, and business audit triggers.
 
 ## Current Counters
 
-- Total active runs: 38
-- Last run ID: `RUN-0038`
-- Next run ID: `RUN-0039`
-- Last active run at: `2026-05-29 19:26 CST`
-- Last real-progress run ID: `RUN-0037`
+- Total active runs: 39
+- Last run ID: `RUN-0039`
+- Next run ID: `RUN-0040`
+- Last active run at: `2026-05-30 00:13 CST`
+- Last real-progress run ID: `RUN-0039`
 - Last no-progress run ID: `RUN-0038`
-- No-progress streak: 1
-- Runs since viability review: 2
-- Runs since business audit: 0
+- No-progress streak: 0
+- Runs since viability review: 0
+- Runs since business audit: 1
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
 
 | Trigger | Source | Due when | Current status | Required action |
 | --- | --- | --- | --- | --- |
-| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0036`; next due `2026-05-29 23:59 CST` or earlier founder-side material reply / explicit approval that changes the experiment | review before ordinary backlog if due |
-| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0038`; next due `2026-05-29 23:59 CST` on founder-side evidence-window close or earlier founder-side material reply | audit before ordinary backlog if due |
+| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0039`; next due when SpecRelay is resumed or Product/CEO opens a new active evidence window | review before ordinary backlog if due |
+| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0038`; next due before any resumed active experiment or product-selection decision | audit before ordinary backlog if due |
 | Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | not due | strategy reset executed at the checkpoint; do not reopen the old wedge passively |
 
 ## Active Run Definition
@@ -82,6 +82,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0036` | `2026-05-24 08:44 CST` | `no-traction` | `distribution` | verify whether the live Jesse founder-side X route produced any reply after the first wait cycle and refresh any due governance | observe -> verify -> review -> decide | GitHub issue #1 remained silent, the live URL stayed `HTTP 200`, the Jesse founder-side X reply remained publicly visible but had no founder response yet, Mail AppleScript access was denied when attempting a late contractor/agency inbox sweep, and the due viability review moved from `pivot` to `continue` because the founder-side evidence window is live but not yet read out | no | none; this run only confirmed the same wait-state and refreshed due viability governance around it | pass with notes | n/a | `continue` | none | `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/signal-sources.md`, `.company-mode/viability-scorecard.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h honest external wait on Jesse/X or material late reply |
 | `RUN-0037` | `2026-05-25 00:52 CST` | `no-traction` | `distribution` | decide whether Jesse is still a valid waiting surface and, if stalled, narrow the next founder-side move to one exact gate | observe -> verify -> decide -> prepare | GitHub issue #1 remained silent, the live URL stayed `HTTP 200`, the Jesse founder-side X reply was still public but still showed no founder response and only `2` visible views after roughly 32 hours, so the route was classified as stalled. The next exact founder-side candidate was staged as a no-link public reply to James Hsi at `https://x.com/james_hsi/status/2050747016159093132` with final text recorded in `docs/x-target-discovery.md` | yes | the company converted a stalled X route into one exact next approval gate instead of taking a second no-progress wait round | pass with notes | n/a | n/a | none | `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/signal-sources.md`, `.company-mode/company-dashboard.md`, `.company-mode/acquisition-cadence.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/state.md`, `.company-mode/run-log.md`, `docs/x-target-discovery.md`, `ops/automation-spec.md` | exact James Hsi founder-side approval gate |
 | `RUN-0038` | `2026-05-29 19:26 CST` | `no-traction` | `decision` | complete the due business audit before the founder-side readout window closes tonight | observe -> review -> decide | GitHub issue #1 remained silent, the live URL stayed `HTTP 200`, Jesse and James Hsi public X surfaces remained reachable, and the due business audit concluded that the company is still not materially closer to revenue. The only remaining bounded move is to keep the exact James Hsi approval gate alive until the founder-side readout closes at `2026-05-29 23:59 CST`, then enter `sunset-review` if approval or signal still does not arrive | no | none; this run only re-verified the same silent external state and refreshed the due business-audit / checkpoint governance around it | pass with notes | `no` | n/a | none | `.company-mode/business-audit.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/acquisition-cadence.md`, `.company-mode/signal-sources.md`, `.company-mode/state.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | exact `2026-05-29 23:59 CST` founder-side readout / viability checkpoint |
+| `RUN-0039` | `2026-05-30 00:13 CST` | `sunset-review` | `decision` | close the founder-side evidence window and decide whether SpecRelay should continue, pivot again, or enter sunset-review | observe -> review -> decide -> close | GitHub issue #1 still had `0` comments, the live URL stayed `HTTP 200`, Jesse remained a stalled prior route, James Hsi remained only an unsent approval gate, and the founder-side evidence window closed with 0 founder replies, 0 strong intent, 0 completed packet/brief reviews, and 0 paid signal. SpecRelay therefore entered `sunset-review`, the viability recommendation moved out of `continue`, and the obsolete heartbeat was retired instead of leaving the company in zombie maintenance | yes | the company ended the active evidence window with an explicit stop-level decision and removed the stale autonomous loop | pass with notes | n/a | `sunset-review` | none | `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/product-selection.md`, `.company-mode/product-history.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/signal-sources.md`, `.company-mode/acquisition-cadence.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | automation deleted; wait for user decision |
 
 ## Correction Log
 

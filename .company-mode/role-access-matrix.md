@@ -1,8 +1,8 @@
 # Role Access Matrix
 
-Last updated: `2026-05-23`
+Last updated: `2026-05-30`
 Scope: one-product company instance
-Current company stage: public MVP live, founder-side stability-brief pivot active, Reddit founder-side public pool exhausted without public verification after the contractor/agency checkpoint closed silent
+Current company stage: public MVP live, `sunset-review` after the founder-side stability-brief pivot closed without a validating reply
 
 ## Reading this matrix
 
@@ -15,7 +15,7 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 - Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: no strong founder-side usage-intent signal yet; the current Reddit route has become an execution blocker and the next live founder-side validation action needs a non-Reddit channel
+- Main blockers: no strong usage-intent signal exists for either bounded wedge; the next move is a company-level park/sunset/restart decision rather than more autonomous execution
 
 ## Engineering
 
@@ -36,14 +36,14 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 - Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: Reddit is not yielding publicly verifiable replies in the current session, so Growth needs a non-Reddit founder-side route; current HN account is still too new/trust-limited for this submission
+- Main blockers: there is no active growth route left inside the closed founder-side window; any new distribution route now requires an explicit restart decision first
 
 ## Support/Research
 
 - Current responsibilities: run cheap demand research, triage feedback, watch competitors, and synthesize repeated pain points
 - Verified access: public GitHub feedback issue and local feedback log
 - Status: Partial
-- Main blockers: two useful but weak qualitative X responses so far; no founder has yet said they would actually complete the smaller stability brief
+- Main blockers: two useful but weak qualitative X responses still never turned into explicit usage intent or completed brief behavior
 
 ## Release/Ops
 
@@ -60,5 +60,5 @@ Current company stage: public MVP live, founder-side stability-brief pivot activ
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable; the contractor/agency buyer did not validate by the hard checkpoint, and the founder-side stability-first workflow signal is still alive enough for one narrower pivot, but Reddit execution reliability has now degraded into a concrete channel blocker.
-- Highest-leverage next upgrades: prune Reddit for this founder-side wedge, shift to a non-Reddit founder-side route, and do not reopen contractor/agency outreach unless a late reply materially changes the evidence.
+- Current interpretation: SpecRelay is technically shippable, but both bounded wedges have now closed without a validating reply or usage signal, so the company should not keep executing under the same thesis automatically.
+- Highest-leverage next upgrades: make an explicit `park`, `sunset`, or bounded-restart decision; do not reopen contractor/agency or founder-side outreach unless late evidence materially changes the case or Product/CEO deliberately restarts the product.

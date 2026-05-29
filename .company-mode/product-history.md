@@ -2,7 +2,7 @@
 
 ## Active Product
 
-- Status: active
+- Status: active, in `sunset-review`
 - Name: `SpecRelay`
 - Started on: `2026-05-01`
 - Current stage: public MVP live
@@ -59,6 +59,13 @@
 - Closed the active wedge around agency-intake / rescue-service buyers and pivoted the company to one narrower adjacent experiment: a founder-side stability brief used before launch or before asking for help.
 - Activated the founder-side runbook and target pool as the new exact approval gate instead of preparing more rescue-service outreach.
 - Changed the active business-model hypothesis from `B2B/license` toward a founder-side low-ticket self-serve brief/toolkit.
+
+## 2026-05-30 founder-side readout close
+
+- Reached the founder-side evidence-window close with no founder replies, no strong intent, no completed packet/brief reviews, and no paid signal.
+- Treated the staged James Hsi route honestly as an unsent approval gate, not as a live market touch.
+- Entered `sunset-review` instead of extending the same wedge with more internal prep or another silent wait loop.
+- Opened product-selection mode for an explicit Product/CEO decision on whether SpecRelay should be parked, sunset, or deliberately restarted under a fresh bounded experiment.
 
 ## 2026-05-11
 

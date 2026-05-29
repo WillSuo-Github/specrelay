@@ -1,16 +1,16 @@
 # Acquisition Cadence
 
-- Last updated: `2026-05-29`
+- Last updated: `2026-05-30`
 - Owner role: Growth
 - Rule: the company chooses its own acquisition rhythm from evidence, business stage, and current bottleneck.
 
 ## Current Cadence Decision
 
-- Business stage: `no-traction`
+- Business stage: `sunset-review`
 - Current bottleneck: `distribution`
-- Chosen cadence: `exact founder-side readout-close checkpoint with late-signal monitoring`
-- Why this cadence: the due business audit is now complete, the James Hsi gate is still unresolved, and the only justified remaining move inside the current founder-side window is to hold that exact gate until the readout closes tonight
-- Next cadence review: `2026-05-29 23:59 CST`, immediately on user approval of the staged James Hsi reply, or earlier on any useful founder / late contractor reply
+- Chosen cadence: `no autonomous acquisition cadence`
+- Why this cadence: the founder-side evidence window is now closed and SpecRelay has entered `sunset-review`, so another automatic growth loop would only create zombie maintenance
+- Next cadence review: only if Product/CEO explicitly restarts SpecRelay or a genuinely late external reply changes the evidence
 
 ## Cadence Options
 
@@ -32,3 +32,4 @@
 | `2026-05-23` | `no-traction` | 24-hour external wait on one live founder-side X route | Reddit was pruned for execution failure, and Jesse now has a publicly verifiable founder-side ask in market | first non-Reddit founder-side route is live | read this route before opening another founder-side action |
 | `2026-05-25` | `no-traction` | exact approval-gate posture on the next founder-side X route | Jesse entered market but still shows only `2` views and no reply after roughly 32 hours | next exact James Hsi candidate is staged | resolve the approval gate or absorb late replies without claiming progress |
 | `2026-05-29` | `no-traction` | exact founder-side readout-close checkpoint tonight | the due business audit is now `no`, there is still no founder reply, and the James Hsi route is still only a staged gate | keep the current gate alive only to `2026-05-29 23:59 CST` | either resolve the gate or enter `sunset-review` at the checkpoint |
+| `2026-05-30` | `sunset-review` | no autonomous acquisition cadence | the founder-side window closed with no validating reply and no second live route | heartbeat retired | wait for explicit park / sunset / restart decision |

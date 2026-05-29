@@ -1,16 +1,16 @@
 # Product Selection
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-05-30`
 - Owner role: Product/CEO
 - Purpose: choose the next active product deliberately when the current product is parked, pivoted, or sunset.
 
 ## Current Selection State
 
 - Active product: `SpecRelay`
-- Selection mode: inactive while the current product continues
-- Trigger to open selection: only if the current contractor/agency wedge fails by `2026-05-21 23:59 CST`, the founder-side pivot also fails or is rejected, or the company enters `sunset-review`
-- Decision needed by: `2026-05-21 23:59 CST` for wedge continuation vs pivot; later only if `sunset-review` is entered
-- Current recommendation: do not open broader product selection yet; keep the founder-side stability brief as the only adjacent move before any new product search
+- Selection mode: active because the current product has entered `sunset-review`
+- Trigger to open selection: the founder-side pivot window has now closed without a founder reply or approved second route
+- Decision needed by: next Product/CEO decision on whether SpecRelay is `park`, `sunset`, or restarted under a fresh bounded thesis
+- Current recommendation: do not auto-start another product. First decide whether SpecRelay is merely parked for later manual restart or fully sunset.
 
 ## Selection Rules
 
@@ -45,11 +45,12 @@ Score each candidate from 0 to 5.
 | Date | Decision | Selected product / candidate | Why | Rejected alternatives | Next action |
 | --- | --- | --- | --- | --- | --- |
 | `2026-05-15` | keep selection closed | `SpecRelay` remains active | current evidence window is still open through `2026-05-21 23:59 CST`; founder-side pivot is adjacent enough that a full new-product search would be premature | unrelated new products | wait for the current batch or activate the staged pivot |
+| `2026-05-30` | open selection mode | `SpecRelay` still active but now in `sunset-review` | the founder-side window closed with no founder replies, no strong intent, and no second live touch, so the company can no longer justify automatic continuation | unrelated new products still remain out of scope until SpecRelay is explicitly parked or sunset | decide whether to park SpecRelay, sunset it, or authorize a genuinely new bounded experiment |
 
 ## Resume Plan After Park / Sunset
 
 - Product-history entry required: yes
 - Reusable assets to carry forward: live GitHub Pages surface, stability-first packet logic, outreach research, decision rules, and no-login/no-repo positioning lessons
 - Support/release cleanup required: none unless the product is fully sunset and the public page should be archived
-- Next candidate readout: founder-side stability brief if activated
+- Next candidate readout: only after Product/CEO chooses whether SpecRelay is parked, sunset, or deliberately restarted
 - Account or service needs: none currently

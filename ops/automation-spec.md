@@ -6,9 +6,9 @@ This file is the recoverable automation spec for this one-product company instan
 
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
-- Status: active
-- Current cadence: exact founder-side readout-close checkpoint with late-signal monitoring
-- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; Reddit was pruned; Jesse is stalled; the due business audit now also answers `no`; and the only remaining bounded move in the current founder-side window is the exact James Hsi approval gate before the founder-side readout closes at `2026-05-29 23:59 CST`. Late Jesse, Bytewise, AppStuck, or AC Tech Labs replies may still matter as extra evidence.
+- Status: deleted
+- Current cadence: none
+- Reason: the founder-side evidence window is now closed, SpecRelay has entered `sunset-review`, and no meaningful autonomous work remains until Product/CEO chooses `park`, `sunset`, or a fresh bounded restart. Late Jesse, Bytewise, AppStuck, or AC Tech Labs replies may still matter as extra evidence, but they do not justify keeping the old heartbeat alive.
 
 ## Policy
 

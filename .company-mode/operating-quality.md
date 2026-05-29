@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-05-29`
+- Last updated: `2026-05-30`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -8,15 +8,15 @@
 
 - Source ledger: `run-log.md`
 - Rolling window: last 10 active company runs
-- Real-progress rate: `60%` (`6/10`)
-- External-signal output rate: `6/10` runs either shipped a real external touch or staged the exact next gate
-- No-progress streak: `1`
+- Real-progress rate: `70%` (`7/10`)
+- External-signal output rate: `7/10` runs either shipped a real external touch, staged the exact next gate, or closed a bounded evidence window with an explicit company decision
+- No-progress streak: `0`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
-- Business audit status: current (`no` on `2026-05-29`)
+- Business audit status: current (`no` on `2026-05-29`); founder-side readout is closed
 - Current quality risk: `medium`
-- Required correction: do not let the company drift past tonight's founder-side readout close; either get approval for the exact James Hsi gate before `2026-05-29 23:59 CST`, or enter `sunset-review` at the checkpoint instead of creating another internal-only loop.
+- Required correction: do not let `sunset-review` become a new zombie state. The next company move must be an explicit `park`, `sunset`, or fresh bounded restart decision.
 
 ## KPI Thresholds
 
@@ -64,6 +64,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-24` | `no-traction` | `distribution` | no new founder-side or contractor/agency reply after the first Jesse X wait cycle; due viability review refreshed | no | none; the company only re-verified the same live route, confirmed no GitHub signal, and kept the outside wait honest | pass with notes | none | do not allow another passive wait round without either a founder reply or the next exact founder-side candidate |
 | `2026-05-25` | `no-traction` | `distribution` | Jesse route re-verified as stalled and the next exact X candidate staged | yes | the company prevented a second consecutive no-progress wait round by turning a stalled live route into one exact next approval gate | pass with notes | none | resolve the James Hsi gate before opening any broader founder-side spread |
 | `2026-05-29` | `no-traction` | `decision` | no new external signal; due business audit completed before founder-side readout close | no | none; the company only reconfirmed silent external state and tightened the final checkpoint around the existing James Hsi gate | pass with notes | none | at `2026-05-29 23:59 CST`, either absorb approval/signal or force `sunset-review` instead of rolling into another maintenance loop |
+| `2026-05-30` | `sunset-review` | `decision` | founder-side readout closed and obsolete heartbeat retired | yes | the company closed the active evidence window and removed the stale autonomous loop instead of extending the same silent wedge | pass with notes | none | next move must be explicit park / sunset / restart, not another automated wait |
 
 ## Quality Review Questions
 

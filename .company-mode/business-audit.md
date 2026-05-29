@@ -1,6 +1,6 @@
 # Business Audit
 
-- Last updated: `2026-05-29`
+- Last updated: `2026-05-30`
 - Owner role: Product/CEO
 - Purpose: force a recurring evidence-based answer to whether the company is actually closer to revenue, not merely busier.
 
@@ -8,11 +8,11 @@
 
 - Audit window: last 7 days or last 10 active company runs from `run-log.md`, whichever contains more decision-grade evidence
 - Last audit: `2026-05-29` in `RUN-0038`
-- Next audit at: `2026-05-29 23:59 CST`
+- Next audit at: before any resumed active experiment or explicit product-selection decision
 - Current answer: `no`
 - Confidence: high
-- Required decision: keep the exact James Hsi founder-side approval gate alive only until the founder-side readout closes tonight, then force `sunset-review` if approval or a real founder reply still does not arrive
-- Required action: do not add more founder-side assets or broader channel work; hold the current gate until `2026-05-29 23:59 CST`, then run the founder-side readout / viability close immediately
+- Required decision: Product/CEO must now decide whether SpecRelay is `park`, `sunset`, or deliberately restarted under a fresh bounded experiment
+- Required action: do not reopen the closed founder-side or contractor/agency wedges automatically; late replies can be logged as extra evidence only
 
 ## Audit Question
 
@@ -59,6 +59,7 @@ Allowed answers:
 | `2026-05-21` | `2026-05-13` to `2026-05-21 07:12 CST` | `mixed` | two consecutive no-progress wait rounds still did not add demand or revenue evidence, but the window is not closed yet and the delivered three-touch batch remains the active test until tonight's hard checkpoint | keep the wedge alive only to the exact checkpoint; do not broaden it | wait for Bytewise, AppStuck, AC Tech Labs, GitHub, or X to produce a useful reply before `2026-05-21 23:59 CST`; otherwise apply the founder-side pivot / stop rule at the checkpoint | `2026-05-21 23:59 CST` |
 | `2026-05-22` | `2026-05-15` to `2026-05-22 00:02 CST` | `no` | the contractor/agency wedge ended with no verified evaluator reply, no completed packet review, no strong intent, and no paid signal; distribution did not move the company closer to revenue by the checkpoint | stop the current wedge and run one founder-side strategy reset instead of more rescue-service outreach | activate the founder-side stability-brief experiment and stop at the exact public-reply approval gate | `2026-05-29 17:00 CST` |
 | `2026-05-29` | `2026-05-22` to `2026-05-29 19:26 CST` | `no` | the founder-side pivot still has 0 founder replies, 0 strong intent, 0 completed packet/brief reviews, and 0 paid signal; James Hsi remains only a staged approval gate, not a live touch | keep the exact gate alive only to tonight's readout close, then force `sunset-review` if silence or no approval persists | stop broad execution drift, tighten the next wake to `2026-05-29 23:59 CST`, and treat the founder-side readout close as the next hard company decision | `2026-05-29 23:59 CST` |
+| `2026-05-30` | `2026-05-22` to `2026-05-30 00:13 CST` | `no` | the founder-side readout window actually closed with no founder reply, no validated usage, no paid signal, one stalled live route, and one expired unsent gate | enter `sunset-review` instead of extending the same thesis automatically | wait for explicit Product/CEO `park`, `sunset`, or restart decision | before any resumed active experiment or product-selection decision |
 
 ## Audit Closeout Checklist
 

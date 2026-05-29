@@ -1,16 +1,16 @@
 # Experiments
 
-- Last updated: `2026-05-24`
+- Last updated: `2026-05-30`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
 ## Current Experiment State
 
-- Active experiment: `EXP-0004 founder-side stability brief validation`
+- Active experiment: none
 - Bottleneck tested: `distribution`
 - Evidence window: `2026-05-22` to `2026-05-29 23:59 CST`
 - Readout due: `2026-05-29 23:59 CST`
-- Current decision pressure: validate one founder-side wedge or move to `sunset-review`
+- Current decision pressure: choose whether to park, sunset, or deliberately re-open a new bounded evidence window after `sunset-review`
 - Last completed experiment result: `EXP-0003` closed `inconclusive` at the contractor/agency checkpoint with no reply
 - Weak/negative completed experiments since last viability review: 1
 
@@ -27,7 +27,7 @@
 | ID | Status | Bottleneck | Hypothesis | Target segment | Change / action | Success metric | Baseline | Target / threshold | Evidence source | Start date | Readout due | Authority gate | Owner lens |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `EXP-0003` | completed | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Bytewise email + AppStuck contact form + AC Tech Labs contact form; Afterbuild email attempt is now excluded because delivery failed | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
-| `EXP-0004` | active | distribution | a smaller founder-side stability brief is more realistic than a full intake packet and can produce explicit pre-launch or pre-handoff usage intent | founder/operator preparing to launch or hand off an AI-built app | activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md`; Reddit has been pruned as an execution surface and the first replacement non-Reddit route is now live as a publicly verifiable X reply in the Jesse thread | at least one founder says they would fill out the brief before launch or before asking for help | 0 founder-side usage-intent signals; only weak Jesse/Frank language exists | 1 weak-positive-or-stronger founder reply by `2026-05-29 23:59 CST`; strong threshold is clear pre-launch or pre-handoff usage intent | founder replies, GitHub issue, X feedback, and future community validation | `2026-05-22` | `2026-05-29 23:59 CST` | next founder-side public/direct action is now X-first within the active pivot, not Reddit-first | Product/CEO + Growth |
+| `EXP-0004` | completed | distribution | a smaller founder-side stability brief is more realistic than a full intake packet and can produce explicit pre-launch or pre-handoff usage intent | founder/operator preparing to launch or hand off an AI-built app | activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md`; Reddit was pruned as an execution surface and one replacement non-Reddit Jesse X route was sent; James Hsi remained a staged but unsent approval gate | at least one founder says they would fill out the brief before launch or before asking for help | 0 founder-side usage-intent signals; only weak Jesse/Frank language exists | 1 weak-positive-or-stronger founder reply by `2026-05-29 23:59 CST`; strong threshold is clear pre-launch or pre-handoff usage intent | founder replies, GitHub issue, X feedback, and future community validation | `2026-05-22` | `2026-05-29 23:59 CST` | no further founder-side public action remains inside the closed window | Product/CEO + Growth |
 
 ## Readout Log
 
@@ -42,6 +42,7 @@
 | `2026-05-23` | `EXP-0004` | `continue` | a no-link founder-side X reply was sent in the existing Jesse thread and publicly verified on both the `with_replies` surface and the direct status URL `https://x.com/thefuckkingguy/status/2058104945103212971`; no reply yet | high for send verification, low for demand | keep the founder-side pivot live and wait for founder response before opening another founder-side route | `experiments.md`, `state.md`, `feedback.md`, `signal-sources.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | read Jesse/X honestly; if silence persists, choose the next non-Reddit founder-side candidate instead of reopening Reddit |
 | `2026-05-24` | `EXP-0004` | `continue` | after the first external-wait cycle, the Jesse X route was still publicly visible but had no founder reply; GitHub remained silent; no late contractor/agency reply was newly verified in that run | medium | continue the current founder-side evidence window while the route is still fairly waiting | `feedback.md`, `state.md`, `run-log.md`, `signal-sources.md`, `viability-scorecard.md`, `company-dashboard.md` | keep reading the live Jesse route honestly until a reply arrives, the route clearly stalls, or the founder-side readout window closes |
 | `2026-05-25` | `EXP-0004` | `continue` | after roughly 32 hours, the Jesse founder-side X route still had no founder reply and still only `2` visible views, while GitHub remained silent and no late contractor/agency reply was newly verified | medium/high | keep the founder-side pivot alive, but stop treating Jesse as the active waiting surface; stage the next exact X founder-side candidate for approval | `feedback.md`, `state.md`, `run-log.md`, `signal-sources.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | stop at the staged James Hsi approval gate instead of accumulating another no-progress wait round |
+| `2026-05-30` | `EXP-0004` | `inconclusive` | the founder-side evidence window closed with 0 founder replies, 0 strong intent, 0 completed packet/brief reviews, 0 paid signal, one stalled Jesse X route, and one unsent James Hsi approval gate | high for window close, medium for strategy implication | stop the current founder-side experiment and enter `sunset-review` instead of extending the same wedge with no fresh evidence | `experiments.md`, `viability-scorecard.md`, `product-selection.md`, `product-history.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `revenue-pipeline.md`, `signal-sources.md`, `ops/automation-spec.md` | wait for Product/CEO park/sunset/new-window decision rather than keeping the current experiment alive |
 
 ## Active
 

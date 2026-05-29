@@ -1,31 +1,31 @@
 # Current State
 
-- Last updated: `2026-05-29`
+- Last updated: `2026-05-30`
 - Dominant objective: validate whether a smaller founder-side stability brief is realistic enough to use before launch or before asking for help
-- Current stage: public MVP live, pivot active
+- Current stage: public MVP live, sunset-review
 - Current release: SpecRelay static prototype-to-handoff generator
 - Health summary: Market research identified a credible gap between AI app generation and launch/contractor handoff. The MVP is live on GitHub Pages, generates packets, includes three sample packet presets, and has no backend, credentials, or production data.
 
 ## Now
 
-- In progress: the contractor/agency wedge closed `inconclusive` at the `2026-05-21 23:59 CST` checkpoint with no verified reply; the founder-side stability brief is now the active next wedge; the approved Reddit founder-side sweep was exhausted without any publicly verifiable touch; Reddit has now been replaced by a non-Reddit founder-side route, Jesse remains stalled, and the next exact founder-side candidate in the James Hsi thread is still staged but unsent. The due business audit is now complete and still answers `no`; the only remaining bounded move inside this founder-side window is to hold that exact approval gate until `2026-05-29 23:59 CST`, then force `sunset-review` if approval or a real founder reply still does not arrive.
+- In progress: the contractor/agency wedge is closed `inconclusive`, the founder-side stability-brief wedge is now also closed `inconclusive`, Jesse remains only a stalled prior route, and James Hsi expired as an unsent approval gate when the founder-side window closed. SpecRelay has now entered `sunset-review`: no founder replies, no strong intent, no completed packet/brief reviews, and no paid signal were produced inside the bounded founder-side window.
 - Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: no founder has yet replied yes/no to the smaller stability brief, the first non-Reddit X route is already stalled, and the only remaining second route is still blocked behind a public-action approval gate
+- Biggest blocker: there is no active validating wedge left for SpecRelay under the current thesis; continuing automatically would just extend zombie maintenance
 - Highest-risk assumption: founders will spend time freezing flows, blockers, and a launch decision before they simply keep fixing the app ad hoc
-- Next decision deadline: `2026-05-29 23:59 CST` founder-side readout close, or earlier if the user approves the staged James Hsi reply or a late Jesse / contractor reply materially changes the pivot
+- Next decision deadline: explicit Product/CEO decision on whether SpecRelay is `park`, `sunset`, or restarted under a fresh bounded experiment
 
 ## Next Recommended Actions
 
-- Product/CEO: the contractor/agency wedge is now closed `inconclusive`; run exactly one founder-side strategy reset using `docs/founder-stability-brief-pivot.md`
+- Product/CEO: do not reopen the same wedges automatically; decide whether SpecRelay is parked, sunset, or restarted under a fresh bounded experiment
 - Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
 - Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: do not add any more rescue-service outreach for this version. Reddit is already pruned for the current pivot, Jesse is already stalled, and the next move is not another asset. The next move is still the staged exact X candidate in `docs/x-target-discovery.md`, but only until tonight's founder-side readout close.
+- Growth: do not add any more rescue-service outreach or founder-side spread for this version. The bounded founder-side window is now closed.
 - Support/Research + Growth: use `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, `docs/founder-stability-target-pool.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for the pivot and any late-contractor reply interpretation
 - Release/Ops: live URL is healthy; keep rollback simple because no production data exists
 
 ## Pending Approvals
 
-- Exact live action currently gated: the next exact founder-side X candidate is staged and approval-gated. Route: no-link public reply to `@james_hsi` at `https://x.com/james_hsi/status/2050747016159093132` using the staged text in `docs/x-target-discovery.md`. This gate expires with the founder-side readout window at `2026-05-29 23:59 CST`.
+- Exact live action currently gated: none inside the closed founder-side window. Any renewed public action now requires an explicit restart decision first.
 - Account gap to resolve: X account is available and first-wave public replies were sent; future public replies/DMs need action-time approval. Current Hacker News account is not sufficient for submission; Product Hunt also needs launch images before a real launch.
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -64,14 +64,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-29`
-- Current stage: public MVP live, founder-side pivot active. The contractor/agency wedge remains closed, Reddit stays pruned for this pivot, Jesse stays stalled, and the founder-side experiment is now in its final hours with only one unresolved James Hsi approval gate left.
-- Evidence quality: still weak on demand and unchanged on revenue movement. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, Jesse remains stalled, and James Hsi is still only a staged target rather than a second live founder-side touch. No late contractor/agency reply was newly verified in this run.
-- Current-run work completed: refreshed the installed company-mode kernel, re-checked GitHub/live/X public surfaces, completed the due business audit, and tightened the next wake to tonight's founder-side readout / viability checkpoint rather than pretending there is more internal progress to make.
-- Instance-only improvements executed: business-audit refresh, exact checkpoint tightening, and durable-state/readout alignment around the final founder-side window.
+- Date: `2026-05-30`
+- Current stage: public MVP live, `sunset-review`. The contractor/agency wedge is closed, the founder-side wedge is now also closed, Reddit remains pruned, Jesse remains stalled, and James Hsi never became a live route.
+- Evidence quality: high for the window close, medium for the strategic interpretation. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and the founder-side evidence window ended with no validating founder reply, no completed brief usage, and no paid signal. No late contractor/agency reply was newly verified in this run.
+- Current-run work completed: refreshed the installed company-mode kernel, re-checked GitHub/live/X public surfaces at founder-side readout close, closed `EXP-0004` as `inconclusive`, moved viability to `sunset-review`, opened product-selection mode, and retired the obsolete heartbeat.
+- Instance-only improvements executed: founder-side readout close, viability/state/history/selection alignment, and automation retirement.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: paid channel work, account changes, call bookings, credential actions, and the staged public James Hsi X reply remain gated until explicitly approved.
-- Stop-check: this run did not create business progress. The company is now stopped at one exact founder-side approval gate and one exact founder-side readout-close checkpoint at `2026-05-29 23:59 CST`.
+- Hard-gated improvements: any renewed public action, paid channel work, account changes, call bookings, or credential actions remain gated until an explicit restart or next-product decision exists.
+- Stop-check: one coherent decision run is complete. SpecRelay is now in `sunset-review`, and there is no further autonomous work left until Product/CEO chooses `park`, `sunset`, or a fresh bounded restart.
 
 ## Previous CEO After-Action Review
 
