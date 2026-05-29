@@ -1,6 +1,6 @@
 # Signal Sources
 
-- Last updated: `2026-05-24`
+- Last updated: `2026-05-29`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
@@ -8,11 +8,11 @@
 
 - Primary business question: will a founder actually use a smaller stability-first brief before launch or before asking someone else for help on an AI-built app?
 - Current bottleneck: `distribution`
-- Primary readout source: the live Jesse founder-side X reply plus any late contractor/agency reply that materially challenges the pivot; Afterbuild is no longer a live reply source because delivery failed
+- Primary readout source: the exact James Hsi founder-side approval gate plus any late Jesse or contractor/agency reply that materially challenges the pivot; Afterbuild is no longer a live reply source because delivery failed
 - Secondary readout source: GitHub feedback issue, live-site health, and exported packet quality
 - Evidence quality: weak but real
 - Missing source or integration: no product analytics, no reliable automated X/community readout surface, no reliable Reddit post-confirmation or successful publish surface from the current session, no completed packet/brief review, and Mail AppleScript readout remains partial beyond Bytewise
-- Next readout: a founder response to the publicly verifiable Jesse X reply, another X/community response that materially answers the same question, or the founder-side pivot window close on `2026-05-29 23:59 CST`
+- Next readout: approval of the staged James Hsi route, a founder response that materially answers the same question, or the founder-side pivot window close on `2026-05-29 23:59 CST`
 
 ## Source Selection Rules
 
@@ -31,7 +31,7 @@
 | Direct outreach replies (Bytewise) | late contractor/agency counter-evidence | Mail UI inbox access | high if replies arrive | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
 | AppStuck contact route | late contractor/agency counter-evidence | public contact path; inbox follow-up access | medium/high if reply arrives | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
 | AC Tech Labs contact route | late contractor/agency counter-evidence | public contact path | medium/high if reply arrives | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
-| X replies and notifications | founder / builder language and segmentation | logged-in X session | medium/high | active founder-side route | read the live Jesse founder-side reply first; use another X route only if this one stays silent |
+| X replies and notifications | founder / builder language and segmentation | logged-in X session | medium/high | staged founder-side gate plus one stalled prior route | resolve the exact James Hsi gate or close the current founder-side window honestly |
 | GitHub Pages live URL | release reachability and public artifact health | public URL | medium | healthy | keep verifying on deploy-touching runs |
 | Manual exported packet QA | output quality and product reliability | local browser QA | medium | already used | only revisit if product output changes |
 | Product analytics | visitor, start, copy/download behavior | analytics service + privacy decision | currently unavailable | gap | request only if the current wedge survives |
@@ -62,6 +62,7 @@
 | `2026-05-23` | did the first non-Reddit founder-side replacement route actually enter market? | logged-in X send confirmation + `with_replies` verification + direct public status URL check | yes; the Jesse founder-side no-link reply is publicly visible at `https://x.com/thefuckkingguy/status/2058104945103212971` | high for send verification | `feedback.md`, `state.md`, `run-log.md`, `experiments.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | wait for founder response before creating another live route |
 | `2026-05-24` | did the first live Jesse founder-side X route produce any new response after the first wait cycle? | direct X status URL + `with_replies` + GitHub issue check + live URL check + attempted Mail AppleScript late-reply sweep | no new founder response yet; GitHub remained silent; the live URL stayed healthy; late contractor/agency monitoring remained partial because Mail AppleScript access was denied in this run | medium | `feedback.md`, `state.md`, `run-log.md`, `viability-scorecard.md`, `company-dashboard.md` | keep the outside wait honest and do not open a second founder-side route yet |
 | `2026-05-25` | is the first Jesse founder-side X route still an active waiting surface, or has it clearly stalled? | direct X status URL + `with_replies` + GitHub issue check + live URL check | stalled; the founder-side post remained public but still had no founder reply and still only `2` visible views after roughly 32 hours, while GitHub stayed silent | medium/high | `feedback.md`, `state.md`, `run-log.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | treat Jesse as stalled and move the company to one exact approval-gated next X candidate |
+| `2026-05-29` | did any new founder-side or late contractor signal appear before the due business audit and tonight's founder-side readout close? | GitHub issue check + live URL check + public Jesse/with_replies checks + James Hsi target reachability check | no; GitHub remained silent, the live URL stayed healthy, Jesse remained stalled, and James Hsi is still only a staged target rather than a live touch | medium/high | `business-audit.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `ops/automation-spec.md` | keep the exact James Hsi gate alive only until `2026-05-29 23:59 CST`, then run the founder-side readout close / sunset decision |
 
 ## Integration Requests
 

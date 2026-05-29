@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `specrelay-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: approval-gate posture with late-signal monitoring
-- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; the safe Reddit founder-side public pool was attempted under user approval but still did not produce publicly verifiable sends; Reddit was pruned; the replacement Jesse X reply entered market but now reads as stalled; and the next live move is narrowed to one exact approval-gated founder-side X reply in the James Hsi thread. Late Jesse, Bytewise, AppStuck, or AC Tech Labs replies may still matter as extra evidence.
+- Current cadence: exact founder-side readout-close checkpoint with late-signal monitoring
+- Reason: the contractor/agency wedge reached its `2026-05-21 23:59 CST` checkpoint with no verified reply and is now closed `inconclusive`; the company pivoted to the founder-side stability brief; Reddit was pruned; Jesse is stalled; the due business audit now also answers `no`; and the only remaining bounded move in the current founder-side window is the exact James Hsi approval gate before the founder-side readout closes at `2026-05-29 23:59 CST`. Late Jesse, Bytewise, AppStuck, or AC Tech Labs replies may still matter as extra evidence.
 
 ## Policy
 

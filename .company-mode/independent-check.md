@@ -1,14 +1,14 @@
 # Independent Check
 
-- Last updated: `2026-05-25`
+- Last updated: `2026-05-29`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-05-25`
+- Run date: `2026-05-29`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: repo-backed external signal claims, latest deploy status, Jesse X-route stall classification, next-candidate staging accuracy, GitHub/live-site facts, durable-state linkage, and stop-condition validity at the new exact approval gate
+- Scope checked: repo-backed external signal claims, due business-audit governance, GitHub/live-site facts, public Jesse/James Hsi X reachability, durable-state linkage, and stop-condition validity at the exact founder-side readout-close checkpoint
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -30,13 +30,13 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, live URL, direct Jesse X status URL, `with_replies`, and the staged James Hsi target URL | no unsupported founder reply or target-state claim was added |
+| Evidence support | 3 | GitHub issue state, live URL, direct Jesse X status URL, `with_replies`, and the staged James Hsi target URL | no unsupported founder reply, contractor reply, or target-state claim was added |
 | Account and provider correctness | 3 | repo, company instance, X surface, sender policy, and approval gates | no wrong-account or wrong-provider mutation in this run |
-| Public artifact fidelity | 3 | live Jesse X post remained publicly visible, and the staged James Hsi target thread was verified before being written as the next gate | the company did not invent a stale or missing next candidate |
+| Public artifact fidelity | 3 | live Jesse X post remained publicly reachable, and the staged James Hsi target thread was re-verified before tightening the checkpoint | the company did not invent a stale or missing next candidate |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops at an honest outside wait after one live founder-side route, not at invented internal progress | valid stop condition |
-| Durable state updates | 3 | state, run-log, feedback, signal, dashboard, quality, and viability files update the same wait-state story | no contradiction across durable files |
-| Resume and wake readiness | 3 | live Jesse X URL, staged James Hsi gate, pivot experiment, and next readout dates are explicit | no blocker to future recovery beyond approval or late reply |
+| Stop-condition validity | 3 | run stops at a due business-audit checkpoint and the exact founder-side readout-close wake, not at invented internal progress | valid stop condition |
+| Durable state updates | 3 | state, run-log, audit, dashboard, quality, pipeline, signal, and automation files update the same wait-state story | no contradiction across durable files |
+| Resume and wake readiness | 3 | live Jesse X URL, staged James Hsi gate, business-audit result, and tonight's founder-side readout checkpoint are explicit | no blocker to future recovery beyond approval, late reply, or the forced checkpoint decision |
 
 ## Check Log
 
@@ -60,3 +60,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-23` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass` | the Jesse founder-side X replacement reply was verified by send confirmation, `with_replies`, and the direct public status URL, so the company can now wait on real founder-side evidence instead of channel reliability |
 | `2026-05-24` | explicit independent audit lens + repo-backed verification | `20/21` | none | `pass with notes` | the live Jesse founder-side X route stayed publicly visible, GitHub and the live site stayed unchanged, and no false late-contractor reply claim was added when Mail AppleScript access was denied; the company correctly recorded this as an honest no-progress wait round |
 | `2026-05-25` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the Jesse founder-side X route was correctly classified as stalled rather than still-active waiting, and the next James Hsi X candidate was staged from a verified live thread instead of being guessed from stale notes |
+| `2026-05-29` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | no new external signal landed; the company completed the due business audit, did not fabricate movement, and correctly tightened the next wake to the founder-side readout-close checkpoint instead of drifting further |

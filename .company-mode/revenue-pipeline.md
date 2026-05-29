@@ -1,6 +1,6 @@
 # Revenue Pipeline
 
-- Last updated: `2026-05-23`
+- Last updated: `2026-05-29`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
@@ -9,13 +9,13 @@
 - Business stage: `no-traction`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: two weak qualitative signals, zero completed packet reviews, zero strong intent signals
-- Distribution status: live GitHub Pages product plus X history remain, the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint, the founder-side stability brief is the active wedge, Reddit has been pruned as an execution surface, the Jesse replacement X reply did enter market, and it now reads as stalled rather than waiting
+- Distribution status: live GitHub Pages product plus X history remain, the contractor/agency batch closed silent at the `2026-05-21 23:59 CST` checkpoint, the founder-side stability brief is the active wedge, Reddit has been pruned as an execution surface, Jesse is stalled, and James Hsi remains only a staged approval gate rather than a second live founder-side touch
 - Monetization status: model hypothesis chosen, but no price/package/purchase-path proof
 - Current revenue bottleneck: `distribution`
 - Business model hypothesis: founder-side low-ticket self-serve brief / toolkit; see `business-model.md`
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
-- Next cadence recommendation: stop passive waiting on Jesse and move to an exact approval gate for the next founder-side X candidate while still allowing late replies to matter as extra evidence
+- Next cadence recommendation: hold the exact James Hsi founder-side X gate only until the founder-side readout closes at `2026-05-29 23:59 CST`, then force `sunset-review` if no approval or signal arrives
 - Readout risk note: GitHub/live URL checks are deterministic, but direct-email monitoring remains partial beyond Bytewise; late contractor/agency replies can still matter, but they no longer justify keeping the old wedge active by default
 
 ## Target Customers
@@ -45,7 +45,7 @@
 
 | Channel | Hypothesis | Action | Cost | Approval needed | Result | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| X replies | direct public evaluator replies can yield honest workflow language quickly | first-wave replies, follow-ups, Jesse link, and now one founder-side no-link replacement reply | 0 | first replacement route already executed; another fresh public action would need a new exact gate if it expands beyond the current pivot window | 2 weak qualitative signals, 0 strong intent, 1 live founder-side ask | keep as the active founder-side readout surface until reply or silence forces the next candidate |
+| X replies | direct public evaluator replies can yield honest workflow language quickly | first-wave replies, follow-ups, Jesse link, and now one founder-side no-link replacement reply plus one staged next candidate | 0 | the James Hsi gate is still approval-gated; no broader public action should open before the window closes | 2 weak qualitative signals, 0 strong intent, 1 stalled founder-side ask, 1 staged next gate | keep only the exact James Hsi gate alive to the readout close, then decide whether to continue or sunset |
 | Direct rescue-service outreach | targeted evaluator messages may validate intake/scoping value faster than broad founder posting | Afterbuild email attempt, Bytewise email, AppStuck form, AC Tech Labs form | 0 | already executed | Afterbuild failed delivery; Bytewise/AppStuck/AC Tech Labs closed the checkpoint with no verified reply | stop this wedge for now; only revisit if a late reply materially changes the evidence |
 | GitHub owned surface | release + feedback issue can collect longer-form critique | live public issue and release note | 0 | no | no comments yet | keep passive |
 
@@ -60,13 +60,13 @@
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | stop at the staged `@james_hsi` founder-side X approval gate | distribution | second publicly verifiable founder-side touch aimed at pre-launch/tester use | yes | active gate |
+| 1 | stop at the staged `@james_hsi` founder-side X approval gate until `2026-05-29 23:59 CST` | distribution | either a second publicly verifiable founder-side touch or an honest experiment close with no second touch | yes | active gate |
 | 2 | treat any late reply from Jesse, Bytewise, AppStuck, or AC Tech Labs as extra evidence, not as permission to reopen the old wedge by default | decision | a late strong positive would challenge the pivot decision or reduce the need for the next X route | no while waiting | passive |
 
 ## Acquisition Cadence
 
 - Cadence owner: Growth
-- Current cadence: 24-hour external wait while the live Jesse founder-side X reply is in market
+- Current cadence: exact founder-side readout-close checkpoint after a due business audit
 - Rule: the company chooses cadence from business stage, signal strength, and bottleneck; do not wait for the user to prescribe lead/post counts.
 - Cadence record: see `acquisition-cadence.md`
 
