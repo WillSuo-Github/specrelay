@@ -4,11 +4,11 @@ This file is the recoverable automation spec for this one-product company instan
 
 ## Current App Automation
 
-- Automation id: `specrelay-company-heartbeat`
+- Automation id: `burn-ceiling-company-heartbeat`
 - Kind: heartbeat attached to the current thread
-- Status: deleted
-- Current cadence: none
-- Reason: SpecRelay is now fully sunset, the public product has been taken offline, and there is no active product to operate autonomously. A new automation should be created only after the next product is selected.
+- Status: active
+- Current cadence: 12 hours
+- Reason: SpecRelay is sunset and archived. Burn Ceiling is now the one active product, and the company should keep autonomous execution alive while the first MVP and `EXP-0005` are in progress.
 
 ## Policy
 
