@@ -2,12 +2,12 @@
 
 ## Active Product
 
-- Status: none selected
-- Name: n/a
-- Started on: n/a
+- Status: active
+- Name: `Burn Ceiling`
+- Started on: `2026-06-03`
 - Current stage: pre-product
-- Current thesis: no active product thesis yet
-- Why it is the active product: Product/CEO has reopened selection after sunsetting SpecRelay
+- Current thesis: launch-stage AI founders need a quick way to set safe spend ceilings, fallback models, and guardrails before traffic or paid users hit the app
+- Why it is the active product: the selection sprint found stronger current pain around runaway AI cost and missing launch caps than around another generic launch checklist or a crowded scanner market
 
 ## 2026-05-01
 
@@ -73,6 +73,13 @@
 - Replaced the public SpecRelay product page with a plain archive notice so stale links no longer point to a live product workflow.
 - Removed SpecRelay from the active-product slot and returned the company instance to product-selection mode.
 - Preserved the reusable lessons, docs, and Git history while ending the old public product surface.
+
+## 2026-06-03 Burn Ceiling selection
+
+- Ran a fresh post-sunset selection sprint using current public market signals.
+- Compared four candidates and selected Burn Ceiling as the next active product.
+- Chose the wedge because runaway AI spend and missing cost caps are concrete, expensive, current, and still compatible with a static zero-backend MVP.
+- Opened `EXP-0005` as the first 7-day validation window.
 
 ## 2026-05-11
 

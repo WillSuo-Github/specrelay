@@ -2,18 +2,18 @@
 
 ## Top-Level Objective
 
-Select the next active product for this company instance using a bounded, evidence-first product-selection sprint.
+Validate whether solo founders shipping AI-backed apps will use a no-login cost-cap and launch-guardrail planner before public launch.
 
 ## Current 7-Day Target
 
-- Shortlist 3 to 5 candidates.
-- Pick exactly 1 next active product.
-- Define one bounded first experiment with a target user, channel, evidence window, and stop rule before any new product build work starts.
+- Ship the first `Burn Ceiling` static MVP.
+- Get 5 completed guardrail plans.
+- Capture at least 2 strong-intent signals saying the planner would be used before launch or before paid traffic.
 
 ## Current Constraint
 
-SpecRelay is sunset and must stay inactive. This company instance must keep exactly one active product, so no new build, launch, or public operation should begin until Product/CEO records the next selected product.
+SpecRelay is sunset and must stay inactive. `Burn Ceiling` should stay a static, zero-backend MVP until demand is proven.
 
 ## Current Next Move
 
-Run a fresh market and candidate scan, score candidates on evidence speed, zero-cost distribution fit, monetization plausibility, and build fit, then record the winning next product in `.company-mode/product-selection.md`, `.company-mode/company.md`, and `.company-mode/state.md`.
+Build the smallest static planner with 2 to 3 realistic presets, exportable guardrail output, and a concrete ask for launch-stage AI founders.

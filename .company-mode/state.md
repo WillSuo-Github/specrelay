@@ -1,30 +1,30 @@
 # Current State
 
 - Last updated: `2026-06-03`
-- Dominant objective: choose the next active product under a fresh bounded thesis
-- Current stage: pre-product, product selection active
-- Current release: SpecRelay sunset; public site now serves an archive notice
-- Health summary: SpecRelay completed two bounded demand windows and failed to produce validating demand, activation, or monetization evidence. The product is now sunset, the previous interactive MVP is offline, and this company instance has no active product until Product/CEO selects the next candidate.
+- Dominant objective: validate Burn Ceiling as the next active product
+- Current stage: pre-product
+- Current release: Burn Ceiling has no public MVP yet; the old SpecRelay URL now serves an archive notice
+- Health summary: SpecRelay is sunset and offline. Product selection has completed inside this run, and Burn Ceiling is now the one active product. The new thesis is a static cost-cap and launch-guardrail planner for AI-backed apps.
 
 ## Now
 
-- In progress: SpecRelay has been sunset. There is no active product, no active experiment, and no active outbound route. Product-selection mode is now the only active company workflow.
+- In progress: SpecRelay sunset is complete. Burn Ceiling is now selected as the active product, but no MVP or live distribution route exists yet.
 - Public URL: https://willsuo-github.github.io/specrelay/ now serves a sunset/archive notice instead of the old packet generator
-- Biggest blocker: the company needs a new bounded product thesis with faster evidence and a cleaner zero-cost distribution path
-- Highest-risk assumption: the next candidate can reach real user language and a clearer revenue path faster than SpecRelay did
-- Next decision deadline: the next active Product/CEO run should shortlist and score fresh candidates before any new build work starts
+- Biggest blocker: Burn Ceiling does not have a live MVP or first external signal yet
+- Highest-risk assumption: launch-stage AI founders feel enough cost anxiety before launch to fill out a 5-minute planner instead of continuing with ad hoc spreadsheet estimates
+- Next decision deadline: `2026-06-10 23:59 CST` first bounded experiment readout
 
 ## Next Recommended Actions
 
-- Product/CEO: run a fresh product-selection sprint; shortlist 3 to 5 candidates, score evidence speed, distribution fit, and monetization plausibility, then pick exactly one next active product
-- Support/Research: treat SpecRelay lessons as archived evidence, not as an active thesis
-- Engineering + Release/Ops: keep the public URL serving only the archive notice; do not restore the old interactive SpecRelay workflow
-- Growth: stop all SpecRelay outreach and reply monitoring unless a genuinely late reply arrives and materially changes the evidence
-- Design: no new launch assets for SpecRelay; support only the next product-selection cycle when a new brief exists
+- Product/CEO: hold Burn Ceiling to a 7-day evidence window; do not let it become another generic checklist product
+- Support/Research: use current public cost-cap and runaway-bill signals as the demand base, not the old SpecRelay launch-handoff thesis
+- Engineering: build the smallest static planner MVP with preset scenarios and exportable output
+- Growth: stage the first AI-founder validation routes only after the MVP exists
+- Release/Ops: keep the SpecRelay archive notice live until Burn Ceiling has a real public page
 
 ## Pending Approvals
 
-- Exact live action currently gated: none
+- Exact live action currently gated: none yet; the next meaningful public action is shipping the first Burn Ceiling MVP
 - Account gap to resolve: none for the sunset/selection state
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -64,13 +64,13 @@
 ## Latest CEO After-Action Review
 
 - Date: `2026-06-03`
-- Current stage: `pre-product` with product-selection active. SpecRelay is no longer in review; it is now explicitly sunset and offline as an interactive product.
-- Evidence quality: high for the sunset execution. The old live URL has been converted into an archive notice, and repo-backed state now consistently treats SpecRelay as a closed product rather than a waiting product.
-- Current-run work completed: executed the explicit user-directed sunset decision, replaced the public app with an archive notice, updated product/company state from `sunset-review` to `sunset`, and reopened the company in clean product-selection mode.
-- Instance-only improvements executed: public takedown, state cleanup, archive positioning, and next-product-selection reset.
+- Current stage: `pre-product`. SpecRelay is explicitly sunset and offline as an interactive product, and Burn Ceiling is now the one active product.
+- Evidence quality: medium/high for the new selection. The sunset execution is fully verified, and the next product choice is backed by current public pain signals around runaway AI costs and mandatory launch cost caps.
+- Current-run work completed: executed the explicit user-directed sunset, replaced the public app with an archive notice, ran a fresh product-selection sprint, selected Burn Ceiling as the next active product, and defined its first bounded experiment.
+- Instance-only improvements executed: public takedown, state cleanup, archive positioning, next-product selection, and bounded experiment setup.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: any future public action, outreach, paid spend, account changes, or credential work remain gated until a new active product is selected.
-- Stop-check: one coherent sunset run is complete. There is no active product left to operate, and the next valid move is a fresh product-selection run.
+- Hard-gated improvements: any future public action, outreach, paid spend, account changes, or credential work remain action-time gated for Burn Ceiling unless explicitly delegated.
+- Stop-check: one coherent sunset-plus-selection run is complete. Burn Ceiling is now the one active product, and the next valid move is to ship the first MVP and run `EXP-0005`.
 
 ## Previous CEO After-Action Review
 

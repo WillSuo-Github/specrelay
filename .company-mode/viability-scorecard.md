@@ -6,12 +6,12 @@
 
 ## Current Decision
 
-- Recommendation: `sunset`
-- Confidence: high
-- Reason: the founder-side evidence window already closed without validating demand, and the user has now explicitly chosen to sunset SpecRelay and take the product offline instead of parking or restarting it.
-- Next review at: when the next product candidate is selected
-- Next review trigger: explicit next-product selection, deliberate bounded restart proposal, or new product-selection evidence that chooses the next active product
-- Evidence window: `2026-05-22` to `2026-05-29 23:59 CST` for the founder-side stability-brief pivot
+- Recommendation: `continue`
+- Confidence: low/medium
+- Reason: SpecRelay is sunset, but the selection sprint found a tighter adjacent pain with better evidence speed and a clean static-MVP path. Burn Ceiling deserves one bounded first experiment, not an open-ended build.
+- Next review at: `2026-06-10 23:59 CST`
+- Next review trigger: `EXP-0005` readout, earlier strong intent signal, or clear failure to ship the MVP
+- Evidence window: `2026-06-03` to `2026-06-10 23:59 CST` for Burn Ceiling
 
 ## Scorecard
 
@@ -19,13 +19,13 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 
 | Dimension | Score | Evidence | Main risk | Next action |
 | --- | --- | --- | --- | --- |
-| Demand | 1 | Jesse and Frank still imply a real stability-first problem, but no founder replied yes/no during the bounded founder-side window | the pain may exist only as vague commentary rather than a workflow someone will use | do not continue the same demand claim without a new wedge |
-| Activation | 0 | live product exists, but no confirmed packet/brief completion by a real evaluator or founder | users may never start or finish even the smaller brief | stop extending the current flow automatically |
+| Demand | 3 | current public pain signals show real cost-cap anxiety and launch guidance increasingly treats caps as mandatory | people may agree with the pain but still not complete a planner | test completion and intent quickly |
+| Activation | 1 | no Burn Ceiling MVP exists yet, but the proposed workflow is shorter and more concrete than SpecRelay | the planner may still feel too abstract if outputs are generic | ship the MVP fast and measure completion |
 | Retention | 0 | no repeat usage evidence | even a useful first look may not recur | ignore until first real user exists |
-| Monetization | 0 | no paid offer, no price test, no willingness-to-pay language | solving the wrong buyer/workflow shape again | wait for founder-side usage intent before pricing |
-| Distribution | 0 | the contractor/agency batch closed silent, the founder-side window also closed without a founder reply, and the only second route was never approved into market | the current product may not have a repeatable zero-cost path under the present thesis | enter `sunset-review` before opening any new spread |
-| Differentiation | 1 | the smaller stability brief is more realistic than the full packet, but still unvalidated after the bounded founder-side window | it may still read as generic QA advice rather than a must-have artifact | require a fresh wedge before further investment |
-| Execution fit | 4 | static web product, low-cost ops, and reversible pivot path are all workable | risk is business fit, not implementation | maintain only |
+| Monetization | 2 | low-ticket planner/toolkit is plausible, but untested | low willingness to pay for advice-only output | ask about pre-launch use before pricing |
+| Distribution | 3 | the same founder/builder communities that surfaced cost pain are still reachable from current accounts | public send still has to cut through crowded launch discourse | stage a tighter MVP and concrete ask |
+| Differentiation | 2 | most current content is advice or security scans; there is room for a cost-cap-specific planner | it may still collapse into another generic checklist if outputs are weak | keep the product centered on spend ceilings and fallback decisions |
+| Execution fit | 4 | static web product, zero-backend path, and existing deployment pattern are all workable | risk is still business fit, not implementation | ship the MVP first |
 
 ## Decision Rules
 
@@ -46,3 +46,4 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 | `2026-05-24` | `continue` | distribution `1 -> 2`; other dimensions unchanged | the founder-side pivot is no longer just staged: Reddit is pruned, one non-Reddit Jesse X route is publicly live, and there is not yet enough negative evidence to kill the pivot before the current readout window ends | `2026-05-29 23:59 CST` | founder-side material reply, clearly stalled route plus next exact candidate, or pivot-window close |
 | `2026-05-30` | `sunset-review` | demand `2 -> 1`, activation `1 -> 0`, distribution `2 -> 0`, differentiation `2 -> 1`; other dimensions unchanged | the founder-side evidence window closed with no founder reply, no completed brief usage, no paid signal, one stalled live route, and no approved second route, so the product no longer has enough evidence to justify another automatic continue | user decision on `park`, `sunset`, or a deliberately new bounded experiment | explicit Product/CEO decision on whether SpecRelay is parked, sunset, or restarted under a fresh thesis |
 | `2026-06-03` | `sunset` | no score change | the user explicitly selected `sunset`, the public product was taken offline, and the company returned to product selection instead of keeping SpecRelay in review | next selected product | explicit next-product selection |
+| `2026-06-03` | `continue` | demand `1 -> 3`, activation `0 -> 1`, monetization `0 -> 2`, distribution `0 -> 3`, differentiation `1 -> 2`; other dimensions reset to the new product context | Burn Ceiling is selected as the new active product because public founder pain around runaway AI costs is clearer and the first experiment can be run with a static planner MVP | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |

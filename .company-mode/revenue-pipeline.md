@@ -8,23 +8,26 @@
 
 - Business stage: `pre-product`
 - Revenue status: no revenue and no willingness-to-pay signal yet
-- User status: no active product, no active users
-- Distribution status: the old SpecRelay public surface is archived; no active distribution wedge exists
-- Monetization status: no active model until the next product is selected
-- Current revenue bottleneck: `decision`
-- Business model hypothesis: none active; see `business-model.md`
+- User status: no users yet on Burn Ceiling
+- Distribution status: no Burn Ceiling public route yet; SpecRelay public surface is archived
+- Monetization status: low-ticket planner/toolkit hypothesis only
+- Current revenue bottleneck: `demand`
+- Business model hypothesis: low-ticket self-serve planner/toolkit; see `business-model.md`
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
-- Next cadence recommendation: no autonomous acquisition cadence until the next active product is selected
-- Readout risk note: late SpecRelay replies can still matter historically, but they do not reopen the archived pipeline automatically
+- Next cadence recommendation: build MVP first, then run a tight founder-facing validation sprint
+- Readout risk note: late SpecRelay replies remain historical only; Burn Ceiling has no live evidence source yet
 
 ## Target Customers
 
-No active target customers. SpecRelay-specific segments are archived in `product-history.md`, `market-map.md`, and `feedback.md`.
+| Segment | Pain | Where to reach | Evidence | Priority | Status |
+| --- | --- | --- | --- | --- | --- |
+| Solo founder launching an AI-backed app | fears surprise model bills and does not know safe caps or fallback rules | X, vibe-coding communities, indie founder communities | strong public pain signals; no direct intent yet | 1 | active |
+| Small AI SaaS team pre-launch | needs a quick shared guardrail plan before traffic and ads turn on | X, SaaS communities, launch communities | launch-checklist sources and public complaints | 2 | active |
 
 ## Leads / Prospects / Pain Signals
 
-SpecRelay-specific leads are archived. No active leads or prospects should be worked until a new product is selected.
+No live leads yet. First Burn Ceiling public candidates will be staged only after the MVP exists.
 
 ## Channel Experiments
 
@@ -45,13 +48,14 @@ SpecRelay-specific leads are archived. No active leads or prospects should be wo
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | shortlist and score fresh candidates | decision | one selected next product plus a bounded first experiment | no | active |
-| 2 | treat any late SpecRelay reply as archived evidence only | decision | cleaner historical record, not automatic restart | no | passive |
+| 1 | ship the first Burn Ceiling static MVP | demand | a live planner and the first completed plans | no | active |
+| 2 | stage the first founder-facing validation routes around cost-cap pain | demand | direct replies or comments about pre-launch use intent | no after MVP exists; public send remains action-time gated | queued |
+| 3 | treat any late SpecRelay reply as archived evidence only | decision | cleaner historical record, not automatic restart | no | passive |
 
 ## Acquisition Cadence
 
 - Cadence owner: Growth
-- Current cadence: none while between products
+- Current cadence: none until the first Burn Ceiling MVP is ready
 - Rule: the company chooses cadence from business stage, signal strength, and bottleneck; do not wait for the user to prescribe lead/post counts.
 - Cadence record: see `acquisition-cadence.md`
 

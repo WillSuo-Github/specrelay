@@ -8,7 +8,7 @@
 
 - Run date: `2026-06-03`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: explicit sunset execution, archive-page public fidelity, state cleanup consistency, release truthfulness, and selection-mode transition correctness
+- Scope checked: explicit sunset execution, archive-page public fidelity, selection-sprint evidence support, next-product state consistency, and release truthfulness
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -63,3 +63,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-29` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | no new external signal landed; the company completed the due business audit, did not fabricate movement, and correctly tightened the next wake to the founder-side readout-close checkpoint instead of drifting further |
 | `2026-05-30` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | no new external signal landed by the founder-side readout close; the company correctly entered `sunset-review` and retired the obsolete heartbeat instead of keeping a stale autonomous loop alive |
 | `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | sunset was executed cleanly, the public page no longer behaves like a live product, and repo-backed state consistently treats SpecRelay as closed rather than merely waiting |
+| `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the Burn Ceiling selection is evidence-backed, only one active product exists, the archive page remains truthful, and the new experiment window is bounded instead of open-ended |

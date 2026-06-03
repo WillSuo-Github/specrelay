@@ -8,11 +8,11 @@
 
 - Audit window: last 7 days or last 10 active company runs from `run-log.md`, whichever contains more decision-grade evidence
 - Last audit: `2026-06-03` in `RUN-0040`
-- Next audit at: before any new product is committed as the active build target
+- Next audit at: before Burn Ceiling commits to a bigger build than the bounded MVP, or when `EXP-0005` closes
 - Current answer: `no`
 - Confidence: high
-- Required decision: run product selection and choose the next active product deliberately
-- Required action: keep SpecRelay sunset, keep the archive page truthful, and do not reopen the old wedges automatically
+- Required decision: keep Burn Ceiling bounded to the first MVP plus `EXP-0005`; do not broaden the product before the readout
+- Required action: keep SpecRelay archived, ship the smallest truthful Burn Ceiling MVP, and use the experiment window to answer demand before any heavier build
 
 ## Audit Question
 

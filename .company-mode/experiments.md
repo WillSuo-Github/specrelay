@@ -6,13 +6,13 @@
 
 ## Current Experiment State
 
-- Active experiment: none
-- Bottleneck tested: `distribution`
-- Evidence window: `2026-05-22` to `2026-05-29 23:59 CST`
-- Readout due: `2026-05-29 23:59 CST`
-- Current decision pressure: no active experiment until the next product is selected
-- Last completed experiment result: `EXP-0003` closed `inconclusive` at the contractor/agency checkpoint with no reply
-- Weak/negative completed experiments since last viability review: 0 because SpecRelay is now fully sunset and there is no active product
+- Active experiment: `EXP-0005`
+- Bottleneck tested: `demand`
+- Evidence window: `2026-06-03` to `2026-06-10 23:59 CST`
+- Readout due: `2026-06-10 23:59 CST`
+- Current decision pressure: Burn Ceiling must ship a real MVP and produce first completion plus intent evidence inside one bounded window
+- Last completed experiment result: `EXP-0004` closed `inconclusive` when the founder-side window produced no reply or strong intent
+- Weak/negative completed experiments since last viability review: 0
 
 ## Experiment Rules
 
@@ -28,6 +28,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `EXP-0003` | completed | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Bytewise email + AppStuck contact form + AC Tech Labs contact form; Afterbuild email attempt is now excluded because delivery failed | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
 | `EXP-0004` | completed | distribution | a smaller founder-side stability brief is more realistic than a full intake packet and can produce explicit pre-launch or pre-handoff usage intent | founder/operator preparing to launch or hand off an AI-built app | activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md`; Reddit was pruned as an execution surface and one replacement non-Reddit Jesse X route was sent; James Hsi remained a staged but unsent approval gate | at least one founder says they would fill out the brief before launch or before asking for help | 0 founder-side usage-intent signals; only weak Jesse/Frank language exists | 1 weak-positive-or-stronger founder reply by `2026-05-29 23:59 CST`; strong threshold is clear pre-launch or pre-handoff usage intent | founder replies, GitHub issue, X feedback, and future community validation | `2026-05-22` | `2026-05-29 23:59 CST` | no further founder-side public action remains inside the closed window | Product/CEO + Growth |
+| `EXP-0005` | active | demand | launch-stage AI founders will use a 5-minute planner to set spend caps, fallback models, and launch guardrails before turning on traffic or paid users | solo founder / small team launching an AI-backed web app | build the first static Burn Ceiling MVP with preset scenarios, exportable output, and a direct feedback ask | at least 5 completed guardrail plans and 2 strong-intent signals saying they would use it before launch | 0 completed plans; 0 direct feedback | by `2026-06-10 23:59 CST`, 5 completed plans and 2 strong-intent signals; strong threshold is explicit pre-launch use intent | public founder replies, direct feedback, completed plan screenshots or comments | `2026-06-03` | `2026-06-10 23:59 CST` | public outreach remains action-time gated; build is pre-authorized | Product/CEO + Engineering + Growth |
 
 ## Readout Log
 

@@ -1,6 +1,8 @@
 # Feedback Log
 
-SpecRelay is now sunset. This file remains as archived evidence only and should not be treated as live demand for the next product.
+SpecRelay is now sunset. Its entries below remain archived evidence only.
+
+Burn Ceiling is the new active product, but it has no direct feedback yet.
 
 Two direct qualitative responses landed during the SpecRelay run. No completed packet review or strong intent signal was ever recorded.
 

@@ -4,31 +4,30 @@ Last updated: 2026-06-03
 
 ## Current Release
 
-- Product: SpecRelay
-- Release type: sunset archive page
-- Version: archived
-- Target date: 2026-06-03
-- Platforms: static GitHub Pages archive surface
+- Product: Burn Ceiling
+- Release type: not launched yet
+- Version: n/a
+- Target date: tbd after first MVP build
+- Platforms: static web app once the MVP exists
 - Public URL: https://willsuo-github.github.io/specrelay/
 - GitHub release: https://github.com/WillSuo-Github/specrelay/releases/tag/v0.1.0
 - Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 - Local URL: http://localhost:4173/
-- Rollback plan: static archive bundle can be replaced again if a future product is selected; no production data exists
+- Rollback plan: SpecRelay archive notice remains the safe public fallback until Burn Ceiling has a real public build
 
 ## Pre-Release Checklist
 
-- [x] SpecRelay MVP previously released
-- [x] Sunset decision explicitly approved
-- [x] Interactive product removed from the public page
-- [x] Public page replaced with archive notice
-- [x] Build path preserved for future company use
+- [x] SpecRelay sunset and archive page deployed
+- [ ] Burn Ceiling MVP built
+- [ ] Burn Ceiling public page deployed
+- [ ] Burn Ceiling feedback path defined
 
 ## Post-Release Checklist
 
 - [x] Prevent stale links from serving a live inactive product
 - [x] Keep public URL truthful
 - [ ] Watch for deploy/runtime errors on the archive page
-- [ ] Replace archive page only after the next product is selected
+- [ ] Replace archive page only after the Burn Ceiling MVP is ready
 
 ## Known Gates
 

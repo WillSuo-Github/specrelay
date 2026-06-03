@@ -2,7 +2,7 @@
 
 Last updated: `2026-06-03`
 Scope: one-product company instance
-Current company stage: `pre-product` with product-selection active after SpecRelay sunset
+Current company stage: `pre-product` with Burn Ceiling selected as the new active product
 
 ## Reading this matrix
 
@@ -12,45 +12,45 @@ Current company stage: `pre-product` with product-selection active after SpecRel
 
 ## Product/CEO
 
-- Current responsibilities: choose the next product thesis, define selection criteria, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
+- Current responsibilities: validate the Burn Ceiling thesis, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: no next product has been selected yet
+- Main blockers: no live MVP or direct founder signal exists yet
 
 ## Engineering
 
-- Current responsibilities: keep the archive page healthy and prepare the next static product surface only after selection
+- Current responsibilities: build the smallest Burn Ceiling MVP while keeping the archive page healthy
 - Verified access: local codebase, GitHub Pages deployment path, public live URL
 - Status: Ready
-- Main blockers: there is no active product build target yet
+- Main blockers: none on code access; only product-fit risk remains
 
 ## Design
 
-- Current responsibilities: support next-product concept shaping and keep public archive surfaces truthful
+- Current responsibilities: shape the planner flow and keep the archive surface truthful until Burn Ceiling launches
 - Verified access: local assets and public app
 - Status: Ready
-- Main blockers: no new product brief exists yet
+- Main blockers: no live product copy or output has been tested yet
 
 ## Growth
 
-- Current responsibilities: support candidate discovery and channel scoring for the next product
+- Current responsibilities: turn current founder cost pain into concrete MVP copy and first outreach targets
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: there is no active product to distribute; prior SpecRelay routes are archived
+- Main blockers: Burn Ceiling has no live MVP yet
 
 ## Support/Research
 
-- Current responsibilities: synthesize reusable lessons from SpecRelay and source the next candidate set
+- Current responsibilities: synthesize cost-cap pain language and watch adjacent launch/cost tools
 - Verified access: public GitHub feedback issue and local feedback log
 - Status: Ready
-- Main blockers: old feedback is archived and cannot be mistaken for live demand on the next product
+- Main blockers: direct Burn Ceiling feedback does not exist yet
 
 ## Release/Ops
 
-- Current responsibilities: keep the archive page live, maintain account guardrails, and avoid stale public claims
+- Current responsibilities: keep the archive page live until Burn Ceiling ships, maintain account guardrails, and avoid stale public claims
 - Verified access: GitHub Pages public URL, GitHub release, local automation spec
 - Status: Ready
-- Main blockers: no new release target exists yet
+- Main blockers: Burn Ceiling is not built yet
 
 ## Summary
 
@@ -60,5 +60,5 @@ Current company stage: `pre-product` with product-selection active after SpecRel
 
 ## What this means
 
-- Current interpretation: SpecRelay is no longer the active product. The company is cleanly back in product-selection mode with no live public offer besides an archive notice.
-- Highest-leverage next upgrades: shortlist fresh candidates, choose one active product, and define one bounded first experiment before any new build or outreach work starts.
+- Current interpretation: Burn Ceiling is selected, but no one has used it yet; the company now needs a real MVP and first external signal, not more product-selection work.
+- Highest-leverage next upgrades: ship the MVP fast, keep the scope tight, and stage one exact founder-facing validation route.

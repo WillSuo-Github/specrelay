@@ -6,15 +6,15 @@
 
 ## Market Thesis
 
-- Category: no active product selected
-- Target segment: none selected
-- Core pain: not chosen yet
-- Current wedge: none
-- Why now: the next product should be chosen from fresh evidence, not by extending the archived SpecRelay market thesis
+- Category: AI app cost-cap and launch-guardrail planner
+- Target segment: launch-stage AI app founders and small builder teams
+- Core pain: founders ship AI-backed apps without a safe spend ceiling, fallback plan, or launch guardrails and discover cost problems only after users arrive
+- Current wedge: no-login 5-minute planner that outputs a burn ceiling, fallback plan, and launch guardrail checklist
+- Why now: public founder discussion and launch-guidance content in 2026 increasingly treat cost caps and guardrails as mandatory, not optional
 
 ## Competitors and Alternatives
 
-SpecRelay-specific market context is now archived. Use `docs/market-research.md`, `feedback.md`, and `product-history.md` as historical evidence only. Build a fresh map once the next candidate set exists.
+See `docs/product-selection-2026-06.md` for the current selection sprint and direct source links.
 
 | Product / alternative | Platform | Pricing | Positioning | Strength | Weakness | Opportunity |
 | --- | --- | --- | --- | --- | --- | --- |

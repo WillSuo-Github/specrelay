@@ -16,7 +16,7 @@
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
 - Business audit status: current (`no` on `2026-06-03`); SpecRelay sunset is complete
 - Current quality risk: `medium`
-- Required correction: do not let product selection become a new zombie state. The next company move must produce a scored shortlist and one chosen next product.
+- Required correction: do not let Burn Ceiling drift into another abstract planning loop. The next company move must ship the smallest MVP and start collecting demand evidence.
 
 ## KPI Thresholds
 
@@ -66,6 +66,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-29` | `no-traction` | `decision` | no new external signal; due business audit completed before founder-side readout close | no | none; the company only reconfirmed silent external state and tightened the final checkpoint around the existing James Hsi gate | pass with notes | none | at `2026-05-29 23:59 CST`, either absorb approval/signal or force `sunset-review` instead of rolling into another maintenance loop |
 | `2026-05-30` | `sunset-review` | `decision` | founder-side readout closed and obsolete heartbeat retired | yes | the company closed the active evidence window and removed the stale autonomous loop instead of extending the same silent wedge | pass with notes | none | next move must be explicit park / sunset / restart, not another automated wait |
 | `2026-06-03` | `pre-product` | `decision` | user-approved sunset executed and public product taken offline | yes | the company removed the stale live product surface and reopened a clean active-product slot instead of leaving SpecRelay half-alive | pass with notes | none | next move must be fresh product selection with scored candidates |
+| `2026-06-03` | `pre-product` | `demand` | product-selection sprint completed and Burn Ceiling chosen with one bounded experiment | yes | the company moved from an empty active-product slot into a single concrete next bet with a stop rule instead of drifting after sunset | pass with notes | none | next move must ship the MVP, not reopen abstract selection |
 
 ## Quality Review Questions
 

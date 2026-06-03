@@ -12,30 +12,30 @@
 
 ## Product
 
-- Working name: `none selected`
-- Category: product selection
-- Current stage: pre-product, no active product selected
-- Primary platform: undecided
+- Working name: `Burn Ceiling`
+- Category: AI app cost-cap and launch-guardrail planner
+- Current stage: pre-product
+- Primary platform: static web app
 - Operating model: one company instance operates one active product. Other products should get their own company instances that share the same kernel.
 
 ## Target User
 
-- Active target user: none selected
-- Selection criteria: painful repeated workflow, zero-cost distribution path, plausible near-term monetization, and a bounded first evidence window
-- Archived note: SpecRelay-specific target-user facts now live in `product-history.md`, `feedback.md`, and `docs/market-research.md`
+- Ideal customer profile: solo founders and small builders shipping AI-backed web apps with OpenAI, Anthropic, or Gemini in the loop
+- Top pain point: they do not know their safe launch budget, cap thresholds, or fallback plan before real users hit the app
+- Current promise: turn a rough AI app launch plan into a daily/monthly burn ceiling, fallback plan, and launch guardrail checklist in under 5 minutes without code or account access
 
 ## North-Star Metric
 
-- Primary KPI: active product selected with one bounded first experiment
+- Primary KPI: completed guardrail plans
 - Current baseline: 0
-- First decision target: 1 selected next product with one target segment, one channel, and one stop rule
-- Max evaluation window: 7 days from the next product-selection sprint start
+- First decision target: 5 completed plans, with at least 2 strong-intent signals
+- Max evaluation window: 7 days from first public MVP exposure
 
 ## Distribution Thesis
 
-- Primary acquisition channel: start from channels already available in the current environment, then choose the next product partly on channel fit
-- Secondary channel: owned static web surface plus public research pages when they help validation
-- Current positioning: no active public product; the public page is an archive notice while the company chooses the next product
+- Primary acquisition channel: direct public replies and posts in AI-builder, indie SaaS, and launch-stage founder communities
+- Secondary channel: SEO around AI cost caps, runaway bill planning, and launch guardrails
+- Current positioning: the 5-minute cost ceiling and launch guardrail planner for AI apps
 
 ## Delegated Authority
 
@@ -51,7 +51,7 @@
 - Growth visual rule: original low-cost launch, progress, positioning, and experiment posts should normally include a deliberate product-specific image or graphic generated, selected, or adapted by Design through Codex before Growth publishes. Skip the image only for direct replies, unsuitable channel rules/formats, risk of implying unshipped capabilities, or urgent text-only responses.
 - Tech constraints: first release must run as a static frontend without backend accounts, paid services, uploaded secrets, or external APIs
 - Operating constraints: operate exactly one active product in this company instance
-- Sunset constraint: do not reopen SpecRelay automatically. It is archived unless Product/CEO explicitly selects a bounded restart as the next active product.
+- Sunset constraint: do not reopen SpecRelay automatically. It remains archived while Burn Ceiling is the one active product in this company instance.
 - CEO after-action rule: after each active company run, report company status to Product/CEO, inspect the whole company, and execute any non-hard-gated improvement without asking user approval
 - Kernel-evolution rule: if an improvement is reusable across companies, classify it as a kernel/template/migration improvement and update the shared kernel rather than only this instance
 - Compliance constraints: do not fabricate external actions, customer feedback, product status, or market data

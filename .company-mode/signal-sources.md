@@ -6,13 +6,13 @@
 
 ## Current Signal Strategy
 
-- Primary business question: which next candidate deserves to become the active product?
-- Current bottleneck: `decision`
-- Primary readout source: fresh market research, current accessible channels, and candidate scoring from the next product-selection sprint
-- Secondary readout source: archived SpecRelay lessons and any genuinely late SpecRelay reply
-- Evidence quality: archived for SpecRelay, not active for the next product yet
-- Missing source or integration: no new product-specific analytics or live channel evidence exists because no next product has been selected
-- Next readout: scored candidate shortlist plus one selected next product
+- Primary business question: will launch-stage AI founders use a 5-minute cost-cap planner before launch?
+- Current bottleneck: `demand`
+- Primary readout source: direct founder replies plus completed Burn Ceiling plans once the MVP is live
+- Secondary readout source: public builder pain signals, archived SpecRelay lessons, and any genuinely late SpecRelay reply
+- Evidence quality: medium for problem existence, low for product-specific intent
+- Missing source or integration: no live Burn Ceiling MVP, no completed plans, no analytics, and no direct founder intent yet
+- Next readout: first MVP ship plus first founder feedback loop inside `EXP-0005`
 
 ## Source Selection Rules
 
@@ -27,11 +27,11 @@
 
 | Source | Best for | Account / access needed | Evidence quality | Status | Next action |
 | --- | --- | --- | --- | --- | --- |
-| Archived GitHub feedback issue #1 | historical evaluator comments | GitHub repo access or public issue page | medium | live but silent | keep as archive only |
+| Archived GitHub feedback issue #1 | historical SpecRelay comments | GitHub repo access or public issue page | medium | live but silent | keep as archive only |
 | Archived outreach replies | late counter-evidence on SpecRelay | Mail UI inbox access | medium/high if replies arrive | archived | log only if something materially changes history |
-| GitHub Pages live URL | public archive-surface health | public URL | high | healthy | verify after deploy-touching runs |
-| Competitor/community research | next-product candidate discovery | public web access | medium | available | use in the next selection sprint |
-| Logged-in X / HN / Chrome surfaces | next-product channel fit checks | existing sessions | medium | available | use only after a next candidate exists |
+| GitHub Pages live URL | Burn Ceiling MVP reachability later; archive-surface health now | public URL | high | archive page healthy | verify after deploy-touching runs |
+| Public founder pain signals | cost-cap and runaway-bill demand readout | public web access | medium/high | active | keep sourcing for first outreach copy |
+| Logged-in X / HN / Chrome surfaces | first Burn Ceiling validation routes | existing sessions | medium | available | use once the MVP exists |
 
 ## Readout Log
 
