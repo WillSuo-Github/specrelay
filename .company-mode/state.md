@@ -1,32 +1,31 @@
 # Current State
 
-- Last updated: `2026-05-30`
-- Dominant objective: validate whether a smaller founder-side stability brief is realistic enough to use before launch or before asking for help
-- Current stage: public MVP live, sunset-review
-- Current release: SpecRelay static prototype-to-handoff generator
-- Health summary: Market research identified a credible gap between AI app generation and launch/contractor handoff. The MVP is live on GitHub Pages, generates packets, includes three sample packet presets, and has no backend, credentials, or production data.
+- Last updated: `2026-06-03`
+- Dominant objective: choose the next active product under a fresh bounded thesis
+- Current stage: pre-product, product selection active
+- Current release: SpecRelay sunset; public site now serves an archive notice
+- Health summary: SpecRelay completed two bounded demand windows and failed to produce validating demand, activation, or monetization evidence. The product is now sunset, the previous interactive MVP is offline, and this company instance has no active product until Product/CEO selects the next candidate.
 
 ## Now
 
-- In progress: the contractor/agency wedge is closed `inconclusive`, the founder-side stability-brief wedge is now also closed `inconclusive`, Jesse remains only a stalled prior route, and James Hsi expired as an unsent approval gate when the founder-side window closed. SpecRelay has now entered `sunset-review`: no founder replies, no strong intent, no completed packet/brief reviews, and no paid signal were produced inside the bounded founder-side window.
-- Public URL: https://willsuo-github.github.io/specrelay/
-- Biggest blocker: there is no active validating wedge left for SpecRelay under the current thesis; continuing automatically would just extend zombie maintenance
-- Highest-risk assumption: founders will spend time freezing flows, blockers, and a launch decision before they simply keep fixing the app ad hoc
-- Next decision deadline: explicit Product/CEO decision on whether SpecRelay is `park`, `sunset`, or restarted under a fresh bounded experiment
+- In progress: SpecRelay has been sunset. There is no active product, no active experiment, and no active outbound route. Product-selection mode is now the only active company workflow.
+- Public URL: https://willsuo-github.github.io/specrelay/ now serves a sunset/archive notice instead of the old packet generator
+- Biggest blocker: the company needs a new bounded product thesis with faster evidence and a cleaner zero-cost distribution path
+- Highest-risk assumption: the next candidate can reach real user language and a clearer revenue path faster than SpecRelay did
+- Next decision deadline: the next active Product/CEO run should shortlist and score fresh candidates before any new build work starts
 
 ## Next Recommended Actions
 
-- Product/CEO: do not reopen the same wedges automatically; decide whether SpecRelay is parked, sunset, or restarted under a fresh bounded experiment
-- Support/Research: treat Jesse's reply as weak but useful process feedback: hands-on builders may prefer "play with it, stabilize basics, then promote fixes" over upfront specification
-- Engineering: keep the deployed stability-first packet shippable; no product code change was needed in this heartbeat
-- Growth: do not add any more rescue-service outreach or founder-side spread for this version. The bounded founder-side window is now closed.
-- Support/Research + Growth: use `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, `docs/founder-stability-target-pool.md`, and `docs/post-three-touch-decision-tree.md` as the current source of truth for the pivot and any late-contractor reply interpretation
-- Release/Ops: live URL is healthy; keep rollback simple because no production data exists
+- Product/CEO: run a fresh product-selection sprint; shortlist 3 to 5 candidates, score evidence speed, distribution fit, and monetization plausibility, then pick exactly one next active product
+- Support/Research: treat SpecRelay lessons as archived evidence, not as an active thesis
+- Engineering + Release/Ops: keep the public URL serving only the archive notice; do not restore the old interactive SpecRelay workflow
+- Growth: stop all SpecRelay outreach and reply monitoring unless a genuinely late reply arrives and materially changes the evidence
+- Design: no new launch assets for SpecRelay; support only the next product-selection cycle when a new brief exists
 
 ## Pending Approvals
 
-- Exact live action currently gated: none inside the closed founder-side window. Any renewed public action now requires an explicit restart decision first.
-- Account gap to resolve: X account is available and first-wave public replies were sent; future public replies/DMs need action-time approval. Current Hacker News account is not sufficient for submission; Product Hunt also needs launch images before a real launch.
+- Exact live action currently gated: none
+- Account gap to resolve: none for the sunset/selection state
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
 ## Previous CEO After-Action Review
@@ -64,14 +63,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-05-30`
-- Current stage: public MVP live, `sunset-review`. The contractor/agency wedge is closed, the founder-side wedge is now also closed, Reddit remains pruned, Jesse remains stalled, and James Hsi never became a live route.
-- Evidence quality: high for the window close, medium for the strategic interpretation. GitHub issue #1 still has no comments, the live URL still returns HTTP 200, and the founder-side evidence window ended with no validating founder reply, no completed brief usage, and no paid signal. No late contractor/agency reply was newly verified in this run.
-- Current-run work completed: refreshed the installed company-mode kernel, re-checked GitHub/live/X public surfaces at founder-side readout close, closed `EXP-0004` as `inconclusive`, moved viability to `sunset-review`, opened product-selection mode, and retired the obsolete heartbeat.
-- Instance-only improvements executed: founder-side readout close, viability/state/history/selection alignment, and automation retirement.
+- Date: `2026-06-03`
+- Current stage: `pre-product` with product-selection active. SpecRelay is no longer in review; it is now explicitly sunset and offline as an interactive product.
+- Evidence quality: high for the sunset execution. The old live URL has been converted into an archive notice, and repo-backed state now consistently treats SpecRelay as a closed product rather than a waiting product.
+- Current-run work completed: executed the explicit user-directed sunset decision, replaced the public app with an archive notice, updated product/company state from `sunset-review` to `sunset`, and reopened the company in clean product-selection mode.
+- Instance-only improvements executed: public takedown, state cleanup, archive positioning, and next-product-selection reset.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: any renewed public action, paid channel work, account changes, call bookings, or credential actions remain gated until an explicit restart or next-product decision exists.
-- Stop-check: one coherent decision run is complete. SpecRelay is now in `sunset-review`, and there is no further autonomous work left until Product/CEO chooses `park`, `sunset`, or a fresh bounded restart.
+- Hard-gated improvements: any future public action, outreach, paid spend, account changes, or credential work remain gated until a new active product is selected.
+- Stop-check: one coherent sunset run is complete. There is no active product left to operate, and the next valid move is a fresh product-selection run.
 
 ## Previous CEO After-Action Review
 

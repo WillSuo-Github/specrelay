@@ -1,6 +1,6 @@
 # Experiments
 
-- Last updated: `2026-05-30`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
@@ -10,9 +10,9 @@
 - Bottleneck tested: `distribution`
 - Evidence window: `2026-05-22` to `2026-05-29 23:59 CST`
 - Readout due: `2026-05-29 23:59 CST`
-- Current decision pressure: choose whether to park, sunset, or deliberately re-open a new bounded evidence window after `sunset-review`
+- Current decision pressure: no active experiment until the next product is selected
 - Last completed experiment result: `EXP-0003` closed `inconclusive` at the contractor/agency checkpoint with no reply
-- Weak/negative completed experiments since last viability review: 1
+- Weak/negative completed experiments since last viability review: 0 because SpecRelay is now fully sunset and there is no active product
 
 ## Experiment Rules
 
@@ -43,6 +43,7 @@
 | `2026-05-24` | `EXP-0004` | `continue` | after the first external-wait cycle, the Jesse X route was still publicly visible but had no founder reply; GitHub remained silent; no late contractor/agency reply was newly verified in that run | medium | continue the current founder-side evidence window while the route is still fairly waiting | `feedback.md`, `state.md`, `run-log.md`, `signal-sources.md`, `viability-scorecard.md`, `company-dashboard.md` | keep reading the live Jesse route honestly until a reply arrives, the route clearly stalls, or the founder-side readout window closes |
 | `2026-05-25` | `EXP-0004` | `continue` | after roughly 32 hours, the Jesse founder-side X route still had no founder reply and still only `2` visible views, while GitHub remained silent and no late contractor/agency reply was newly verified | medium/high | keep the founder-side pivot alive, but stop treating Jesse as the active waiting surface; stage the next exact X founder-side candidate for approval | `feedback.md`, `state.md`, `run-log.md`, `signal-sources.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | stop at the staged James Hsi approval gate instead of accumulating another no-progress wait round |
 | `2026-05-30` | `EXP-0004` | `inconclusive` | the founder-side evidence window closed with 0 founder replies, 0 strong intent, 0 completed packet/brief reviews, 0 paid signal, one stalled Jesse X route, and one unsent James Hsi approval gate | high for window close, medium for strategy implication | stop the current founder-side experiment and enter `sunset-review` instead of extending the same wedge with no fresh evidence | `experiments.md`, `viability-scorecard.md`, `product-selection.md`, `product-history.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `revenue-pipeline.md`, `signal-sources.md`, `ops/automation-spec.md` | wait for Product/CEO park/sunset/new-window decision rather than keeping the current experiment alive |
+| `2026-06-03` | `EXP-0004` | `closed by sunset` | no late evidence changed the founder-side readout, and the user explicitly approved full sunset instead of park or restart | high | close SpecRelay as a finished product and return the company to product selection | `experiments.md`, `viability-scorecard.md`, `product-selection.md`, `product-history.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `release.md`, `ops/automation-spec.md` | no active experiment until the next product is selected |
 
 ## Active
 

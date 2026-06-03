@@ -1,6 +1,6 @@
 # Revenue Ledger
 
-- Last updated: `2026-05-15`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO + Growth
 - Scope: revenue, conversion, and paid-user signal only. Do not maintain a full cost ledger unless this company later gains material recurring costs.
 
@@ -15,17 +15,17 @@
 
 | Metric | Current | Target | Last checked | Evidence source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Total revenue | 0 | first paid signal | `2026-05-15` | `state.md`, `business-model.md` | no purchase path exists yet |
-| Monthly revenue | 0 | any recurring or repeatable signal | `2026-05-15` | `state.md` | no recurring offer exists |
-| Paying users | 0 | 1 paying evaluator or buyer signal | `2026-05-15` | `business-model.md` | no buyer proof yet |
-| Free users | unknown | first confirmed evaluator usage | `2026-05-15` | `metrics.md` | no analytics and no completed packet review |
-| Free-to-paid conversion | unknown | first pricing or willingness-to-pay signal | `2026-05-15` | `business-model.md` | impossible to measure before paid offer exists |
+| Total revenue | 0 | first paid signal on the next product | `2026-06-03` | `state.md`, `business-model.md` | SpecRelay finished with no revenue |
+| Monthly revenue | 0 | any recurring or repeatable signal on the next product | `2026-06-03` | `state.md` | no active product exists |
+| Paying users | 0 | 1 paying evaluator or buyer signal on the next product | `2026-06-03` | `business-model.md` | SpecRelay ended with no buyer proof |
+| Free users | unknown | first confirmed evaluator usage on the next product | `2026-06-03` | `metrics.md` | no active product exists |
+| Free-to-paid conversion | unknown | first pricing or willingness-to-pay signal on the next product | `2026-06-03` | `business-model.md` | no active product exists |
 
 ## Revenue Sources
 
 | Source | Product / SKU | Model | Status | Last signal | Next check |
 | --- | --- | --- | --- | --- | --- |
-| GitHub Pages product | SpecRelay | B2B/license hypothesis | no payment path configured | none | re-check after any strong evaluator reply |
+| Archived GitHub Pages product | SpecRelay | retired | sunset | none | no re-check unless the product is explicitly restarted |
 
 ## Revenue Events
 
@@ -41,7 +41,6 @@
 
 ## Next Revenue Questions
 
-- Does anyone say the packet changes how they scope, quote, or launch work?
-- If yes, who pays: founder, contractor, or agency?
-- Is the first paid offer per project, per seat, or a downloadable toolkit?
-- What is the smallest zero-cost action that can produce willingness-to-pay evidence after the current readout?
+- Which next candidate has the clearest path to first paid signal?
+- Which next candidate can test willingness to pay fastest with current channels and zero-cost infrastructure?
+- What is the smallest bounded experiment that can invalidate the next monetization hypothesis quickly?

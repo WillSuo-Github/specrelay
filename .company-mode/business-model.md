@@ -1,20 +1,20 @@
 # Business Model
 
-- Last updated: `2026-05-22`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO + Growth
 - Rule: the company may choose and change the business model from evidence. Do not ask the user to choose by default.
 
 ## Current Model Hypothesis
 
-- Selected model: `template/toolkit` for a founder-side low-ticket self-serve stability brief
-- Why this model: the contractor/agency intake buyer did not validate by the hard checkpoint, while the only surviving language fit is still founder-side stability-first usage before launch or before handing the app to someone else
-- Target customer: founder or operator preparing to launch, share, or hand off an AI-built app
-- Paid offer: not finalized; likely a low-ticket self-serve brief/report workflow or lightweight toolkit if the founder-side wedge validates
-- Price / package: not priced; no willingness-to-pay evidence yet
+- Selected model: none active
+- Why this model: SpecRelay is sunset and there is no new active product yet
+- Target customer: none selected
+- Paid offer: none active
+- Price / package: none active
 - Purchase path: none configured
-- Evidence supporting it: Jesse's reply supports the stability-first framing; Frank's reply implies the pain appears when another person needs to review/change the app; the founder-side brief is smaller and closer to those signals than the full packet
-- Evidence against it: no founder has yet said they would actually complete the brief before launch or before asking for help; no monetization proof exists
-- Next monetization experiment: if any founder says they would complete the brief before launch/help, test whether they expect a low-ticket one-off product, reusable toolkit, or lightweight upgrade path
+- Evidence supporting it: n/a
+- Evidence against it: the prior SpecRelay founder-side toolkit hypothesis never received willingness-to-pay evidence
+- Next monetization experiment: define only after the next product is selected
 
 ## Candidate Models
 
@@ -50,3 +50,4 @@
 | --- | --- | --- | --- | --- |
 | `2026-05-15` | choose `B2B/license` as the current model hypothesis and keep founder-side low-ticket self-serve as pivot only | contractor/agency wedge is the sharpest current external test; no monetization proof yet | whether any evaluator says the packet would save intake/scoping time | any strong positive reply, the `2026-05-21 23:59 CST` checkpoint, or founder-side pivot activation |
 | `2026-05-22` | switch the active model hypothesis to `template/toolkit` around a founder-side stability brief | the contractor/agency wedge closed silent at the checkpoint, while Jesse/Frank still support one narrower founder-side try | whether any founder says they would complete the brief before launch or before asking for help | founder-side approval gate clears, a founder reply lands, or the new pivot window closes |
+| `2026-06-03` | retire the active model hypothesis | SpecRelay is sunset and no new active product exists yet | next chosen product must name its own model hypothesis from scratch | next product-selection decision |

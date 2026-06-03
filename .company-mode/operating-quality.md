@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-05-30`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -8,15 +8,15 @@
 
 - Source ledger: `run-log.md`
 - Rolling window: last 10 active company runs
-- Real-progress rate: `70%` (`7/10`)
-- External-signal output rate: `7/10` runs either shipped a real external touch, staged the exact next gate, or closed a bounded evidence window with an explicit company decision
+- Real-progress rate: `80%` (`8/10`)
+- External-signal output rate: `8/10` runs either shipped a real external touch, staged the exact next gate, or closed a bounded evidence window with an explicit company decision
 - No-progress streak: `0`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
-- Business audit status: current (`no` on `2026-05-29`); founder-side readout is closed
+- Business audit status: current (`no` on `2026-06-03`); SpecRelay sunset is complete
 - Current quality risk: `medium`
-- Required correction: do not let `sunset-review` become a new zombie state. The next company move must be an explicit `park`, `sunset`, or fresh bounded restart decision.
+- Required correction: do not let product selection become a new zombie state. The next company move must produce a scored shortlist and one chosen next product.
 
 ## KPI Thresholds
 
@@ -65,6 +65,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-25` | `no-traction` | `distribution` | Jesse route re-verified as stalled and the next exact X candidate staged | yes | the company prevented a second consecutive no-progress wait round by turning a stalled live route into one exact next approval gate | pass with notes | none | resolve the James Hsi gate before opening any broader founder-side spread |
 | `2026-05-29` | `no-traction` | `decision` | no new external signal; due business audit completed before founder-side readout close | no | none; the company only reconfirmed silent external state and tightened the final checkpoint around the existing James Hsi gate | pass with notes | none | at `2026-05-29 23:59 CST`, either absorb approval/signal or force `sunset-review` instead of rolling into another maintenance loop |
 | `2026-05-30` | `sunset-review` | `decision` | founder-side readout closed and obsolete heartbeat retired | yes | the company closed the active evidence window and removed the stale autonomous loop instead of extending the same silent wedge | pass with notes | none | next move must be explicit park / sunset / restart, not another automated wait |
+| `2026-06-03` | `pre-product` | `decision` | user-approved sunset executed and public product taken offline | yes | the company removed the stale live product surface and reopened a clean active-product slot instead of leaving SpecRelay half-alive | pass with notes | none | next move must be fresh product selection with scored candidates |
 
 ## Quality Review Questions
 

@@ -1,18 +1,20 @@
 # Market Map
 
-- Last updated: `2026-05-17`
+- Last updated: `2026-06-03`
 - Owner role: Support/Research + Growth
 - Purpose: keep competitive, keyword, channel, and public pain-signal context current enough for the company to find users without paid promotion.
 
 ## Market Thesis
 
-- Category: AI-built app launch readiness and developer handoff
-- Target segment: contractor/agency evaluator first; founder-side stability brief as the staged fallback
-- Core pain: AI-built apps often look usable but still hide unclear stability, broken flows, and scoping ambiguity before launch or outside help
-- Current wedge: no-login, no-repo, founder-filled stability-first packet before scoping, launch review, or outside help
-- Why now: AI-built prototypes are common, rescue-service and hardening offers are appearing, and current founder feedback says the artifact must align with real stability-first workflows
+- Category: no active product selected
+- Target segment: none selected
+- Core pain: not chosen yet
+- Current wedge: none
+- Why now: the next product should be chosen from fresh evidence, not by extending the archived SpecRelay market thesis
 
 ## Competitors and Alternatives
+
+SpecRelay-specific market context is now archived. Use `docs/market-research.md`, `feedback.md`, and `product-history.md` as historical evidence only. Build a fresh map once the next candidate set exists.
 
 | Product / alternative | Platform | Pricing | Positioning | Strength | Weakness | Opportunity |
 | --- | --- | --- | --- | --- | --- | --- |

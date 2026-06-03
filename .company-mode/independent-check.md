@@ -1,14 +1,14 @@
 # Independent Check
 
-- Last updated: `2026-05-30`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-05-30`
+- Run date: `2026-06-03`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: founder-side readout-close evidence, viability/sunset-review decision quality, GitHub/live-site facts, public Jesse/James Hsi X reachability, durable-state linkage, and automation retirement correctness
+- Scope checked: explicit sunset execution, archive-page public fidelity, state cleanup consistency, release truthfulness, and selection-mode transition correctness
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -62,3 +62,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-25` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the Jesse founder-side X route was correctly classified as stalled rather than still-active waiting, and the next James Hsi X candidate was staged from a verified live thread instead of being guessed from stale notes |
 | `2026-05-29` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | no new external signal landed; the company completed the due business audit, did not fabricate movement, and correctly tightened the next wake to the founder-side readout-close checkpoint instead of drifting further |
 | `2026-05-30` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | no new external signal landed by the founder-side readout close; the company correctly entered `sunset-review` and retired the obsolete heartbeat instead of keeping a stale autonomous loop alive |
+| `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | sunset was executed cleanly, the public page no longer behaves like a live product, and repo-backed state consistently treats SpecRelay as closed rather than merely waiting |

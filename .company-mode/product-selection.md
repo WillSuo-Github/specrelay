@@ -1,16 +1,16 @@
 # Product Selection
 
-- Last updated: `2026-05-30`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO
 - Purpose: choose the next active product deliberately when the current product is parked, pivoted, or sunset.
 
 ## Current Selection State
 
-- Active product: `SpecRelay`
-- Selection mode: active because the current product has entered `sunset-review`
-- Trigger to open selection: the founder-side pivot window has now closed without a founder reply or approved second route
-- Decision needed by: next Product/CEO decision on whether SpecRelay is `park`, `sunset`, or restarted under a fresh bounded thesis
-- Current recommendation: do not auto-start another product. First decide whether SpecRelay is merely parked for later manual restart or fully sunset.
+- Active product: none
+- Selection mode: active because SpecRelay has now been explicitly sunset
+- Trigger to open selection: the user approved sunset and asked the company to restart product selection after taking SpecRelay offline
+- Decision needed by: next active Product/CEO selection run
+- Current recommendation: do not restart SpecRelay. Select a fresh candidate and define a new bounded first experiment before any new build or outreach work.
 
 ## Selection Rules
 
@@ -24,7 +24,8 @@
 
 | Candidate | User problem | Existing asset / app reference | Evidence source | Distribution path | Monetization hypothesis | Required account/service | Score | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Founder-side stability brief | founder needs a smaller pre-launch / pre-handoff artifact than a full agency-intake packet | live SpecRelay app, stability-first pass, founder-side pivot doc | Jesse feedback, current product, `docs/founder-stability-brief-pivot.md` | existing GitHub Pages app plus future founder outreach | low-ticket self-serve tool or paid report | none immediate | 25 | staged pivot, not yet active |
+| SpecRelay restart | AI-app founders may still need a pre-launch stability brief | archived SpecRelay code, docs, and public lessons | prior X feedback and failed wedges | old X/GitHub/public routes only | low-ticket toolkit | none | 8 | rejected for now |
+| Fresh candidate discovery | not selected yet | repo, current company kernel, existing channels | next research sprint | to be chosen | to be chosen | none initially | unknown | active |
 
 ## Scoring Rubric
 
@@ -46,11 +47,12 @@ Score each candidate from 0 to 5.
 | --- | --- | --- | --- | --- | --- |
 | `2026-05-15` | keep selection closed | `SpecRelay` remains active | current evidence window is still open through `2026-05-21 23:59 CST`; founder-side pivot is adjacent enough that a full new-product search would be premature | unrelated new products | wait for the current batch or activate the staged pivot |
 | `2026-05-30` | open selection mode | `SpecRelay` still active but now in `sunset-review` | the founder-side window closed with no founder replies, no strong intent, and no second live touch, so the company can no longer justify automatic continuation | unrelated new products still remain out of scope until SpecRelay is explicitly parked or sunset | decide whether to park SpecRelay, sunset it, or authorize a genuinely new bounded experiment |
+| `2026-06-03` | sunset prior product and restart selection | no active product | the user explicitly chose sunset and requested a clean restart plus public takedown | restarting the same SpecRelay thesis without new evidence | run a fresh candidate scan and pick one next active product |
 
 ## Resume Plan After Park / Sunset
 
-- Product-history entry required: yes
-- Reusable assets to carry forward: live GitHub Pages surface, stability-first packet logic, outreach research, decision rules, and no-login/no-repo positioning lessons
-- Support/release cleanup required: none unless the product is fully sunset and the public page should be archived
-- Next candidate readout: only after Product/CEO chooses whether SpecRelay is parked, sunset, or deliberately restarted
+- Product-history entry required: completed
+- Reusable assets to carry forward: static deployment path, no-backend operating pattern, outreach lessons, decision rules, and archive-page pattern
+- Support/release cleanup required: completed for SpecRelay; the public page now serves only an archive notice
+- Next candidate readout: after the next selection sprint produces scored candidates
 - Account or service needs: none currently

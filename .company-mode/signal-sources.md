@@ -1,18 +1,18 @@
 # Signal Sources
 
-- Last updated: `2026-05-30`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
 ## Current Signal Strategy
 
-- Primary business question: will a founder actually use a smaller stability-first brief before launch or before asking someone else for help on an AI-built app?
-- Current bottleneck: `distribution`
-- Primary readout source: any genuinely late Jesse or contractor/agency reply that materially challenges the current `sunset-review`; there is no active live founder-side route now
-- Secondary readout source: GitHub feedback issue, live-site health, and exported packet quality
-- Evidence quality: weak but real
-- Missing source or integration: no product analytics, no reliable automated X/community readout surface, no reliable Reddit post-confirmation or successful publish surface from the current session, no completed packet/brief review, and Mail AppleScript readout remains partial beyond Bytewise
-- Next readout: an explicit Product/CEO decision on `park`, `sunset`, or restart, or a genuinely late external reply that materially challenges the current sunset-review stance
+- Primary business question: which next candidate deserves to become the active product?
+- Current bottleneck: `decision`
+- Primary readout source: fresh market research, current accessible channels, and candidate scoring from the next product-selection sprint
+- Secondary readout source: archived SpecRelay lessons and any genuinely late SpecRelay reply
+- Evidence quality: archived for SpecRelay, not active for the next product yet
+- Missing source or integration: no new product-specific analytics or live channel evidence exists because no next product has been selected
+- Next readout: scored candidate shortlist plus one selected next product
 
 ## Source Selection Rules
 
@@ -27,16 +27,11 @@
 
 | Source | Best for | Account / access needed | Evidence quality | Status | Next action |
 | --- | --- | --- | --- | --- | --- |
-| GitHub feedback issue #1 | evaluator comments and longer-form critique | GitHub repo access or public issue page | medium | live but silent | keep as passive review surface |
-| Direct outreach replies (Bytewise) | late contractor/agency counter-evidence | Mail UI inbox access | high if replies arrive | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
-| AppStuck contact route | late contractor/agency counter-evidence | public contact path; inbox follow-up access | medium/high if reply arrives | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
-| AC Tech Labs contact route | late contractor/agency counter-evidence | public contact path | medium/high if reply arrives | old wedge now closed | only re-open the old wedge if a late reply is materially positive |
-| X replies and notifications | founder / builder language and segmentation | logged-in X session | medium/high | no active route; one stalled prior route plus one expired unsent gate | only use if a genuinely late reply appears or the product is explicitly restarted |
-| GitHub Pages live URL | release reachability and public artifact health | public URL | medium | healthy | keep verifying on deploy-touching runs |
-| Manual exported packet QA | output quality and product reliability | local browser QA | medium | already used | only revisit if product output changes |
-| Product analytics | visitor, start, copy/download behavior | analytics service + privacy decision | currently unavailable | gap | request only if the current wedge survives |
-| Competitor/community research | pain language, adjacent channels, positioning | public web access | medium | available | use only when the next move needs fresh target sourcing |
-| Founder-side target threads | founder-side launch-readiness validation | public web access; future community account/session for the approved route | low/medium | pruned for current pivot | the safe Reddit founder-side public pool was attempted without publicly verifiable sends; do not keep treating Reddit as the active route |
+| Archived GitHub feedback issue #1 | historical evaluator comments | GitHub repo access or public issue page | medium | live but silent | keep as archive only |
+| Archived outreach replies | late counter-evidence on SpecRelay | Mail UI inbox access | medium/high if replies arrive | archived | log only if something materially changes history |
+| GitHub Pages live URL | public archive-surface health | public URL | high | healthy | verify after deploy-touching runs |
+| Competitor/community research | next-product candidate discovery | public web access | medium | available | use in the next selection sprint |
+| Logged-in X / HN / Chrome surfaces | next-product channel fit checks | existing sessions | medium | available | use only after a next candidate exists |
 
 ## Readout Log
 

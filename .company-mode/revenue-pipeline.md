@@ -1,45 +1,30 @@
 # Revenue Pipeline
 
-- Last updated: `2026-05-30`
+- Last updated: `2026-06-03`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
 ## Business Health
 
-- Business stage: `sunset-review`
+- Business stage: `pre-product`
 - Revenue status: no revenue and no willingness-to-pay signal yet
-- User status: two weak qualitative signals, zero completed packet reviews, zero strong intent signals
-- Distribution status: live GitHub Pages product plus X history remain, but both bounded wedges are now closed: contractor/agency closed silent, founder-side closed with one stalled live route and one unsent approval gate. No active distribution wedge remains.
-- Monetization status: model hypothesis chosen, but no price/package/purchase-path proof
-- Current revenue bottleneck: `distribution`
-- Business model hypothesis: founder-side low-ticket self-serve brief / toolkit; see `business-model.md`
+- User status: no active product, no active users
+- Distribution status: the old SpecRelay public surface is archived; no active distribution wedge exists
+- Monetization status: no active model until the next product is selected
+- Current revenue bottleneck: `decision`
+- Business model hypothesis: none active; see `business-model.md`
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
-- Next cadence recommendation: no further autonomous acquisition cadence while SpecRelay is in `sunset-review`; only late external replies or an explicit restart decision can reopen the pipeline
-- Readout risk note: GitHub/live URL checks are deterministic, but direct-email monitoring remains partial beyond Bytewise; late contractor/agency replies can still matter, but they no longer justify keeping the old wedge active by default
+- Next cadence recommendation: no autonomous acquisition cadence until the next active product is selected
+- Readout risk note: late SpecRelay replies can still matter historically, but they do not reopen the archived pipeline automatically
 
 ## Target Customers
 
-| Segment | Pain | Where to reach | Evidence | Priority | Status |
-| --- | --- | --- | --- | --- | --- |
-| Founder preparing to launch or hand off | needs a smaller stability-first brief before outside help or pilot | X, founder communities, direct replies | weak founder-side language exists from Jesse/Frank, but the bounded founder-side window closed without a validating reply | 1 | closed current window |
-| Agency intake owner | founders bring AI-built apps with unclear stability, scope, and risk before a quote | rescue-service sites, direct email, founder-ops communities | plausible from market research; not validated | 2 | checkpoint closed silent |
-| Contractor inheriting AI-built prototype | first scoping call is noisy because the app's real state is undocumented | direct outreach, X, agency communities | plausible from product thesis; not validated | 3 | parked with old wedge |
+No active target customers. SpecRelay-specific segments are archived in `product-history.md`, `market-map.md`, and `feedback.md`.
 
 ## Leads / Prospects / Pain Signals
 
-| Source | Segment | Pain signal | Next action | Gate | Status |
-| --- | --- | --- | --- | --- | --- |
-| Afterbuild Labs | agency / rescue-service | adjacent buyer who might value pre-scope clarity | do not count as live; delivery failed on `2026-05-15` because `afterbuildlabs.com` did not accept the connection | replacement outreach would be action-time gated | failed delivery |
-| Bytewise | agency / rescue-service | adjacent buyer who might value audit/handoff context | treat any late reply as unexpected extra evidence, not as license to keep the old wedge active | none while waiting | checkpoint silent |
-| AppStuck | rescue-service | adjacent buyer with async form route | treat any late reply as unexpected extra evidence, not as license to keep the old wedge active | none while waiting | checkpoint silent |
-| AC Tech Labs | agency / rescue-service | adjacent buyer who might value pre-assessment clarity before a fit-call workflow | treat any late reply as unexpected extra evidence, not as license to keep the old wedge active | none while waiting | checkpoint silent |
-| `@jessecolesmith` | founder / domain builder | stability-first workflow language plus a publicly visible founder-side brief ask in-thread | treat any late reply to `https://x.com/thefuckkingguy/status/2058104945103212971` as extra evidence, but do not keep using it as the active waiting surface after the stalled readout | none while waiting on late evidence | stalled route |
-| `@james_hsi` | founder / prototype builder | prototype builder showing an AI-built app to testers; good fit for pre-launch stability-brief ask | the route expired as an unsent approval gate when the founder-side window closed; it never became a live touch | new explicit restart decision would be required before reviving it | expired gate |
-| `@FSfakiotakis` | founder / operator | simple founder-maintained apps may not need this early | keep as segmentation constraint | any new public action gated | weak negative logged |
-| Hacker News Show HN | public distribution | account too new (`fnop=toonew`) | do not retry unless HN becomes the chosen next channel | account trust would gate | blocked/stale for now |
-| Founder-side target pool | founder / operator | demo-to-launch confidence gap is already visible in public Replit, Lovable, and SaaS threads | the safe Reddit founder-side public pool has now been attempted without publicly verifiable sends | no more Reddit-first action inside this pivot | pruned for current route |
-| Existing X founder/builder targets | founder / operator | two weak but useful founder-side signals already came from X, and the session is logged in | Jesse replacement route is now live; if it stays silent, reuse `docs/x-target-discovery.md` and the prior engaged founder language to pick the next X founder-side route | current pivot public validation scope has already covered the first replacement route | staged fallback |
+SpecRelay-specific leads are archived. No active leads or prospects should be worked until a new product is selected.
 
 ## Channel Experiments
 
@@ -60,13 +45,13 @@
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | wait for Product/CEO disposition on `park`, `sunset`, or bounded restart | decision | explicit company-level next step instead of zombie maintenance | yes | active |
-| 2 | treat any late reply from Jesse, Bytewise, AppStuck, or AC Tech Labs as extra evidence only | decision | a late strong positive could justify reopening the case, but only under an explicit restart decision | no while waiting | passive |
+| 1 | shortlist and score fresh candidates | decision | one selected next product plus a bounded first experiment | no | active |
+| 2 | treat any late SpecRelay reply as archived evidence only | decision | cleaner historical record, not automatic restart | no | passive |
 
 ## Acquisition Cadence
 
 - Cadence owner: Growth
-- Current cadence: no autonomous acquisition cadence while in `sunset-review`
+- Current cadence: none while between products
 - Rule: the company chooses cadence from business stage, signal strength, and bottleneck; do not wait for the user to prescribe lead/post counts.
 - Cadence record: see `acquisition-cadence.md`
 

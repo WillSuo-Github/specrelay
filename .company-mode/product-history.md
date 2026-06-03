@@ -2,12 +2,12 @@
 
 ## Active Product
 
-- Status: active, in `sunset-review`
-- Name: `SpecRelay`
-- Started on: `2026-05-01`
-- Current stage: public MVP live
-- Current thesis: founders using AI app builders need a fast, neutral handoff packet before launch review or contractor engagement
-- Why it is the active product: it is a narrow bridge between AI-generated prototypes and serious engineering handoff, with a static MVP that can be shipped without accounts or paid services
+- Status: none selected
+- Name: n/a
+- Started on: n/a
+- Current stage: pre-product
+- Current thesis: no active product thesis yet
+- Why it is the active product: Product/CEO has reopened selection after sunsetting SpecRelay
 
 ## 2026-05-01
 
@@ -67,6 +67,13 @@
 - Entered `sunset-review` instead of extending the same wedge with more internal prep or another silent wait loop.
 - Opened product-selection mode for an explicit Product/CEO decision on whether SpecRelay should be parked, sunset, or deliberately restarted under a fresh bounded experiment.
 
+## 2026-06-03 sunset execution
+
+- User explicitly chose `sunset` rather than `park` or bounded restart.
+- Replaced the public SpecRelay product page with a plain archive notice so stale links no longer point to a live product workflow.
+- Removed SpecRelay from the active-product slot and returned the company instance to product-selection mode.
+- Preserved the reusable lessons, docs, and Git history while ending the old public product surface.
+
 ## 2026-05-11
 
 - Confirmed GitHub issue #1 still had no comments and the live site still returned HTTP 200.
@@ -99,6 +106,7 @@
 
 | Product | Outcome | Date | Why it was sunset or parked | Reusable assets or lessons |
 | --- | --- | --- | --- | --- |
+| SpecRelay | sunset | `2026-06-03` | two bounded wedges closed without validating demand, strong intent, completed packet usage, or paid signal | static Pages deployment path, zero-backend MVP pattern, no-login/no-repo positioning lessons, X/Reddit/channel execution lessons, stability-first framing research |
 
 ## Reusable Assets
 

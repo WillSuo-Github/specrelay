@@ -1,6 +1,8 @@
 # Feedback Log
 
-Two direct qualitative responses so far. No completed packet review yet. Current research points toward contractor/agency rescue workflows as the next sharper validation surface.
+SpecRelay is now sunset. This file remains as archived evidence only and should not be treated as live demand for the next product.
+
+Two direct qualitative responses landed during the SpecRelay run. No completed packet review or strong intent signal was ever recorded.
 
 ## Public Feedback Surface
 

@@ -8,7 +8,7 @@ This file is the recoverable automation spec for this one-product company instan
 - Kind: heartbeat attached to the current thread
 - Status: deleted
 - Current cadence: none
-- Reason: the founder-side evidence window is now closed, SpecRelay has entered `sunset-review`, and no meaningful autonomous work remains until Product/CEO chooses `park`, `sunset`, or a fresh bounded restart. Late Jesse, Bytewise, AppStuck, or AC Tech Labs replies may still matter as extra evidence, but they do not justify keeping the old heartbeat alive.
+- Reason: SpecRelay is now fully sunset, the public product has been taken offline, and there is no active product to operate autonomously. A new automation should be created only after the next product is selected.
 
 ## Policy
 

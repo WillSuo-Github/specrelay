@@ -1,10 +1,15 @@
 # Metrics
 
-Last updated: 2026-05-13
+Last updated: 2026-06-03
+
+## Status
+
+- This file now records archived SpecRelay metrics only.
+- There is no active product selected, so no current live KPI exists beyond product selection itself.
 
 ## North-Star Metric
 
-- Completed handoff packets: 0
+- Archived SpecRelay completed handoff packets: 0
 
 ## Funnel
 
@@ -37,6 +42,6 @@ Last updated: 2026-05-13
 
 ## Interpretation
 
-- Current product usage numbers remain unknown because there is no analytics instrumentation.
-- First measurement priority is whether reviewers comment, copy/download a packet, or say the packet would save a handoff call.
-- Current learning: founder response suggests handoff need is conditional on someone besides the founder needing to review or change the app; domain-builder response suggests the packet needs to start with stability and basic workflows before broader improvement planning.
+- SpecRelay ended with no verified activation, no completed packet review, and no strong intent signal.
+- These metrics are historical input only.
+- The next product-selection sprint should define a new KPI instead of inheriting the old packet metric automatically.

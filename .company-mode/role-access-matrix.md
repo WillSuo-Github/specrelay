@@ -1,8 +1,8 @@
 # Role Access Matrix
 
-Last updated: `2026-05-30`
+Last updated: `2026-06-03`
 Scope: one-product company instance
-Current company stage: public MVP live, `sunset-review` after the founder-side stability-brief pivot closed without a validating reply
+Current company stage: `pre-product` with product-selection active after SpecRelay sunset
 
 ## Reading this matrix
 
@@ -12,53 +12,53 @@ Current company stage: public MVP live, `sunset-review` after the founder-side s
 
 ## Product/CEO
 
-- Current responsibilities: choose product thesis, define target user, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
+- Current responsibilities: choose the next product thesis, define selection criteria, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: no strong usage-intent signal exists for either bounded wedge; the next move is a company-level park/sunset/restart decision rather than more autonomous execution
+- Main blockers: no next product has been selected yet
 
 ## Engineering
 
-- Current responsibilities: inspect/build product code, create the smallest shippable unit, add instrumentation, and keep technical state current
+- Current responsibilities: keep the archive page healthy and prepare the next static product surface only after selection
 - Verified access: local codebase, GitHub Pages deployment path, public live URL
 - Status: Ready
-- Main blockers: no backend analytics; qualitative learning is the current priority
+- Main blockers: there is no active product build target yet
 
 ## Design
 
-- Current responsibilities: define UX direction, improve onboarding and copy, and ensure release-facing visuals are deliberate
+- Current responsibilities: support next-product concept shaping and keep public archive surfaces truthful
 - Verified access: local assets and public app
 - Status: Ready
-- Main blockers: Product Hunt gallery assets are not needed until later launch packaging
+- Main blockers: no new product brief exists yet
 
 ## Growth
 
-- Current responsibilities: shape positioning, run zero-spend distribution experiments, and monitor market response
+- Current responsibilities: support candidate discovery and channel scoring for the next product
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
 - Status: Partial
-- Main blockers: there is no active growth route left inside the closed founder-side window; any new distribution route now requires an explicit restart decision first
+- Main blockers: there is no active product to distribute; prior SpecRelay routes are archived
 
 ## Support/Research
 
-- Current responsibilities: run cheap demand research, triage feedback, watch competitors, and synthesize repeated pain points
+- Current responsibilities: synthesize reusable lessons from SpecRelay and source the next candidate set
 - Verified access: public GitHub feedback issue and local feedback log
-- Status: Partial
-- Main blockers: two useful but weak qualitative X responses still never turned into explicit usage intent or completed brief behavior
+- Status: Ready
+- Main blockers: old feedback is archived and cannot be mistaken for live demand on the next product
 
 ## Release/Ops
 
-- Current responsibilities: prepare release path, account guardrails, launch checklists, monitoring, and rollback readiness
+- Current responsibilities: keep the archive page live, maintain account guardrails, and avoid stale public claims
 - Verified access: GitHub Pages public URL, GitHub release, local automation spec
 - Status: Ready
-- Main blockers: HN public submission is blocked by account trust/age, not product readiness
+- Main blockers: no new release target exists yet
 
 ## Summary
 
-- `Ready`: Product/CEO, Engineering, Design, Release/Ops
-- `Partial`: Growth, Support/Research
+- `Ready`: Product/CEO, Engineering, Design, Support/Research, Release/Ops
+- `Partial`: Growth
 - `Blocked`:
 
 ## What this means
 
-- Current interpretation: SpecRelay is technically shippable, but both bounded wedges have now closed without a validating reply or usage signal, so the company should not keep executing under the same thesis automatically.
-- Highest-leverage next upgrades: make an explicit `park`, `sunset`, or bounded-restart decision; do not reopen contractor/agency or founder-side outreach unless late evidence materially changes the case or Product/CEO deliberately restarts the product.
+- Current interpretation: SpecRelay is no longer the active product. The company is cleanly back in product-selection mode with no live public offer besides an archive notice.
+- Highest-leverage next upgrades: shortlist fresh candidates, choose one active product, and define one bounded first experiment before any new build or outreach work starts.

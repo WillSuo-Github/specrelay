@@ -1,10 +1,15 @@
-# SpecRelay
+# Mark-1 Company Instance
 
-SpecRelay turns AI-built app prototypes into launch QA checklists and developer handoff briefs.
+This repository is a one-product company workspace that has just sunset its first
+product, `SpecRelay`.
 
-Live: https://willsuo-github.github.io/specrelay/
+Public archive page: https://willsuo-github.github.io/specrelay/
 
-The MVP includes three sample packet presets so a first-time evaluator can inspect output quality before entering their own prototype details. Copied/downloaded packets also include review questions for lightweight qualitative feedback.
+The previous interactive SpecRelay MVP is offline. The public URL now serves only
+an archive notice so stale links do not continue pointing at an active product.
+
+The company is back in product-selection mode and has no active product selected
+yet.
 
 ## Run
 
@@ -19,4 +24,5 @@ npm run dev
 npm run build
 ```
 
-The first MVP is a static React app. It does not use backend storage, external APIs, credentials, or paid services.
+This repository still uses a static React/Vite surface for public pages. No
+backend storage, external APIs, credentials, or paid services are required.

@@ -1,18 +1,18 @@
 # Business Audit
 
-- Last updated: `2026-05-30`
+- Last updated: `2026-06-03`
 - Owner role: Product/CEO
 - Purpose: force a recurring evidence-based answer to whether the company is actually closer to revenue, not merely busier.
 
 ## Current Audit State
 
 - Audit window: last 7 days or last 10 active company runs from `run-log.md`, whichever contains more decision-grade evidence
-- Last audit: `2026-05-29` in `RUN-0038`
-- Next audit at: before any resumed active experiment or explicit product-selection decision
+- Last audit: `2026-06-03` in `RUN-0040`
+- Next audit at: before any new product is committed as the active build target
 - Current answer: `no`
 - Confidence: high
-- Required decision: Product/CEO must now decide whether SpecRelay is `park`, `sunset`, or deliberately restarted under a fresh bounded experiment
-- Required action: do not reopen the closed founder-side or contractor/agency wedges automatically; late replies can be logged as extra evidence only
+- Required decision: run product selection and choose the next active product deliberately
+- Required action: keep SpecRelay sunset, keep the archive page truthful, and do not reopen the old wedges automatically
 
 ## Audit Question
 
@@ -35,10 +35,10 @@ Allowed answers:
 | Paying intent / monetization | still no willingness-to-pay signal; the previous B2B intake model did not earn even weak buyer engagement | unchanged | medium | `business-model.md`, `experiments.md` |
 | Users / demand | two weak X signals remain the only direct feedback; no founder-side reply, no completed packet review, and no contractor/agency reply landed after the pivot | unchanged | medium | `metrics.md`, `feedback.md`, `market-map.md` |
 | Activation / retention | product is usable, but neither the full packet nor a smaller brief has confirmed completion behavior yet | unchanged | low | `metrics.md`, `signal-sources.md` |
-| Distribution | the contractor/agency wedge already closed silent, and the founder-side pivot has still not produced a founder reply or an approved second live route by this audit | no | high | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
-| Release / reachability | live URL and Pages deploys remained healthy, including workflow `26218772659` | unchanged | high | `release.md` |
+| Distribution | SpecRelay exhausted its available wedges and was then taken offline as an active product; there is no new product selected yet | no | high | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
+| Release / reachability | the public URL is still healthy, but now serves only an archive notice instead of an active product | mixed | high | `release.md` |
 | Account dependencies | no new blocking account need prevented the chosen move | unchanged | medium | `account-needs.md` |
-| Operating quality | the company is still holding the exact approval gate and has not faked market progress, but governance alone still did not move revenue | mixed | medium | `operating-quality.md`, `independent-check.md` |
+| Operating quality | the company executed the sunset cleanly and did not fake market progress, but the run still did not create new revenue movement because it was a shutdown rather than a validating growth step | mixed | medium | `operating-quality.md`, `independent-check.md` |
 
 ## Decision Rules
 
@@ -60,6 +60,7 @@ Allowed answers:
 | `2026-05-22` | `2026-05-15` to `2026-05-22 00:02 CST` | `no` | the contractor/agency wedge ended with no verified evaluator reply, no completed packet review, no strong intent, and no paid signal; distribution did not move the company closer to revenue by the checkpoint | stop the current wedge and run one founder-side strategy reset instead of more rescue-service outreach | activate the founder-side stability-brief experiment and stop at the exact public-reply approval gate | `2026-05-29 17:00 CST` |
 | `2026-05-29` | `2026-05-22` to `2026-05-29 19:26 CST` | `no` | the founder-side pivot still has 0 founder replies, 0 strong intent, 0 completed packet/brief reviews, and 0 paid signal; James Hsi remains only a staged approval gate, not a live touch | keep the exact gate alive only to tonight's readout close, then force `sunset-review` if silence or no approval persists | stop broad execution drift, tighten the next wake to `2026-05-29 23:59 CST`, and treat the founder-side readout close as the next hard company decision | `2026-05-29 23:59 CST` |
 | `2026-05-30` | `2026-05-22` to `2026-05-30 00:13 CST` | `no` | the founder-side readout window actually closed with no founder reply, no validated usage, no paid signal, one stalled live route, and one expired unsent gate | enter `sunset-review` instead of extending the same thesis automatically | wait for explicit Product/CEO `park`, `sunset`, or restart decision | before any resumed active experiment or product-selection decision |
+| `2026-06-03` | `2026-05-23` to `2026-06-03 19:20 CST` | `no` | no late signal changed the evidence, and the only material move was executing the explicit sunset and taking the product offline | complete the sunset and reopen product selection instead of keeping SpecRelay in review | run a fresh next-product selection sprint | before the next product is committed active |
 
 ## Audit Closeout Checklist
 

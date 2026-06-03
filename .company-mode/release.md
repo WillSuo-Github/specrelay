@@ -1,49 +1,41 @@
 # Release Ops
 
-Last updated: 2026-05-22
+Last updated: 2026-06-03
 
 ## Current Release
 
 - Product: SpecRelay
-- Release type: static web MVP
-- Version: 0.1.0
-- Target date: 2026-05-01
-- Platforms: local dev server first; static hosting after account/deployment path is confirmed
+- Release type: sunset archive page
+- Version: archived
+- Target date: 2026-06-03
+- Platforms: static GitHub Pages archive surface
 - Public URL: https://willsuo-github.github.io/specrelay/
 - GitHub release: https://github.com/WillSuo-Github/specrelay/releases/tag/v0.1.0
 - Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 - Local URL: http://localhost:4173/
-- Rollback plan: static bundle can be removed or replaced; no production data exists
+- Rollback plan: static archive bundle can be replaced again if a future product is selected; no production data exists
 
 ## Pre-Release Checklist
 
-- [x] Production build passes
-- [x] Desktop and mobile layout checked
-- [x] Three sample packet presets checked
-- [x] Copy Markdown action checked
-- [x] Download Markdown action checked
-- [x] In-packet review questions checked
-- [x] Stability-first pass checked
-- [x] Deployment path selected: GitHub Pages workflow staged
-- [x] Initial growth channel rule check documented
-- [x] First growth copy staged to final action gate with live URL
-- [x] Link preview metadata prepared for public sharing
+- [x] SpecRelay MVP previously released
+- [x] Sunset decision explicitly approved
+- [x] Interactive product removed from the public page
+- [x] Public page replaced with archive notice
+- [x] Build path preserved for future company use
 
 ## Post-Release Checklist
 
-- [ ] Watch for build/runtime errors
-- [ ] Collect first 5 qualitative reviews
-- [x] Document first external channel/account plan
-- [ ] Review completed handoff packet rate
-- [ ] Feed observations back into roadmap
+- [x] Prevent stale links from serving a live inactive product
+- [x] Keep public URL truthful
+- [ ] Watch for deploy/runtime errors on the archive page
+- [ ] Replace archive page only after the next product is selected
 
 ## Known Gates
 
-- Public deployment completed through the `WillSuo-Github/specrelay` project repository.
-- GitHub Pages path is configured as a project site at `/specrelay/`, so it should not overwrite an existing account Pages site.
-- Owned-channel GitHub release and feedback issue are public.
-- Social/community posts, follow-up links, DMs, and additional outreach remain action-time gated until final composer content, target account, and channel rules are verified.
-- External channels require user-provided or user-approved accounts: X is available and first-wave public replies have been sent; the current Hacker News account is blocked by `fnop=toonew`; Indie Hackers, Product Hunt, Reddit, or a direct email/intro path remain later options.
+- Public deployment remains through the `WillSuo-Github/specrelay` project repository.
+- GitHub Pages path remains configured as a project site at `/specrelay/`, so the archive page still does not interfere with the account-level Pages site.
+- Owned-channel GitHub release and feedback issue remain public as archived history.
+- No new public/community action should reuse SpecRelay positioning.
 
 ## Local Launch State
 
@@ -102,3 +94,4 @@ Last updated: 2026-05-22
 - 2026-05-20: Follow-up heartbeat confirmed the latest Pages workflow `26106387465` completed successfully, GitHub issue #1 still had no comments, and the live URL still returned HTTP 200 while the current outreach batch remained silent.
 - 2026-05-21: Follow-up heartbeat confirmed the latest Pages workflow `26147682652` completed successfully, GitHub issue #1 still had no comments, and the live URL still returned HTTP 200 while the current outreach batch remained silent.
 - 2026-05-22: Hard-checkpoint heartbeat confirmed the latest Pages workflow `26218772659` completed successfully, GitHub issue #1 still had no comments, and the live URL still returned HTTP 200 while the contractor/agency wedge closed without a verified reply.
+- 2026-06-03: Sunset execution replaced the live SpecRelay packet generator with a static archive notice so stale links no longer point to an active product surface.

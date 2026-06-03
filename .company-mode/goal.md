@@ -2,18 +2,18 @@
 
 ## Top-Level Objective
 
-Validate whether founders, contractors, or agencies want a structured handoff packet before an AI-built prototype moves into a customer pilot, launch review, or engineering scoping call.
+Select the next active product for this company instance using a bounded, evidence-first product-selection sprint.
 
 ## Current 7-Day Target
 
-- Get 5 qualitative reviews.
-- Count at least 2 strong intent signals where a reviewer says the packet would save time before a contractor or launch review.
-- Capture exact language about missing handoff information and whether the buyer is founder, contractor, or agency.
+- Shortlist 3 to 5 candidates.
+- Pick exactly 1 next active product.
+- Define one bounded first experiment with a target user, channel, evidence window, and stop rule before any new product build work starts.
 
 ## Current Constraint
 
-SpecRelay should remain a static, zero-backend MVP until the manual handoff packet has evidence of demand. Do not expand into automated scanning until reviewers ask for it after using or inspecting the manual packet.
+SpecRelay is sunset and must stay inactive. This company instance must keep exactly one active product, so no new build, launch, or public operation should begin until Product/CEO records the next selected product.
 
 ## Current Next Move
 
-Use the first available high-fit external channel to get evaluator conversations: direct founder/contractor/agency outreach first, Hacker News Show HN or Indie Hackers next if a suitable account is available, and Product Hunt only after early reviews or launch assets are ready.
+Run a fresh market and candidate scan, score candidates on evidence speed, zero-cost distribution fit, monetization plausibility, and build fit, then record the winning next product in `.company-mode/product-selection.md`, `.company-mode/company.md`, and `.company-mode/state.md`.
