@@ -1,46 +1,46 @@
 # Release Ops
 
-Last updated: 2026-06-03
+Last updated: 2026-06-04
 
 ## Current Release
 
 - Product: Burn Ceiling
-- Release type: not launched yet
-- Version: n/a
-- Target date: tbd after first MVP build
-- Platforms: static web app once the MVP exists
+- Release type: public MVP live
+- Version: MVP-1
+- Target date: `2026-06-04`
+- Platforms: static web app on GitHub Pages
 - Public URL: https://willsuo-github.github.io/specrelay/
 - GitHub release: https://github.com/WillSuo-Github/specrelay/releases/tag/v0.1.0
 - Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 - Local URL: http://localhost:4173/
-- Rollback plan: SpecRelay archive notice remains the safe public fallback until Burn Ceiling has a real public build
+- Rollback plan: the prior archive page can be restored quickly if this MVP must be taken back offline
 
 ## Pre-Release Checklist
 
 - [x] SpecRelay sunset and archive page deployed
-- [ ] Burn Ceiling MVP built
-- [ ] Burn Ceiling public page deployed
-- [ ] Burn Ceiling feedback path defined
+- [x] Burn Ceiling MVP built
+- [x] Burn Ceiling public page deployed
+- [x] Burn Ceiling feedback path defined
 
 ## Post-Release Checklist
 
 - [x] Prevent stale links from serving a live inactive product
 - [x] Keep public URL truthful
-- [ ] Watch for deploy/runtime errors on the archive page
-- [ ] Replace archive page only after the Burn Ceiling MVP is ready
+- [ ] Watch for deploy/runtime errors on the live MVP page
+- [x] Replace archive page only after the Burn Ceiling MVP is ready
 
 ## Known Gates
 
 - Public deployment remains through the `WillSuo-Github/specrelay` project repository.
 - GitHub Pages path remains configured as a project site at `/specrelay/`, so the archive page still does not interfere with the account-level Pages site.
-- Owned-channel GitHub release and feedback issue remain public as archived history.
+- Owned-channel GitHub release and feedback issue remain public as archived history until Burn Ceiling needs a cleaner owned feedback surface.
 - No new public/community action should reuse SpecRelay positioning.
 
 ## Local Launch State
 
-- Dev server: stopped after QA; start preview with `npm run preview -- --port 4173`
+- Dev server: preview used for QA on `http://localhost:4173/specrelay/`
 - Git branch: `main`
-- Commit status: local history is committed and pushed to `origin/main`
+- Commit status: this run changes both product code and company state for Burn Ceiling MVP
 - Public deploy command prepared in `docs/deploy.md`
 
 ## Latest Local QA
@@ -94,3 +94,4 @@ Last updated: 2026-06-03
 - 2026-05-21: Follow-up heartbeat confirmed the latest Pages workflow `26147682652` completed successfully, GitHub issue #1 still had no comments, and the live URL still returned HTTP 200 while the current outreach batch remained silent.
 - 2026-05-22: Hard-checkpoint heartbeat confirmed the latest Pages workflow `26218772659` completed successfully, GitHub issue #1 still had no comments, and the live URL still returned HTTP 200 while the contractor/agency wedge closed without a verified reply.
 - 2026-06-03: Sunset execution replaced the live SpecRelay packet generator with a static archive notice so stale links no longer point to an active product surface.
+- 2026-06-04: Burn Ceiling MVP replaced the archive notice with a live planner surface. `npm run build` passed, and system Chrome QA confirmed desktop/mobile rendering, preset switching, feedback link, and no horizontal overflow at 390px.

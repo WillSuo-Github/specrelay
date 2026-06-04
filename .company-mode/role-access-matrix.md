@@ -2,7 +2,7 @@
 
 Last updated: `2026-06-03`
 Scope: one-product company instance
-Current company stage: `pre-product` with Burn Ceiling selected as the new active product
+Current company stage: `public MVP live` with Burn Ceiling as the active product
 
 ## Reading this matrix
 
@@ -15,28 +15,28 @@ Current company stage: `pre-product` with Burn Ceiling selected as the new activ
 - Current responsibilities: validate the Burn Ceiling thesis, set priorities, update company state, run after-action company reviews, classify kernel vs instance improvements, and enforce hard gates
 - Verified access: local repo and company state
 - Status: Ready
-- Main blockers: no live MVP or direct founder signal exists yet
+- Main blockers: no direct founder signal exists yet
 
 ## Engineering
 
-- Current responsibilities: build the smallest Burn Ceiling MVP while keeping the archive page healthy
+- Current responsibilities: keep the MVP stable, small, and exportable while avoiding backend drift
 - Verified access: local codebase, GitHub Pages deployment path, public live URL
 - Status: Ready
 - Main blockers: none on code access; only product-fit risk remains
 
 ## Design
 
-- Current responsibilities: shape the planner flow and keep the archive surface truthful until Burn Ceiling launches
+- Current responsibilities: shape the planner flow and keep the live page sharp, compact, and truthful
 - Verified access: local assets and public app
 - Status: Ready
-- Main blockers: no live product copy or output has been tested yet
+- Main blockers: no live user reaction yet
 
 ## Growth
 
-- Current responsibilities: turn current founder cost pain into concrete MVP copy and first outreach targets
+- Current responsibilities: turn current founder cost pain into concrete validation copy and first outreach targets
 - Verified access: X logged-in Chrome session, Hacker News logged-in Chrome session for account `willsuo`, owned GitHub release, and feedback issue are live
-- Status: Partial
-- Main blockers: Burn Ceiling has no live MVP yet
+- Status: Ready
+- Main blockers: public validation actions still remain gated by instance rules
 
 ## Support/Research
 
@@ -47,18 +47,18 @@ Current company stage: `pre-product` with Burn Ceiling selected as the new activ
 
 ## Release/Ops
 
-- Current responsibilities: keep the archive page live until Burn Ceiling ships, maintain account guardrails, and avoid stale public claims
+- Current responsibilities: keep the live MVP healthy, maintain account guardrails, and avoid stale public claims
 - Verified access: GitHub Pages public URL, GitHub release, local automation spec
 - Status: Ready
-- Main blockers: Burn Ceiling is not built yet
+- Main blockers: no live feedback loop exists yet beyond the in-product feedback ask
 
 ## Summary
 
-- `Ready`: Product/CEO, Engineering, Design, Support/Research, Release/Ops
-- `Partial`: Growth
+- `Ready`: Product/CEO, Engineering, Design, Growth, Support/Research, Release/Ops
+- `Partial`:
 - `Blocked`:
 
 ## What this means
 
-- Current interpretation: Burn Ceiling is selected, but no one has used it yet; the company now needs a real MVP and first external signal, not more product-selection work.
-- Highest-leverage next upgrades: ship the MVP fast, keep the scope tight, and stage one exact founder-facing validation route.
+- Current interpretation: Burn Ceiling is live, but no one has used it yet; the company now needs first external signal, not more internal shaping.
+- Highest-leverage next upgrades: keep the MVP scope tight, verify the live page, and stage one exact founder-facing validation route.

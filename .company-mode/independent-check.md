@@ -6,9 +6,9 @@
 
 ## Current Run Check
 
-- Run date: `2026-06-03`
+- Run date: `2026-06-04`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: explicit sunset execution, archive-page public fidelity, selection-sprint evidence support, next-product state consistency, and release truthfulness
+- Scope checked: Burn Ceiling MVP implementation, local build/QA evidence, state consistency, public-surface truthfulness, and one-active-product discipline
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -64,3 +64,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-05-30` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | no new external signal landed by the founder-side readout close; the company correctly entered `sunset-review` and retired the obsolete heartbeat instead of keeping a stale autonomous loop alive |
 | `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | sunset was executed cleanly, the public page no longer behaves like a live product, and repo-backed state consistently treats SpecRelay as closed rather than merely waiting |
 | `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the Burn Ceiling selection is evidence-backed, only one active product exists, the archive page remains truthful, and the new experiment window is bounded instead of open-ended |
+| `2026-06-04` | explicit independent audit lens + build-plus-browser verification | `21/21` | none | `pass with notes` | the Burn Ceiling MVP is real, locally build-verified, mobile-safe at 390px, and durable state now treats the product as live rather than still pre-product |

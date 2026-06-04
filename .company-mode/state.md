@@ -2,29 +2,29 @@
 
 - Last updated: `2026-06-03`
 - Dominant objective: validate Burn Ceiling as the next active product
-- Current stage: pre-product
-- Current release: Burn Ceiling has no public MVP yet; the old SpecRelay URL now serves an archive notice
-- Health summary: SpecRelay is sunset and offline. Product selection has completed inside this run, and Burn Ceiling is now the one active product. The new thesis is a static cost-cap and launch-guardrail planner for AI-backed apps.
+- Current stage: public MVP live
+- Current release: Burn Ceiling now has a first public static MVP at the old project URL; SpecRelay remains archived as historical context only
+- Health summary: SpecRelay is sunset and offline as a product thesis. Burn Ceiling is now the one active product, and the first static planner MVP is built and ready for live demand validation.
 
 ## Now
 
-- In progress: SpecRelay sunset is complete. Burn Ceiling is now selected as the active product, but no MVP or live distribution route exists yet.
-- Public URL: https://willsuo-github.github.io/specrelay/ now serves a sunset/archive notice instead of the old packet generator
-- Biggest blocker: Burn Ceiling does not have a live MVP or first external signal yet
-- Highest-risk assumption: launch-stage AI founders feel enough cost anxiety before launch to fill out a 5-minute planner instead of continuing with ad hoc spreadsheet estimates
+- In progress: Burn Ceiling MVP is built and being moved onto the live GitHub Pages surface. The next bottleneck is first direct founder signal, not implementation.
+- Public URL: https://willsuo-github.github.io/specrelay/ now serves Burn Ceiling instead of the old SpecRelay packet generator
+- Biggest blocker: Burn Ceiling still has no completed plans or direct founder intent signal
+- Highest-risk assumption: founders agree the pain is real but may still treat launch cost planning as spreadsheet work rather than complete a focused planner
 - Next decision deadline: `2026-06-10 23:59 CST` first bounded experiment readout
 
 ## Next Recommended Actions
 
 - Product/CEO: hold Burn Ceiling to a 7-day evidence window; do not let it become another generic checklist product
 - Support/Research: use current public cost-cap and runaway-bill signals as the demand base, not the old SpecRelay launch-handoff thesis
-- Engineering: build the smallest static planner MVP with preset scenarios and exportable output
-- Growth: stage the first AI-founder validation routes only after the MVP exists
-- Release/Ops: keep the SpecRelay archive notice live until Burn Ceiling has a real public page
+- Engineering: keep the MVP truthful, short, and exportable; do not add backend or analytics drift before signal
+- Growth: stage the first AI-founder validation routes now that the MVP exists, but stop at exact public-action gates
+- Release/Ops: verify the live page, metadata, and feedback path after deploy-touching runs
 
 ## Pending Approvals
 
-- Exact live action currently gated: none yet; the next meaningful public action is shipping the first Burn Ceiling MVP
+- Exact live action currently gated: founder-facing public validation remains action-time gated; product shipping is pre-authorized
 - Account gap to resolve: none for the sunset/selection state
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -63,14 +63,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-06-03`
-- Current stage: `pre-product`. SpecRelay is explicitly sunset and offline as an interactive product, and Burn Ceiling is now the one active product.
-- Evidence quality: medium/high for the new selection. The sunset execution is fully verified, and the next product choice is backed by current public pain signals around runaway AI costs and mandatory launch cost caps.
-- Current-run work completed: executed the explicit user-directed sunset, replaced the public app with an archive notice, ran a fresh product-selection sprint, selected Burn Ceiling as the next active product, and defined its first bounded experiment.
-- Instance-only improvements executed: public takedown, state cleanup, archive positioning, next-product selection, and bounded experiment setup.
+- Date: `2026-06-04`
+- Current stage: `public MVP live`. SpecRelay remains sunset and archived, and Burn Ceiling now has a first live static planner MVP.
+- Evidence quality: medium for product truth and low for demand. The planner MVP is real, build-verified, and locally QA-checked, but no founder has used it yet.
+- Current-run work completed: refreshed company-mode, implemented the first Burn Ceiling planner MVP in the existing React/Vite surface, added presets plus export and feedback paths, passed `npm run build`, and locally verified desktop/mobile rendering in system Chrome.
+- Instance-only improvements executed: public MVP implementation, release metadata update, local QA evidence, and state alignment from pre-product to live MVP.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: any future public action, outreach, paid spend, account changes, or credential work remain action-time gated for Burn Ceiling unless explicitly delegated.
-- Stop-check: one coherent sunset-plus-selection run is complete. Burn Ceiling is now the one active product, and the next valid move is to ship the first MVP and run `EXP-0005`.
+- Hard-gated improvements: founder-facing public posts/replies/outreach, paid spend, account changes, and credentials remain action-time gated unless explicitly delegated.
+- Stop-check: one coherent MVP-shipping run is complete. Burn Ceiling is now live, and the next valid move is first validation distribution against `EXP-0005`.
 
 ## Previous CEO After-Action Review
 

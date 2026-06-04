@@ -1,15 +1,12 @@
 # Mark-1 Company Instance
 
-This repository is a one-product company workspace that has just sunset its first
-product, `SpecRelay`.
+This repository is a one-product company workspace currently building
+`Burn Ceiling`, an AI app cost-cap and launch-guardrail planner.
 
 Public archive page: https://willsuo-github.github.io/specrelay/
 
-The previous interactive SpecRelay MVP is offline. The public URL now serves only
-an archive notice so stale links do not continue pointing at an active product.
-
-The company is back in product-selection mode and has no active product selected
-yet.
+`SpecRelay` is sunset. The public URL was previously switched to an archive
+notice and is now being reused for the first Burn Ceiling MVP.
 
 ## Run
 

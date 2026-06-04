@@ -1,12 +1,12 @@
 # Metrics
 
-Last updated: 2026-06-03
+Last updated: 2026-06-04
 
 ## Status
 
 - Active product: `Burn Ceiling`
 - Archived product: `SpecRelay`
-- Burn Ceiling has no live usage yet. SpecRelay metrics remain below as historical context.
+- Burn Ceiling now has a live MVP but no measured usage yet. SpecRelay metrics remain below as historical context.
 
 ## North-Star Metric
 
@@ -23,10 +23,10 @@ Last updated: 2026-06-03
 
 ## Burn Ceiling Readiness Counters
 
-- MVP shipped: no
-- Preset scenarios available: 0
-- Plan export path built: no
-- Feedback ask embedded in-product: no
+- MVP shipped: yes
+- Preset scenarios available: 3
+- Plan export path built: yes
+- Feedback ask embedded in-product: yes
 - Strong intent signals: 0
 - Completed guardrail plans: 0
 

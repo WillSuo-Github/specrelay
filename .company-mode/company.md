@@ -14,7 +14,7 @@
 
 - Working name: `Burn Ceiling`
 - Category: AI app cost-cap and launch-guardrail planner
-- Current stage: pre-product
+- Current stage: public MVP live
 - Primary platform: static web app
 - Operating model: one company instance operates one active product. Other products should get their own company instances that share the same kernel.
 

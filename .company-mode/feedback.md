@@ -2,7 +2,7 @@
 
 SpecRelay is now sunset. Its entries below remain archived evidence only.
 
-Burn Ceiling is the new active product, but it has no direct feedback yet.
+Burn Ceiling is the new active product. It now has a live MVP, but it still has no direct feedback yet.
 
 Two direct qualitative responses landed during the SpecRelay run. No completed packet review or strong intent signal was ever recorded.
 

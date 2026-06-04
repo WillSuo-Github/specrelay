@@ -16,4 +16,4 @@ SpecRelay is sunset and must stay inactive. `Burn Ceiling` should stay a static,
 
 ## Current Next Move
 
-Build the smallest static planner with 2 to 3 realistic presets, exportable guardrail output, and a concrete ask for launch-stage AI founders.
+Stage the first exact founder-facing validation route against the live MVP, while keeping the planner small and truthful.

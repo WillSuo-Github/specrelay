@@ -1,6 +1,6 @@
 # Experiments
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-04`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
@@ -10,7 +10,7 @@
 - Bottleneck tested: `demand`
 - Evidence window: `2026-06-03` to `2026-06-10 23:59 CST`
 - Readout due: `2026-06-10 23:59 CST`
-- Current decision pressure: Burn Ceiling must ship a real MVP and produce first completion plus intent evidence inside one bounded window
+- Current decision pressure: Burn Ceiling now has to turn a live MVP into completed plans or strong founder intent inside one bounded window
 - Last completed experiment result: `EXP-0004` closed `inconclusive` when the founder-side window produced no reply or strong intent
 - Weak/negative completed experiments since last viability review: 0
 
@@ -45,6 +45,7 @@
 | `2026-05-25` | `EXP-0004` | `continue` | after roughly 32 hours, the Jesse founder-side X route still had no founder reply and still only `2` visible views, while GitHub remained silent and no late contractor/agency reply was newly verified | medium/high | keep the founder-side pivot alive, but stop treating Jesse as the active waiting surface; stage the next exact X founder-side candidate for approval | `feedback.md`, `state.md`, `run-log.md`, `signal-sources.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | stop at the staged James Hsi approval gate instead of accumulating another no-progress wait round |
 | `2026-05-30` | `EXP-0004` | `inconclusive` | the founder-side evidence window closed with 0 founder replies, 0 strong intent, 0 completed packet/brief reviews, 0 paid signal, one stalled Jesse X route, and one unsent James Hsi approval gate | high for window close, medium for strategy implication | stop the current founder-side experiment and enter `sunset-review` instead of extending the same wedge with no fresh evidence | `experiments.md`, `viability-scorecard.md`, `product-selection.md`, `product-history.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `revenue-pipeline.md`, `signal-sources.md`, `ops/automation-spec.md` | wait for Product/CEO park/sunset/new-window decision rather than keeping the current experiment alive |
 | `2026-06-03` | `EXP-0004` | `closed by sunset` | no late evidence changed the founder-side readout, and the user explicitly approved full sunset instead of park or restart | high | close SpecRelay as a finished product and return the company to product selection | `experiments.md`, `viability-scorecard.md`, `product-selection.md`, `product-history.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `release.md`, `ops/automation-spec.md` | no active experiment until the next product is selected |
+| `2026-06-04` | `EXP-0005` | `continue` | the first Burn Ceiling MVP is now live with presets, export, and a feedback ask, but it still has 0 completed plans and 0 direct intent signals | high for ship, low for demand | keep the experiment active and move immediately to founder-facing validation rather than more product-selection or broad feature work | `experiments.md`, `release.md`, `state.md`, `run-log.md`, `company-dashboard.md` | stage the first exact public validation gate |
 
 ## Active
 

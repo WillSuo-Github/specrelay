@@ -20,12 +20,12 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 | Dimension | Score | Evidence | Main risk | Next action |
 | --- | --- | --- | --- | --- |
 | Demand | 3 | current public pain signals show real cost-cap anxiety and launch guidance increasingly treats caps as mandatory | people may agree with the pain but still not complete a planner | test completion and intent quickly |
-| Activation | 1 | no Burn Ceiling MVP exists yet, but the proposed workflow is shorter and more concrete than SpecRelay | the planner may still feel too abstract if outputs are generic | ship the MVP fast and measure completion |
+| Activation | 2 | the first live MVP exists and produces a concrete plan, but no one has completed it yet | the planner may still feel too abstract if the output feels generic | measure completion and tighten the output from real reactions |
 | Retention | 0 | no repeat usage evidence | even a useful first look may not recur | ignore until first real user exists |
 | Monetization | 2 | low-ticket planner/toolkit is plausible, but untested | low willingness to pay for advice-only output | ask about pre-launch use before pricing |
 | Distribution | 3 | the same founder/builder communities that surfaced cost pain are still reachable from current accounts | public send still has to cut through crowded launch discourse | stage a tighter MVP and concrete ask |
 | Differentiation | 2 | most current content is advice or security scans; there is room for a cost-cap-specific planner | it may still collapse into another generic checklist if outputs are weak | keep the product centered on spend ceilings and fallback decisions |
-| Execution fit | 4 | static web product, zero-backend path, and existing deployment pattern are all workable | risk is still business fit, not implementation | ship the MVP first |
+| Execution fit | 4 | static web product, zero-backend path, and existing deployment pattern are all workable; the first MVP now exists | risk is still business fit, not implementation | use the live MVP to get demand evidence rather than broadening the build |
 
 ## Decision Rules
 
@@ -47,3 +47,4 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 | `2026-05-30` | `sunset-review` | demand `2 -> 1`, activation `1 -> 0`, distribution `2 -> 0`, differentiation `2 -> 1`; other dimensions unchanged | the founder-side evidence window closed with no founder reply, no completed brief usage, no paid signal, one stalled live route, and no approved second route, so the product no longer has enough evidence to justify another automatic continue | user decision on `park`, `sunset`, or a deliberately new bounded experiment | explicit Product/CEO decision on whether SpecRelay is parked, sunset, or restarted under a fresh thesis |
 | `2026-06-03` | `sunset` | no score change | the user explicitly selected `sunset`, the public product was taken offline, and the company returned to product selection instead of keeping SpecRelay in review | next selected product | explicit next-product selection |
 | `2026-06-03` | `continue` | demand `1 -> 3`, activation `0 -> 1`, monetization `0 -> 2`, distribution `0 -> 3`, differentiation `1 -> 2`; other dimensions reset to the new product context | Burn Ceiling is selected as the new active product because public founder pain around runaway AI costs is clearer and the first experiment can be run with a static planner MVP | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |
+| `2026-06-04` | `continue` | activation `1 -> 2`; other dimensions unchanged | the first Burn Ceiling MVP is now live and locally verified, so the next risk is demand, not whether the product can be shipped at all | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |

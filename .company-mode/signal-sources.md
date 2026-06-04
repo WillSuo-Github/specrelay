@@ -8,11 +8,11 @@
 
 - Primary business question: will launch-stage AI founders use a 5-minute cost-cap planner before launch?
 - Current bottleneck: `demand`
-- Primary readout source: direct founder replies plus completed Burn Ceiling plans once the MVP is live
+- Primary readout source: direct founder replies plus completed Burn Ceiling plans from the live MVP
 - Secondary readout source: public builder pain signals, archived SpecRelay lessons, and any genuinely late SpecRelay reply
 - Evidence quality: medium for problem existence, low for product-specific intent
-- Missing source or integration: no live Burn Ceiling MVP, no completed plans, no analytics, and no direct founder intent yet
-- Next readout: first MVP ship plus first founder feedback loop inside `EXP-0005`
+- Missing source or integration: no completed plans, no analytics, and no direct founder intent yet
+- Next readout: first founder feedback loop plus any completed plans inside `EXP-0005`
 
 ## Source Selection Rules
 
@@ -29,9 +29,9 @@
 | --- | --- | --- | --- | --- | --- |
 | Archived GitHub feedback issue #1 | historical SpecRelay comments | GitHub repo access or public issue page | medium | live but silent | keep as archive only |
 | Archived outreach replies | late counter-evidence on SpecRelay | Mail UI inbox access | medium/high if replies arrive | archived | log only if something materially changes history |
-| GitHub Pages live URL | Burn Ceiling MVP reachability later; archive-surface health now | public URL | high | archive page healthy | verify after deploy-touching runs |
+| GitHub Pages live URL | Burn Ceiling MVP reachability and basic product truth | public URL | high | active once this run deploy verifies | verify after deploy-touching runs |
 | Public founder pain signals | cost-cap and runaway-bill demand readout | public web access | medium/high | active | keep sourcing for first outreach copy |
-| Logged-in X / HN / Chrome surfaces | first Burn Ceiling validation routes | existing sessions | medium | available | use once the MVP exists |
+| Logged-in X / HN / Chrome surfaces | first Burn Ceiling validation routes | existing sessions | medium | available | use to stage the first exact founder-facing public gates |
 
 ## Readout Log
 

@@ -5,7 +5,7 @@
 - Status: active
 - Name: `Burn Ceiling`
 - Started on: `2026-06-03`
-- Current stage: pre-product
+- Current stage: public MVP live
 - Current thesis: launch-stage AI founders need a quick way to set safe spend ceilings, fallback models, and guardrails before traffic or paid users hit the app
 - Why it is the active product: the selection sprint found stronger current pain around runaway AI cost and missing launch caps than around another generic launch checklist or a crowded scanner market
 
@@ -80,6 +80,12 @@
 - Compared four candidates and selected Burn Ceiling as the next active product.
 - Chose the wedge because runaway AI spend and missing cost caps are concrete, expensive, current, and still compatible with a static zero-backend MVP.
 - Opened `EXP-0005` as the first 7-day validation window.
+
+## 2026-06-04 Burn Ceiling MVP
+
+- Reused the existing static React/Vite public surface and replaced the archive notice with the first Burn Ceiling planner.
+- Shipped three launch presets, adjustable traffic/token/model inputs, calculated burn caps, top runaway-risk scenarios, an export path, and a direct feedback ask.
+- Passed `npm run build` and local system Chrome QA for desktop/mobile rendering, preset switching, feedback link wiring, and no horizontal overflow.
 
 ## 2026-05-11
 

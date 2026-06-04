@@ -67,6 +67,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-05-30` | `sunset-review` | `decision` | founder-side readout closed and obsolete heartbeat retired | yes | the company closed the active evidence window and removed the stale autonomous loop instead of extending the same silent wedge | pass with notes | none | next move must be explicit park / sunset / restart, not another automated wait |
 | `2026-06-03` | `pre-product` | `decision` | user-approved sunset executed and public product taken offline | yes | the company removed the stale live product surface and reopened a clean active-product slot instead of leaving SpecRelay half-alive | pass with notes | none | next move must be fresh product selection with scored candidates |
 | `2026-06-03` | `pre-product` | `demand` | product-selection sprint completed and Burn Ceiling chosen with one bounded experiment | yes | the company moved from an empty active-product slot into a single concrete next bet with a stop rule instead of drifting after sunset | pass with notes | none | next move must ship the MVP, not reopen abstract selection |
+| `2026-06-04` | `public MVP live` | `demand` | first Burn Ceiling MVP shipped and locally QA-verified | yes | the company moved from selected idea to a live validation surface instead of staying in pre-product planning | pass with notes | none | next move must create external signal rather than more internal polish |
 
 ## Quality Review Questions
 

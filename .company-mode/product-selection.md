@@ -1,6 +1,6 @@
 # Product Selection
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-04`
 - Owner role: Product/CEO
 - Purpose: choose the next active product deliberately when the current product is parked, pivoted, or sunset.
 
@@ -10,7 +10,7 @@
 - Selection mode: closed because the next active product has now been selected
 - Trigger to open selection: completed in this run after the user approved SpecRelay sunset
 - Decision needed by: none until Burn Ceiling is validated, parked, pivoted, or sunset
-- Current recommendation: build the first Burn Ceiling MVP before any broader new-product search reopens
+- Current recommendation: keep selection closed and validate the live Burn Ceiling MVP before any broader new-product search reopens
 
 ## Selection Rules
 
@@ -56,6 +56,6 @@ Score each candidate from 0 to 5.
 
 - Product-history entry required: completed
 - Reusable assets to carry forward: static deployment path, no-backend operating pattern, outreach lessons, decision rules, and archive-page pattern
-- Support/release cleanup required: completed for SpecRelay; the public page now serves only an archive notice
+- Support/release cleanup required: completed for SpecRelay; the same public page now serves Burn Ceiling instead of the archive notice
 - Next candidate readout: closed for now; reopen only if Burn Ceiling later fails
 - Account or service needs: none currently

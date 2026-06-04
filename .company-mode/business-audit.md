@@ -35,8 +35,8 @@ Allowed answers:
 | Paying intent / monetization | still no willingness-to-pay signal; the previous B2B intake model did not earn even weak buyer engagement | unchanged | medium | `business-model.md`, `experiments.md` |
 | Users / demand | two weak X signals remain the only direct feedback; no founder-side reply, no completed packet review, and no contractor/agency reply landed after the pivot | unchanged | medium | `metrics.md`, `feedback.md`, `market-map.md` |
 | Activation / retention | product is usable, but neither the full packet nor a smaller brief has confirmed completion behavior yet | unchanged | low | `metrics.md`, `signal-sources.md` |
-| Distribution | SpecRelay exhausted its available wedges and was then taken offline as an active product; there is no new product selected yet | no | high | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
-| Release / reachability | the public URL is still healthy, but now serves only an archive notice instead of an active product | mixed | high | `release.md` |
+| Distribution | Burn Ceiling now has a live public surface, but no founder validation route has been run yet; this happened after the last audit closed | mixed | medium | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
+| Release / reachability | the public URL is healthy and now serves Burn Ceiling instead of only an archive notice; this happened after the last audit closed | yes on release truth, not yet on revenue | high | `release.md` |
 | Account dependencies | no new blocking account need prevented the chosen move | unchanged | medium | `account-needs.md` |
 | Operating quality | the company executed the sunset cleanly and did not fake market progress, but the run still did not create new revenue movement because it was a shutdown rather than a validating growth step | mixed | medium | `operating-quality.md`, `independent-check.md` |
 

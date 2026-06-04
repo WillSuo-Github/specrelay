@@ -18,10 +18,10 @@ See `docs/product-selection-2026-06.md` for the current selection sprint and dir
 
 | Product / alternative | Platform | Pricing | Positioning | Strength | Weakness | Opportunity |
 | --- | --- | --- | --- | --- | --- | --- |
-| AppHandoff | web SaaS | unknown | repo-connected Lovable-to-production handoff | stronger automation story | depends on repo/login and a heavier setup path | SpecRelay can stay earlier, faster, and no-login |
-| Afterbuild Labs | service | custom | AI app rescue / agency-style delivery | direct evaluator of handoff clarity | service, not product; reply may be slow | strong validation target if they say the packet saves scoping time |
-| Bytewise | service | custom | agency / hardening path | adjacent buyer with real intake context | no productized packet signal yet | validation target |
-| AppStuck | service | custom | AI app rescue / free assessment | async route and clearer founder fit | still a service, not a self-serve tool | validation target |
+| Spreadsheet planning | docs / sheets | free | founders hand-calculate traffic and token budgets | flexible and familiar | slow, inconsistent, no built-in guardrails | Burn Ceiling can compress this into one faster launch plan |
+| Generic launch checklist posts | blogs / templates | free or cheap | broad launch advice | easy to find | too broad and rarely cost-specific | Burn Ceiling can stay concrete on spend ceilings and fallback plans |
+| Security scanners | web SaaS | mixed | scan vibe-coded apps for secrets, auth gaps, and config mistakes | real pain and clear outputs | different wedge; not cost planning | keep cost planning separate instead of becoming another scanner |
+| Agency / rescue services | service | custom | founders ask for help after cost, auth, or scale issues land | strong pain proof | expensive and late in the journey | Burn Ceiling should sit earlier, before public traffic and before a rescue handoff |
 
 ## App Store / Search Map
 
@@ -32,21 +32,19 @@ See `docs/product-selection-2026-06.md` for the current selection sprint and dir
 
 | Source | User language / pain | Segment | Evidence strength | Possible response | Status |
 | --- | --- | --- | --- | --- | --- |
-| X / `@FSfakiotakis` | simple founder-maintained apps may not need a packet until someone else touches them | founder/operator | medium | narrow positioning to outside-review moments | logged |
-| X / `@jessecolesmith` | start with stability, basic features, and real observed issues | hands-on domain builder | medium | keep the product stability-first | logged |
-| Rescue-service sites | founders need rescue/audit/hardening help after AI-generated builds | contractor/agency | medium | test whether a pre-scope brief fits intake | active |
-| r/replit launch-confidence thread | founders say the demo works but launch confidence is low because auth, payments, emails, and breakage risk are unclear | founder/operator | medium | first founder-side no-link reply candidate if pivot activates | staged |
-| r/SaaS real-user-breakage thread | founders describe auth edge cases, billing webhooks, stale admin paths, and deployed breakage | founder/operator | medium | second founder-side no-link reply candidate if pivot activates | staged |
-| r/lovable launch-hardening thread | non-technical founders are already discussing pre-launch backend, auth, security, and monitoring checks | founder/operator | medium | use as founder-side positioning and reply surface if the top two threads go stale | staged |
-| Indie Hackers AI-built-codebase review post | service-side proof that invisible launch problems appear after visible MVP success | founder/operator plus service reviewer | medium | use as positioning evidence, not first contact route | staged |
+| r/replit runaway-charges thread | a builder reports losing `$355` in `10 days` from repeated agent charges | launch-stage builder | high | use cost-panic language, not generic launch-copy | active |
+| developersIndia AI-cost discussion | cost caps are becoming the forcing function for more disciplined AI product decisions | builder / founder | medium | keep the planner framed around hard caps and fallback decisions | active |
+| AI MVP launch checklist content | current launch guidance now treats daily caps, fallbacks, and logging as mandatory | founder / small team | medium | match the product to those concrete launch tasks | active |
+| Archived SpecRelay feedback | stability-first and real-world launch pain still matter | founder/operator | low/medium | keep outputs practical and non-abstract | archive-only |
 
 ## Channels
 
 | Channel | Audience fit | Rules / norms | Content angle | Account needed | Status |
 | --- | --- | --- | --- | --- | --- |
 | GitHub Pages | owned surface | factual product/support/privacy pages | product page, support, SEO | no | available |
-| X | founder/build-in-public and targeted evaluator replies | factual, non-spammy, reply-context-sensitive | direct workflow questions and stability-first framing | logged-in session | partially validated, further action gated |
-| Direct email / contact forms | contractor/agency evaluation | honest, specific validation ask | would this save intake/scoping time? | mailbox/contact route | active |
+| X | founder/build-in-public and targeted founder replies | factual, non-spammy, reply-context-sensitive | direct cost-cap and launch-guardrail questions | logged-in session | available; public action still gated |
+| Hacker News | maker/discovery | account trust matters | launch-story or discussion around runaway AI cost | older/trusted account | currently blocked by `fnop=toonew` |
+| GitHub Pages | owned surface | factual product/support/privacy pages | live planner and lightweight SEO | no | available |
 | Hacker News | maker/discovery | account trust matters | Show HN or discussion | older/trusted account | currently blocked by `fnop=toonew` |
 
 ## Distribution Decision Loop
@@ -58,14 +56,14 @@ See `docs/product-selection-2026-06.md` for the current selection sprint and dir
 
 ## Differentiation
 
-- Current differentiated promise: no-login, no-repo, stability-first brief between AI prototype and serious review
-- Proof available: live product, exported packets, no-repo/no-login positioning, weak but useful founder language
-- Proof missing: clear reviewer behavior change, completed packet review, willingness to pay
-- Most attackable niche: rescue-service / agency intake owners if they validate; otherwise founder-side stability brief before outside help
+- Current differentiated promise: no-login cost-cap planner for AI app launches, with a burn ceiling, fallback plan, and guardrail checklist in one pass
+- Proof available: live MVP, exported plan, current public cost-pain signals, and a static zero-backend delivery path
+- Proof missing: completed plans, direct founder intent, willingness to pay
+- Most attackable niche: launch-stage AI founders and small teams before public traffic or paid acquisition
 
 ## Research Queue
 
 | Priority | Question | Why it matters | Method | Status |
 | --- | --- | --- | --- | --- |
-| 1 | do contractor/agency evaluators say the artifact changes intake or scoping? | this decides whether the current wedge lives | current outreach batch | in progress |
-| 2 | if not, does the founder-side stability brief feel realistic enough to complete? | this is the cleanest adjacent pivot | founder-side validation after checkpoint using `docs/founder-stability-target-pool.md` | staged |
+| 1 | will founders complete a cost-cap plan before launch without being pushed by a crisis? | this decides whether Burn Ceiling is a real product or just good advice | live MVP plus founder-facing validation routes | active |
+| 2 | which copy triggers stronger response: runaway-bill fear, launch discipline, or fallback confidence? | this shapes the first outward validation sprint | X/community copy staging after MVP ship | queued |
