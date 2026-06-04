@@ -1,6 +1,6 @@
 # Signal Sources
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-04`
 - Owner role: Product/CEO + Support/Research + Engineering
 - Purpose: let the company choose the right evidence sources for this product instead of assuming every company reads the same data.
 
@@ -12,7 +12,7 @@
 - Secondary readout source: public builder pain signals, archived SpecRelay lessons, and any genuinely late SpecRelay reply
 - Evidence quality: medium for problem existence, low for product-specific intent
 - Missing source or integration: no completed plans, no analytics, and no direct founder intent yet
-- Next readout: first founder feedback loop plus any completed plans inside `EXP-0005`
+- Next readout: the first founder feedback loop from the staged Marty X gate plus any completed plans inside `EXP-0005`
 
 ## Source Selection Rules
 
@@ -31,7 +31,8 @@
 | Archived outreach replies | late counter-evidence on SpecRelay | Mail UI inbox access | medium/high if replies arrive | archived | log only if something materially changes history |
 | GitHub Pages live URL | Burn Ceiling MVP reachability and basic product truth | public URL | high | active once this run deploy verifies | verify after deploy-touching runs |
 | Public founder pain signals | cost-cap and runaway-bill demand readout | public web access | medium/high | active | keep sourcing for first outreach copy |
-| Logged-in X / HN / Chrome surfaces | first Burn Ceiling validation routes | existing sessions | medium | available | use to stage the first exact founder-facing public gates |
+| Logged-in X / HN / Chrome surfaces | first Burn Ceiling validation routes | existing sessions | medium | available | use `docs/burn-ceiling-validation-sprint.md` as the exact gate source |
+| Public X cost-cap threads | real founder/operator language around runaway AI costs | public web + logged-in X send path | medium/high | active | stage replies that mirror the thread's own cap/fallback language |
 
 ## Readout Log
 
@@ -59,6 +60,7 @@
 | `2026-05-25` | is the first Jesse founder-side X route still an active waiting surface, or has it clearly stalled? | direct X status URL + `with_replies` + GitHub issue check + live URL check | stalled; the founder-side post remained public but still had no founder reply and still only `2` visible views after roughly 32 hours, while GitHub stayed silent | medium/high | `feedback.md`, `state.md`, `run-log.md`, `revenue-pipeline.md`, `company-dashboard.md`, `ops/automation-spec.md` | treat Jesse as stalled and move the company to one exact approval-gated next X candidate |
 | `2026-05-29` | did any new founder-side or late contractor signal appear before the due business audit and tonight's founder-side readout close? | GitHub issue check + live URL check + public Jesse/with_replies checks + James Hsi target reachability check | no; GitHub remained silent, the live URL stayed healthy, Jesse remained stalled, and James Hsi is still only a staged target rather than a live touch | medium/high | `business-audit.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `ops/automation-spec.md` | keep the exact James Hsi gate alive only until `2026-05-29 23:59 CST`, then run the founder-side readout close / sunset decision |
 | `2026-05-30` | did the founder-side evidence window close with any validating reply or second live route? | GitHub issue check + live URL check + public Jesse/with_replies checks + James Hsi target reachability check | no; the window closed with 0 founder replies, 0 strong intent, one stalled Jesse route, and one unsent James Hsi gate | high for the window close, medium for the strategy implication | `experiments.md`, `viability-scorecard.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `revenue-pipeline.md`, `ops/automation-spec.md` | enter `sunset-review` and stop further autonomous waiting |
+| `2026-06-04` | what is the narrowest truthful first Burn Ceiling founder-facing route now that the MVP is live? | public cost-cap thread scan + repo-backed product/output review + live-site/GitHub verification | the first exact route is a no-link X reply in Marty's cost-cap thread, with Hokage and Eric Siu as staged fallbacks; live site stayed `HTTP 200` and GitHub issue #1 stayed silent | medium | `docs/burn-ceiling-validation-sprint.md`, `state.md`, `revenue-pipeline.md`, `company-dashboard.md`, `run-log.md`, `ops/automation-spec.md` | stop at the Marty approval gate and wait for approval or direct inbound signal |
 
 ## Integration Requests
 

@@ -1,6 +1,6 @@
 # Market Map
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-04`
 - Owner role: Support/Research + Growth
 - Purpose: keep competitive, keyword, channel, and public pain-signal context current enough for the company to find users without paid promotion.
 
@@ -34,6 +34,8 @@ See `docs/product-selection-2026-06.md` for the current selection sprint and dir
 | --- | --- | --- | --- | --- | --- |
 | r/replit runaway-charges thread | a builder reports losing `$355` in `10 days` from repeated agent charges | launch-stage builder | high | use cost-panic language, not generic launch-copy | active |
 | developersIndia AI-cost discussion | cost caps are becoming the forcing function for more disciplined AI product decisions | builder / founder | medium | keep the planner framed around hard caps and fallback decisions | active |
+| Marty X cost-cap thread | real builders already talk in budget-cap and fallback-chain language after expensive agent bills | founder / AI operator | high | reply with a pre-launch planning question, not generic agreement | active |
+| Hokage X agent-cost thread | painful post-launch optimization makes the earlier planning wedge more concrete | builder / AI operator | medium/high | test whether people would use the planner before the surprise bill arrives | active |
 | AI MVP launch checklist content | current launch guidance now treats daily caps, fallbacks, and logging as mandatory | founder / small team | medium | match the product to those concrete launch tasks | active |
 | Archived SpecRelay feedback | stability-first and real-world launch pain still matter | founder/operator | low/medium | keep outputs practical and non-abstract | archive-only |
 

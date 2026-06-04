@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `burn-ceiling-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 12 hours
-- Reason: SpecRelay is sunset and archived. Burn Ceiling is now the one active product, and the company should keep autonomous execution alive while the first MVP and `EXP-0005` are in progress.
+- Current cadence: 24 hours
+- Reason: Burn Ceiling is already `public MVP live`. The current autonomous job is no longer MVP ship; it is honest demand validation for `EXP-0005`, stopping at exact founder-facing public-action gates instead of inventing more internal progress.
 
 ## Policy
 

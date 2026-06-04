@@ -6,7 +6,7 @@ Validate whether solo founders shipping AI-backed apps will use a no-login cost-
 
 ## Current 7-Day Target
 
-- Ship the first `Burn Ceiling` static MVP.
+- Keep the first `Burn Ceiling` static MVP live and truthful.
 - Get 5 completed guardrail plans.
 - Capture at least 2 strong-intent signals saying the planner would be used before launch or before paid traffic.
 

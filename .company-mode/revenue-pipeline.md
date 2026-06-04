@@ -9,7 +9,7 @@
 - Business stage: `public MVP live`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: no confirmed users yet on Burn Ceiling
-- Distribution status: Burn Ceiling now has a live public route; outbound validation has not started yet
+- Distribution status: Burn Ceiling now has a live public route; the first founder-facing X route is staged but not sent
 - Monetization status: low-ticket planner/toolkit hypothesis only
 - Current revenue bottleneck: `demand`
 - Business model hypothesis: low-ticket self-serve planner/toolkit; see `business-model.md`
@@ -27,13 +27,13 @@
 
 ## Leads / Prospects / Pain Signals
 
-No live leads yet. First Burn Ceiling public candidates should now be staged against the live MVP rather than more internal planning.
+No live leads yet. The current staged public candidates are in `docs/burn-ceiling-validation-sprint.md`; no Burn Ceiling reply has entered market yet.
 
 ## Channel Experiments
 
 | Channel | Hypothesis | Action | Cost | Approval needed | Result | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| X replies | direct public founder replies can reveal whether the planner feels real before launch | Burn Ceiling founder-facing replies and concrete cost-cap asks | 0 | yes; public sends remain action-time gated | no Burn Ceiling action yet | stage exact candidate replies now that the MVP exists |
+| X replies | direct public founder replies can reveal whether the planner feels real before launch | Burn Ceiling founder-facing replies and concrete cost-cap asks | 0 | yes; public sends remain action-time gated | first exact no-link Marty/Hokage/Eric candidate set is now staged | stop at the Marty approval gate; wait for approval before sending |
 | Direct rescue-service outreach | targeted evaluator messages may validate intake/scoping value faster than broad founder posting | Afterbuild email attempt, Bytewise email, AppStuck form, AC Tech Labs form | 0 | already executed | Afterbuild failed delivery; Bytewise/AppStuck/AC Tech Labs closed the checkpoint with no verified reply | stop this wedge for now; only revisit if a late reply materially changes the evidence |
 | GitHub owned surface | the live product page can point people to owned feedback or repo history | public site plus archived issue | 0 | no | archived issue still silent; no Burn Ceiling-specific issue yet | keep the in-product feedback ask simple first |
 
@@ -55,7 +55,7 @@ No live leads yet. First Burn Ceiling public candidates should now be staged aga
 ## Acquisition Cadence
 
 - Cadence owner: Growth
-- Current cadence: 12-hour product operation while MVP and first validation routes are being prepared
+- Current cadence: 24-hour approval-wait heartbeat once the exact public gate is staged
 - Rule: the company chooses cadence from business stage, signal strength, and bottleneck; do not wait for the user to prescribe lead/post counts.
 - Cadence record: see `acquisition-cadence.md`
 

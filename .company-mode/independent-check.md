@@ -1,6 +1,6 @@
 # Independent Check
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-04`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
@@ -8,7 +8,7 @@
 
 - Run date: `2026-06-04`
 - Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: Burn Ceiling MVP implementation, local build/QA evidence, state consistency, public-surface truthfulness, and one-active-product discipline
+- Scope checked: live Burn Ceiling reachability, GitHub feedback surface, staged founder-facing X gate, automation/state consistency, and one-active-product discipline
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -30,13 +30,13 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, live URL, direct Jesse X status URL, `with_replies`, and the staged James Hsi target URL | no unsupported founder reply, contractor reply, or target-state claim was added |
+| Evidence support | 3 | GitHub issue state, live URL, and the staged Marty/Hokage/Eric thread URLs plus repo-backed MVP output | no unsupported demand signal or send claim was added |
 | Account and provider correctness | 3 | repo, company instance, X surface, sender policy, and approval gates | no wrong-account or wrong-provider mutation in this run |
-| Public artifact fidelity | 3 | live Jesse X post remained publicly reachable, and the staged James Hsi target thread was re-verified before tightening the checkpoint | the company did not invent a stale or missing next candidate |
+| Public artifact fidelity | 3 | live Burn Ceiling page still returned `HTTP 200`, and the staged Marty gate matches the current shipped planner output | the company did not stage copy that claims unshipped behavior |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops at the founder-side readout close with a real `sunset-review` decision and a retired obsolete heartbeat | valid stop condition |
-| Durable state updates | 3 | state, experiments, viability, history, selection, run-log, dashboard, quality, pipeline, signal, and automation files update the same sunset-review story | no contradiction across durable files |
-| Resume and wake readiness | 3 | sunset-review state, late-signal caveat, and next Product/CEO disposition decision are explicit | no blocker to future recovery beyond an explicit product decision |
+| Stop-condition validity | 3 | run stops at one exact approval gate after staging the first post-MVP founder-facing demand route | valid stop condition |
+| Durable state updates | 3 | state, experiments, run-log, dashboard, quality, pipeline, signal, market, and automation files update the same post-MVP validation story | no contradiction across durable files |
+| Resume and wake readiness | 3 | the staged Marty gate, 24-hour approval wait, and exact next fallback candidates are explicit | no blocker to future recovery beyond user approval or real inbound signal |
 
 ## Check Log
 
@@ -65,3 +65,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | sunset was executed cleanly, the public page no longer behaves like a live product, and repo-backed state consistently treats SpecRelay as closed rather than merely waiting |
 | `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the Burn Ceiling selection is evidence-backed, only one active product exists, the archive page remains truthful, and the new experiment window is bounded instead of open-ended |
 | `2026-06-04` | explicit independent audit lens + build-plus-browser verification | `21/21` | none | `pass with notes` | the Burn Ceiling MVP is real, locally build-verified, mobile-safe at 390px, and durable state now treats the product as live rather than still pre-product |
+| `2026-06-04` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the live Burn Ceiling page and GitHub feedback surface were re-verified, the first founder-facing X route is now staged as an exact gate, and the heartbeat no longer misclassifies the company as pre-product |

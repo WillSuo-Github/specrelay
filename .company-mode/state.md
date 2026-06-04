@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-04`
 - Dominant objective: validate Burn Ceiling as the next active product
 - Current stage: public MVP live
 - Current release: Burn Ceiling now has a first public static MVP at the old project URL; SpecRelay remains archived as historical context only
@@ -8,9 +8,9 @@
 
 ## Now
 
-- In progress: Burn Ceiling MVP is built and being moved onto the live GitHub Pages surface. The next bottleneck is first direct founder signal, not implementation.
+- In progress: Burn Ceiling is live and publicly reachable. The active work is now staging the first founder-facing demand route against the live MVP rather than adding more product surface area.
 - Public URL: https://willsuo-github.github.io/specrelay/ now serves Burn Ceiling instead of the old SpecRelay packet generator
-- Biggest blocker: Burn Ceiling still has no completed plans or direct founder intent signal
+- Biggest blocker: Burn Ceiling still has no completed plans, no direct founder intent, and no live Burn Ceiling outreach in market yet
 - Highest-risk assumption: founders agree the pain is real but may still treat launch cost planning as spreadsheet work rather than complete a focused planner
 - Next decision deadline: `2026-06-10 23:59 CST` first bounded experiment readout
 
@@ -19,12 +19,12 @@
 - Product/CEO: hold Burn Ceiling to a 7-day evidence window; do not let it become another generic checklist product
 - Support/Research: use current public cost-cap and runaway-bill signals as the demand base, not the old SpecRelay launch-handoff thesis
 - Engineering: keep the MVP truthful, short, and exportable; do not add backend or analytics drift before signal
-- Growth: stage the first AI-founder validation routes now that the MVP exists, but stop at exact public-action gates
+- Growth: use the Burn Ceiling X validation sprint, stop at the exact Marty approval gate, and do not broaden into generic launch-content posting yet
 - Release/Ops: verify the live page, metadata, and feedback path after deploy-touching runs
 
 ## Pending Approvals
 
-- Exact live action currently gated: founder-facing public validation remains action-time gated; product shipping is pre-authorized
+- Exact live action currently gated: the first Burn Ceiling no-link X reply is staged in `docs/burn-ceiling-validation-sprint.md` and remains action-time gated
 - Account gap to resolve: none for the sunset/selection state
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -62,6 +62,17 @@
 - Stop-check: the approved public follow-up is sent; the company is waiting on outside feedback. Keep heartbeat active for a 12-hour follow-up check.
 
 ## Latest CEO After-Action Review
+
+- Date: `2026-06-04`
+- Current stage: `public MVP live`. Burn Ceiling is the one active product, and the company has now moved from MVP ship to exact demand-gate staging.
+- Evidence quality: medium for product truth and still low for demand. The planner is live and reachable, but there is still no completed plan or direct founder intent signal.
+- Current-run work completed: re-verified the live Burn Ceiling page at `HTTP 200`, re-checked that GitHub feedback issue #1 remains silent, staged the first Burn Ceiling founder-facing X validation sprint, and narrowed the next public move to one exact no-link Marty reply.
+- Instance-only improvements executed: first Burn Ceiling distribution gate staging, dashboard/state/pipeline alignment, and heartbeat prompt correction from stale pre-product language to post-MVP demand-validation language.
+- Kernel/template/migration improvements: none identified in this run.
+- Hard-gated improvements: the staged Marty X reply, any other public founder-facing send, paid spend, account changes, and credentials remain action-time gated unless explicitly delegated.
+- Stop-check: one coherent post-MVP demand-staging run is complete. The company should now wait at the exact Marty approval gate instead of inventing more internal growth activity.
+
+## Previous CEO After-Action Review
 
 - Date: `2026-06-04`
 - Current stage: `public MVP live`. SpecRelay remains sunset and archived, and Burn Ceiling now has a first live static planner MVP.

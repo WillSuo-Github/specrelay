@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-04`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -16,7 +16,7 @@
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
 - Business audit status: current (`no` on `2026-06-03`); SpecRelay sunset is complete
 - Current quality risk: `medium`
-- Required correction: do not let Burn Ceiling drift into another abstract planning loop. The next company move must ship the smallest MVP and start collecting demand evidence.
+- Required correction: do not let Burn Ceiling drift into another abstract planning loop. The next company move must stop at, or execute, the exact staged founder-facing demand gate.
 
 ## KPI Thresholds
 
@@ -68,6 +68,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-06-03` | `pre-product` | `decision` | user-approved sunset executed and public product taken offline | yes | the company removed the stale live product surface and reopened a clean active-product slot instead of leaving SpecRelay half-alive | pass with notes | none | next move must be fresh product selection with scored candidates |
 | `2026-06-03` | `pre-product` | `demand` | product-selection sprint completed and Burn Ceiling chosen with one bounded experiment | yes | the company moved from an empty active-product slot into a single concrete next bet with a stop rule instead of drifting after sunset | pass with notes | none | next move must ship the MVP, not reopen abstract selection |
 | `2026-06-04` | `public MVP live` | `demand` | first Burn Ceiling MVP shipped and locally QA-verified | yes | the company moved from selected idea to a live validation surface instead of staying in pre-product planning | pass with notes | none | next move must create external signal rather than more internal polish |
+| `2026-06-04` | `public MVP live` | `demand` | first Burn Ceiling founder-facing X validation sprint staged and narrowed to one exact approval gate | yes | the company removed the stale pre-product heartbeat framing and compressed demand validation into one exact public move instead of continuing generic planning | pass with notes | none | wait at the exact Marty gate; do not stage broad new growth work until this gate resolves |
 
 ## Quality Review Questions
 

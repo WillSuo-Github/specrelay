@@ -6,15 +6,15 @@
 
 ## Current Counters
 
-- Total active runs: 42
-- Last run ID: `RUN-0042`
-- Next run ID: `RUN-0043`
-- Last active run at: `2026-06-04 09:40 CST`
-- Last real-progress run ID: `RUN-0042`
+- Total active runs: 43
+- Last run ID: `RUN-0043`
+- Next run ID: `RUN-0044`
+- Last active run at: `2026-06-04 21:01 CST`
+- Last real-progress run ID: `RUN-0043`
 - Last no-progress run ID: `RUN-0038`
 - No-progress streak: 0
-- Runs since viability review: 1
-- Runs since business audit: 2
+- Runs since viability review: 2
+- Runs since business audit: 3
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
@@ -86,6 +86,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0040` | `2026-06-03 19:20 CST` | `pre-product` | `decision` | execute the approved SpecRelay sunset, take the old product offline, and reopen clean product selection | decide -> prepare -> publish -> verify -> close | SpecRelay was explicitly sunset, the public GitHub Pages surface was replaced with an archive notice, the old interactive workflow was removed from the public page, and the company instance returned to product-selection mode with no active product | yes | the company removed the stale live product surface and cleared the active-product slot instead of leaving SpecRelay half-active | pass with notes | `no` | `sunset` | none | `src/App.tsx`, `src/styles.css`, `index.html`, `README.md`, `.company-mode/goal.md`, `.company-mode/company.md`, `.company-mode/role-access-matrix.md`, `.company-mode/state.md`, `.company-mode/product-selection.md`, `.company-mode/product-history.md`, `.company-mode/viability-scorecard.md`, `.company-mode/company-dashboard.md`, `.company-mode/release.md`, `.company-mode/business-model.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/revenue-ledger.md`, `.company-mode/business-audit.md`, `.company-mode/signal-sources.md`, `.company-mode/market-map.md`, `.company-mode/metrics.md`, `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | none; wait for next product-selection run |
 | `RUN-0041` | `2026-06-03 20:05 CST` | `pre-product` | `demand` | complete the product-selection sprint and choose the next active product with a bounded first experiment | observe -> decide -> prepare -> close | current public market signals were synthesized into a scored shortlist, Burn Ceiling was selected as the next active product, and `EXP-0005` was opened as a 7-day bounded first experiment | yes | the company moved from empty selection mode into a concrete active product with a demand window and stop rule | pass with notes | n/a | `continue` | none | `docs/product-selection-2026-06.md`, `.company-mode/goal.md`, `.company-mode/company.md`, `.company-mode/state.md`, `.company-mode/product-selection.md`, `.company-mode/product-history.md`, `.company-mode/business-model.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/revenue-ledger.md`, `.company-mode/signal-sources.md`, `.company-mode/metrics.md`, `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/company-dashboard.md`, `.company-mode/business-audit.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/release.md`, `.company-mode/role-access-matrix.md`, `.company-mode/run-log.md` | none; next active run should build the MVP |
 | `RUN-0042` | `2026-06-04 09:40 CST` | `public MVP live` | `demand` | ship the first Burn Ceiling MVP and move the company from pre-product selection into a live validation surface | build -> verify -> prepare -> close | Burn Ceiling replaced the archive notice with a live static planner that includes presets, burn-cap calculations, runaway-risk scenarios, export, and a direct feedback ask; `npm run build` passed and local desktop/mobile system Chrome QA passed | yes | the company now has a real live MVP to validate instead of only a selected idea | pass with notes | n/a | n/a | none | `src/App.tsx`, `src/styles.css`, `index.html`, `README.md`, `.company-mode/company.md`, `.company-mode/state.md`, `.company-mode/role-access-matrix.md`, `.company-mode/release.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/viability-scorecard.md`, `.company-mode/product-history.md`, `.company-mode/market-map.md`, `.company-mode/signal-sources.md`, `.company-mode/metrics.md`, `.company-mode/feedback.md`, `.company-mode/run-log.md` | 12h active run; next move is first founder-facing validation gate |
+| `RUN-0043` | `2026-06-04 21:01 CST` | `public MVP live` | `demand` | turn the post-MVP bottleneck into one exact founder-facing validation gate and remove the stale pre-product heartbeat framing | observe -> verify -> research -> prepare -> close | live page re-verified at `HTTP 200`, GitHub feedback issue #1 re-verified as silent, a Burn Ceiling X validation sprint was staged around current cost-cap threads, and the exact next public move was narrowed to one no-link Marty reply | yes | the company no longer depends on a stale “ship the MVP” heartbeat and now has one exact demand-validation gate instead of generic growth planning | pass with notes | n/a | n/a | none | `docs/burn-ceiling-validation-sprint.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/signal-sources.md`, `.company-mode/experiments.md`, `.company-mode/market-map.md`, `.company-mode/run-log.md`, `.company-mode/independent-check.md`, `ops/automation-spec.md` | 24h approval wait on the staged Marty gate |
 
 ## Correction Log
 
