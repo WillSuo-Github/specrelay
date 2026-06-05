@@ -2,7 +2,7 @@
 
 SpecRelay is now sunset. Its entries below remain archived evidence only.
 
-Burn Ceiling is the new active product. It now has a live MVP, but it still has no direct feedback yet.
+Burn Ceiling is the new active product. It now has a live MVP and one publicly verified founder-facing X touch, but it still has no direct founder reply yet.
 
 Two direct qualitative responses landed during the SpecRelay run. No completed packet review or strong intent signal was ever recorded.
 
@@ -40,6 +40,7 @@ Two direct qualitative responses landed during the SpecRelay run. No completed p
 - 2026-05-23 Growth replaced Reddit with a non-Reddit founder-side route on X by replying in the existing `@jessecolesmith` thread with a no-link stability-brief ask: “Your stability-first point stuck with me... would you fill that out if it took under 5 minutes?” X returned `Your post was sent.`, the reply appeared on `https://x.com/thefuckkingguy/with_replies`, and the direct public status URL is `https://x.com/thefuckkingguy/status/2058104945103212971`. No founder response yet.
 - 2026-05-24 heartbeat check: GitHub issue #1 still had no comments, the live site still returned HTTP 200, and the Jesse founder-side X reply remained publicly visible with no founder response yet. A late contractor/agency inbox sweep was attempted through Mail AppleScript, but access was denied in this run, so no new late-reply claim was added.
 - 2026-05-25 heartbeat check: GitHub issue #1 still had no comments, the live site still returned HTTP 200, and the Jesse founder-side X reply still showed no founder response after roughly 32 hours. The direct status page still showed `2 Views`, and the `with_replies` surface still showed the same founder-side post with no new engagement. Product/CEO therefore reclassified the route from “live wait” to “stalled” and staged one exact next X candidate instead of continuing to wait passively.
+- 2026-06-05 user-approved Burn Ceiling founder-side action: the staged Marty no-link X reply was sent from the logged-in Chrome session after verifying the exact composer text. Public verification then passed on both `https://x.com/thefuckkingguy/with_replies` and the direct status page `https://x.com/thefuckkingguy/status/2062857306187190618`, which also retained the Marty thread context. GitHub issue #1 still had `0` comments and the live Burn Ceiling page still returned HTTP 200. No founder reply yet.
 
 ## Direct Feedback
 

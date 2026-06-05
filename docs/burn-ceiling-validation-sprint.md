@@ -1,10 +1,10 @@
 # Burn Ceiling Validation Sprint
 
-Date: `2026-06-04`
+Date: `2026-06-05`
 
 Channel: X, using the logged-in Chrome session.
 
-Status: first Burn Ceiling founder-facing validation route staged but not sent.
+Status: first Burn Ceiling founder-facing validation route sent and publicly verified on X.
 
 ## Objective
 
@@ -52,6 +52,16 @@ The validation ask stays narrow:
 | 1 | Marty / `@martyryze` | `https://x.com/martyryze/status/2026326256162054243` | closest match to Burn Ceiling output because the thread already uses budget-cap and fallback language | one no-link public reply |
 | 2 | Hokage / `@73lV_` | `https://x.com/73lV_/status/2027237754472364438` | strong pain proof around runaway daily spend and painful optimization after launch | one no-link public reply if Marty stalls or approval scope changes |
 | 3 | Eric Siu / `@ericosiu` | `https://x.com/ericosiu/status/2041159314803773740` | broader audience signal, but less exact launch-stage fit | hold as third candidate only |
+
+## Live Route
+
+- Candidate 1 was sent on `2026-06-05 19:21 CST`.
+- Direct public reply URL: `https://x.com/thefuckkingguy/status/2062857306187190618`
+- Verification surfaces:
+  - logged-in send flow on X
+  - `https://x.com/thefuckkingguy/with_replies`
+  - direct public status page above
+- Current readout state: publicly visible, but still `0` founder replies and `0` explicit intent language so far.
 
 ## Staged Reply Copy
 
@@ -107,10 +117,10 @@ Negative signal:
 - says the pain only appears after scale, not before launch
 - says they would not spend time on this before traffic
 
-## Approval Gate
+## Current Gate
 
-Current exact public-action gate:
+Current exact stop condition:
 
-- send Candidate 1, the no-link reply in Marty's thread
+- wait on Marty/X for direct founder response, completed-plan evidence, or other material Burn Ceiling signal
 
-If that gate is approved and later verified as sent, the next readout should wait on Marty/X before opening Candidate 2.
+If the Marty route clearly stalls without useful signal, the next narrow public-action gate is Candidate 2, the no-link Hokage reply.

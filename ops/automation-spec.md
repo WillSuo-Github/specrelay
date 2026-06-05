@@ -8,7 +8,7 @@ This file is the recoverable automation spec for this one-product company instan
 - Kind: heartbeat attached to the current thread
 - Status: active
 - Current cadence: 24 hours
-- Reason: Burn Ceiling is already `public MVP live`. The current autonomous job is no longer MVP ship; it is honest demand validation for `EXP-0005`, stopping at exact founder-facing public-action gates instead of inventing more internal progress.
+- Reason: Burn Ceiling is already `public MVP live`. The first founder-facing route is now live in Marty's X thread, so the current autonomous job is honest external wait plus readout for `EXP-0005`, not more approval staging.
 
 ## Policy
 

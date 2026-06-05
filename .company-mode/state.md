@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-06-05`
+- Last updated: `2026-06-05 19:30 CST`
 - Dominant objective: validate Burn Ceiling as the next active product
 - Current stage: public MVP live
 - Current release: Burn Ceiling now has a first public static MVP at the old project URL; SpecRelay remains archived as historical context only
@@ -8,9 +8,9 @@
 
 ## Now
 
-- In progress: Burn Ceiling is live and publicly reachable. The company is still waiting at the exact Marty approval gate for its first founder-facing demand route.
+- In progress: Burn Ceiling is live and publicly reachable. The first founder-facing demand route is now live in Marty's X thread and the company is waiting on founder response, direct feedback, or completed-plan evidence.
 - Public URL: https://willsuo-github.github.io/specrelay/ now serves Burn Ceiling instead of the old SpecRelay packet generator
-- Biggest blocker: Burn Ceiling still has no completed plans, no direct founder intent, and no live Burn Ceiling outreach in market yet
+- Biggest blocker: Burn Ceiling still has no completed plans and no direct founder intent yet, even though the first live founder-facing route is now in market
 - Highest-risk assumption: founders agree the pain is real but may still treat launch cost planning as spreadsheet work rather than complete a focused planner
 - Next decision deadline: `2026-06-10 23:59 CST` first bounded experiment readout
 
@@ -19,12 +19,12 @@
 - Product/CEO: hold Burn Ceiling to a 7-day evidence window; do not let it become another generic checklist product
 - Support/Research: use current public cost-cap and runaway-bill signals as the demand base, not the old SpecRelay launch-handoff thesis
 - Engineering: keep the MVP truthful, short, and exportable; do not add backend or analytics drift before signal
-- Growth: use the Burn Ceiling X validation sprint, stop at the exact Marty approval gate, and do not broaden into generic launch-content posting yet
+- Growth: read the live Marty route honestly before opening a second founder-facing send; do not broaden into generic launch-content posting yet
 - Release/Ops: verify the live page, metadata, and feedback path after deploy-touching runs
 
 ## Pending Approvals
 
-- Exact live action currently gated: the first Burn Ceiling no-link X reply is staged in `docs/burn-ceiling-validation-sprint.md` and remains action-time gated
+- Exact live action currently gated: none; the first Burn Ceiling no-link X reply is already sent and publicly verified
 - Account gap to resolve: none for the sunset/selection state
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -63,14 +63,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-06-05`
+- Date: `2026-06-05 19:30 CST`
 - Current stage: `public MVP live`. Burn Ceiling remains the one active product, and the company is still in demand validation rather than new product work.
-- Evidence quality: medium for product truth and low for demand. The live page remains healthy, but there is still no completed plan, no direct founder intent, and no outbound Burn Ceiling touch in market.
-- Current-run work completed: re-verified the live Burn Ceiling page at `HTTP 200`, re-checked that GitHub feedback issue #1 remains silent, and confirmed that no approval or direct signal arrived after the first post-gate wait cycle.
-- Instance-only improvements executed: honest no-progress wait-state recording in the run log, dashboard, and operating-quality files.
+- Evidence quality: medium for product truth and low/medium for demand. The live page remains healthy, GitHub feedback is still silent, and Burn Ceiling now has its first publicly verified founder-facing touch in market.
+- Current-run work completed: executed the approved Marty no-link X reply from the logged-in Chrome session, verified the exact reply text before send, and then independently verified the live result on both `with_replies` and the direct public status URL `https://x.com/thefuckkingguy/status/2062857306187190618`. Also re-verified the live Burn Ceiling page at `HTTP 200` and GitHub feedback issue #1 at `0` comments.
+- Instance-only improvements executed: durable-state, experiment, pipeline, dashboard, and automation updates from approval-wait to active external wait.
 - Kernel/template/migration improvements: none identified in this run.
-- Hard-gated improvements: the staged Marty X reply and any other public founder-facing send remain action-time gated unless explicitly delegated.
-- Stop-check: this run reached a real approval boundary with no new signal. The company still stops at the exact Marty gate.
+- Hard-gated improvements: further public founder-facing sends, new public threads, DMs, paid spend, account changes, and credentials remain action-time gated unless explicitly delegated.
+- Stop-check: one coherent founder-facing demand-validation run is complete. The first live Burn Ceiling route is now in market, so the company stops at a real outside wait rather than an approval gate.
 
 ## Previous CEO After-Action Review
 

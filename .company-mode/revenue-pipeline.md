@@ -1,6 +1,6 @@
 # Revenue Pipeline
 
-- Last updated: `2026-06-04`
+- Last updated: `2026-06-05`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
@@ -9,7 +9,7 @@
 - Business stage: `public MVP live`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: no confirmed users yet on Burn Ceiling
-- Distribution status: Burn Ceiling now has a live public route; the first founder-facing X route is staged but not sent
+- Distribution status: Burn Ceiling now has a live public route, and the first founder-facing X route is sent and publicly visible
 - Monetization status: low-ticket planner/toolkit hypothesis only
 - Current revenue bottleneck: `demand`
 - Business model hypothesis: low-ticket self-serve planner/toolkit; see `business-model.md`
@@ -27,13 +27,13 @@
 
 ## Leads / Prospects / Pain Signals
 
-No live leads yet. The current staged public candidates are in `docs/burn-ceiling-validation-sprint.md`; no Burn Ceiling reply has entered market yet.
+No live leads yet. Candidate 1 is now live in Marty's thread at `https://x.com/thefuckkingguy/status/2062857306187190618`; Candidates 2 and 3 remain staged in `docs/burn-ceiling-validation-sprint.md`.
 
 ## Channel Experiments
 
 | Channel | Hypothesis | Action | Cost | Approval needed | Result | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| X replies | direct public founder replies can reveal whether the planner feels real before launch | Burn Ceiling founder-facing replies and concrete cost-cap asks | 0 | yes; public sends remain action-time gated | first exact no-link Marty/Hokage/Eric candidate set is now staged | stop at the Marty approval gate; wait for approval before sending |
+| X replies | direct public founder replies can reveal whether the planner feels real before launch | Burn Ceiling founder-facing replies and concrete cost-cap asks | 0 | yes; additional public sends remain action-time gated | Candidate 1 is live and publicly verified in Marty's thread; no founder reply yet | wait on Marty/X before opening Candidate 2 |
 | Direct rescue-service outreach | targeted evaluator messages may validate intake/scoping value faster than broad founder posting | Afterbuild email attempt, Bytewise email, AppStuck form, AC Tech Labs form | 0 | already executed | Afterbuild failed delivery; Bytewise/AppStuck/AC Tech Labs closed the checkpoint with no verified reply | stop this wedge for now; only revisit if a late reply materially changes the evidence |
 | GitHub owned surface | the live product page can point people to owned feedback or repo history | public site plus archived issue | 0 | no | archived issue still silent; no Burn Ceiling-specific issue yet | keep the in-product feedback ask simple first |
 
@@ -48,7 +48,7 @@ No live leads yet. The current staged public candidates are in `docs/burn-ceilin
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | stage the first founder-facing validation routes around cost-cap pain | demand | direct replies or comments about pre-launch use intent | yes; exact public sends remain action-time gated | active |
+| 1 | read the live Marty founder-facing route honestly before opening a second public send | demand | direct replies or comments about pre-launch use intent | no for waiting; yes for the next public send | active |
 | 2 | convert the first useful founder language into tighter planner copy if needed | activation | clearer completion and trust | no | queued |
 | 3 | treat any late SpecRelay reply as archived evidence only | decision | cleaner historical record, not automatic restart | no | passive |
 
