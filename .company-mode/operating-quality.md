@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-06-04`
+- Last updated: `2026-06-05`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -8,9 +8,9 @@
 
 - Source ledger: `run-log.md`
 - Rolling window: last 10 active company runs
-- Real-progress rate: `80%` (`8/10`)
-- External-signal output rate: `8/10` runs either shipped a real external touch, staged the exact next gate, or closed a bounded evidence window with an explicit company decision
-- No-progress streak: `0`
+- Real-progress rate: `70%` (`7/10`)
+- External-signal output rate: `7/10` runs either shipped a real external touch, staged the exact next gate, or closed a bounded evidence window with an explicit company decision
+- No-progress streak: `1`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
@@ -69,6 +69,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-06-03` | `pre-product` | `demand` | product-selection sprint completed and Burn Ceiling chosen with one bounded experiment | yes | the company moved from an empty active-product slot into a single concrete next bet with a stop rule instead of drifting after sunset | pass with notes | none | next move must ship the MVP, not reopen abstract selection |
 | `2026-06-04` | `public MVP live` | `demand` | first Burn Ceiling MVP shipped and locally QA-verified | yes | the company moved from selected idea to a live validation surface instead of staying in pre-product planning | pass with notes | none | next move must create external signal rather than more internal polish |
 | `2026-06-04` | `public MVP live` | `demand` | first Burn Ceiling founder-facing X validation sprint staged and narrowed to one exact approval gate | yes | the company removed the stale pre-product heartbeat framing and compressed demand validation into one exact public move instead of continuing generic planning | pass with notes | none | wait at the exact Marty gate; do not stage broad new growth work until this gate resolves |
+| `2026-06-05` | `public MVP live` | `demand` | no new direct signal arrived; the same Marty approval gate remained unresolved after one honest wait cycle | no | none; this run only reconfirmed the same approval-wait state and did not create a new gate or external signal | pass with notes | none | do not take a second passive round after this one; the next meaningful move is still Marty approval or real inbound signal |
 
 ## Quality Review Questions
 

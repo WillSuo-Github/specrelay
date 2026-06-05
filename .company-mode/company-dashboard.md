@@ -1,6 +1,6 @@
 # Company Dashboard
 
-- Last updated: `2026-06-04`
+- Last updated: `2026-06-05`
 - Owner role: Product/CEO
 - Purpose: keep a one-page CEO view of company health, current bottleneck, live blockers, and the next revenue move.
 
@@ -9,8 +9,8 @@
 | Field | Current value | Evidence source | Confidence |
 | --- | --- | --- | --- |
 | Active product | `Burn Ceiling` | `company.md`, `product-history.md` | high |
-| Last active run | `RUN-0043` | `run-log.md` | high |
-| Active run count | 43 | `run-log.md` | medium |
+| Last active run | `RUN-0044` | `run-log.md` | high |
+| Active run count | 44 | `run-log.md` | medium |
 | Business stage | `public MVP live` | `state.md`, `product-selection.md` | high |
 | Primary revenue bottleneck | `demand` | `state.md`, `revenue-pipeline.md` | high |
 | Current business model | low-ticket self-serve planner / toolkit hypothesis | `business-model.md` | medium |
@@ -30,8 +30,8 @@
 - Highest-leverage next move: get the staged Marty X reply approved and into market so `EXP-0005` can collect first demand evidence.
 - Narrowest approval/account gate, if any: the no-link Marty X reply staged in `docs/burn-ceiling-validation-sprint.md`
 - Current external signal opportunity: reply directly into live X cost-cap threads that already use budget-cap and fallback language
-- Current real-progress status: the company has both a live Burn Ceiling MVP and one exact founder-facing validation gate, instead of only a product surface.
-- Last run-log entry: `RUN-0043` Burn Ceiling validation sprint staged and heartbeat corrected to post-MVP state.
+- Current real-progress status: the company is still at the same exact Marty approval gate after one honest no-progress wait cycle.
+- Last run-log entry: `RUN-0044` external state re-verified; no new founder signal or approval arrived.
 - Last business-audit answer: `no`.
 - Next decision deadline: `2026-06-10 23:59 CST` Burn Ceiling readout.
 
@@ -48,7 +48,7 @@
 | Release / reachability | strong | truthful public surface | MVP is built and ready for live verification | verify the public deploy and keep claims tight |
 | Reliability | acceptable | no stale public claims | MVP is locally verified and claims are still narrow | keep the live page truthful and compact |
 | Account dependencies | manageable | all needs explicit and current | no blocking account need right now | record only if the next product requires one |
-| Operating quality | medium | no zombie selection loop | MVP shipped; next run must create external signal | avoid drifting back into internal-only work |
+| Operating quality | medium | no zombie selection loop | MVP is live, but the latest run was a no-progress approval wait | do not let the same gate create repeated passive rounds |
 | Business audit | current | before larger build commitment or `EXP-0005` close | `no` on `2026-06-03` | next audit before Burn Ceiling expands past the bounded MVP |
 
 ## Current Priorities

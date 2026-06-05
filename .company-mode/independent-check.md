@@ -1,12 +1,12 @@
 # Independent Check
 
-- Last updated: `2026-06-04`
+- Last updated: `2026-06-05`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-06-04`
+- Run date: `2026-06-05`
 - Checked by: explicit independent audit lens plus repo-backed verification
 - Scope checked: live Burn Ceiling reachability, GitHub feedback surface, staged founder-facing X gate, automation/state consistency, and one-active-product discipline
 - Hard blockers found: no
@@ -66,3 +66,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-06-03` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the Burn Ceiling selection is evidence-backed, only one active product exists, the archive page remains truthful, and the new experiment window is bounded instead of open-ended |
 | `2026-06-04` | explicit independent audit lens + build-plus-browser verification | `21/21` | none | `pass with notes` | the Burn Ceiling MVP is real, locally build-verified, mobile-safe at 390px, and durable state now treats the product as live rather than still pre-product |
 | `2026-06-04` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the live Burn Ceiling page and GitHub feedback surface were re-verified, the first founder-facing X route is now staged as an exact gate, and the heartbeat no longer misclassifies the company as pre-product |
+| `2026-06-05` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the live page and GitHub feedback surface were re-verified again, no false inbound signal was added, and the company correctly stopped at the unchanged Marty approval gate instead of inventing progress |
