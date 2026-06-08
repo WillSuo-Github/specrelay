@@ -1,6 +1,6 @@
 # Experiments
 
-- Last updated: `2026-06-05`
+- Last updated: `2026-06-08 05:16 CST`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
@@ -10,7 +10,7 @@
 - Bottleneck tested: `demand`
 - Evidence window: `2026-06-03` to `2026-06-10 23:59 CST`
 - Readout due: `2026-06-10 23:59 CST`
-- Current decision pressure: Burn Ceiling now has to turn one live founder-facing route plus the public MVP into completed plans or strong founder intent inside one bounded window
+- Current decision pressure: Burn Ceiling now has to turn either the stalled Marty route's late engagement or one more exact founder-facing send into completed plans or strong founder intent inside one bounded window
 - Last completed experiment result: `EXP-0004` closed `inconclusive` when the founder-side window produced no reply or strong intent
 - Weak/negative completed experiments since last viability review: 0
 
@@ -48,6 +48,7 @@
 | `2026-06-04` | `EXP-0005` | `continue` | the first Burn Ceiling MVP is now live with presets, export, and a feedback ask, but it still has 0 completed plans and 0 direct intent signals | high for ship, low for demand | keep the experiment active and move immediately to founder-facing validation rather than more product-selection or broad feature work | `experiments.md`, `release.md`, `state.md`, `run-log.md`, `company-dashboard.md` | stage the first exact public validation gate |
 | `2026-06-04` | `EXP-0005` | `continue` | the first exact Burn Ceiling founder-facing route is now staged as a no-link X reply in Marty's cost-cap thread, with two fallbacks staged behind it; the MVP still has 0 completed plans and 0 direct intent signals because no Burn Ceiling touch has entered market yet | medium | keep the experiment active, but stop at the exact Marty approval gate rather than widening distribution planning | `experiments.md`, `state.md`, `revenue-pipeline.md`, `signal-sources.md`, `company-dashboard.md`, `run-log.md`, `ops/automation-spec.md` | wait for approval to send Marty, then read direct founder response honestly |
 | `2026-06-05` | `EXP-0005` | `continue` | the approved Marty no-link X reply was sent and publicly verified at `https://x.com/thefuckkingguy/status/2062857306187190618`; the live Burn Ceiling page remains `HTTP 200`, GitHub feedback issue #1 remains at `0` comments, and there is still no founder reply or completed-plan evidence yet | high for send verification, low for demand | keep the experiment active and hold at honest external wait on Marty/X rather than staging another founder-facing send immediately | `experiments.md`, `state.md`, `feedback.md`, `signal-sources.md`, `revenue-pipeline.md`, `company-dashboard.md`, `run-log.md`, `ops/automation-spec.md` | read Marty/X, direct feedback, and completed-plan evidence before opening Candidate 2 |
+| `2026-06-08` | `EXP-0005` | `continue` | the direct Marty status page still shows only the source post plus the Burn Ceiling reply, and the Burn Ceiling reply now shows just `4` views with `0` replies and `0` likes after roughly 58 hours; GitHub feedback issue #1 remains at `0` comments and the live Burn Ceiling page remains `HTTP 200` | medium/high for stall classification, low for demand | keep the experiment active, but stop treating Marty as the main external-wait surface and narrow the next move to the exact Hokage approval gate | `experiments.md`, `state.md`, `feedback.md`, `revenue-pipeline.md`, `company-dashboard.md`, `run-log.md`, `viability-scorecard.md`, `ops/automation-spec.md`, `docs/burn-ceiling-validation-sprint.md` | wait for approval to send Candidate 2 instead of continuing passive wait on Candidate 1 |
 
 ## Active
 

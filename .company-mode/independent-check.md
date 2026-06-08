@@ -1,14 +1,14 @@
 # Independent Check
 
-- Last updated: `2026-06-05 19:30 CST`
+- Last updated: `2026-06-08 05:16 CST`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-06-05 19:30 CST`
-- Checked by: explicit independent audit lens plus repo-backed verification
-- Scope checked: live Burn Ceiling reachability, GitHub feedback surface, live Marty founder-facing X reply, automation/state consistency, and one-active-product discipline
+- Run date: `2026-06-08 05:16 CST`
+- Checked by: explicit independent audit lens plus repo-backed and direct-status verification
+- Scope checked: live Burn Ceiling reachability, GitHub feedback surface, direct Marty status-page engagement state, automation/state consistency, and one-active-product discipline
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -30,13 +30,13 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 
 | Dimension | Score | Evidence checked | Notes / blocker |
 | --- | --- | --- | --- |
-| Evidence support | 3 | GitHub issue state, live URL, the verified Marty reply URL, and repo-backed MVP output | no unsupported demand signal or send claim was added |
+| Evidence support | 3 | GitHub issue state, live URL, the verified Marty reply URL, current direct-status engagement state, and repo-backed MVP output | no unsupported demand signal or send claim was added |
 | Account and provider correctness | 3 | repo, company instance, X surface, sender policy, and approval gates | no wrong-account or wrong-provider mutation in this run |
-| Public artifact fidelity | 3 | live Burn Ceiling page still returned `HTTP 200`, the verified Marty reply matches the intended composer text, and the direct status URL retains the Marty thread context | the company did not publish copy that claims unshipped behavior |
+| Public artifact fidelity | 3 | live Burn Ceiling page still returned `HTTP 200`, the verified Marty reply still matches the intended copy, and the direct status URL retains the Marty thread context while showing no hidden founder reply | the company did not publish copy that claims unshipped behavior |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops at a real outside wait after shipping the first post-MVP founder-facing demand route | valid stop condition |
-| Durable state updates | 3 | state, experiments, run-log, dashboard, quality, pipeline, signal, feedback, and automation files update the same live-route story | no contradiction across durable files |
-| Resume and wake readiness | 3 | the live Marty route, 24-hour external wait, and exact next fallback candidates are explicit | no blocker to future recovery beyond real inbound signal or the next gated send |
+| Stop-condition validity | 3 | run stops at an exact next approval gate after a real live route was reclassified as stalled | valid stop condition |
+| Durable state updates | 3 | state, experiments, run-log, dashboard, quality, pipeline, signal, feedback, and automation files update the same stalled-Marty to Hokage-gate story | no contradiction across durable files |
+| Resume and wake readiness | 3 | the archived Marty route, 24-hour approval wait, and the exact Hokage gate are explicit | no blocker to future recovery beyond user approval or unexpected inbound signal |
 
 ## Check Log
 
@@ -68,3 +68,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-06-04` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the live Burn Ceiling page and GitHub feedback surface were re-verified, the first founder-facing X route is now staged as an exact gate, and the heartbeat no longer misclassifies the company as pre-product |
 | `2026-06-05` | explicit independent audit lens + repo-backed verification | `21/21` | none | `pass with notes` | the live page and GitHub feedback surface were re-verified again, no false inbound signal was added, and the company correctly stopped at the unchanged Marty approval gate instead of inventing progress |
 | `2026-06-05` | explicit independent audit lens + X plus repo-backed verification | `21/21` | none | `pass` | the approved Marty reply was verified in composer before send, then independently verified on `with_replies` and the direct public status URL, so the company can now wait on a real Burn Ceiling founder-facing route rather than an approval gate |
+| `2026-06-08` | explicit independent audit lens + X direct-status plus repo-backed verification | `21/21` | none | `pass with notes` | the Marty route was correctly treated as a stalled prior touch rather than a still-active wait, and the company narrowed the next move to the exact Hokage approval gate instead of taking another passive wait round |

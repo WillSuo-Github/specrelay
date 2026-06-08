@@ -1,6 +1,6 @@
 # Current State
 
-- Last updated: `2026-06-05 19:30 CST`
+- Last updated: `2026-06-08 05:16 CST`
 - Dominant objective: validate Burn Ceiling as the next active product
 - Current stage: public MVP live
 - Current release: Burn Ceiling now has a first public static MVP at the old project URL; SpecRelay remains archived as historical context only
@@ -8,9 +8,9 @@
 
 ## Now
 
-- In progress: Burn Ceiling is live and publicly reachable. The first founder-facing demand route is now live in Marty's X thread and the company is waiting on founder response, direct feedback, or completed-plan evidence.
+- In progress: Burn Ceiling is live and publicly reachable. The first founder-facing demand route in Marty's X thread is now a stalled prior touch, and the company is stopped at the exact Hokage founder-facing approval gate.
 - Public URL: https://willsuo-github.github.io/specrelay/ now serves Burn Ceiling instead of the old SpecRelay packet generator
-- Biggest blocker: Burn Ceiling still has no completed plans and no direct founder intent yet, even though the first live founder-facing route is now in market
+- Biggest blocker: Burn Ceiling still has no completed plans and no direct founder intent yet, and the first live founder-facing route has now stalled before producing useful signal
 - Highest-risk assumption: founders agree the pain is real but may still treat launch cost planning as spreadsheet work rather than complete a focused planner
 - Next decision deadline: `2026-06-10 23:59 CST` first bounded experiment readout
 
@@ -19,12 +19,12 @@
 - Product/CEO: hold Burn Ceiling to a 7-day evidence window; do not let it become another generic checklist product
 - Support/Research: use current public cost-cap and runaway-bill signals as the demand base, not the old SpecRelay launch-handoff thesis
 - Engineering: keep the MVP truthful, short, and exportable; do not add backend or analytics drift before signal
-- Growth: read the live Marty route honestly before opening a second founder-facing send; do not broaden into generic launch-content posting yet
+- Growth: do not keep waiting on Marty as if it were still the main active route; resolve the exact Hokage gate before broader distribution work
 - Release/Ops: verify the live page, metadata, and feedback path after deploy-touching runs
 
 ## Pending Approvals
 
-- Exact live action currently gated: none; the first Burn Ceiling no-link X reply is already sent and publicly verified
+- Exact live action currently gated: Candidate 2, the Hokage no-link X reply in `docs/burn-ceiling-validation-sprint.md`
 - Account gap to resolve: none for the sunset/selection state
 - Hard-gated actions remain approval-gated until explicitly delegated.
 
@@ -62,6 +62,17 @@
 - Stop-check: the approved public follow-up is sent; the company is waiting on outside feedback. Keep heartbeat active for a 12-hour follow-up check.
 
 ## Latest CEO After-Action Review
+
+- Date: `2026-06-08 05:16 CST`
+- Current stage: `public MVP live`. Burn Ceiling remains the one active product, and the company is still inside the bounded `EXP-0005` demand-validation window.
+- Evidence quality: medium for product truth and still low for demand. The live page remains healthy, GitHub feedback is still silent, and the Marty route is real but now clearly weak as an active waiting surface.
+- Current-run work completed: refreshed the installed company-mode kernel, re-verified the direct Marty status page, confirmed that the Burn Ceiling reply still shows only `4` views with `0` replies and `0` likes after roughly 58 hours, re-verified the live Burn Ceiling page at `HTTP 200`, and re-verified GitHub feedback issue #1 at `0` comments.
+- Instance-only improvements executed: Marty was reclassified from active wait to stalled prior route, Candidate 2 (Hokage) was promoted to the exact public-action gate, and durable state/automation were aligned to approval-wait rather than external-wait.
+- Kernel/template/migration improvements: startup kernel refresh only; no reusable kernel change was needed from this run.
+- Hard-gated improvements: the staged Hokage no-link X reply, any further public founder-facing send, new public threads, DMs, paid spend, account changes, and credentials remain action-time gated unless explicitly delegated.
+- Stop-check: one coherent demand-validation readout run is complete. Marty no longer deserves to be treated as the main waiting surface, and the company now stops at the exact Hokage approval gate rather than manufacturing another passive wait round.
+
+## Previous CEO After-Action Review
 
 - Date: `2026-06-05 19:30 CST`
 - Current stage: `public MVP live`. Burn Ceiling remains the one active product, and the company is still in demand validation rather than new product work.

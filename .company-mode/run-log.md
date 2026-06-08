@@ -1,27 +1,27 @@
 # Run Log
 
-- Last updated: `2026-06-05 19:30 CST`
+- Last updated: `2026-06-08 05:16 CST`
 - Owner role: Product/CEO + Release/Ops
 - Purpose: provide the canonical active-run ledger and counter source for cadence, operating quality, viability review, and business audit triggers.
 
 ## Current Counters
 
-- Total active runs: 45
-- Last run ID: `RUN-0045`
-- Next run ID: `RUN-0046`
-- Last active run at: `2026-06-05 19:30 CST`
-- Last real-progress run ID: `RUN-0045`
+- Total active runs: 46
+- Last run ID: `RUN-0046`
+- Next run ID: `RUN-0047`
+- Last active run at: `2026-06-08 05:16 CST`
+- Last real-progress run ID: `RUN-0046`
 - Last no-progress run ID: `RUN-0044`
 - No-progress streak: 0
-- Runs since viability review: 4
-- Runs since business audit: 5
+- Runs since viability review: 0
+- Runs since business audit: 6
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
 
 | Trigger | Source | Due when | Current status | Required action |
 | --- | --- | --- | --- | --- |
-| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0041`; next due at `2026-06-10 23:59 CST` or earlier material result | review before ordinary backlog if due |
+| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0046`; next due at `2026-06-10 23:59 CST` or earlier material result | review before ordinary backlog if due |
 | Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0040`; next due before Burn Ceiling is committed to a bigger build or if the evidence window closes | audit before ordinary backlog if due |
 | Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | not due | strategy reset executed at the checkpoint; do not reopen the old wedge passively |
 
@@ -89,6 +89,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0043` | `2026-06-04 21:01 CST` | `public MVP live` | `demand` | turn the post-MVP bottleneck into one exact founder-facing validation gate and remove the stale pre-product heartbeat framing | observe -> verify -> research -> prepare -> close | live page re-verified at `HTTP 200`, GitHub feedback issue #1 re-verified as silent, a Burn Ceiling X validation sprint was staged around current cost-cap threads, and the exact next public move was narrowed to one no-link Marty reply | yes | the company no longer depends on a stale “ship the MVP” heartbeat and now has one exact demand-validation gate instead of generic growth planning | pass with notes | n/a | n/a | none | `docs/burn-ceiling-validation-sprint.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/signal-sources.md`, `.company-mode/experiments.md`, `.company-mode/market-map.md`, `.company-mode/run-log.md`, `.company-mode/independent-check.md`, `ops/automation-spec.md` | 24h approval wait on the staged Marty gate |
 | `RUN-0044` | `2026-06-05 13:15 CST` | `public MVP live` | `demand` | verify whether any direct signal or approval arrived after the first post-gate wait cycle and stop honestly if the company is still at the same exact approval boundary | observe -> verify -> close | GitHub feedback issue #1 remained silent, the live Burn Ceiling page still returned `HTTP 200`, no new direct feedback or completed-plan evidence was added, and the company remained at the same exact Marty approval gate | no | none; the company only re-verified the same approval wait state and did not create a new external signal or new gate in this run | pass with notes | n/a | n/a | none | `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md` | 24h approval wait on the staged Marty gate |
 | `RUN-0045` | `2026-06-05 19:30 CST` | `public MVP live` | `demand` | execute the approved first Burn Ceiling founder-facing route and verify whether it truly enters market | observe -> publish -> verify -> close | the approved Marty no-link X reply was sent from the logged-in Chrome session and publicly verified at `https://x.com/thefuckkingguy/status/2062857306187190618`; GitHub feedback issue #1 remained at `0` comments and the live Burn Ceiling page still returned `HTTP 200` | yes | the company moved from an approval gate to one real founder-facing route in market with independent public verification | pass | n/a | n/a | none | `docs/burn-ceiling-validation-sprint.md`, `.company-mode/state.md`, `.company-mode/experiments.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/feedback.md`, `.company-mode/signal-sources.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | 24h external wait on Marty/X |
+| `RUN-0046` | `2026-06-08 05:16 CST` | `public MVP live` | `demand` | decide whether the live Marty route still deserves to be treated as the active wait surface and, if stalled, narrow the next founder-facing move to one exact gate | observe -> verify -> review -> decide -> prepare -> close | GitHub feedback issue #1 remained at `0` comments, the live Burn Ceiling page still returned `HTTP 200`, and the direct Marty status page still showed only `4` views with `0` replies and `0` likes after roughly 58 hours. The route was therefore reclassified as stalled, Candidate 2 (Hokage) was promoted to the exact public-action gate, and the due viability review was refreshed without changing the bounded-window recommendation | yes | the company prevented another passive wait round by converting a stalled live route into one exact next approval gate | pass with notes | n/a | `continue` | none | `docs/burn-ceiling-validation-sprint.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | 24h approval wait on the staged Hokage gate |
 
 ## Correction Log
 

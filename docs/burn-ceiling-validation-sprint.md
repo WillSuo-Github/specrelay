@@ -1,10 +1,10 @@
 # Burn Ceiling Validation Sprint
 
-Date: `2026-06-05`
+Date: `2026-06-08`
 
 Channel: X, using the logged-in Chrome session.
 
-Status: first Burn Ceiling founder-facing validation route sent and publicly verified on X.
+Status: first Burn Ceiling founder-facing validation route sent and publicly verified on X; Marty now reads as stalled, so Candidate 2 is the current exact gate.
 
 ## Objective
 
@@ -61,7 +61,8 @@ The validation ask stays narrow:
   - logged-in send flow on X
   - `https://x.com/thefuckkingguy/with_replies`
   - direct public status page above
-- Current readout state: publicly visible, but still `0` founder replies and `0` explicit intent language so far.
+- Current readout state: publicly visible, but after roughly 58 hours it still shows only `4` views, `0` replies, and `0` likes, with no explicit founder-intent language.
+- Current interpretation: Candidate 1 produced a real public touch, but it is now too quiet to remain the main active waiting surface for this bounded window.
 
 ## Staged Reply Copy
 
@@ -121,6 +122,10 @@ Negative signal:
 
 Current exact stop condition:
 
-- wait on Marty/X for direct founder response, completed-plan evidence, or other material Burn Ceiling signal
+- stop at Candidate 2, the Hokage no-link X reply approval gate
 
-If the Marty route clearly stalls without useful signal, the next narrow public-action gate is Candidate 2, the no-link Hokage reply.
+Why Candidate 2 now:
+
+- Marty is still valuable as archived evidence, but the live route is now stalled rather than newly waiting.
+- Hokage's thread is still close to Burn Ceiling's real pain: painful after-the-fact cost cleanup after agents already started burning money.
+- The staged copy remains no-link and still asks about pre-launch behavior rather than generic agreement.

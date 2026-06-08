@@ -8,7 +8,7 @@ This file is the recoverable automation spec for this one-product company instan
 - Kind: heartbeat attached to the current thread
 - Status: active
 - Current cadence: 24 hours
-- Reason: Burn Ceiling is already `public MVP live`. The first founder-facing route is now live in Marty's X thread, so the current autonomous job is honest external wait plus readout for `EXP-0005`, not more approval staging.
+- Reason: Burn Ceiling is already `public MVP live`. The first founder-facing Marty route is publicly verified but now stalled, so the current autonomous job is to hold at the exact Hokage approval gate rather than keep pretending Marty is still the main live waiting surface.
 
 ## Policy
 

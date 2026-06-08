@@ -1,6 +1,6 @@
 # Revenue Pipeline
 
-- Last updated: `2026-06-05`
+- Last updated: `2026-06-08 05:16 CST`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
@@ -9,7 +9,7 @@
 - Business stage: `public MVP live`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: no confirmed users yet on Burn Ceiling
-- Distribution status: Burn Ceiling now has a live public route, and the first founder-facing X route is sent and publicly visible
+- Distribution status: Burn Ceiling has one publicly verified founder-facing X route, but the Marty thread now reads as stalled and the next exact route is approval-gated
 - Monetization status: low-ticket planner/toolkit hypothesis only
 - Current revenue bottleneck: `demand`
 - Business model hypothesis: low-ticket self-serve planner/toolkit; see `business-model.md`
@@ -27,13 +27,13 @@
 
 ## Leads / Prospects / Pain Signals
 
-No live leads yet. Candidate 1 is now live in Marty's thread at `https://x.com/thefuckkingguy/status/2062857306187190618`; Candidates 2 and 3 remain staged in `docs/burn-ceiling-validation-sprint.md`.
+No live leads yet. Candidate 1 is archived as a real but stalled Marty route at `https://x.com/thefuckkingguy/status/2062857306187190618`; Candidate 2 (Hokage) is now the exact next public-action gate in `docs/burn-ceiling-validation-sprint.md`.
 
 ## Channel Experiments
 
 | Channel | Hypothesis | Action | Cost | Approval needed | Result | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| X replies | direct public founder replies can reveal whether the planner feels real before launch | Burn Ceiling founder-facing replies and concrete cost-cap asks | 0 | yes; additional public sends remain action-time gated | Candidate 1 is live and publicly verified in Marty's thread; no founder reply yet | wait on Marty/X before opening Candidate 2 |
+| X replies | direct public founder replies can reveal whether the planner feels real before launch | Burn Ceiling founder-facing replies and concrete cost-cap asks | 0 | yes; additional public sends remain action-time gated | Candidate 1 is live and publicly verified in Marty's thread, but now reads as stalled after roughly 58 hours with only `4` views and no founder reply | stop at the exact Hokage approval gate |
 | Direct rescue-service outreach | targeted evaluator messages may validate intake/scoping value faster than broad founder posting | Afterbuild email attempt, Bytewise email, AppStuck form, AC Tech Labs form | 0 | already executed | Afterbuild failed delivery; Bytewise/AppStuck/AC Tech Labs closed the checkpoint with no verified reply | stop this wedge for now; only revisit if a late reply materially changes the evidence |
 | GitHub owned surface | the live product page can point people to owned feedback or repo history | public site plus archived issue | 0 | no | archived issue still silent; no Burn Ceiling-specific issue yet | keep the in-product feedback ask simple first |
 
@@ -48,14 +48,14 @@ No live leads yet. Candidate 1 is now live in Marty's thread at `https://x.com/t
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | read the live Marty founder-facing route honestly before opening a second public send | demand | direct replies or comments about pre-launch use intent | no for waiting; yes for the next public send | active |
+| 1 | send the staged Hokage no-link X reply if approved | demand | direct replies or comments about pre-launch use intent | yes | exact gate |
 | 2 | convert the first useful founder language into tighter planner copy if needed | activation | clearer completion and trust | no | queued |
-| 3 | treat any late SpecRelay reply as archived evidence only | decision | cleaner historical record, not automatic restart | no | passive |
+| 3 | treat any late Marty engagement or archived SpecRelay reply as additional evidence only | decision | cleaner historical record, not automatic restart | no | passive |
 
 ## Acquisition Cadence
 
 - Cadence owner: Growth
-- Current cadence: 24-hour approval-wait heartbeat once the exact public gate is staged
+- Current cadence: 24-hour approval-wait heartbeat while the exact Hokage public gate is pending
 - Rule: the company chooses cadence from business stage, signal strength, and bottleneck; do not wait for the user to prescribe lead/post counts.
 - Cadence record: see `acquisition-cadence.md`
 

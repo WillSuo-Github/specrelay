@@ -1,6 +1,6 @@
 # Viability Scorecard
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-08 05:16 CST`
 - Owner role: Product/CEO
 - Purpose: prevent zombie maintenance by forcing an evidence-based continue, intensify, pivot, park, or sunset decision.
 
@@ -8,7 +8,7 @@
 
 - Recommendation: `continue`
 - Confidence: low/medium
-- Reason: SpecRelay is sunset, but the selection sprint found a tighter adjacent pain with better evidence speed and a clean static-MVP path. Burn Ceiling deserves one bounded first experiment, not an open-ended build.
+- Reason: SpecRelay is sunset, Burn Ceiling has a real live MVP, and one founder-facing route was publicly verified. Marty now reads as stalled, but the experiment still has enough remaining window to justify one more exact founder-facing send rather than an early kill.
 - Next review at: `2026-06-10 23:59 CST`
 - Next review trigger: `EXP-0005` readout, earlier strong intent signal, or clear failure to ship the MVP
 - Evidence window: `2026-06-03` to `2026-06-10 23:59 CST` for Burn Ceiling
@@ -48,3 +48,4 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 | `2026-06-03` | `sunset` | no score change | the user explicitly selected `sunset`, the public product was taken offline, and the company returned to product selection instead of keeping SpecRelay in review | next selected product | explicit next-product selection |
 | `2026-06-03` | `continue` | demand `1 -> 3`, activation `0 -> 1`, monetization `0 -> 2`, distribution `0 -> 3`, differentiation `1 -> 2`; other dimensions reset to the new product context | Burn Ceiling is selected as the new active product because public founder pain around runaway AI costs is clearer and the first experiment can be run with a static planner MVP | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |
 | `2026-06-04` | `continue` | activation `1 -> 2`; other dimensions unchanged | the first Burn Ceiling MVP is now live and locally verified, so the next risk is demand, not whether the product can be shipped at all | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |
+| `2026-06-08` | `continue` | no score change | the first Burn Ceiling founder-facing Marty route is real but stalled at `4` views with `0` replies and `0` likes after roughly 58 hours; that is enough to stop waiting on Marty as the main readout surface, but not enough to kill `EXP-0005` before trying the already-staged Hokage route | `2026-06-10 23:59 CST` | Burn Ceiling readout close, earlier strong intent signal, or user approval to send the Hokage route |
