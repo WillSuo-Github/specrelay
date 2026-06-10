@@ -7,8 +7,8 @@ This file is the recoverable automation spec for this one-product company instan
 - Automation id: `burn-ceiling-company-heartbeat`
 - Kind: heartbeat attached to the current thread
 - Status: active
-- Current cadence: 24 hours
-- Reason: Burn Ceiling is already `public MVP live`. The first founder-facing Marty route is publicly verified but now stalled, so the current autonomous job is to hold at the exact Hokage approval gate rather than keep pretending Marty is still the main live waiting surface.
+- Current cadence: exact `2026-06-10 23:59 CST` readout-close wake
+- Reason: Burn Ceiling is already `public MVP live`. The first founder-facing Marty route is publicly verified but stalled, the exact Hokage gate is still approval-gated, and `EXP-0005` closes tonight, so the next autonomous job is the readout-close decision rather than another generic 24-hour approval wait.
 
 ## Policy
 
