@@ -1,18 +1,18 @@
 # Business Audit
 
-- Last updated: `2026-06-03`
+- Last updated: `2026-06-11 00:20 CST`
 - Owner role: Product/CEO
 - Purpose: force a recurring evidence-based answer to whether the company is actually closer to revenue, not merely busier.
 
 ## Current Audit State
 
 - Audit window: last 7 days or last 10 active company runs from `run-log.md`, whichever contains more decision-grade evidence
-- Last audit: `2026-06-03` in `RUN-0040`
-- Next audit at: before Burn Ceiling commits to a bigger build than the bounded MVP, or when `EXP-0005` closes
+- Last audit: `2026-06-11 00:20 CST` in `RUN-0048`
+- Next audit at: before any resumed Burn Ceiling experiment, product park/sunset execution, or new product-selection commitment
 - Current answer: `no`
 - Confidence: high
-- Required decision: keep Burn Ceiling bounded to the first MVP plus `EXP-0005`; do not broaden the product before the readout
-- Required action: keep SpecRelay archived, ship the smallest truthful Burn Ceiling MVP, and use the experiment window to answer demand before any heavier build
+- Required decision: do not auto-continue Burn Ceiling. Move the product to `sunset-review` until Product/CEO decides `park`, `sunset`, or a new bounded restart.
+- Required action: keep SpecRelay archived, keep Burn Ceiling live but frozen, and stop broader build/distribution work until the post-readout decision is explicit
 
 ## Audit Question
 
@@ -35,8 +35,8 @@ Allowed answers:
 | Paying intent / monetization | still no willingness-to-pay signal; the previous B2B intake model did not earn even weak buyer engagement | unchanged | medium | `business-model.md`, `experiments.md` |
 | Users / demand | two weak X signals remain the only direct feedback; no founder-side reply, no completed packet review, and no contractor/agency reply landed after the pivot | unchanged | medium | `metrics.md`, `feedback.md`, `market-map.md` |
 | Activation / retention | product is usable, but neither the full packet nor a smaller brief has confirmed completion behavior yet | unchanged | low | `metrics.md`, `signal-sources.md` |
-| Distribution | Burn Ceiling now has a live public surface, but no founder validation route has been run yet; this happened after the last audit closed | mixed | medium | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md` |
-| Release / reachability | the public URL is healthy and now serves Burn Ceiling instead of only an archive notice; this happened after the last audit closed | yes on release truth, not yet on revenue | high | `release.md` |
+| Distribution | Burn Ceiling shipped one publicly verified Marty route, but the experiment still closed with no founder reply and the next exact route never became live | no | high | `revenue-pipeline.md`, `market-map.md`, `acquisition-cadence.md`, `feedback.md`, `experiments.md` |
+| Release / reachability | the public URL stayed healthy throughout the window and still serves Burn Ceiling truthfully | yes on release truth, not on revenue | high | `release.md` |
 | Account dependencies | no new blocking account need prevented the chosen move | unchanged | medium | `account-needs.md` |
 | Operating quality | the company executed the sunset cleanly and did not fake market progress, but the run still did not create new revenue movement because it was a shutdown rather than a validating growth step | mixed | medium | `operating-quality.md`, `independent-check.md` |
 
@@ -61,6 +61,7 @@ Allowed answers:
 | `2026-05-29` | `2026-05-22` to `2026-05-29 19:26 CST` | `no` | the founder-side pivot still has 0 founder replies, 0 strong intent, 0 completed packet/brief reviews, and 0 paid signal; James Hsi remains only a staged approval gate, not a live touch | keep the exact gate alive only to tonight's readout close, then force `sunset-review` if silence or no approval persists | stop broad execution drift, tighten the next wake to `2026-05-29 23:59 CST`, and treat the founder-side readout close as the next hard company decision | `2026-05-29 23:59 CST` |
 | `2026-05-30` | `2026-05-22` to `2026-05-30 00:13 CST` | `no` | the founder-side readout window actually closed with no founder reply, no validated usage, no paid signal, one stalled live route, and one expired unsent gate | enter `sunset-review` instead of extending the same thesis automatically | wait for explicit Product/CEO `park`, `sunset`, or restart decision | before any resumed active experiment or product-selection decision |
 | `2026-06-03` | `2026-05-23` to `2026-06-03 19:20 CST` | `no` | no late signal changed the evidence, and the only material move was executing the explicit sunset and taking the product offline | complete the sunset and reopen product selection instead of keeping SpecRelay in review | run a fresh next-product selection sprint | before the next product is committed active |
+| `2026-06-11` | `2026-06-03` to `2026-06-10 23:59 CST` | `no` | Burn Ceiling shipped a live truthful MVP and one publicly verified founder-facing route, but the bounded window still closed with 0 completed plans, 0 strong-intent signals, 0 founder replies, and 0 paid signal | enter `sunset-review` instead of automatically continuing the same demand thesis | freeze broader build/distribution work and wait for explicit Product/CEO `park`, `sunset`, or bounded restart decision | before any resumed Burn Ceiling experiment or new product-selection commitment |
 
 ## Audit Closeout Checklist
 

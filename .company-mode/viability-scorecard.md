@@ -1,16 +1,16 @@
 # Viability Scorecard
 
-- Last updated: `2026-06-08 05:16 CST`
+- Last updated: `2026-06-11 00:20 CST`
 - Owner role: Product/CEO
 - Purpose: prevent zombie maintenance by forcing an evidence-based continue, intensify, pivot, park, or sunset decision.
 
 ## Current Decision
 
-- Recommendation: `continue`
-- Confidence: low/medium
-- Reason: SpecRelay is sunset, Burn Ceiling has a real live MVP, and one founder-facing route was publicly verified. Marty now reads as stalled, but the experiment still has enough remaining window to justify one more exact founder-facing send rather than an early kill.
-- Next review at: `2026-06-10 23:59 CST`
-- Next review trigger: `EXP-0005` readout, earlier strong intent signal, or clear failure to ship the MVP
+- Recommendation: `sunset-review`
+- Confidence: medium
+- Reason: Burn Ceiling shipped a real MVP and one publicly verified founder-facing touch, but the full bounded `EXP-0005` window still closed with 0 completed plans, 0 strong-intent signals, and 0 founder replies. That is not enough to justify another automatic continue.
+- Next review at: explicit Product/CEO decision on `park`, `sunset`, or a new bounded Burn Ceiling restart
+- Next review trigger: user decision, or a deliberately new bounded experiment proposal
 - Evidence window: `2026-06-03` to `2026-06-10 23:59 CST` for Burn Ceiling
 
 ## Scorecard
@@ -19,12 +19,12 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 
 | Dimension | Score | Evidence | Main risk | Next action |
 | --- | --- | --- | --- | --- |
-| Demand | 3 | current public pain signals show real cost-cap anxiety and launch guidance increasingly treats caps as mandatory | people may agree with the pain but still not complete a planner | test completion and intent quickly |
-| Activation | 2 | the first live MVP exists and produces a concrete plan, but no one has completed it yet | the planner may still feel too abstract if the output feels generic | measure completion and tighten the output from real reactions |
+| Demand | 1 | the full first bounded window closed without any direct founder reply, strong-intent signal, or completed plan | public pain may be real, but this exact product did not convert it into usage evidence | do not continue automatically; require a fresh restart case |
+| Activation | 1 | the MVP exists and can produce a plan, but the window still closed with 0 completed plans | the planner may still feel too abstract or too spreadsheet-like | only revisit if a new bounded experiment changes the activation bet |
 | Retention | 0 | no repeat usage evidence | even a useful first look may not recur | ignore until first real user exists |
 | Monetization | 2 | low-ticket planner/toolkit is plausible, but untested | low willingness to pay for advice-only output | ask about pre-launch use before pricing |
-| Distribution | 3 | the same founder/builder communities that surfaced cost pain are still reachable from current accounts | public send still has to cut through crowded launch discourse | stage a tighter MVP and concrete ask |
-| Differentiation | 2 | most current content is advice or security scans; there is room for a cost-cap-specific planner | it may still collapse into another generic checklist if outputs are weak | keep the product centered on spend ceilings and fallback decisions |
+| Distribution | 1 | one Marty route was publicly verified, but the window closed with no reply and the only next route remained unsent behind approval | the reachable communities may not convert for this product shape | do not assume one more same-shape reply fixes the problem |
+| Differentiation | 1 | the product remained truthful and compact, but the market still gave no evidence that this cost-cap planner stands out enough to earn use | it may still collapse into another generic checklist / spreadsheet | require a sharper thesis before restart |
 | Execution fit | 4 | static web product, zero-backend path, and existing deployment pattern are all workable; the first MVP now exists | risk is still business fit, not implementation | use the live MVP to get demand evidence rather than broadening the build |
 
 ## Decision Rules
@@ -49,3 +49,4 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 | `2026-06-03` | `continue` | demand `1 -> 3`, activation `0 -> 1`, monetization `0 -> 2`, distribution `0 -> 3`, differentiation `1 -> 2`; other dimensions reset to the new product context | Burn Ceiling is selected as the new active product because public founder pain around runaway AI costs is clearer and the first experiment can be run with a static planner MVP | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |
 | `2026-06-04` | `continue` | activation `1 -> 2`; other dimensions unchanged | the first Burn Ceiling MVP is now live and locally verified, so the next risk is demand, not whether the product can be shipped at all | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |
 | `2026-06-08` | `continue` | no score change | the first Burn Ceiling founder-facing Marty route is real but stalled at `4` views with `0` replies and `0` likes after roughly 58 hours; that is enough to stop waiting on Marty as the main readout surface, but not enough to kill `EXP-0005` before trying the already-staged Hokage route | `2026-06-10 23:59 CST` | Burn Ceiling readout close, earlier strong intent signal, or user approval to send the Hokage route |
+| `2026-06-11` | `sunset-review` | demand `3 -> 1`, activation `2 -> 1`, distribution `3 -> 1`, differentiation `2 -> 1`; other dimensions unchanged | the `EXP-0005` window closed with 0 completed plans, 0 strong-intent signals, 0 GitHub comments, and no founder reply on the only verified founder-facing route; Hokage never became a live touch before the deadline | explicit Product/CEO decision on `park`, `sunset`, or a new bounded Burn Ceiling restart | user decision, or a new bounded experiment proposal |

@@ -1,18 +1,18 @@
 # Experiments
 
-- Last updated: `2026-06-08 05:16 CST`
+- Last updated: `2026-06-11 00:20 CST`
 - Owner role: Product/CEO + relevant execution role
 - Purpose: track bounded evidence windows that can change product, growth, monetization, viability, and business-audit decisions.
 
 ## Current Experiment State
 
-- Active experiment: `EXP-0005`
-- Bottleneck tested: `demand`
+- Active experiment: none
+- Bottleneck tested: `decision`
 - Evidence window: `2026-06-03` to `2026-06-10 23:59 CST`
-- Readout due: `2026-06-10 23:59 CST`
-- Current decision pressure: Burn Ceiling now has to turn either the stalled Marty route's late engagement or one more exact founder-facing send into completed plans or strong founder intent inside one bounded window
+- Readout due: closed at `2026-06-10 23:59 CST`
+- Current decision pressure: `EXP-0005` closed without any founder reply, completed plan, or strong-intent signal, so the company must decide whether Burn Ceiling is parked, sunset, or restarted under a fresh bounded experiment
 - Last completed experiment result: `EXP-0004` closed `inconclusive` when the founder-side window produced no reply or strong intent
-- Weak/negative completed experiments since last viability review: 0
+- Weak/negative completed experiments since last viability review: 1
 
 ## Experiment Rules
 
@@ -28,7 +28,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `EXP-0003` | completed | distribution | a founder-filled stability-first packet may save intake/scoping time for contractor/agency evaluators before repo access | contractor / agency intake owner / rescue-service reviewer | live product + Bytewise email + AppStuck contact form + AC Tech Labs contact form; Afterbuild email attempt is now excluded because delivery failed | at least one reply that says the packet would reduce back-and-forth, save scoping time, or is missing one specific section | 0 strong intent signals; no completed packet reviews | 1 weak-positive-or-stronger evaluator reply by `2026-05-21 23:59 CST`; strong threshold is clear workflow value | direct replies, GitHub issue, X feedback | `2026-05-01` | `2026-05-21 23:59 CST` | further outreach remains action-time gated | Product/CEO + Growth |
 | `EXP-0004` | completed | distribution | a smaller founder-side stability brief is more realistic than a full intake packet and can produce explicit pre-launch or pre-handoff usage intent | founder/operator preparing to launch or hand off an AI-built app | activate `docs/founder-stability-brief-pivot.md`, `docs/founder-stability-brief-runbook.md`, and `docs/founder-stability-target-pool.md`; Reddit was pruned as an execution surface and one replacement non-Reddit Jesse X route was sent; James Hsi remained a staged but unsent approval gate | at least one founder says they would fill out the brief before launch or before asking for help | 0 founder-side usage-intent signals; only weak Jesse/Frank language exists | 1 weak-positive-or-stronger founder reply by `2026-05-29 23:59 CST`; strong threshold is clear pre-launch or pre-handoff usage intent | founder replies, GitHub issue, X feedback, and future community validation | `2026-05-22` | `2026-05-29 23:59 CST` | no further founder-side public action remains inside the closed window | Product/CEO + Growth |
-| `EXP-0005` | active | demand | launch-stage AI founders will use a 5-minute planner to set spend caps, fallback models, and launch guardrails before turning on traffic or paid users | solo founder / small team launching an AI-backed web app | build the first static Burn Ceiling MVP with preset scenarios, exportable output, and a direct feedback ask | at least 5 completed guardrail plans and 2 strong-intent signals saying they would use it before launch | 0 completed plans; 0 direct feedback | by `2026-06-10 23:59 CST`, 5 completed plans and 2 strong-intent signals; strong threshold is explicit pre-launch use intent | public founder replies, direct feedback, completed plan screenshots or comments | `2026-06-03` | `2026-06-10 23:59 CST` | public outreach remains action-time gated; build is pre-authorized | Product/CEO + Engineering + Growth |
+| `EXP-0005` | completed | demand | launch-stage AI founders will use a 5-minute planner to set spend caps, fallback models, and launch guardrails before turning on traffic or paid users | solo founder / small team launching an AI-backed web app | build the first static Burn Ceiling MVP with preset scenarios, exportable output, and a direct feedback ask | at least 5 completed guardrail plans and 2 strong-intent signals saying they would use it before launch | 0 completed plans; 0 direct feedback | by `2026-06-10 23:59 CST`, 5 completed plans and 2 strong-intent signals; strong threshold is explicit pre-launch use intent | public founder replies, direct feedback, completed plan screenshots or comments | `2026-06-03` | `2026-06-10 23:59 CST` | public outreach remained action-time gated; build was pre-authorized | Product/CEO + Engineering + Growth |
 
 ## Readout Log
 
@@ -49,6 +49,7 @@
 | `2026-06-04` | `EXP-0005` | `continue` | the first exact Burn Ceiling founder-facing route is now staged as a no-link X reply in Marty's cost-cap thread, with two fallbacks staged behind it; the MVP still has 0 completed plans and 0 direct intent signals because no Burn Ceiling touch has entered market yet | medium | keep the experiment active, but stop at the exact Marty approval gate rather than widening distribution planning | `experiments.md`, `state.md`, `revenue-pipeline.md`, `signal-sources.md`, `company-dashboard.md`, `run-log.md`, `ops/automation-spec.md` | wait for approval to send Marty, then read direct founder response honestly |
 | `2026-06-05` | `EXP-0005` | `continue` | the approved Marty no-link X reply was sent and publicly verified at `https://x.com/thefuckkingguy/status/2062857306187190618`; the live Burn Ceiling page remains `HTTP 200`, GitHub feedback issue #1 remains at `0` comments, and there is still no founder reply or completed-plan evidence yet | high for send verification, low for demand | keep the experiment active and hold at honest external wait on Marty/X rather than staging another founder-facing send immediately | `experiments.md`, `state.md`, `feedback.md`, `signal-sources.md`, `revenue-pipeline.md`, `company-dashboard.md`, `run-log.md`, `ops/automation-spec.md` | read Marty/X, direct feedback, and completed-plan evidence before opening Candidate 2 |
 | `2026-06-08` | `EXP-0005` | `continue` | the direct Marty status page still shows only the source post plus the Burn Ceiling reply, and the Burn Ceiling reply now shows just `4` views with `0` replies and `0` likes after roughly 58 hours; GitHub feedback issue #1 remains at `0` comments and the live Burn Ceiling page remains `HTTP 200` | medium/high for stall classification, low for demand | keep the experiment active, but stop treating Marty as the main external-wait surface and narrow the next move to the exact Hokage approval gate | `experiments.md`, `state.md`, `feedback.md`, `revenue-pipeline.md`, `company-dashboard.md`, `run-log.md`, `viability-scorecard.md`, `ops/automation-spec.md`, `docs/burn-ceiling-validation-sprint.md` | wait for approval to send Candidate 2 instead of continuing passive wait on Candidate 1 |
+| `2026-06-11` | `EXP-0005` | `inconclusive` | the evidence window closed with 0 completed guardrail plans, 0 strong-intent signals, 0 GitHub comments, and no founder reply on the one verified Marty route, which finished at `8` views / `0` replies / `0` likes; the only remaining bounded move, Hokage, never cleared approval before the readout close | high for readout close, medium for product implication | stop the active experiment and move Burn Ceiling into `sunset-review` instead of auto-continuing another demand window | `experiments.md`, `viability-scorecard.md`, `business-audit.md`, `revenue-pipeline.md`, `state.md`, `run-log.md`, `company-dashboard.md`, `operating-quality.md`, `independent-check.md`, `ops/automation-spec.md` | wait for Product/CEO decision on `park`, `sunset`, or a deliberately new bounded restart |
 
 ## Active
 

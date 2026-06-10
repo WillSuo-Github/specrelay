@@ -6,9 +6,9 @@ This file is the recoverable automation spec for this one-product company instan
 
 - Automation id: `burn-ceiling-company-heartbeat`
 - Kind: heartbeat attached to the current thread
-- Status: active
-- Current cadence: exact `2026-06-10 23:59 CST` readout-close wake
-- Reason: Burn Ceiling is already `public MVP live`. The first founder-facing Marty route is publicly verified but stalled, the exact Hokage gate is still approval-gated, and `EXP-0005` closes tonight, so the next autonomous job is the readout-close decision rather than another generic 24-hour approval wait.
+- Status: deleted
+- Current cadence: none
+- Reason: `EXP-0005` has closed `inconclusive`, Burn Ceiling is now in `sunset-review`, and no autonomous work remains until Product/CEO decides `park`, `sunset`, or a new bounded restart.
 
 ## Policy
 

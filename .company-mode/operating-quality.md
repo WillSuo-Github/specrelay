@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-06-10 21:30 CST`
+- Last updated: `2026-06-11 00:20 CST`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -8,15 +8,15 @@
 
 - Source ledger: `run-log.md`
 - Rolling window: last 10 active company runs
-- Real-progress rate: `70%` (`7/10`)
-- External-signal output rate: `70%` (`7/10`) runs either shipped a real external touch, staged the exact next gate, or closed a bounded evidence window with an explicit company decision
-- No-progress streak: `1`
+- Real-progress rate: `80%` (`8/10`)
+- External-signal output rate: `80%` (`8/10`) runs either shipped a real external touch, staged the exact next gate, or closed a bounded evidence window with an explicit company decision
+- No-progress streak: `0`
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
-- Business audit status: current (`no` on `2026-06-03`); SpecRelay sunset is complete
+- Business audit status: current (`no` on `2026-06-11`); Burn Ceiling is in `sunset-review`
 - Current quality risk: `medium`
-- Required correction: the company has already narrowed to the exact Hokage gate, so the next corrective move is to hit tonight's readout close cleanly rather than take another passive approval-wait round.
+- Required correction: do not reopen Burn Ceiling automatically after a silent readout close; require an explicit Product/CEO `park`, `sunset`, or bounded-restart decision.
 
 ## KPI Thresholds
 
@@ -73,6 +73,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-06-05` | `public MVP live` | `demand` | approved Marty no-link X reply sent and publicly verified | yes | the company moved from a stale approval gate to a real founder-facing route in market with a public verification URL | pass | none | hold at honest external wait and read Marty/X before staging Candidate 2 |
 | `2026-06-08` | `public MVP live` | `demand` | Marty route re-verified as stalled and the exact Hokage gate staged | yes | the company prevented passive waiting from turning into no-progress drift by converting a stalled live route into one exact next public-action gate | pass with notes | none | resolve the Hokage gate before opening any broader distribution work |
 | `2026-06-10` | `public MVP live` | `demand` | no new direct signal; exact readout-close wake staged for tonight | no | none; this run only re-verified the same silent state and tightened the wake to the bounded `EXP-0005` close | pass with notes | none | do not take a second passive round after tonight; run the readout close and decide continue / pivot / park / sunset |
+| `2026-06-11` | `sunset-review` | `decision` | `EXP-0005` closed `inconclusive`; heartbeat deleted | yes | the company closed the bounded evidence window, updated due viability and business-audit state, and stopped the obsolete autonomous loop instead of silently continuing | pass with notes | none | next move must be explicit `park`, `sunset`, or bounded restart |
 
 ## Quality Review Questions
 
