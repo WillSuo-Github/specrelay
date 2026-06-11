@@ -1,6 +1,6 @@
 # Operating Quality
 
-- Last updated: `2026-06-11 00:20 CST`
+- Last updated: `2026-06-11 19:59 CST`
 - Owner role: Product/CEO
 - Purpose: measure whether the company is making real progress across runs instead of performing convincing internal activity.
 
@@ -14,9 +14,9 @@
 - Independent-check pass rate: `2/2` explicit schema-era checks; pre-schema runs were backfilled but not rescored line-by-line
 - Account dependency closure rate: `100%` of current blocking needs are either closed or have explicit verification and resume steps
 - Scenario regression status: not run in this instance; no kernel change was made in this migration
-- Business audit status: current (`no` on `2026-06-11`); Burn Ceiling is in `sunset-review`
+- Business audit status: current (`no` on `2026-06-11`); Burn Ceiling is parked
 - Current quality risk: `medium`
-- Required correction: do not reopen Burn Ceiling automatically after a silent readout close; require an explicit Product/CEO `park`, `sunset`, or bounded-restart decision.
+- Required correction: on resume, start from the parked Burn Ceiling snapshot instead of reopening new selection or the old silent demand loop by habit.
 
 ## KPI Thresholds
 
@@ -74,6 +74,7 @@ This table is a summary view. The canonical per-run ledger and counters live in 
 | `2026-06-08` | `public MVP live` | `demand` | Marty route re-verified as stalled and the exact Hokage gate staged | yes | the company prevented passive waiting from turning into no-progress drift by converting a stalled live route into one exact next public-action gate | pass with notes | none | resolve the Hokage gate before opening any broader distribution work |
 | `2026-06-10` | `public MVP live` | `demand` | no new direct signal; exact readout-close wake staged for tonight | no | none; this run only re-verified the same silent state and tightened the wake to the bounded `EXP-0005` close | pass with notes | none | do not take a second passive round after tonight; run the readout close and decide continue / pivot / park / sunset |
 | `2026-06-11` | `sunset-review` | `decision` | `EXP-0005` closed `inconclusive`; heartbeat deleted | yes | the company closed the bounded evidence window, updated due viability and business-audit state, and stopped the obsolete autonomous loop instead of silently continuing | pass with notes | none | next move must be explicit `park`, `sunset`, or bounded restart |
+| `2026-06-11 19:59 CST` | `parked` | `decision` | company parked with resume snapshot recorded | yes | the company converted an ambiguous post-readout holding state into a clean local restart point with no active automation | pass with notes | none | on resume, refresh the kernel and rerun the business health gate before any new build or outreach |
 
 ## Quality Review Questions
 

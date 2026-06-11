@@ -1,11 +1,11 @@
 # Release Ops
 
-Last updated: 2026-06-04
+Last updated: 2026-06-11 19:59 CST
 
 ## Current Release
 
 - Product: Burn Ceiling
-- Release type: public MVP live
+- Release type: public MVP live, company parked
 - Version: MVP-1
 - Target date: `2026-06-04`
 - Platforms: static web app on GitHub Pages
@@ -14,6 +14,7 @@ Last updated: 2026-06-04
 - Feedback issue: https://github.com/WillSuo-Github/specrelay/issues/1
 - Local URL: http://localhost:4173/
 - Rollback plan: the prior archive page can be restored quickly if this MVP must be taken back offline
+- Park state: leave the truthful MVP online, but do not treat the live page as an active validation sprint while the company is paused
 
 ## Pre-Release Checklist
 
@@ -27,6 +28,7 @@ Last updated: 2026-06-04
 - [x] Prevent stale links from serving a live inactive product
 - [x] Keep public URL truthful
 - [ ] Watch for deploy/runtime errors on the live MVP page
+- [x] Park company operations without removing the truthful MVP baseline
 - [x] Replace archive page only after the Burn Ceiling MVP is ready
 
 ## Known Gates
@@ -40,7 +42,7 @@ Last updated: 2026-06-04
 
 - Dev server: preview used for QA on `http://localhost:4173/specrelay/`
 - Git branch: `main`
-- Commit status: this run changes both product code and company state for Burn Ceiling MVP
+- Commit status: latest state includes the parked-company snapshot and resume baseline
 - Public deploy command prepared in `docs/deploy.md`
 
 ## Latest Local QA
@@ -95,3 +97,4 @@ Last updated: 2026-06-04
 - 2026-05-22: Hard-checkpoint heartbeat confirmed the latest Pages workflow `26218772659` completed successfully, GitHub issue #1 still had no comments, and the live URL still returned HTTP 200 while the contractor/agency wedge closed without a verified reply.
 - 2026-06-03: Sunset execution replaced the live SpecRelay packet generator with a static archive notice so stale links no longer point to an active product surface.
 - 2026-06-04: Burn Ceiling MVP replaced the archive notice with a live planner surface. `npm run build` passed, and system Chrome QA confirmed desktop/mobile rendering, preset switching, feedback link, and no horizontal overflow at 390px.
+- 2026-06-11: company operations were parked without changing the public product surface; the live URL remains the resume baseline and should be re-verified before any future restart.

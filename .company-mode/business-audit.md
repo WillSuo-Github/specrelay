@@ -1,6 +1,6 @@
 # Business Audit
 
-- Last updated: `2026-06-11 00:20 CST`
+- Last updated: `2026-06-11 19:59 CST`
 - Owner role: Product/CEO
 - Purpose: force a recurring evidence-based answer to whether the company is actually closer to revenue, not merely busier.
 
@@ -11,8 +11,8 @@
 - Next audit at: before any resumed Burn Ceiling experiment, product park/sunset execution, or new product-selection commitment
 - Current answer: `no`
 - Confidence: high
-- Required decision: do not auto-continue Burn Ceiling. Move the product to `sunset-review` until Product/CEO decides `park`, `sunset`, or a new bounded restart.
-- Required action: keep SpecRelay archived, keep Burn Ceiling live but frozen, and stop broader build/distribution work until the post-readout decision is explicit
+- Required decision: do not auto-continue Burn Ceiling. The product is now parked until Product/CEO explicitly resumes it, sunsets it, or reopens product selection.
+- Required action: keep SpecRelay archived, keep Burn Ceiling live but frozen, keep automation off, and stop broader build/distribution work until the future resume decision is explicit
 
 ## Audit Question
 
@@ -62,6 +62,7 @@ Allowed answers:
 | `2026-05-30` | `2026-05-22` to `2026-05-30 00:13 CST` | `no` | the founder-side readout window actually closed with no founder reply, no validated usage, no paid signal, one stalled live route, and one expired unsent gate | enter `sunset-review` instead of extending the same thesis automatically | wait for explicit Product/CEO `park`, `sunset`, or restart decision | before any resumed active experiment or product-selection decision |
 | `2026-06-03` | `2026-05-23` to `2026-06-03 19:20 CST` | `no` | no late signal changed the evidence, and the only material move was executing the explicit sunset and taking the product offline | complete the sunset and reopen product selection instead of keeping SpecRelay in review | run a fresh next-product selection sprint | before the next product is committed active |
 | `2026-06-11` | `2026-06-03` to `2026-06-10 23:59 CST` | `no` | Burn Ceiling shipped a live truthful MVP and one publicly verified founder-facing route, but the bounded window still closed with 0 completed plans, 0 strong-intent signals, 0 founder replies, and 0 paid signal | enter `sunset-review` instead of automatically continuing the same demand thesis | freeze broader build/distribution work and wait for explicit Product/CEO `park`, `sunset`, or bounded restart decision | before any resumed Burn Ceiling experiment or new product-selection commitment |
+| `2026-06-11 19:59 CST` | parked carry-forward | `no` | no new revenue evidence was added after the readout close; the only new decision was to preserve the company locally in a parked state for later restart | park Burn Ceiling instead of leaving it in a vague post-readout wait state | keep the live MVP truthful, keep automation off, and resume only by explicit user decision | before any resumed Burn Ceiling experiment or new product-selection commitment |
 
 ## Audit Closeout Checklist
 

@@ -1,16 +1,16 @@
 # Product Selection
 
-- Last updated: `2026-06-04`
+- Last updated: `2026-06-11 19:59 CST`
 - Owner role: Product/CEO
 - Purpose: choose the next active product deliberately when the current product is parked, pivoted, or sunset.
 
 ## Current Selection State
 
-- Active product: `Burn Ceiling`
-- Selection mode: closed because the next active product has now been selected
-- Trigger to open selection: completed in this run after the user approved SpecRelay sunset
-- Decision needed by: none until Burn Ceiling is validated, parked, pivoted, or sunset
-- Current recommendation: keep selection closed and validate the live Burn Ceiling MVP before any broader new-product search reopens
+- Active product: `Burn Ceiling` (`parked`)
+- Selection mode: closed because the company is intentionally paused around the parked Burn Ceiling state
+- Trigger to open selection: only if Burn Ceiling is explicitly sunset later or a future run deliberately chooses to abandon the parked product
+- Decision needed by: none while the company is parked
+- Current recommendation: on resume, start from the parked Burn Ceiling state first; do not reopen broad new-product search unless Burn Ceiling is explicitly sunset
 
 ## Selection Rules
 
@@ -51,11 +51,12 @@ Score each candidate from 0 to 5.
 | `2026-05-30` | open selection mode | `SpecRelay` still active but now in `sunset-review` | the founder-side window closed with no founder replies, no strong intent, and no second live touch, so the company can no longer justify automatic continuation | unrelated new products still remain out of scope until SpecRelay is explicitly parked or sunset | decide whether to park SpecRelay, sunset it, or authorize a genuinely new bounded experiment |
 | `2026-06-03` | sunset prior product and restart selection | no active product | the user explicitly chose sunset and requested a clean restart plus public takedown | restarting the same SpecRelay thesis without new evidence | run a fresh candidate scan and pick one next active product |
 | `2026-06-03` | select next active product | `Burn Ceiling` | strongest mix of pain clarity, static-MVP fit, faster evidence speed, and lower competitive crowding than another launch-checklist or security-only wedge | SpecRelay restart, security scanner, generic launch worksheet, morning ops brief | build first static MVP and run `EXP-0005` |
+| `2026-06-11` | park current product | `Burn Ceiling` remains retained but inactive | the user chose to pause company operations for one to two months while preserving the current product, evidence, and live MVP for later restart | opening a fresh product search now, or auto-continuing the same silent demand window | keep selection closed and resume from the parked Burn Ceiling snapshot later |
 
 ## Resume Plan After Park / Sunset
 
 - Product-history entry required: completed
 - Reusable assets to carry forward: static deployment path, no-backend operating pattern, outreach lessons, decision rules, and archive-page pattern
 - Support/release cleanup required: completed for SpecRelay; the same public page now serves Burn Ceiling instead of the archive notice
-- Next candidate readout: closed for now; reopen only if Burn Ceiling later fails
+- Next candidate readout: closed while parked; reopen only if Burn Ceiling is explicitly sunset later
 - Account or service needs: none currently

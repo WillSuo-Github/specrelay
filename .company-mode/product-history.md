@@ -2,12 +2,12 @@
 
 ## Active Product
 
-- Status: active
+- Status: parked
 - Name: `Burn Ceiling`
 - Started on: `2026-06-03`
-- Current stage: public MVP live
+- Current stage: parked
 - Current thesis: launch-stage AI founders need a quick way to set safe spend ceilings, fallback models, and guardrails before traffic or paid users hit the app
-- Why it is the active product: the selection sprint found stronger current pain around runaway AI cost and missing launch caps than around another generic launch checklist or a crowded scanner market
+- Why it is the retained product: the selection sprint found stronger current pain around runaway AI cost and missing launch caps than around another generic launch checklist or a crowded scanner market, and the user chose to preserve this exact state for a later restart instead of replacing it now
 
 ## 2026-05-01
 
@@ -86,6 +86,12 @@
 - Reused the existing static React/Vite public surface and replaced the archive notice with the first Burn Ceiling planner.
 - Shipped three launch presets, adjustable traffic/token/model inputs, calculated burn caps, top runaway-risk scenarios, an export path, and a direct feedback ask.
 - Passed `npm run build` and local system Chrome QA for desktop/mobile rendering, preset switching, feedback link wiring, and no horizontal overflow.
+
+## 2026-06-11 Burn Ceiling park
+
+- User explicitly chose to pause company operations for one to two months instead of continuing active validation now.
+- Kept Burn Ceiling as the retained product, left the truthful live MVP online, and did not reopen product selection.
+- Preserved the exact post-`EXP-0005` evidence state, resume checklist, and no-automation state so the next run can continue from this snapshot instead of reconstructing context.
 
 ## 2026-05-11
 

@@ -1,28 +1,28 @@
 # Run Log
 
-- Last updated: `2026-06-11 00:20 CST`
+- Last updated: `2026-06-11 19:59 CST`
 - Owner role: Product/CEO + Release/Ops
 - Purpose: provide the canonical active-run ledger and counter source for cadence, operating quality, viability review, and business audit triggers.
 
 ## Current Counters
 
-- Total active runs: 48
-- Last run ID: `RUN-0048`
-- Next run ID: `RUN-0049`
-- Last active run at: `2026-06-11 00:20 CST`
-- Last real-progress run ID: `RUN-0048`
+- Total active runs: 49
+- Last run ID: `RUN-0049`
+- Next run ID: `RUN-0050`
+- Last active run at: `2026-06-11 19:59 CST`
+- Last real-progress run ID: `RUN-0049`
 - Last no-progress run ID: `RUN-0047`
 - No-progress streak: 0
 - Runs since viability review: 0
-- Runs since business audit: 0
+- Runs since business audit: 1
 - Rolling quality window: last 10 active runs
 
 ## Trigger State
 
 | Trigger | Source | Due when | Current status | Required action |
 | --- | --- | --- | --- | --- |
-| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0048` | next due on explicit Product/CEO decision or a resumed bounded Burn Ceiling experiment |
-| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | completed in `RUN-0048` | run again before any resumed Burn Ceiling experiment, product park/sunset execution, or new product-selection commitment |
+| Viability review | `run-log.md`, `viability-scorecard.md` | Monday 09:00 local, 5 active runs, 3 weak/negative experiments, material result, or `sunset-review` | completed in `RUN-0049` | next due on explicit future resume or a materially new Burn Ceiling proposal |
+| Business audit | `run-log.md`, `business-audit.md` | Friday 17:00 local, 10 active runs, two no-progress rounds, completed evidence window, or before park/sunset/product-selection | current from `RUN-0048` and carried forward in `RUN-0049` | run again before any resumed Burn Ceiling experiment, product sunset execution, or new product-selection commitment |
 | Failure recovery | `run-log.md`, `operating-quality.md` | no-progress streak >= 2 or invalid stop | not due | current run correctly closed the evidence window and stopped the obsolete automation |
 
 ## Active Run Definition
@@ -92,6 +92,7 @@ Do not count pure kernel installation, repository maintenance, one-off user ques
 | `RUN-0046` | `2026-06-08 05:16 CST` | `public MVP live` | `demand` | decide whether the live Marty route still deserves to be treated as the active wait surface and, if stalled, narrow the next founder-facing move to one exact gate | observe -> verify -> review -> decide -> prepare -> close | GitHub feedback issue #1 remained at `0` comments, the live Burn Ceiling page still returned `HTTP 200`, and the direct Marty status page still showed only `4` views with `0` replies and `0` likes after roughly 58 hours. The route was therefore reclassified as stalled, Candidate 2 (Hokage) was promoted to the exact public-action gate, and the due viability review was refreshed without changing the bounded-window recommendation | yes | the company prevented another passive wait round by converting a stalled live route into one exact next approval gate | pass with notes | n/a | `continue` | none | `docs/burn-ceiling-validation-sprint.md`, `.company-mode/state.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/feedback.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | 24h approval wait on the staged Hokage gate |
 | `RUN-0047` | `2026-06-10 21:30 CST` | `public MVP live` | `demand` | hold the experiment at an honest stop condition and tighten the next wake to the exact `EXP-0005` readout close | observe -> verify -> decide -> prepare -> close | GitHub feedback issue #1 remained at `0` comments, the live Burn Ceiling page still returned `HTTP 200`, and the direct Marty status page still showed no founder reply and `7` views. No completed-plan evidence or direct feedback appeared. The company therefore kept the exact Hokage approval gate unchanged and moved the next wake to `2026-06-10 23:59 CST` instead of another generic 24-hour wait | no | none; this run only re-verified the same silent state and aligned the wake to the exact bounded readout close | pass with notes | n/a | n/a | none | `.company-mode/state.md`, `.company-mode/run-log.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `ops/automation-spec.md` | exact `2026-06-10 23:59 CST` readout-close wake |
 | `RUN-0048` | `2026-06-11 00:20 CST` | `sunset-review` | `decision` | close `EXP-0005`, run the due viability/business-audit state refresh, and decide whether Burn Ceiling should continue automatically | observe -> verify -> review -> decide -> close | GitHub feedback issue #1 remained at `0` comments, the live Burn Ceiling page still returned `HTTP 200`, and the direct Marty status page closed the window at `8` views with `0` replies and `0` likes. `EXP-0005` was closed `inconclusive`, business audit answered `no`, viability moved to `sunset-review`, Hokage expired unsent, and the obsolete heartbeat was deleted | yes | the company closed the bounded evidence window, prevented silent continuation, and converted Burn Ceiling into an explicit post-readout decision state | pass with notes | `no` | `sunset-review` | none | `.company-mode/state.md`, `.company-mode/experiments.md`, `.company-mode/viability-scorecard.md`, `.company-mode/business-audit.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/company-dashboard.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `.company-mode/run-log.md`, `ops/automation-spec.md` | none; wait for Product/CEO decision |
+| `RUN-0049` | `2026-06-11 19:59 CST` | `parked` | `decision` | preserve the company locally in a resumable parked state for a one-to-two-month pause | observe -> review -> decide -> preserve -> close | Burn Ceiling stayed as the retained product, company operations were explicitly parked, the live MVP remained the truthful baseline, resume instructions were written into durable state, and automation stayed deleted | yes | the company no longer depends on chat-memory reconstruction; the next run now has a precise restart point | pass with notes | `no` | `park` | none | `.company-mode/goal.md`, `.company-mode/state.md`, `.company-mode/company-dashboard.md`, `.company-mode/product-selection.md`, `.company-mode/product-history.md`, `.company-mode/viability-scorecard.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/release.md`, `.company-mode/business-audit.md`, `.company-mode/run-log.md`, `.company-mode/operating-quality.md`, `.company-mode/independent-check.md`, `ops/automation-spec.md` | none; manual resume only |
 
 ## Correction Log
 

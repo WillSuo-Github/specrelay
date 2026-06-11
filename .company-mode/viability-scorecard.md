@@ -1,16 +1,16 @@
 # Viability Scorecard
 
-- Last updated: `2026-06-11 00:20 CST`
+- Last updated: `2026-06-11 19:59 CST`
 - Owner role: Product/CEO
 - Purpose: prevent zombie maintenance by forcing an evidence-based continue, intensify, pivot, park, or sunset decision.
 
 ## Current Decision
 
-- Recommendation: `sunset-review`
+- Recommendation: `park`
 - Confidence: medium
-- Reason: Burn Ceiling shipped a real MVP and one publicly verified founder-facing touch, but the full bounded `EXP-0005` window still closed with 0 completed plans, 0 strong-intent signals, and 0 founder replies. That is not enough to justify another automatic continue.
-- Next review at: explicit Product/CEO decision on `park`, `sunset`, or a new bounded Burn Ceiling restart
-- Next review trigger: user decision, or a deliberately new bounded experiment proposal
+- Reason: Burn Ceiling shipped a real MVP and one publicly verified founder-facing touch, but the full bounded `EXP-0005` window still closed with 0 completed plans, 0 strong-intent signals, and 0 founder replies. The user has now chosen to preserve the product and evidence for later rather than continue or sunset immediately.
+- Next review at: explicit future resume of company operations
+- Next review trigger: user resumes Burn Ceiling, asks to sunset it, or asks to reopen product selection
 - Evidence window: `2026-06-03` to `2026-06-10 23:59 CST` for Burn Ceiling
 
 ## Scorecard
@@ -50,3 +50,4 @@ Score each dimension from 0 to 5. Use `unknown` only when the company has not ye
 | `2026-06-04` | `continue` | activation `1 -> 2`; other dimensions unchanged | the first Burn Ceiling MVP is now live and locally verified, so the next risk is demand, not whether the product can be shipped at all | `2026-06-10 23:59 CST` | first Burn Ceiling readout or earlier strong intent signal |
 | `2026-06-08` | `continue` | no score change | the first Burn Ceiling founder-facing Marty route is real but stalled at `4` views with `0` replies and `0` likes after roughly 58 hours; that is enough to stop waiting on Marty as the main readout surface, but not enough to kill `EXP-0005` before trying the already-staged Hokage route | `2026-06-10 23:59 CST` | Burn Ceiling readout close, earlier strong intent signal, or user approval to send the Hokage route |
 | `2026-06-11` | `sunset-review` | demand `3 -> 1`, activation `2 -> 1`, distribution `3 -> 1`, differentiation `2 -> 1`; other dimensions unchanged | the `EXP-0005` window closed with 0 completed plans, 0 strong-intent signals, 0 GitHub comments, and no founder reply on the only verified founder-facing route; Hokage never became a live touch before the deadline | explicit Product/CEO decision on `park`, `sunset`, or a new bounded Burn Ceiling restart | user decision, or a new bounded experiment proposal |
+| `2026-06-11 19:59 CST` | `park` | no score change | the user explicitly chose to pause the company for one to two months while preserving Burn Ceiling as the retained product and resume baseline | explicit future resume of Burn Ceiling, or explicit Burn Ceiling sunset / product-selection restart | user resume decision |

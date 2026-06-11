@@ -8,7 +8,7 @@ This file is the recoverable automation spec for this one-product company instan
 - Kind: heartbeat attached to the current thread
 - Status: deleted
 - Current cadence: none
-- Reason: `EXP-0005` has closed `inconclusive`, Burn Ceiling is now in `sunset-review`, and no autonomous work remains until Product/CEO decides `park`, `sunset`, or a new bounded restart.
+- Reason: Burn Ceiling is now intentionally parked, the current product/evidence state is preserved locally, and no autonomous work should run until Product/CEO explicitly resumes company operations.
 
 ## Policy
 

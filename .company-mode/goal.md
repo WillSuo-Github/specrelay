@@ -2,18 +2,18 @@
 
 ## Top-Level Objective
 
-Validate whether solo founders shipping AI-backed apps will use a no-login cost-cap and launch-guardrail planner before public launch.
+Keep Burn Ceiling parked with a truthful live MVP and enough durable state to resume the company cleanly from the current evidence snapshot.
 
 ## Current 7-Day Target
 
-- Keep the first `Burn Ceiling` static MVP live and truthful.
-- Get 5 completed guardrail plans.
-- Capture at least 2 strong-intent signals saying the planner would be used before launch or before paid traffic.
+- Keep the current `Burn Ceiling` static MVP live and truthful while company operations are paused.
+- Preserve the exact post-`EXP-0005` evidence state locally so a future run can resume without reconstructing context.
+- Do not reopen outreach, builds, or product selection until an explicit resume decision is made.
 
 ## Current Constraint
 
-SpecRelay is sunset and must stay inactive. `Burn Ceiling` should stay a static, zero-backend MVP until demand is proven.
+SpecRelay is sunset and must stay inactive. `Burn Ceiling` is parked, should remain a static zero-backend MVP, and should not restart active demand work until Product/CEO explicitly resumes it.
 
 ## Current Next Move
 
-Stage the first exact founder-facing validation route against the live MVP, while keeping the planner small and truthful.
+None while parked. On resume, refresh the company-mode kernel, read the parked-state files, re-verify the live MVP and any late signal, then decide whether Burn Ceiling restarts, sunsets, or reopens product selection.

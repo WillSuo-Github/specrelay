@@ -1,14 +1,14 @@
 # Independent Check
 
-- Last updated: `2026-06-11 00:20 CST`
+- Last updated: `2026-06-11 19:59 CST`
 - Owner role: Product/CEO
 - Purpose: score the read-only independent check pass so the company does not accept unsupported evidence, wrong-account work, defective public artifacts, or invalid stop conditions.
 
 ## Current Run Check
 
-- Run date: `2026-06-11 00:20 CST`
+- Run date: `2026-06-11 19:59 CST`
 - Checked by: explicit independent audit lens plus repo-backed and direct-status verification
-- Scope checked: live Burn Ceiling reachability, GitHub feedback surface, direct Marty status-page engagement state at readout close, due business-audit and viability decision state, automation deletion, and one-active-product discipline
+- Scope checked: parked-state durability, live Burn Ceiling baseline, resume instructions, automation deletion, viablity/product-selection alignment, and one-product discipline
 - Hard blockers found: no
 - Score: `21/21`
 - Decision: `pass with notes`
@@ -34,9 +34,9 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | Account and provider correctness | 3 | repo, company instance, X surface, sender policy, and approval gates | no wrong-account or wrong-provider mutation in this run |
 | Public artifact fidelity | 3 | live Burn Ceiling page still returned `HTTP 200`, the verified Marty reply still matches the intended copy, and the direct status URL retains the Marty thread context while showing no hidden founder reply | the company did not publish copy that claims unshipped behavior |
 | Privacy, release, and platform facts | 3 | release state, live URL, and no-login/no-repo posture remained unchanged | grounded in existing implementation facts |
-| Stop-condition validity | 3 | run stops at the closed readout plus an explicit `sunset-review` decision boundary rather than inventing another wait cycle | valid stop condition |
-| Durable state updates | 3 | state, experiments, run-log, dashboard, quality, pipeline, audit, viability, and automation files update the same closed-window to `sunset-review` story | no contradiction across durable files |
-| Resume and wake readiness | 3 | the archived Marty route, expired Hokage gate, and deleted heartbeat are explicit | no blocker to future recovery beyond an explicit Product/CEO decision |
+| Stop-condition validity | 3 | run stops at an explicit parked state with no automation and no implied active work | valid stop condition |
+| Durable state updates | 3 | goal, state, dashboard, selection, history, viability, pipeline, release, run-log, quality, independent-check, and automation files update the same parked-company story | no contradiction across durable files |
+| Resume and wake readiness | 3 | the parked Burn Ceiling state, deleted heartbeat, live MVP baseline, and first resume steps are explicit | no blocker to future recovery beyond an explicit resume command |
 
 ## Check Log
 
@@ -71,3 +71,4 @@ Score each dimension 0-3. Passing requires no hard blockers and a total score of
 | `2026-06-08` | explicit independent audit lens + X direct-status plus repo-backed verification | `21/21` | none | `pass with notes` | the Marty route was correctly treated as a stalled prior touch rather than a still-active wait, and the company narrowed the next move to the exact Hokage approval gate instead of taking another passive wait round |
 | `2026-06-10` | explicit independent audit lens + X direct-status plus repo-backed verification | `21/21` | none | `pass with notes` | no new founder signal landed; the company kept Marty classified as stalled, kept the Hokage gate exact, and correctly tightened the next wake to tonight's `EXP-0005` readout close instead of scheduling another generic approval-wait day |
 | `2026-06-11` | explicit independent audit lens + X direct-status plus repo-backed verification | `21/21` | none | `pass with notes` | the readout closed with no founder signal, the company correctly answered business audit `no`, moved Burn Ceiling to `sunset-review`, and deleted the obsolete heartbeat instead of leaving a zombie loop alive |
+| `2026-06-11 19:59 CST` | explicit independent audit lens + repo-backed consistency verification | `21/21` | none | `pass with notes` | the company is now explicitly parked, the live MVP remains the baseline, the heartbeat stays deleted, and the next run can restart from durable state instead of chat memory |

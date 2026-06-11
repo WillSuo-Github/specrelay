@@ -1,12 +1,12 @@
 # Revenue Pipeline
 
-- Last updated: `2026-06-11 00:20 CST`
+- Last updated: `2026-06-11 19:59 CST`
 - Owner role: Growth + Product/CEO
 - Purpose: keep business-development, distribution, and monetization state alive across wakes
 
 ## Business Health
 
-- Business stage: `sunset-review`
+- Business stage: `parked`
 - Revenue status: no revenue and no willingness-to-pay signal yet
 - User status: no confirmed users yet on Burn Ceiling
 - Distribution status: Burn Ceiling had one publicly verified founder-facing X route, but the Marty thread closed the window as stalled and the next exact route never became live before the readout deadline
@@ -15,7 +15,7 @@
 - Business model hypothesis: low-ticket self-serve planner/toolkit; see `business-model.md`
 - Revenue data: see `revenue-ledger.md`
 - Market context: see `market-map.md`
-- Next cadence recommendation: do not run more founder-facing work automatically; wait for Product/CEO to decide `park`, `sunset`, or a new bounded restart
+- Next cadence recommendation: no active acquisition cadence while parked; wait for explicit resume before any founder-facing work
 - Readout risk note: late SpecRelay replies remain historical only; Burn Ceiling has a live product but still no direct founder evidence
 
 ## Target Customers
@@ -27,7 +27,7 @@
 
 ## Leads / Prospects / Pain Signals
 
-No live leads. Candidate 1 is archived as a real but stalled Marty route at `https://x.com/thefuckkingguy/status/2062857306187190618`; Candidate 2 (Hokage) expired as an unsent approval gate when `EXP-0005` closed.
+No live leads. Candidate 1 is archived as a real but stalled Marty route at `https://x.com/thefuckkingguy/status/2062857306187190618`; Candidate 2 (Hokage) expired as an unsent approval gate when `EXP-0005` closed. The company is parked, so there is no active outbound route.
 
 ## Channel Experiments
 
@@ -48,14 +48,14 @@ No live leads. Candidate 1 is archived as a real but stalled Marty route at `htt
 
 | Priority | Move | Bottleneck | Expected signal | Approval needed | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1 | make an explicit Product/CEO decision on `park`, `sunset`, or a new bounded Burn Ceiling restart | decision | clean operating state instead of zombie continuation | yes | active |
+| 1 | hold the parked Burn Ceiling state unchanged until explicit resume | decision | clean future restart point | no | active |
 | 2 | treat any late Marty engagement as additional evidence only, not as an automatic continue | decision | cleaner historical record | no | passive |
 | 3 | keep the live page truthful while no new experiment is active | reliability | avoid stale claims | no | passive |
 
 ## Acquisition Cadence
 
 - Cadence owner: Growth
-- Current cadence: none until Product/CEO chooses the next bounded move
+- Current cadence: none while parked; recreate cadence only after explicit resume
 - Rule: the company chooses cadence from business stage, signal strength, and bottleneck; do not wait for the user to prescribe lead/post counts.
 - Cadence record: see `acquisition-cadence.md`
 

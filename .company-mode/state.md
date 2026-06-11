@@ -1,32 +1,42 @@
 # Current State
 
-- Last updated: `2026-06-11 00:20 CST`
-- Dominant objective: decide whether Burn Ceiling should be parked, sunset, or restarted under a fresh bounded experiment
-- Current stage: sunset-review
+- Last updated: `2026-06-11 19:59 CST`
+- Dominant objective: preserve Burn Ceiling in a parked but resumable state until company operations are explicitly restarted
+- Current stage: parked
 - Current release: Burn Ceiling now has a first public static MVP at the old project URL; SpecRelay remains archived as historical context only
-- Health summary: SpecRelay is sunset and offline as a product thesis. Burn Ceiling is still the one active product, but its first bounded demand window closed without any direct founder signal, so the product is now in `sunset-review`.
+- Health summary: SpecRelay is sunset and offline as a product thesis. Burn Ceiling remains the one product retained in this company instance, but company operations are now intentionally paused after an inconclusive first demand window.
 
 ## Now
 
-- In progress: Burn Ceiling remains live and publicly reachable, but `EXP-0005` has closed. Marty is now only a stalled prior touch, Hokage expired as an unsent approval gate, and the company is stopped at a Product/CEO decision boundary rather than an active demand sprint.
+- In progress: no active company operation. Burn Ceiling remains live and publicly reachable, `EXP-0005` is closed, Marty is only a stalled prior touch, Hokage expired as an unsent approval gate, and the company is now intentionally parked.
 - Public URL: https://willsuo-github.github.io/specrelay/ now serves Burn Ceiling instead of the old SpecRelay packet generator
-- Biggest blocker: Burn Ceiling closed its first bounded window with 0 completed plans, 0 strong-intent signals, and 0 founder replies, so there is no evidence-based case for automatic continuation
+- Biggest blocker: there is still no evidence-based case for automatic continuation because Burn Ceiling closed its first bounded window with 0 completed plans, 0 strong-intent signals, and 0 founder replies
 - Highest-risk assumption: founders agree the pain is real but may still treat launch cost planning as spreadsheet work rather than complete a focused planner
-- Next decision deadline: explicit Product/CEO decision on `park`, `sunset`, or a new bounded Burn Ceiling restart
+- Next decision deadline: explicit future resume decision; there is no active operating deadline while the company is parked
 
 ## Next Recommended Actions
 
-- Product/CEO: do not auto-continue Burn Ceiling; either park it, sunset it, or reopen it only with a new bounded experiment and sharper thesis
-- Support/Research: use current public cost-cap and runaway-bill signals as the demand base, not the old SpecRelay launch-handoff thesis
-- Engineering: keep the MVP truthful, short, and exportable; do not add backend or analytics drift before signal
-- Growth: do not keep waiting on Marty, and do not reopen Hokage automatically; there is no active founder-facing route until a new bounded restart is approved
-- Release/Ops: verify the live page, metadata, and feedback path after deploy-touching runs
+- Product/CEO: keep Burn Ceiling parked; resume only if a future run deliberately chooses Burn Ceiling over sunset or a new product search
+- Support/Research: keep current public cost-cap and runaway-bill signals as historical demand context for the next run
+- Engineering: do not change product scope while parked; preserve the current truthful MVP as the resume baseline
+- Growth: do not keep waiting on Marty and do not reopen Hokage automatically; there is no active founder-facing route while parked
+- Release/Ops: keep the live page truthful; on resume, first re-verify reachability and any late signal before choosing a new move
 
 ## Pending Approvals
 
 - Exact live action currently gated: none; the Hokage gate expired when `EXP-0005` closed
-- Account gap to resolve: none for the sunset/selection state
+- Account gap to resolve: none for the parked state
 - Hard-gated actions remain approval-gated until explicitly delegated.
+
+## Resume Snapshot
+
+- Resume status: `parked`, no automation armed
+- Product to resume from: `Burn Ceiling`
+- Public URL at park time: https://willsuo-github.github.io/specrelay/
+- Last bounded experiment: `EXP-0005`, closed `inconclusive`
+- Last validated external signal: Marty X route at `https://x.com/thefuckkingguy/status/2062857306187190618`, closed at `8` views with `0` replies and `0` likes
+- First files to read on resume: `.company-mode/goal.md`, `.company-mode/state.md`, `.company-mode/company.md`, `.company-mode/company-dashboard.md`, `.company-mode/run-log.md`, `.company-mode/viability-scorecard.md`, `.company-mode/revenue-pipeline.md`, `.company-mode/experiments.md`, `.company-mode/release.md`, `ops/automation-spec.md`
+- First checks to run on resume: refresh installed company-mode kernel, verify the public URL still returns `HTTP 200`, check GitHub feedback issue state, inspect whether Marty or any other late signal materially changed the evidence, then decide `resume Burn Ceiling`, `sunset Burn Ceiling`, or `reopen product selection`
 
 ## Previous CEO After-Action Review
 
@@ -63,14 +73,14 @@
 
 ## Latest CEO After-Action Review
 
-- Date: `2026-06-11 00:20 CST`
-- Current stage: `sunset-review`. Burn Ceiling remains the one active product, but `EXP-0005` has now closed `inconclusive` and there is no honest case for automatic continuation.
-- Evidence quality: high for the readout close and still low for demand. The live page remains healthy, GitHub feedback stayed silent, and the only verified founder-facing Marty route closed at `8` views with `0` replies and `0` likes.
-- Current-run work completed: refreshed the installed company-mode kernel, re-verified the direct Marty status page at readout close, re-verified the live Burn Ceiling page at `HTTP 200`, re-verified GitHub feedback issue #1 at `0` comments, closed `EXP-0005` as `inconclusive`, ran the due viability review and business audit, and deleted the obsolete heartbeat.
-- Instance-only improvements executed: Burn Ceiling moved from `public MVP live` demand validation into `sunset-review`; the expired Hokage approval gate was retired; durable state, dashboard, quality, independent-check, run-log, and automation state were aligned to the same post-readout decision boundary.
-- Kernel/template/migration improvements: startup kernel refresh only; no reusable kernel change was needed from this run.
-- Hard-gated improvements: any new public founder-facing send, new public threads, DMs, paid spend, account changes, credentials, or a fresh bounded restart remain action-time gated unless explicitly delegated.
-- Stop-check: one coherent readout-close session is complete. There is no active experiment, no remaining live approval gate, and no valid autonomous next wake until Product/CEO decides `park`, `sunset`, or a new bounded Burn Ceiling restart.
+- Date: `2026-06-11 19:59 CST`
+- Current stage: `parked`. Burn Ceiling remains the retained product in this company instance, but company operations are intentionally paused for a later restart instead of continuing now.
+- Evidence quality: unchanged from the earlier readout close. The live page remains the truthful baseline, the bounded experiment is still inconclusive, and there is still no direct founder-demand evidence.
+- Current-run work completed: converted the post-readout `sunset-review` decision boundary into an explicit parked state, added a resume snapshot and resume steps to durable state, aligned dashboard/viability/pipeline/product-selection/history/release/run-log/automation state to the parked decision, and kept automation disabled.
+- Instance-only improvements executed: the company now has one clear restart point instead of an ambiguous post-readout pause; Burn Ceiling, its evidence, and the live MVP remain preserved for a future run.
+- Kernel/template/migration improvements: none; this run is instance-specific pause preservation.
+- Hard-gated improvements: any future public founder-facing send, new public threads, DMs, paid spend, account changes, credentials, or a fresh bounded restart remain action-time gated unless explicitly delegated.
+- Stop-check: one coherent park-state preservation run is complete. There is no active experiment, no active automation, and no remaining work until Product/CEO explicitly resumes the company.
 
 ## Previous CEO After-Action Review
 
